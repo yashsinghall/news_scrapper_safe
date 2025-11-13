@@ -1,0 +1,41 @@
+2025-11-13 19:49:02,910 - INFO - Initializing database connection at: news_articles.db
+2025-11-13 19:49:02,913 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-13 19:49:02,913 - INFO - --- Starting new scraping job ---
+2025-11-13 19:49:02,913 - INFO - Creating new robust session with 3 retries on 5xx errors.
+2025-11-13 19:49:02,913 - INFO - Proxy is DISABLED.
+2025-11-13 19:49:02,913 - INFO - Attempting to initialize Selenium driver for this run...
+2025-11-13 19:49:02,913 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-13 19:49:09,153 - INFO - Selenium driver initialized successfully.
+2025-11-13 19:49:09,153 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-13 19:49:09,343 - INFO - Found 23 articles in BBC RSS feed. Processing up to 1.
+2025-11-13 19:49:09,343 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cglgj08erywo?at_medium=RSS&at_campaign=rss
+2025-11-13 19:49:09,343 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 19:49:09,560 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 19:49:09,632 - INFO - Saved article: Epstein email says Andrew had photo taken with Virginia Giuffre from BBC
+2025-11-13 19:49:10,784 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-13 19:49:10,998 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 1.
+2025-11-13 19:49:10,999 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/they-know-asmongold-hasanabis-stunned-reaction-to-the-streamers-global-fame-breaks-the-internet/articleshow/125301499.cms
+2025-11-13 19:49:10,999 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 19:49:25,332 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 19:49:25,451 - INFO - Saved article: ‘They know Asmongold?’: HasanAbi’s stunned reaction to the streamer’s global fame breaks the internet - The Times of India from Times of India
+2025-11-13 19:49:26,607 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-13 19:49:26,848 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 1.
+2025-11-13 19:49:26,848 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/state-sanctioned-fuel-smuggling-cost-libya-20bn-over-three-years-report
+2025-11-13 19:49:26,848 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 19:49:26,979 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 19:49:27,642 - INFO - Saved article: State-sanctioned fuel smuggling cost Libya $20bn over three years – report | Libya | The Guardian from The Guardian
+2025-11-13 19:49:28,420 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-13 19:49:28,535 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 1.
+2025-11-13 19:49:28,536 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/kolkata/kolkata-film-festival-celebrates-the-voices-of-resilience-with-3-screenings-of-palestine-36/article70275432.ece
+2025-11-13 19:49:28,536 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 19:49:36,092 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 19:49:36,161 - INFO - Saved article: Kolkata film festival celebrates the voices of resilience with 3 screenings of Palestine 36 - The Hindu from The Hindu
+2025-11-13 19:49:37,307 - INFO - Starting scrape for Reuters RSS feed: https://feeds.reuters.com/reuters/worldNews
+2025-11-13 19:49:37,377 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fad1ffa3a00>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-13 19:49:39,444 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fad1fdb96f0>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-13 19:49:43,513 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fad1fdb9900>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-13 19:49:43,552 - ERROR - Failed to fetch Reuters RSS feed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/worldNews (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fad1fdb9ae0>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+2025-11-13 19:49:43,552 - INFO - Scraped: 1 BBC, 1 Times of India, 1 The Guardian, 1 The Hindu, 0 Reuters articles. (Total saved: 4)
+2025-11-13 19:49:43,552 - INFO - Shutting down Selenium driver for this run.
+2025-11-13 19:49:43,708 - INFO - --- Scraping job finished ---
+2025-11-13 19:49:43,708 - INFO - --- Scraper service stopped and database connection closed. ---
