@@ -1,0 +1,165 @@
+2025-11-13 21:39:11,706 - INFO - Initializing database connection at: news_articles.db
+2025-11-13 21:39:11,707 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-13 21:39:11,707 - INFO - --- Starting new scraping job ---
+2025-11-13 21:39:11,707 - INFO - Creating new robust session with 3 retries on 5xx errors.
+2025-11-13 21:39:11,707 - INFO - Proxy is DISABLED.
+2025-11-13 21:39:11,707 - INFO - Attempting to initialize Selenium driver for this run...
+2025-11-13 21:39:11,707 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-13 21:39:30,150 - INFO - Selenium driver initialized successfully.
+2025-11-13 21:39:30,150 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-13 21:39:30,220 - INFO - Found 27 articles in BBC RSS feed. Processing up to 7.
+2025-11-13 21:39:30,220 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cglgj08erywo?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:30,220 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:30,356 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:30,407 - INFO - Duplicate article skipped: Epstein email says Andrew had photo taken with Virginia Giuffre from BBC
+2025-11-13 21:39:31,309 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3rj0d97ynvo?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:31,309 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:31,347 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:31,381 - INFO - Duplicate article skipped: What we know about the latest Epstein emails referencing Trump from BBC
+2025-11-13 21:39:32,410 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gpkerdn9qo?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:32,410 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:32,581 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:32,612 - INFO - Duplicate article skipped: Germany paves way to conscription as defence boss sees strongest EU army in five years from BBC
+2025-11-13 21:39:33,609 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz917nvj7qeo?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:33,609 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:33,640 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:33,720 - INFO - Duplicate article skipped: Trump celebrates as Democrats face fallout from end of shutdown from BBC
+2025-11-13 21:39:35,141 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxnerkx5pgo?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:35,141 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:35,478 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:35,509 - INFO - Duplicate article skipped: Israel receives body Hamas says belongs to hostage from BBC
+2025-11-13 21:39:36,709 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c17p1nwy7q8o?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:36,710 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:36,743 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:36,778 - INFO - Duplicate article skipped: Sudan conflict: Marco Rubio calls for international action to cut weapons supplies to RSF from BBC
+2025-11-13 21:39:37,674 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd679n9lnx5o?at_medium=RSS&at_campaign=rss
+2025-11-13 21:39:37,674 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:39:37,708 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-13 21:39:37,739 - INFO - Duplicate article skipped: Steam Machine: Valve rivals Xbox and PlayStation with new console from BBC
+2025-11-13 21:39:38,864 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-13 21:39:38,998 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 7.
+2025-11-13 21:39:38,999 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/rakai-banned-from-tiktok-live-and-the-reason-is-funnier-than-you-think/articleshow/125309886.cms
+2025-11-13 21:39:38,999 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:40:39,058 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': Message: timeout: Timed out receiving message from renderer: 59.633
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x558790c2932a <unknown>
+#1 0x558790675e4b <unknown>
+#2 0x55879065de0d <unknown>
+#3 0x55879065daf0 <unknown>
+#4 0x55879065b8ff <unknown>
+#5 0x55879065c27f <unknown>
+#6 0x55879066aca3 <unknown>
+#7 0x558790684601 <unknown>
+#8 0x55879068ae0b <unknown>
+#9 0x55879065c9bd <unknown>
+#10 0x5587906843a7 <unknown>
+#11 0x558790715170 <unknown>
+#12 0x5587906bac1a <unknown>
+#13 0x5587906bb921 <unknown>
+#14 0x558790bf0239 <unknown>
+#15 0x558790bf31e8 <unknown>
+#16 0x558790bd94c9 <unknown>
+#17 0x558790bf3db5 <unknown>
+#18 0x558790bc0e93 <unknown>
+#19 0x558790c16098 <unknown>
+#20 0x558790c16273 <unknown>
+#21 0x558790c282c3 <unknown>
+#22 0x7f41fde9caa4 <unknown>
+#23 0x7f41fdf29c6c <unknown>
+
+2025-11-13 21:40:39,058 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/rakai-banned-from-tiktok-live-and-the-reason-is-funnier-than-you-think/articleshow/125309886.cms. Falling back to RSS description.
+2025-11-13 21:40:39,061 - INFO - Saved article: Rakai banned from TikTok Live and the reason is funnier than you think from Times of India
+2025-11-13 21:40:40,037 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/epstein-emails-megyn-kelly-says-she-didnt-consider-epstein-pedophile-earlier-as-victims-were-hitting-puberty/articleshow/125309816.cms
+2025-11-13 21:40:40,037 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:40:50,674 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 21:40:50,811 - INFO - Saved article: Epstein emails: Megyn Kelly says she didn't consider Epstein pedophile earlier as victims had hit puberty - The Times of India from Times of India
+2025-11-13 21:40:51,474 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/hitlers-dna-reveals-he-possibly-had-a-micropenis-one-testicle-and-severe-sexual-development-issues/articleshow/125309765.cms
+2025-11-13 21:40:51,475 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:40:59,645 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 21:40:59,991 - INFO - Saved article: Hitler’s DNA reveals he possibly had a micropenis, one testicle and severe sexual-development issues | World News - The Times of India from Times of India
+2025-11-13 21:41:00,500 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/20-years-before-the-h-1b-program-even-existed-american-youtuber-who-called-indias-cow-dung-festival-poop-fest-speaks-on-immigration/articleshow/125309580.cms
+2025-11-13 21:41:00,500 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:41:08,120 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 21:41:08,216 - INFO - Duplicate article skipped: '20 years before the H-1B program even existed': American YouTuber who called India's cow dung festival 'poop fest' speaks on immigration - The Times of India from Times of India
+2025-11-13 21:41:09,137 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/tension-escalates-between-n3on-and-chloe-parker-after-dispute-tied-to-5000-bag-goes-viral/articleshow/125309399.cms
+2025-11-13 21:41:09,137 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:41:16,921 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 21:41:17,035 - INFO - Duplicate article skipped: Tension escalates between N3on and Chloe Parker after dispute tied to $5,000 bag goes viral - The Times of India from Times of India
+2025-11-13 21:41:17,926 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/man-breaks-into-3-houses-in-ontario-exposes-himself-assaults-women/articleshow/125309209.cms
+2025-11-13 21:41:17,926 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:41:24,252 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 21:41:24,348 - INFO - Duplicate article skipped: Man breaks into 3 houses in Ontario, exposes himself, assaults women - The Times of India from Times of India
+2025-11-13 21:41:25,111 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/they-know-asmongold-hasanabis-stunned-reaction-to-the-streamers-global-fame-breaks-the-internet/articleshow/125301499.cms
+2025-11-13 21:41:25,111 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:41:31,335 - INFO - [Times of India] Success with 'selenium_browser'. Found content.
+2025-11-13 21:41:31,439 - INFO - Duplicate article skipped: ‘They know Asmongold?’: HasanAbi’s stunned reaction to the streamer’s global fame breaks the internet - The Times of India from Times of India
+2025-11-13 21:41:32,222 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-13 21:41:32,509 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 7.
+2025-11-13 21:41:32,509 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/state-sanctioned-fuel-smuggling-cost-libya-20bn-over-three-years-report
+2025-11-13 21:41:32,509 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:32,977 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:33,012 - INFO - Duplicate article skipped: State-sanctioned fuel smuggling cost Libya $20bn over three years – report | Libya | The Guardian from The Guardian
+2025-11-13 21:41:34,009 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/13/british-american-tobacco-africa-zambia-uk
+2025-11-13 21:41:34,009 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:34,033 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:34,068 - INFO - Duplicate article skipped: ‘Utter hypocrisy’: tobacco firm lobbied against rules in Africa that are law in UK | Global development | The Guardian from The Guardian
+2025-11-13 21:41:35,289 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/french-algerian-writer-boualem-sansal-pardoned-and-to-be-released-from-prison
+2025-11-13 21:41:35,290 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:35,309 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:35,342 - INFO - Duplicate article skipped: French-Algerian writer Boualem Sansal pardoned and to be released from prison | Algeria | The Guardian from The Guardian
+2025-11-13 21:41:36,161 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/sudan-north-darfur-aid-malnutrition-rsf-el-fasher-tawila
+2025-11-13 21:41:36,161 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:36,334 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:36,380 - INFO - Duplicate article skipped: Dire warnings over aid and hunger following RSF’s capture of Sudanese city | Sudan | The Guardian from The Guardian
+2025-11-13 21:41:36,975 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/city-of-libraries-chinguetti-mauritania-sahara-unesco-preservation
+2025-11-13 21:41:36,975 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:36,996 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:37,032 - INFO - Duplicate article skipped: The man on a mission to save Mauritania’s ‘city of libraries’ from encroaching desert sands | Mauritania | The Guardian from The Guardian
+2025-11-13 21:41:38,172 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/13/cop30-live-calls-for-just-transition-plan-grow-as-report-warns-world-on-track-for-26c-of-heating
+2025-11-13 21:41:38,172 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:38,384 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:38,469 - INFO - Duplicate article skipped: Cop30: ‘We will exterminate ourselves’ if we keep extracting fossil fuels, activists say – as it happened | Cop30 | The Guardian from The Guardian
+2025-11-13 21:41:39,637 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/13/canada-arctic-spy-threats-russia-china
+2025-11-13 21:41:39,637 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-13 21:41:39,897 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-13 21:41:39,931 - INFO - Duplicate article skipped: Canada says Russia and China are ramping up spy efforts in Arctic region | Canada | The Guardian from The Guardian
+2025-11-13 21:41:40,583 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-13 21:41:41,414 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 7.
+2025-11-13 21:41:41,414 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/two-more-held-for-delhi-blast-al-falah-university-faces-audit/article70276559.ece
+2025-11-13 21:41:41,414 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:41:53,010 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:41:53,082 - INFO - Duplicate article skipped: Two more held for Delhi blast; Al-Falah University faces audit - The Hindu from The Hindu
+2025-11-13 21:41:54,173 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/congress-declares-22-more-candidates-for-kochi-corporation-withholds-announcement-in-two-wards-as-surprise/article70276074.ece
+2025-11-13 21:41:54,173 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:42:01,256 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:42:01,322 - INFO - Duplicate article skipped: Congress declares 22 more candidates for Kochi Corporation; withholds announcement in two wards as ‘surprise’ - The Hindu from The Hindu
+2025-11-13 21:42:02,303 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/cpi-threatens-to-go-it-alone-in-thrikkakara/article70276873.ece
+2025-11-13 21:42:02,303 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:42:08,456 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:42:08,518 - INFO - Duplicate article skipped: CPI threatens to go it alone in Thrikkakara - The Hindu from The Hindu
+2025-11-13 21:42:09,579 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/surprise-omissions-rising-rebels-shake-up-congress-campaign-in-kochi/article70276246.ece
+2025-11-13 21:42:09,579 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:42:15,781 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:42:15,877 - INFO - Duplicate article skipped: Surprise omissions, rising rebels shake up Congress campaign in Kochi - The Hindu from The Hindu
+2025-11-13 21:42:16,543 - INFO - [The Hindu] Article: https://www.thehindu.com/opinion/op-ed/the-perils-of-translation-while-reporting/article70276811.ece
+2025-11-13 21:42:16,544 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:42:22,740 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:42:22,805 - INFO - Duplicate article skipped: The perils of translation while reporting - The Hindu from The Hindu
+2025-11-13 21:42:23,715 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/23-survivors-of-blast-cling-to-life-at-lok-nayak-hospital-families-hold-on-to-hope/article70275566.ece
+2025-11-13 21:42:23,715 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:42:29,971 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:42:30,033 - INFO - Duplicate article skipped: 23 survivors of blast cling to life at Lok Nayak Hospital; families hold on to hope - The Hindu from The Hindu
+2025-11-13 21:42:31,301 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/himachal-pradesh/himachal-cong-may-soon-get-new-chiefrathoresname-making-the-rounds/article70275602.ece
+2025-11-13 21:42:31,301 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-13 21:42:37,451 - INFO - [The Hindu] Success with 'selenium_browser'. Found content.
+2025-11-13 21:42:37,512 - INFO - Duplicate article skipped: Himachal Cong. may soon get new chief; Rathore’s name making the rounds - The Hindu from The Hindu
+2025-11-13 21:42:38,202 - INFO - Starting scrape for Reuters RSS feed: https://feeds.reuters.com/reuters/worldNews
+2025-11-13 21:42:38,222 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7faf03cff130>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-13 21:42:40,240 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7faf03cfcee0>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-13 21:42:44,261 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7faf03cfc610>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-13 21:42:44,269 - ERROR - Failed to fetch Reuters RSS feed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/worldNews (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7faf03868cd0>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+2025-11-13 21:42:44,269 - INFO - Scraped: 7 BBC, 7 Times of India, 7 The Guardian, 7 The Hindu, 0 Reuters articles. (Total saved: 28)
+2025-11-13 21:42:44,269 - INFO - Shutting down Selenium driver for this run.
+2025-11-13 21:42:44,657 - INFO - --- Scraping job finished ---
+2025-11-13 21:42:44,658 - INFO - --- Scraper service stopped and database connection closed. ---
