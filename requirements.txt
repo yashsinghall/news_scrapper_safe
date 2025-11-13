@@ -1,0 +1,5 @@
+selenium
+trafilatura
+requests
+beautifulsoup4
+urllib3
