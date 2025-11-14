@@ -1,0 +1,7 @@
+2025-11-14 06:01:58,100 - INFO - Initializing database connection at: news_articles.db
+2025-11-14 06:01:58,100 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-14 06:01:58,100 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-14 06:01:58,100 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-14 06:01:58,100 - CRITICAL - A critical error occurred in the main function: Retry.__init__() got an unexpected keyword argument 'retry_on_status_code'
+2025-11-14 06:01:58,101 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-14 06:01:58,101 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
