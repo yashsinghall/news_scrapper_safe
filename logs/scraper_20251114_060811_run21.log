@@ -1,0 +1,119 @@
+2025-11-14 06:07:16,054 - INFO - Initializing database connection at: news_articles.db
+2025-11-14 06:07:16,055 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-14 06:07:16,055 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-14 06:07:16,055 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-14 06:07:16,055 - INFO - Proxy is DISABLED.
+2025-11-14 06:07:16,055 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-14 06:07:16,056 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-14 06:07:16,056 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-14 06:07:16,056 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-14 06:07:16,057 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-14 06:07:16,057 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-14 06:07:16,057 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-14 06:07:16,182 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 5.
+2025-11-14 06:07:16,182 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/state-sanctioned-fuel-smuggling-cost-libya-20bn-over-three-years-report
+2025-11-14 06:07:16,182 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:16,218 - INFO - [The Guardian] Success with 'requests_browser'. Found content (670 words).
+2025-11-14 06:07:16,254 - INFO - Duplicate article skipped: State-sanctioned fuel smuggling cost Libya $20bn over three years – report | Libya | The Guardian from The Guardian
+2025-11-14 06:07:16,341 - INFO - Found 27 articles in BBC RSS feed. Processing up to 5.
+2025-11-14 06:07:16,342 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cglgj08erywo?at_medium=RSS&at_campaign=rss
+2025-11-14 06:07:16,342 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:16,753 - INFO - [BBC] Success with 'requests_browser'. Found content (613 words).
+2025-11-14 06:07:16,809 - INFO - Duplicate article skipped: Epstein email says Andrew had photo taken with Virginia Giuffre from BBC
+2025-11-14 06:07:16,831 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/13/british-american-tobacco-africa-zambia-uk
+2025-11-14 06:07:16,831 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:16,862 - INFO - [The Guardian] Success with 'requests_browser'. Found content (753 words).
+2025-11-14 06:07:16,897 - INFO - Duplicate article skipped: ‘Utter hypocrisy’: tobacco firm lobbied against rules in Africa that are law in UK | Global development | The Guardian from The Guardian
+2025-11-14 06:07:18,146 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3rj0d97ynvo?at_medium=RSS&at_campaign=rss
+2025-11-14 06:07:18,146 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:18,182 - INFO - [BBC] Success with 'requests_browser'. Found content (1299 words).
+2025-11-14 06:07:18,220 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/french-algerian-writer-boualem-sansal-pardoned-and-to-be-released-from-prison
+2025-11-14 06:07:18,220 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:18,221 - INFO - Duplicate article skipped: What we know about the latest Epstein emails referencing Trump from BBC
+2025-11-14 06:07:18,243 - INFO - [The Guardian] Success with 'requests_browser'. Found content (322 words).
+2025-11-14 06:07:18,278 - INFO - Duplicate article skipped: French-Algerian writer Boualem Sansal pardoned and to be released from prison | Algeria | The Guardian from The Guardian
+2025-11-14 06:07:19,138 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gpkerdn9qo?at_medium=RSS&at_campaign=rss
+2025-11-14 06:07:19,138 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:19,168 - INFO - [BBC] Success with 'requests_browser'. Found content (796 words).
+2025-11-14 06:07:19,200 - INFO - Duplicate article skipped: Germany agrees new military service plan to boost troop numbers from BBC
+2025-11-14 06:07:19,491 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/sudan-north-darfur-aid-malnutrition-rsf-el-fasher-tawila
+2025-11-14 06:07:19,491 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:19,531 - INFO - [The Guardian] Success with 'requests_browser'. Found content (700 words).
+2025-11-14 06:07:19,581 - INFO - Duplicate article skipped: Dire warnings over aid and hunger following RSF’s capture of Sudanese city | Sudan | The Guardian from The Guardian
+2025-11-14 06:07:19,871 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz917nvj7qeo?at_medium=RSS&at_campaign=rss
+2025-11-14 06:07:19,871 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:19,905 - INFO - [BBC] Success with 'requests_browser'. Found content (914 words).
+2025-11-14 06:07:19,941 - INFO - Duplicate article skipped: Trump celebrates as Democrats face fallout from end of shutdown from BBC
+2025-11-14 06:07:20,125 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/city-of-libraries-chinguetti-mauritania-sahara-unesco-preservation
+2025-11-14 06:07:20,126 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:20,157 - INFO - [The Guardian] Success with 'requests_browser'. Found content (778 words).
+2025-11-14 06:07:20,195 - INFO - Duplicate article skipped: The man on a mission to save Mauritania’s ‘city of libraries’ from encroaching desert sands | Mauritania | The Guardian from The Guardian
+2025-11-14 06:07:21,229 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxnerkx5pgo?at_medium=RSS&at_campaign=rss
+2025-11-14 06:07:21,229 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 06:07:21,256 - INFO - [BBC] Success with 'requests_browser'. Found content (336 words).
+2025-11-14 06:07:21,290 - INFO - Duplicate article skipped: Israel confirms identity of hostage body returned by Hamas as Manny Godard from BBC
+2025-11-14 06:07:23,907 - INFO - Selenium driver initialized successfully.
+2025-11-14 06:07:23,907 - INFO - Selenium driver initialized successfully.
+2025-11-14 06:07:23,907 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-14 06:07:23,907 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-14 06:07:24,116 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 5.
+2025-11-14 06:07:24,116 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/will-dubais-20-minute-city-vision-melt-under-extreme-summer-heat-is-there-a-plan/articleshow/125317772.cms
+2025-11-14 06:07:24,116 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:24,142 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 5.
+2025-11-14 06:07:24,142 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/dip-in-night-temperature-in-yadgir-forces-people-to-stay-indoors-for-extended-hours/article70275444.ece
+2025-11-14 06:07:24,143 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:29,115 - INFO - [The Hindu] Page content loaded.
+2025-11-14 06:07:29,585 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (390 words).
+2025-11-14 06:07:29,671 - INFO - Saved article: Dip in night temperature in Yadgir forces people to stay indoors for extended hours - The Hindu from The Hindu
+2025-11-14 06:07:30,447 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/andhra-cm-chandrababu-naidu-gives-new-definition-to-vizag-describing-v-for-vision/article70278481.ece
+2025-11-14 06:07:30,447 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:35,275 - INFO - [Times of India] Page content loaded.
+2025-11-14 06:07:35,689 - INFO - [Times of India] Success with 'selenium_browser'. Found content (696 words).
+2025-11-14 06:07:36,045 - INFO - Duplicate article skipped: Will Dubai’s 20-minute city vision melt under extreme summer heat? Is there a plan? | World News - The Times of India from Times of India
+2025-11-14 06:07:36,390 - INFO - [The Hindu] Page content loaded.
+2025-11-14 06:07:36,529 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (167 words).
+2025-11-14 06:07:36,643 - INFO - Saved article: Andhra CM Chandrababu Naidu gives new definition to Vizag, describing ‘V’ for ‘Vision’ - The Hindu from The Hindu
+2025-11-14 06:07:36,893 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/entertainment/english/music/news/zayn-malik-reportedly-rejoins-one-direction-10-years-after-quitting-the-band-documents-reveal/articleshow/125306250.cms
+2025-11-14 06:07:36,893 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:37,681 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/ericsson-opens-rd-unit-to-drive-5g-software-development-in-bengaluru/article70276302.ece
+2025-11-14 06:07:37,681 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:38,982 - INFO - [Times of India] Page content loaded.
+2025-11-14 06:07:39,200 - INFO - [Times of India] Success with 'selenium_browser'. Found content (992 words).
+2025-11-14 06:07:39,314 - INFO - Duplicate article skipped: Zayn Malik reportedly rejoins ‘One Direction’ 10 years after quitting the band: Documents reveal | - The Times of India from Times of India
+2025-11-14 06:07:40,636 - INFO - [The Hindu] Page content loaded.
+2025-11-14 06:07:40,727 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/homeless-cocaine-and-sugar-dating-ad-inside-the-unsealed-files-reviving-gaetzs-sex-scandal-involving-17-year-old/articleshow/125316172.cms
+2025-11-14 06:07:40,727 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:40,773 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (252 words).
+2025-11-14 06:07:40,910 - INFO - Duplicate article skipped: Ericsson opens R&D unit to drive 5G software development in Bengaluru - The Hindu from The Hindu
+2025-11-14 06:07:42,154 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jammu-and-kashmir/jammu-kashmir-nagrota-budgam-bypoll-results-2025/article70278546.ece
+2025-11-14 06:07:42,154 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:47,173 - INFO - [Times of India] Page content loaded.
+2025-11-14 06:07:50,344 - INFO - [Times of India] Success with 'selenium_browser'. Found content (382 words).
+2025-11-14 06:07:50,509 - INFO - Duplicate article skipped: Homeless, cocaine and sugar dating ad: Inside the unsealed files reviving Gaetz's sex scandal involving 17-year-old - The Times of India from Times of India
+2025-11-14 06:07:51,149 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/can-indian-expats-in-the-uae-file-for-divorce-in-india-what-you-need-to-know/articleshow/125316975.cms
+2025-11-14 06:07:51,149 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:52,674 - INFO - [Times of India] Page content loaded.
+2025-11-14 06:07:52,875 - INFO - [Times of India] Success with 'selenium_browser'. Found content (836 words).
+2025-11-14 06:07:52,940 - INFO - Duplicate article skipped: Can Indian expats in the UAE file for divorce in India? What you need to know | World News - The Times of India from Times of India
+2025-11-14 06:07:53,918 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/sports/nfl/news/cardi-b-welcomes-her-fourth-child-her-1st-with-boyfriend-stefon-diggs/articleshow/125313600.cms
+2025-11-14 06:07:53,919 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:07:55,467 - INFO - [Times of India] Page content loaded.
+2025-11-14 06:07:55,616 - INFO - [Times of India] Success with 'selenium_browser'. Found content (471 words).
+2025-11-14 06:07:55,756 - INFO - Duplicate article skipped: Cardi B welcomes her fourth child, her 1st with boyfriend Stefon Diggs | NFL News - The Times of India from Times of India
+2025-11-14 06:07:56,562 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-14 06:07:56,772 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-11-14 06:08:07,605 - INFO - [The Hindu] Page content loaded.
+2025-11-14 06:08:07,725 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (266 words).
+2025-11-14 06:08:07,826 - INFO - Duplicate article skipped: J&K bypoll results: BJP's Devyani Rana leads in Nagrota; voting underway in Budgam - The Hindu from The Hindu
+2025-11-14 06:08:08,354 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/survey-of-india-central-university-of-karnataka-sign-mou-to-strengthen-geospatial-studies-training/article70275710.ece
+2025-11-14 06:08:08,355 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 06:08:09,912 - INFO - [The Hindu] Page content loaded.
+2025-11-14 06:08:09,969 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (459 words).
+2025-11-14 06:08:10,031 - INFO - Duplicate article skipped: Survey of India, Central University of Karnataka sign MoU on geospatial studies, training - The Hindu from The Hindu
+2025-11-14 06:08:11,098 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-14 06:08:11,226 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-14 06:08:11,226 - INFO - Shutting down thread pool (wait=False)...
+2025-11-14 06:08:11,226 - INFO - Scraped: 0 BBC, 0 Times of India, 2 The Hindu, 0 The Guardian articles. (Total saved: 2)
+2025-11-14 06:08:11,226 - INFO - --- Scraping job finished ---
+2025-11-14 06:08:11,231 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-14 06:08:11,231 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
