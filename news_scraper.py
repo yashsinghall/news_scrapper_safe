@@ -516,8 +516,10 @@ def scrape_all():
     all_counts = {}
     total_saved = 0 
     
-    # --- MODIFIED: Run sources in parallel with global timeout ---
-    with ThreadPoolExecutor(max_workers=len(SOURCE_CONFIG)) as executor:
+    # --- MODIFIED: Manually manage executor to force shutdown ---
+    executor = ThreadPoolExecutor(max_workers=len(SOURCE_CONFIG))
+    
+    try:
         # Submit all scrape tasks to the pool
         future_to_source = {
             executor.submit(scrape_source_wrapper, source, session, proxies_dict): source['name']
@@ -563,6 +565,14 @@ def scrape_all():
                 logging.warning(f"--- Cancelling incomplete task: {source_name} ---")
                 future.cancel() # Attempt to cancel the running thread
                 all_counts[source_name] = 0 # Mark as 0 saved
+    
+    except Exception as e:
+        logging.critical(f"--- CRITICAL: ThreadPoolExecutor task submission failed: {e} ---")
+    finally:
+        # --- NEW: Manually shut down the executor *without* waiting ---
+        # This prevents the main thread from hanging on a stuck child thread (e.g., driver.quit())
+        logging.info("--- Main thread finished. Forcing executor shutdown... ---")
+        executor.shutdown(wait=False)
     # -----------------------------------------------------------
             
     # Create a dynamic log message
