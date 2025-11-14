@@ -1,0 +1,108 @@
+2025-11-14 05:04:01,193 - INFO - Initializing database connection at: news_articles.db
+2025-11-14 05:04:01,193 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-14 05:04:01,193 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-14 05:04:01,193 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-14 05:04:01,193 - INFO - Proxy is DISABLED.
+2025-11-14 05:04:01,193 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-14 05:04:01,194 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-14 05:04:01,194 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-14 05:04:01,194 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-14 05:04:01,197 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-14 05:04:01,197 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-14 05:04:01,197 - INFO - --- All jobs submitted. Waiting for completion with a 300s timeout... ---
+2025-11-14 05:04:01,389 - INFO - Found 27 articles in BBC RSS feed. Processing up to 5.
+2025-11-14 05:04:01,390 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cglgj08erywo?at_medium=RSS&at_campaign=rss
+2025-11-14 05:04:01,390 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:01,395 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 5.
+2025-11-14 05:04:01,395 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/state-sanctioned-fuel-smuggling-cost-libya-20bn-over-three-years-report
+2025-11-14 05:04:01,395 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:01,422 - INFO - [The Guardian] Success with 'requests_browser'. Found content (670 words).
+2025-11-14 05:04:01,459 - INFO - Duplicate article skipped: State-sanctioned fuel smuggling cost Libya $20bn over three years – report | Libya | The Guardian from The Guardian
+2025-11-14 05:04:01,503 - INFO - [BBC] Success with 'requests_browser'. Found content (613 words).
+2025-11-14 05:04:01,582 - INFO - Duplicate article skipped: Epstein email says Andrew had photo taken with Virginia Giuffre from BBC
+2025-11-14 05:04:02,733 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3rj0d97ynvo?at_medium=RSS&at_campaign=rss
+2025-11-14 05:04:02,733 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:02,766 - INFO - [BBC] Success with 'requests_browser'. Found content (1299 words).
+2025-11-14 05:04:02,802 - INFO - Duplicate article skipped: What we know about the latest Epstein emails referencing Trump from BBC
+2025-11-14 05:04:02,893 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/13/british-american-tobacco-africa-zambia-uk
+2025-11-14 05:04:02,894 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:02,922 - INFO - [The Guardian] Success with 'requests_browser'. Found content (753 words).
+2025-11-14 05:04:02,961 - INFO - Duplicate article skipped: ‘Utter hypocrisy’: tobacco firm lobbied against rules in Africa that are law in UK | Global development | The Guardian from The Guardian
+2025-11-14 05:04:03,632 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/french-algerian-writer-boualem-sansal-pardoned-and-to-be-released-from-prison
+2025-11-14 05:04:03,632 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:03,652 - INFO - [The Guardian] Success with 'requests_browser'. Found content (322 words).
+2025-11-14 05:04:03,685 - INFO - Duplicate article skipped: French-Algerian writer Boualem Sansal pardoned and to be released from prison | Algeria | The Guardian from The Guardian
+2025-11-14 05:04:03,773 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gpkerdn9qo?at_medium=RSS&at_campaign=rss
+2025-11-14 05:04:03,773 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:03,800 - INFO - [BBC] Success with 'requests_browser'. Found content (796 words).
+2025-11-14 05:04:03,834 - INFO - Duplicate article skipped: Germany agrees new military service plan to boost troop numbers from BBC
+2025-11-14 05:04:04,326 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/sudan-north-darfur-aid-malnutrition-rsf-el-fasher-tawila
+2025-11-14 05:04:04,326 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:04,357 - INFO - [The Guardian] Success with 'requests_browser'. Found content (700 words).
+2025-11-14 05:04:04,406 - INFO - Duplicate article skipped: Dire warnings over aid and hunger following RSF’s capture of Sudanese city | Sudan | The Guardian from The Guardian
+2025-11-14 05:04:05,301 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz917nvj7qeo?at_medium=RSS&at_campaign=rss
+2025-11-14 05:04:05,302 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:05,336 - INFO - [BBC] Success with 'requests_browser'. Found content (914 words).
+2025-11-14 05:04:05,364 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/city-of-libraries-chinguetti-mauritania-sahara-unesco-preservation
+2025-11-14 05:04:05,364 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:05,376 - INFO - Duplicate article skipped: Trump celebrates as Democrats face fallout from end of shutdown from BBC
+2025-11-14 05:04:05,392 - INFO - [The Guardian] Success with 'requests_browser'. Found content (778 words).
+2025-11-14 05:04:05,429 - INFO - Duplicate article skipped: The man on a mission to save Mauritania’s ‘city of libraries’ from encroaching desert sands | Mauritania | The Guardian from The Guardian
+2025-11-14 05:04:06,711 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxnerkx5pgo?at_medium=RSS&at_campaign=rss
+2025-11-14 05:04:06,711 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 05:04:06,735 - INFO - [BBC] Success with 'requests_browser'. Found content (336 words).
+2025-11-14 05:04:06,767 - INFO - Duplicate article skipped: Israel confirms identity of hostage body returned by Hamas as Manny Godard from BBC
+2025-11-14 05:04:07,923 - INFO - Selenium driver initialized successfully.
+2025-11-14 05:04:07,923 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-14 05:04:07,924 - INFO - Selenium driver initialized successfully.
+2025-11-14 05:04:07,924 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-14 05:04:08,004 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 5.
+2025-11-14 05:04:08,004 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/can-indian-expats-in-the-uae-file-for-divorce-in-india-what-you-need-to-know/articleshow/125316975.cms
+2025-11-14 05:04:08,004 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:04:08,120 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 5.
+2025-11-14 05:04:08,120 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/jail-official-stabbed-by-prisoners-in-kerala/article70278443.ece
+2025-11-14 05:04:08,120 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:04:17,888 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (309 words).
+2025-11-14 05:04:18,043 - INFO - Saved article: Jail official stabbed by prisoners in Kerala - The Hindu from The Hindu
+2025-11-14 05:04:18,838 - INFO - [The Hindu] Article: https://www.thehindu.com/elections/bihar-assembly/cpiml-flags-discrepancy-in-electoral-data-says-there-is-an-increase-by-3-lakh-voters-in-bihar/article70278449.ece
+2025-11-14 05:04:18,838 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:04:27,440 - INFO - [Times of India] Success with 'selenium_browser'. Found content (836 words).
+2025-11-14 05:04:27,563 - INFO - Saved article: Can Indian expats in the UAE file for divorce in India? What you need to know | World News - The Times of India from Times of India
+2025-11-14 05:04:28,086 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/sports/nfl/news/cardi-b-welcomes-her-fourth-child-her-1st-with-boyfriend-stefon-diggs/articleshow/125313600.cms
+2025-11-14 05:04:28,086 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:04:35,565 - INFO - [Times of India] Success with 'selenium_browser'. Found content (471 words).
+2025-11-14 05:04:35,636 - INFO - Duplicate article skipped: Cardi B welcomes her fourth child, her 1st with boyfriend Stefon Diggs | NFL News - The Times of India from Times of India
+2025-11-14 05:04:37,040 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/operation-southern-spear-us-strikes-alleged-drug-trafficking-vessel-kills-four/articleshow/125314139.cms
+2025-11-14 05:04:37,040 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:04:44,386 - INFO - [Times of India] Success with 'selenium_browser'. Found content (306 words).
+2025-11-14 05:04:44,467 - INFO - Duplicate article skipped: Operation Southern Spear: US strikes alleged drug-trafficking vessel; kills four - The Times of India from Times of India
+2025-11-14 05:04:45,159 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/china/chinas-wolf-warrior-diplomacy-returns-with-threat-against-japans-leader/articleshow/125314402.cms
+2025-11-14 05:04:45,160 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:04:53,974 - INFO - [Times of India] Success with 'selenium_browser'. Found content (842 words).
+2025-11-14 05:04:54,066 - INFO - Duplicate article skipped: China's 'Wolf Warrior' diplomacy returns with threat against Japan's leader - The Times of India from Times of India
+2025-11-14 05:04:54,678 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/russia-ukraine-war-moscow-launches-missiles-drones-overnight-every-district-in-kyiv-under-massive-attack/articleshow/125313481.cms
+2025-11-14 05:04:54,678 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:05:15,589 - INFO - [Times of India] Success with 'selenium_browser'. Found content (408 words).
+2025-11-14 05:05:15,673 - INFO - Duplicate article skipped: Russia-Ukraine war: Moscow launches missiles, drones overnight; every district in Kyiv under 'massive' attack - The Times of India from Times of India
+2025-11-14 05:05:16,249 - INFO - [Times of India] (Thread) Finished. Shutting down its Selenium driver.
+2025-11-14 05:06:18,859 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=43109): Read timed out. (read timeout=120)
+2025-11-14 05:06:18,859 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/elections/bihar-assembly/cpiml-flags-discrepancy-in-electoral-data-says-there-is-an-increase-by-3-lakh-voters-in-bihar/article70278449.ece. Falling back to RSS description.
+2025-11-14 05:06:18,861 - INFO - Saved article: CPIML flags discrepancy in electoral data; says there is an increase by 3 lakh voters in Bihar from The Hindu
+2025-11-14 05:06:20,354 - INFO - [The Hindu] Article: https://www.thehindu.com/elections/bihar-assembly/bihar-election-results-2025-vote-counting-tejashwi-yadav-mahagathbandhan/article70278371.ece
+2025-11-14 05:06:20,354 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:08:20,456 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=43109): Read timed out. (read timeout=120)
+2025-11-14 05:08:20,456 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/elections/bihar-assembly/bihar-election-results-2025-vote-counting-tejashwi-yadav-mahagathbandhan/article70278371.ece. Falling back to RSS description.
+2025-11-14 05:08:20,456 - INFO - Duplicate article skipped: Bihar election results 2025: ‘It will be people’s victory,’ says Tejashwi Yadav; vote counting underway from The Hindu
+2025-11-14 05:08:21,790 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/kerala-local-body-polls-bdjs-looks-to-shed-poor-performer-tag-bargains-for-more-seats-this-time/article70275873.ece
+2025-11-14 05:08:21,791 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 05:09:01,198 - INFO - --- Timeout or completion hit. Processing results... ---
+2025-11-14 05:09:01,198 - INFO - --- (Thread) Finished job for The Guardian, saved 0 articles. ---
+2025-11-14 05:09:01,198 - INFO - --- (Thread) Finished job for Times of India, saved 1 articles. ---
+2025-11-14 05:09:01,198 - INFO - --- (Thread) Finished job for BBC, saved 0 articles. ---
+2025-11-14 05:09:01,198 - WARNING - --- GLOBAL TIMEOUT. 1 tasks did not complete. ---
+2025-11-14 05:09:01,198 - WARNING - --- Cancelling incomplete task: The Hindu ---
+2025-11-14 05:09:01,198 - INFO - --- Main thread finished. Forcing executor shutdown... ---
+2025-11-14 05:09:01,198 - INFO - Scraped: 0 The Guardian, 1 Times of India, 0 BBC, 0 The Hindu articles. (Total saved: 1)
+2025-11-14 05:09:01,198 - INFO - --- Scraping job finished ---
+2025-11-14 05:09:01,198 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-14 05:09:01,198 - INFO - --- Forcing process exit to clean up zombie threads. ---
