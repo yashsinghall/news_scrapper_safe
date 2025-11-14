@@ -73,10 +73,8 @@ def create_robust_session():
         # --- NEW: Retry on connection and read errors ---
         allowed_methods=["HEAD", "GET"],
         # We explicitly retry on these types of errors
-        retry_on_status_code=True,
-        # Add common error types to retry on
-        connect_error=True,
-        read_error=True,
+        connect=True, # Retry on connection errors
+        read=True,    # Retry on read errors
     )
     # Mount the strategy to all http and https requests
     adapter = HTTPAdapter(max_retries=retry_strategy)
