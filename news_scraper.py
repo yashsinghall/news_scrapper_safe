@@ -31,7 +31,7 @@ import logging
 import sqlite3
 from datetime import datetime
 import random # <-- For User-Agent rotation
-import os # <-- NEW: Import os for the hard exit
+import os # <-- os is still needed for os.kill
 
 # --- NEW: Imports for Parallelism ---
 from concurrent.futures import ThreadPoolExecutor, as_completed, wait, ALL_COMPLETED
@@ -45,7 +45,12 @@ try:
     # from selenium.webdriver.chrome.service import Service as ChromeService # <-- REMOVED
     from selenium.webdriver.chrome.options import Options as ChromeOptions
     from selenium.common.exceptions import WebDriverException
-    # --- REMOVED: webdriver_manager is no longer needed ---
+    # --- NEW: Imports for Explicit Waits ---
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from selenium.common.exceptions import TimeoutException
+    # ---------------------------------------
     SELENIUM_AVAILABLE = True
 except ImportError:
     logging.critical("Selenium not installed. Run 'pip install selenium'. Selenium-dependent sources will fail.")
@@ -357,8 +362,21 @@ def scrape_source(session, selenium_driver, source_config, proxies_dict):
                                 continue # Try next strategy
                             
                             selenium_driver.get(article_url)
-                            # --- TIMEOUT FIX: Increase sleep to 5 seconds ---
-                            time.sleep(5) 
+                            
+                            # --- MODIFIED: Use Explicit Wait instead of time.sleep() ---
+                            # This is *much* faster and more reliable.
+                            # We wait up to 10s for *any* <p> tag to appear.
+                            # This indicates the main content has likely started loading.
+                            try:
+                                WebDriverWait(selenium_driver, 10).until(
+                                    EC.presence_of_element_located((By.TAG_NAME, "p"))
+                                )
+                                logging.info(f"[{name}] Page content loaded.")
+                            except TimeoutException:
+                                # If no <p> tags appear, the page is likely broken
+                                logging.warning(f"[{name}] Page timed out (10s). No <p> tags found. Proceeding anyway.")
+                            # -----------------------------------------------------------
+                            
                             raw_html = selenium_driver.page_source
                         
                         else:
@@ -408,7 +426,9 @@ def scrape_source(session, selenium_driver, source_config, proxies_dict):
                     
                     except Exception as e:
                         # Catching errors from requests OR selenium
-                        logging.error(f"[{name}] Request failed for strategy '{strategy}': {e}")
+                        # --- MODIFIED: Log the specific URL in this error ---
+                        logging.error(f"[{name}] Request failed for strategy '{strategy}' on URL {article_url}: {e}")
+                        # ----------------------------------------------------
                     
                     # Wait a moment before trying the next strategy
                     if i < len(strategies) - 1:
@@ -486,10 +506,32 @@ def scrape_source_wrapper(source, session, proxies_dict):
         return (name, 0)
 
     finally:
-        # --- NEW: Quit the driver *inside* the thread ---
+        # --- MODIFIED: "Surgical Kill" for the driver ---
+        # This is the robust way to clean up a stuck driver.
         if driver:
-            logging.info(f"[{name}] (Thread) Finished. Shutting down its Selenium driver.")
-            driver.quit() # <--- Destroy driver
+            logging.info(f"[{name}] (Thread) Finished. Attempting to shut down its Selenium driver.")
+            pid_to_kill = None
+            try:
+                # Get the Process ID (PID) of the chromedriver service
+                pid_to_kill = driver.service.process.pid
+            except Exception:
+                pass # If we can't get it, we can't kill it.
+            
+            try:
+                # Try the clean quit first
+                driver.quit()
+                logging.info(f"[{name}] (Thread) driver.quit() successful.")
+            except Exception as e:
+                # If driver.quit() fails (e.g., hangs or errors)
+                logging.warning(f"[{name}] (Thread) driver.quit() failed: {e}. Attempting surgical kill.")
+                if pid_to_kill:
+                    try:
+                        os.kill(pid_to_kill, 9) # 9 = SIGKILL
+                        logging.info(f"[{name}] (Thread) Successfully killed stuck driver process PID {pid_to_kill}.")
+                    except Exception as e_kill:
+                        logging.error(f"[{name}] (Thread) Failed to kill process PID {pid_to_kill}: {e_kill}")
+                else:
+                    logging.error(f"[{name}] (Thread) driver.quit() failed, but PID was not found. A zombie process may remain.")
             
 # --- REFACTORED: scrape_all() ---
 def scrape_all():
@@ -613,13 +655,11 @@ def main():
             logging.info("--- Scraper service stopped and database connection closed. ---")
             print("Scraper stopped and database connection closed.")
         
-        # --- NEW: Force process exit ---
-        # This is the "kill switch". After all cleanup is done (DB closed, etc.),
-        # this command terminates the entire Python process.
-        # This is necessary to kill any "zombie" Selenium threads that
-        # are stuck on driver.quit() and preventing the process from closing.
-        logging.info("--- Forcing process exit to clean up zombie threads. ---")
-        os._exit(0)
+        # --- REMOVED: Force process exit ---
+        # We no longer need os._exit(0) because the "Surgical Kill"
+        # in the wrapper's finally block will clean up zombie threads,
+        # allowing the script to exit cleanly on its own.
+        logging.info("--- Main thread exiting. ---")
 
 if __name__ == '__main__':
     main()
