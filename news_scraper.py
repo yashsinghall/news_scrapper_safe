@@ -31,7 +31,7 @@ import logging
 import sqlite3
 from datetime import datetime
 import random # <-- For User-Agent rotation
-import os # <-- REMOVED: No longer needed for CI path check
+import os # <-- NEW: Import os for the hard exit
 
 # --- NEW: Imports for Parallelism ---
 from concurrent.futures import ThreadPoolExecutor, as_completed, wait, ALL_COMPLETED
@@ -612,6 +612,14 @@ def main():
             conn.close() # Ensure database connection is closed on exit
             logging.info("--- Scraper service stopped and database connection closed. ---")
             print("Scraper stopped and database connection closed.")
+        
+        # --- NEW: Force process exit ---
+        # This is the "kill switch". After all cleanup is done (DB closed, etc.),
+        # this command terminates the entire Python process.
+        # This is necessary to kill any "zombie" Selenium threads that
+        # are stuck on driver.quit() and preventing the process from closing.
+        logging.info("--- Forcing process exit to clean up zombie threads. ---")
+        os._exit(0)
 
 if __name__ == '__main__':
     main()
