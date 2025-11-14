@@ -34,7 +34,8 @@ import random # <-- For User-Agent rotation
 import os # <-- REMOVED: No longer needed for CI path check
 
 # --- NEW: Imports for Parallelism ---
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, as_completed, wait, ALL_COMPLETED
+import concurrent.futures # <-- Added for wait()
 import threading
 # ------------------------------------
 
@@ -494,7 +495,7 @@ def scrape_source_wrapper(source, session, proxies_dict):
 def scrape_all():
     """
     Runs all scraping jobs defined in SOURCE_CONFIG *in parallel*
-    using a ThreadPoolExecutor.
+    using a ThreadPoolExecutor, with a 5-minute global timeout.
     """
     logging.info("--- Starting new scraping job (Parallel Mode) ---")
     
@@ -515,29 +516,53 @@ def scrape_all():
     all_counts = {}
     total_saved = 0 
     
-    # --- NEW: Run sources in parallel using ThreadPoolExecutor ---
-    # We create one thread for each source
+    # --- MODIFIED: Run sources in parallel with global timeout ---
     with ThreadPoolExecutor(max_workers=len(SOURCE_CONFIG)) as executor:
         # Submit all scrape tasks to the pool
-        # The 'submit' method returns a 'Future' object, which represents the running task
         future_to_source = {
             executor.submit(scrape_source_wrapper, source, session, proxies_dict): source['name']
             for source in SOURCE_CONFIG
         }
         
-        # 'as_completed' yields Futures as they finish (e.g., fast sites first)
-        for future in as_completed(future_to_source):
+        futures = future_to_source.keys()
+        
+        # --- NEW: Wait for all futures with a 5-minute (300s) global timeout ---
+        total_timeout = 300 # 5 minutes
+        logging.info(f"--- All jobs submitted. Waiting for completion with a {total_timeout}s timeout... ---")
+        
+        try:
+            # wait() blocks until all futures complete OR the timeout is hit
+            done, not_done = concurrent.futures.wait(futures, timeout=total_timeout, return_when=ALL_COMPLETED)
+        except Exception as e:
+            logging.critical(f"--- 'wait()' command failed: {e} ---")
+            # Fallback: check futures manually
+            done = [f for f in futures if f.done() and not f.cancelled()]
+            not_done = [f for f in futures if not f.done()]
+        # --------------------------------------------------------------------
+
+        # --- Process results from 'done' (completed) futures ---
+        logging.info("--- Timeout or completion hit. Processing results... ---")
+        for future in done:
             source_name = future_to_source[future]
             try:
-                # Get the result from the finished task
+                # Get the result from the finished task (won't block)
                 name, count = future.result()
                 all_counts[name] = count
                 total_saved += count
                 logging.info(f"--- (Thread) Finished job for {name}, saved {count} articles. ---")
             except Exception as e:
-                # Catch any unexpected errors from the thread itself
-                logging.critical(f"--- CRITICAL: (Thread) {source_name} job failed with exception: {e} ---")
+                # Catch any unexpected errors from *within* the thread
+                logging.critical(f"--- CRITICAL: (Thread) {source_name} job's result() failed: {e} ---")
                 all_counts[source_name] = 0
+
+        # --- Cancel and log 'not_done' (timed out) futures ---
+        if not_done:
+            logging.warning(f"--- GLOBAL TIMEOUT. {len(not_done)} tasks did not complete. ---")
+            for future in not_done:
+                source_name = future_to_source[future]
+                logging.warning(f"--- Cancelling incomplete task: {source_name} ---")
+                future.cancel() # Attempt to cancel the running thread
+                all_counts[source_name] = 0 # Mark as 0 saved
     # -----------------------------------------------------------
             
     # Create a dynamic log message
