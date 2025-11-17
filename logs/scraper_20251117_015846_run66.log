@@ -1,0 +1,209 @@
+2025-11-17 01:57:49,803 - INFO - Initializing database connection at: news_articles.db
+2025-11-17 01:57:49,803 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-17 01:57:49,803 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-17 01:57:49,803 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-17 01:57:49,803 - INFO - Proxy is DISABLED.
+2025-11-17 01:57:49,804 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-17 01:57:49,804 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-17 01:57:49,804 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-17 01:57:49,805 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-17 01:57:49,805 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-17 01:57:49,805 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-17 01:57:49,805 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-17 01:57:49,948 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-17 01:57:49,948 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/15/ethiopia-confirms-outbreak-of-deadly-marburg-virus
+2025-11-17 01:57:49,948 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:49,983 - INFO - [The Guardian] Success with 'requests_browser'. Found content (279 words).
+2025-11-17 01:57:50,026 - INFO - Duplicate article skipped: Ethiopia confirms outbreak of deadly Marburg virus | Ethiopia | The Guardian from The Guardian
+2025-11-17 01:57:50,276 - INFO - Found 37 articles in BBC RSS feed. Processing up to 10.
+2025-11-17 01:57:50,276 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2emyz0zpxko?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:50,276 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:50,588 - INFO - [BBC] Success with 'requests_browser'. Found content (1461 words).
+2025-11-17 01:57:50,654 - INFO - Saved article: Haditha: Two US marines implicated in killing family in notorious Iraq war shooting, expert tells BBC from BBC
+2025-11-17 01:57:51,071 - INFO - [The Guardian] Article: https://www.theguardian.com/australia-news/2025/nov/16/australia-dubai-international-airshow-defence-weapons-arms-fair-sudan-uae
+2025-11-17 01:57:51,071 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:51,117 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1164 words).
+2025-11-17 01:57:51,170 - INFO - Duplicate article skipped: Australia is selling arms at a weapons fair in Dubai. Are they destined to be used in Sudan atrocities? | Australia news | The Guardian from The Guardian
+2025-11-17 01:57:51,536 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crkl3d6pegpo?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:51,536 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:51,618 - INFO - [BBC] Success with 'requests_browser'. Found content (2228 words).
+2025-11-17 01:57:51,659 - INFO - Saved article: How realistic is the plan to build a 'drone wall' against Russia? from BBC
+2025-11-17 01:57:51,681 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/15/health-uk-cut-global-fund-aids-tuberculosis-tb-malaria-africa
+2025-11-17 01:57:51,681 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:51,715 - INFO - [The Guardian] Success with 'requests_browser'. Found content (681 words).
+2025-11-17 01:57:51,750 - INFO - Duplicate article skipped: UK warned that 15% cut to health fund will force ‘impossible choices’ on Africa | Global Fund to Fight Aids, Tuberculosis and Malaria | The Guardian from The Guardian
+2025-11-17 01:57:52,460 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9wv4dx05q5o?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:52,460 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:52,497 - INFO - [BBC] Success with 'requests_browser'. Found content (716 words).
+2025-11-17 01:57:52,530 - INFO - Duplicate article skipped: Trump targets ally Marjorie Taylor Greene ahead of Epstein files vote from BBC
+2025-11-17 01:57:52,810 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/14/anger-south-africa-plane-palestinians-held-12-hours
+2025-11-17 01:57:52,810 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:52,844 - INFO - [The Guardian] Success with 'requests_browser'. Found content (620 words).
+2025-11-17 01:57:52,886 - INFO - Duplicate article skipped: South Africa to investigate ‘mysterious’ arrival of 153 Palestinians on plane | South Africa | The Guardian from The Guardian
+2025-11-17 01:57:53,451 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0jd0v8dvpwo?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:53,451 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:53,485 - INFO - [BBC] Success with 'requests_browser'. Found content (566 words).
+2025-11-17 01:57:53,513 - INFO - Saved article: Communist and far-right candidates head to Chile presidential run-off from BBC
+2025-11-17 01:57:53,641 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/14/british-egyptian-activist-alaa-abd-el-fattah-stopped-from-flying-to-uk-says-family
+2025-11-17 01:57:53,641 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:53,674 - INFO - [The Guardian] Success with 'requests_browser'. Found content (456 words).
+2025-11-17 01:57:53,718 - INFO - Duplicate article skipped: British-Egyptian activist stopped from flying to UK, says family | Egypt | The Guardian from The Guardian
+2025-11-17 01:57:54,157 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqjw2x10njeo?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:54,157 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:54,194 - INFO - [BBC] Success with 'requests_browser'. Found content (947 words).
+2025-11-17 01:57:54,250 - INFO - Saved article: Gujarat: Hackers steal maternity ward CCTV videos in India cybercrime racket from BBC
+2025-11-17 01:57:55,131 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/far-right-candidate-jose-antonio-kast-favourite-to-become-chiles-next-president-after-first-round-vote
+2025-11-17 01:57:55,131 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:55,142 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyk0nd1nq6o?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:55,142 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:55,177 - INFO - [BBC] Success with 'requests_browser'. Found content (326 words).
+2025-11-17 01:57:55,214 - INFO - Duplicate article skipped: Red Fort explosion: Man arrested over deadly Delhi car bomb blast from BBC
+2025-11-17 01:57:55,295 - INFO - [The Guardian] Success with 'requests_browser'. Found content (573 words).
+2025-11-17 01:57:55,333 - INFO - Saved article: Far-right candidate José Antonio Kast favourite to become Chile’s next president after first round vote | Chile | The Guardian from The Guardian
+2025-11-17 01:57:56,158 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/16/have-courage-to-create-fossil-fuel-phaseout-roadmap-at-cop30-brazilian-minister-urges
+2025-11-17 01:57:56,158 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:56,196 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1091 words).
+2025-11-17 01:57:56,246 - INFO - Duplicate article skipped: Have courage to create fossil fuel phaseout roadmap at Cop30, Brazilian minister urges | Cop30 | The Guardian from The Guardian
+2025-11-17 01:57:56,439 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj4172yl0l1o?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:56,439 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:56,473 - INFO - [BBC] Success with 'requests_browser'. Found content (307 words).
+2025-11-17 01:57:56,506 - INFO - Duplicate article skipped: Iran begins cloud seeding to induce rain during worst drought in decades from BBC
+2025-11-17 01:57:57,080 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/16/gen-z-protests-against-mexico-president-turn-violent-amid-anger-over-mayors-death
+2025-11-17 01:57:57,080 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:57,111 - INFO - [The Guardian] Success with 'requests_browser'. Found content (541 words).
+2025-11-17 01:57:57,149 - INFO - Duplicate article skipped: At least 120 hurt in gen Z protests over corruption and drug violence in Mexico | Mexico | The Guardian from The Guardian
+2025-11-17 01:57:57,579 - INFO - Selenium driver initialized successfully.
+2025-11-17 01:57:57,580 - INFO - Selenium driver initialized successfully.
+2025-11-17 01:57:57,580 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-17 01:57:57,580 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-17 01:57:57,706 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-17 01:57:57,706 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tvk-stages-demonstration-against-special-intensive-revision-of-electoral-roll/article70287370.ece
+2025-11-17 01:57:57,706 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:57:57,791 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-17 01:57:57,791 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/business/international-business/when-will-americans-get-2000-tariff-dividends-donald-trump-speaks-out/articleshow/125371512.cms
+2025-11-17 01:57:57,791 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:57:57,792 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/16/chile-election-president-crime-migration-fears
+2025-11-17 01:57:57,792 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:57,822 - INFO - [The Guardian] Success with 'requests_browser'. Found content (664 words).
+2025-11-17 01:57:57,856 - INFO - Duplicate article skipped: Chile votes for next president in contest dominated by crime and migration fears | Chile | The Guardian from The Guardian
+2025-11-17 01:57:57,975 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqx3n4r2g04o?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:57,975 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:58,016 - INFO - [BBC] Success with 'requests_browser'. Found content (468 words).
+2025-11-17 01:57:58,059 - INFO - Duplicate article skipped: Charlotte faces DHS crackdown as agents target 'criminal illegal aliens' from BBC
+2025-11-17 01:57:58,862 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/16/caribbean-reparations-crc-uk-visit-britain-colonial-legacy
+2025-11-17 01:57:58,862 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:58,888 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czr1dm5vkjdo?at_medium=RSS&at_campaign=rss
+2025-11-17 01:57:58,889 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:57:58,906 - INFO - [The Guardian] Success with 'requests_browser'. Found content (667 words).
+2025-11-17 01:57:59,016 - INFO - Duplicate article skipped: Caribbean reparations leaders in ‘historic’ first UK visit to press for justice | Reparations and reparative justice | The Guardian from The Guardian
+2025-11-17 01:57:59,019 - INFO - [BBC] Success with 'requests_browser'. Found content (223 words).
+2025-11-17 01:57:59,084 - INFO - Duplicate article skipped: South Korean actress and K-pop star Nana fights off home intruder from BBC
+2025-11-17 01:58:00,493 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn8vm30rr78o?at_medium=RSS&at_campaign=rss
+2025-11-17 01:58:00,493 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 01:58:00,641 - INFO - [BBC] Success with 'requests_browser'. Found content (410 words).
+2025-11-17 01:58:00,741 - INFO - Duplicate article skipped: Thousands protest against government in Mexico City as clashes leave 120 injured from BBC
+2025-11-17 01:58:02,915 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:03,021 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (168 words).
+2025-11-17 01:58:03,110 - INFO - Saved article: TVK stages demonstration against Special Intensive Revision of electoral roll - The Hindu from The Hindu
+2025-11-17 01:58:04,151 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/an-uncertain-solar-powered-future/article70272188.ece
+2025-11-17 01:58:04,151 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:06,398 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:06,577 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (2036 words).
+2025-11-17 01:58:06,761 - INFO - Saved article: An uncertain solar-powered future - The Hindu from The Hindu
+2025-11-17 01:58:07,783 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/priests-should-not-indulge-in-political-activities-in-temples-says-tn-minister/article70287407.ece
+2025-11-17 01:58:07,783 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:09,222 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:09,682 - INFO - [Times of India] Success with 'selenium_browser'. Found content (418 words).
+2025-11-17 01:58:09,829 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:09,901 - INFO - Duplicate article skipped: When will Americans receive $2,000 tariff dividends? Donald Trump speaks out - The Times of India from Times of India
+2025-11-17 01:58:09,963 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (149 words).
+2025-11-17 01:58:10,064 - INFO - Saved article: Priests should not indulge in political activities in temples, says T.N. Minister - The Hindu from The Hindu
+2025-11-17 01:58:10,697 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/internet-torches-donald-trump-after-epstein-emails-link-him-to-bubba-alleged-to-be-bill-clinton-worst-damage-control/articleshow/125371289.cms
+2025-11-17 01:58:10,698 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:11,135 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/vellore-corporation-lays-concrete-carriageway-without-relocating-electrical-poles/article70287471.ece
+2025-11-17 01:58:11,135 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:12,059 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:12,242 - INFO - [Times of India] Success with 'selenium_browser'. Found content (311 words).
+2025-11-17 01:58:12,288 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:12,344 - INFO - Duplicate article skipped: Internet torches Donald Trump after Epstein emails link him to ‘Bubba,’ alleged to be Bill Clinton: ‘Worst damage control’ - The Times of India from Times of India
+2025-11-17 01:58:12,449 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (446 words).
+2025-11-17 01:58:12,587 - INFO - Saved article: Vellore Corporation lays concrete carriageway without relocating electrical poles - The Hindu from The Hindu
+2025-11-17 01:58:13,471 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/scott-bessent-grilled-after-giving-wild-reason-for-soaring-beef-prices-in-us-cows-climbing-over-trumps-wall/articleshow/125370786.cms
+2025-11-17 01:58:13,471 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:13,610 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/pmk-to-hold-protests-against-tn-govt-over-caste-census-issue/article70287569.ece
+2025-11-17 01:58:13,610 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:15,551 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:16,024 - INFO - [Times of India] Success with 'selenium_browser'. Found content (274 words).
+2025-11-17 01:58:16,172 - INFO - Duplicate article skipped: Scott Bessent grilled after giving wild reason for soaring beef prices in US: 'Cows climbing over Trump’s wall' - The Times of India from Times of India
+2025-11-17 01:58:17,100 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/oscar-winning-actor-calls-zohran-mamdani-a-communist-fool-says-only-trump-can-save-new-york/articleshow/125370377.cms
+2025-11-17 01:58:17,100 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:18,067 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:18,229 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (268 words).
+2025-11-17 01:58:18,376 - INFO - Saved article: PMK to hold protests against T.N. govt. over caste census issue - The Hindu from The Hindu
+2025-11-17 01:58:18,830 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:18,902 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/annas-speech-still-relevant-about-delhi-rulers-says-stalin/article70287987.ece
+2025-11-17 01:58:18,902 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:19,110 - INFO - [Times of India] Success with 'selenium_browser'. Found content (453 words).
+2025-11-17 01:58:19,318 - INFO - Duplicate article skipped: Oscar-winning actor calls Zohran Mamdani a ‘communist fool’, says only Trump can save New York | World News - The Times of India from Times of India
+2025-11-17 01:58:19,964 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:20,056 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (142 words).
+2025-11-17 01:58:20,156 - INFO - Saved article: Anna’s speech still relevant about Delhi rulers, says Stalin - The Hindu from The Hindu
+2025-11-17 01:58:20,682 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/pmk-to-hold-protests-across-tamil-nadu-on-december-12-ramadoss/article70287457.ece
+2025-11-17 01:58:20,682 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:20,801 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/noam-chomsky-was-named-in-leaked-epstein-emails-and-the-political-left-is-not-happy-manufacturing-consent-for-child-rapist/articleshow/125369847.cms
+2025-11-17 01:58:20,801 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:22,928 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:23,028 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:23,099 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (264 words).
+2025-11-17 01:58:23,346 - INFO - Saved article: PMK to hold protests across Tamil Nadu on December 12: Ramadoss - The Hindu from The Hindu
+2025-11-17 01:58:23,392 - INFO - [Times of India] Success with 'selenium_browser'. Found content (415 words).
+2025-11-17 01:58:23,497 - INFO - Saved article: Noam Chomsky was named in leaked Epstein emails, and the political left is not happy: 'Manufacturing consent for child rapist' - The Times of India from Times of India
+2025-11-17 01:58:24,198 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/forest-department-seizes-390-kg-of-red-sanders-near-arakkonam/article70287450.ece
+2025-11-17 01:58:24,198 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:24,746 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/xqc-calls-asmongolds-ideal-america-policies-unaffordable-and-unrealistic/articleshow/125369265.cms
+2025-11-17 01:58:24,746 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:25,540 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:25,721 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (177 words).
+2025-11-17 01:58:25,844 - INFO - Saved article: Forest Department seizes 390 kg of red sanders near Arakkonam - The Hindu from The Hindu
+2025-11-17 01:58:27,098 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/red-fort-blast-agencies-to-recreate-bombers-route-probing-hawala-trail/article70288446.ece
+2025-11-17 01:58:27,098 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:28,525 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:28,588 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (270 words).
+2025-11-17 01:58:28,670 - INFO - Saved article: Red Fort blast: agencies to recreate ‘bomber’s’ route, probing hawala trail - The Hindu from The Hindu
+2025-11-17 01:58:29,548 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jammu-and-kashmir/govt-promised-to-replace-stones-with-laptops-but-kashmiri-youth-pushed-to-become-suicide-bomber-mehbooba/article70288115.ece
+2025-11-17 01:58:29,548 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:34,111 - INFO - [The Hindu] Page content loaded.
+2025-11-17 01:58:34,233 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (491 words).
+2025-11-17 01:58:34,371 - INFO - Duplicate article skipped: Govt promised to replace stones with laptops, but Kashmiri youth pushed to become suicide bomber: Mehbooba - The Hindu from The Hindu
+2025-11-17 01:58:35,582 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-17 01:58:35,729 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-17 01:58:36,985 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-11-17 01:58:37,170 - INFO - [Times of India] Success with 'selenium_browser'. Found content (411 words).
+2025-11-17 01:58:37,263 - INFO - Saved article: xQc calls Asmongold’s “ideal America” policies unaffordable and unrealistic - The Times of India from Times of India
+2025-11-17 01:58:37,969 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/indian-traveller-faces-racist-trolling-on-social-media-while-visiting-argentina-but-locals-have-his-back/articleshow/125368725.cms
+2025-11-17 01:58:37,969 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:38,702 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:38,812 - INFO - [Times of India] Success with 'selenium_browser'. Found content (348 words).
+2025-11-17 01:58:38,888 - INFO - Saved article: Indian traveller faces racist trolling on social media while visiting Argentina, but locals have his back - The Times of India from Times of India
+2025-11-17 01:58:40,098 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/jeffrey-epsteins-brother-reveals-bubba-in-alleged-sex-scandal-emails-with-trump-is-not-bill-clinton-it-is/articleshow/125367427.cms
+2025-11-17 01:58:40,098 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:40,670 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:40,801 - INFO - [Times of India] Success with 'selenium_browser'. Found content (443 words).
+2025-11-17 01:58:40,856 - INFO - Duplicate article skipped: Jeffrey Epstein’s brother reveals ‘Bubba’ in alleged sex-scandal emails with Trump is not Bill Clinton, it is… - The Times of India from Times of India
+2025-11-17 01:58:41,397 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/immigrant-crackdown-uk-govt-set-to-overhaul-asylum-system-whats-changing/articleshow/125367170.cms
+2025-11-17 01:58:41,397 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:42,435 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:42,566 - INFO - [Times of India] Success with 'selenium_browser'. Found content (582 words).
+2025-11-17 01:58:42,624 - INFO - Duplicate article skipped: Immigrant crackdown: UK govt set to overhaul asylum system – what’s changing - The Times of India from Times of India
+2025-11-17 01:58:43,724 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/marjorie-taylor-greene-apologises-after-alleging-trump-is-threatening-her-amid-h1-b-epstein-files-row-im-sorry-for-being-part-of-/articleshow/125366933.cms
+2025-11-17 01:58:43,724 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 01:58:44,753 - INFO - [Times of India] Page content loaded.
+2025-11-17 01:58:44,937 - INFO - [Times of India] Success with 'selenium_browser'. Found content (480 words).
+2025-11-17 01:58:44,993 - INFO - Duplicate article skipped: Marjorie Taylor Greene apologises after alleging Trump is threatening her amid H1-B, Epstein files row: ‘I’m sorry for being part of...’ - The Times of India from Times of India
+2025-11-17 01:58:45,896 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-17 01:58:46,145 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-11-17 01:58:46,145 - INFO - Shutting down thread pool (wait=False)...
+2025-11-17 01:58:46,145 - INFO - Scraped: 4 BBC, 3 Times of India, 9 The Hindu, 1 The Guardian articles. (Total saved: 17)
+2025-11-17 01:58:46,145 - INFO - --- Scraping job finished ---
+2025-11-17 01:58:46,150 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-17 01:58:46,151 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
