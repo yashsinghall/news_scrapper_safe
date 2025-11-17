@@ -1,0 +1,198 @@
+2025-11-17 22:23:54,413 - INFO - Initializing database connection at: news_articles.db
+2025-11-17 22:23:54,413 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-17 22:23:54,413 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-17 22:23:54,413 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-17 22:23:54,413 - INFO - Proxy is DISABLED.
+2025-11-17 22:23:54,414 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-17 22:23:54,414 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-17 22:23:54,414 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-17 22:23:54,415 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-17 22:23:54,415 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-17 22:23:54,415 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-17 22:23:54,415 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-17 22:23:54,646 - INFO - Found 31 articles in BBC RSS feed. Processing up to 10.
+2025-11-17 22:23:54,646 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwy170jkekdo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:23:54,646 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:54,678 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-17 22:23:54,678 - INFO - [The Guardian] Article: https://www.theguardian.com/music/2025/nov/17/nicki-minaj-un-speech-trump-nigeria-christian
+2025-11-17 22:23:54,678 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:54,716 - INFO - [The Guardian] Success with 'requests_browser'. Found content (512 words).
+2025-11-17 22:23:54,754 - INFO - Duplicate article skipped: Nicki Minaj to spotlight plight of Nigerian Christians in UN speech arranged by White House | Nicki Minaj | The Guardian from The Guardian
+2025-11-17 22:23:54,863 - INFO - [BBC] Success with 'requests_browser'. Found content (715 words).
+2025-11-17 22:23:54,905 - INFO - Duplicate article skipped: Ukraine to get 100 French-made Rafale F4 fighter jets in 'historic' deal from BBC
+2025-11-17 22:23:55,444 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp3dgkx419qo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:23:55,444 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:55,479 - INFO - [BBC] Success with 'requests_browser'. Found content (707 words).
+2025-11-17 22:23:55,517 - INFO - Saved article: South Africa to refuse charter flights of Palestinians over fears of 'cleansing agenda' from BBC
+2025-11-17 22:23:55,967 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/eswatini-5-m-dollars-us-deportees
+2025-11-17 22:23:55,967 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:55,998 - INFO - [The Guardian] Success with 'requests_browser'. Found content (330 words).
+2025-11-17 22:23:56,033 - INFO - Duplicate article skipped: Eswatini confirms receiving over $5m from US to accept deportees | Eswatini | The Guardian from The Guardian
+2025-11-17 22:23:56,081 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpd2gwwx101o?at_medium=RSS&at_campaign=rss
+2025-11-17 22:23:56,081 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:56,126 - INFO - [BBC] Success with 'requests_browser'. Found content (425 words).
+2025-11-17 22:23:56,160 - INFO - Duplicate article skipped: Louvre closes gallery due to structural issue from BBC
+2025-11-17 22:23:56,906 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cg3ee303yxpo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:23:56,906 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:56,948 - INFO - [BBC] Success with 'requests_browser'. Found content (1244 words).
+2025-11-17 22:23:56,983 - INFO - Duplicate article skipped: Sheikh Hasina: Bangladesh's pro-democracy icon who became an autocrat from BBC
+2025-11-17 22:23:57,043 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/sheffield-based-propagandist-sudan-rsf-militia-abdalmonim-alrabea
+2025-11-17 22:23:57,043 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:57,073 - INFO - [The Guardian] Success with 'requests_browser'. Found content (814 words).
+2025-11-17 22:23:57,112 - INFO - Duplicate article skipped: ‘His role is to recruit’: the Sheffield-based propagandist for Sudan’s RSF militia | Sudan | The Guardian from The Guardian
+2025-11-17 22:23:57,937 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/15/ethiopia-confirms-outbreak-of-deadly-marburg-virus
+2025-11-17 22:23:57,937 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:57,947 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1wlr7r747eo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:23:57,948 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:57,965 - INFO - [The Guardian] Success with 'requests_browser'. Found content (279 words).
+2025-11-17 22:23:58,001 - INFO - Duplicate article skipped: Ethiopia confirms outbreak of deadly Marburg virus | Ethiopia | The Guardian from The Guardian
+2025-11-17 22:23:58,012 - INFO - [BBC] Success with 'requests_browser'. Found content (327 words).
+2025-11-17 22:23:58,046 - INFO - Saved article: Johann Sebastian Bach: Lost pieces performed for first time in 320 years from BBC
+2025-11-17 22:23:58,953 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj417gqq5n1o?at_medium=RSS&at_campaign=rss
+2025-11-17 22:23:58,953 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:58,986 - INFO - [BBC] Success with 'requests_browser'. Found content (340 words).
+2025-11-17 22:23:59,021 - INFO - Duplicate article skipped: Matthew Gruter: South African man seen at neo-Nazi rally has Australian visa revoked from BBC
+2025-11-17 22:23:59,334 - INFO - [The Guardian] Article: https://www.theguardian.com/australia-news/2025/nov/16/australia-dubai-international-airshow-defence-weapons-arms-fair-sudan-uae
+2025-11-17 22:23:59,334 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:23:59,376 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1164 words).
+2025-11-17 22:23:59,448 - INFO - Duplicate article skipped: Australia is selling arms at a weapons fair in Dubai. Are they destined to be used in Sudan atrocities? | Australia news | The Guardian from The Guardian
+2025-11-17 22:24:00,217 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/17/cop30-belem-brazil-global-warming-latest-news-updates
+2025-11-17 22:24:00,217 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:00,426 - INFO - [The Guardian] Success with 'requests_browser'. Found content (4056 words).
+2025-11-17 22:24:00,513 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr5eygg0l85o?at_medium=RSS&at_campaign=rss
+2025-11-17 22:24:00,513 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:00,516 - INFO - Saved article: Cop30: UN accused of crackdown on Indigenous people – as it happened | Cop30 | The Guardian from The Guardian
+2025-11-17 22:24:00,538 - INFO - [BBC] Success with 'requests_browser'. Found content (363 words).
+2025-11-17 22:24:00,566 - INFO - Duplicate article skipped: France investigating Vinted over alleged links to pornographic content from BBC
+2025-11-17 22:24:01,637 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2025/nov/17/uk-downplays-reports-stopped-sharing-intelligence-us-yvette-cooper
+2025-11-17 22:24:01,637 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:01,673 - INFO - [The Guardian] Success with 'requests_browser'. Found content (516 words).
+2025-11-17 22:24:01,721 - INFO - Duplicate article skipped: UK downplays reports it has stopped sharing intelligence with US regarding narco-traffickers | Yvette Cooper | The Guardian from The Guardian
+2025-11-17 22:24:01,841 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgv653v1vjo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:24:01,842 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:01,883 - INFO - [BBC] Success with 'requests_browser'. Found content (1045 words).
+2025-11-17 22:24:01,926 - INFO - Duplicate article skipped: Trump calls on House Republicans to vote to release Epstein files from BBC
+2025-11-17 22:24:02,143 - INFO - Selenium driver initialized successfully.
+2025-11-17 22:24:02,143 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-17 22:24:02,144 - INFO - Selenium driver initialized successfully.
+2025-11-17 22:24:02,144 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-17 22:24:02,247 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-17 22:24:02,247 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/influencer-lauren-loveless-marries-nikolaus-young-and-shares-sweet-vows-in-a-touching-coastal-ceremony/articleshow/125395521.cms
+2025-11-17 22:24:02,247 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:02,286 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-17 22:24:02,287 - INFO - [The Hindu] Article: https://www.thehindu.com/sci-tech/energy-and-environment/india-to-submit-updated-climate-targets-to-un-by-december-end-bhupender-yadav/article70293000.ece
+2025-11-17 22:24:02,287 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:02,736 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2dr6y0w3rjo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:24:02,737 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:02,775 - INFO - [BBC] Success with 'requests_browser'. Found content (412 words).
+2025-11-17 22:24:02,822 - INFO - Duplicate article skipped: Ariana Grande: Singapore jails Australian man who grabbed Wicked star from BBC
+2025-11-17 22:24:02,866 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/17/trump-venezuelan-drug-cartel
+2025-11-17 22:24:02,866 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:02,900 - INFO - [The Guardian] Success with 'requests_browser'. Found content (719 words).
+2025-11-17 22:24:02,961 - INFO - Duplicate article skipped: US will label supposed Venezuelan drug cartel ‘headed by Maduro’ as terrorist organization | US news | The Guardian from The Guardian
+2025-11-17 22:24:03,790 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0ex0y0p31jo?at_medium=RSS&at_campaign=rss
+2025-11-17 22:24:03,790 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:03,852 - INFO - [BBC] Success with 'requests_browser'. Found content (726 words).
+2025-11-17 22:24:03,911 - INFO - Duplicate article skipped: Ukraine to import US liquefied natural gas via Greece from BBC
+2025-11-17 22:24:04,329 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/far-right-candidate-jose-antonio-kast-favourite-to-become-chiles-next-president-after-first-round-vote
+2025-11-17 22:24:04,329 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:04,544 - INFO - [The Guardian] Success with 'requests_browser'. Found content (573 words).
+2025-11-17 22:24:04,700 - INFO - Duplicate article skipped: Far-right candidate José Antonio Kast favourite to become Chile’s next president after first round vote | Chile | The Guardian from The Guardian
+2025-11-17 22:24:05,761 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/16/have-courage-to-create-fossil-fuel-phaseout-roadmap-at-cop30-brazilian-minister-urges
+2025-11-17 22:24:05,761 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 22:24:05,842 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1091 words).
+2025-11-17 22:24:05,966 - INFO - Duplicate article skipped: Have courage to create fossil fuel phaseout roadmap at Cop30, Brazilian minister urges | Cop30 | The Guardian from The Guardian
+2025-11-17 22:24:06,147 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:06,251 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (614 words).
+2025-11-17 22:24:06,388 - INFO - Saved article: India to submit updated climate targets to U.N. by December end: Bhupender Yadav - The Hindu from The Hindu
+2025-11-17 22:24:07,321 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/mumbai/mgl-expects-restoration-of-gas-supply-by-november-18/article70290875.ece
+2025-11-17 22:24:07,321 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:09,470 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:09,848 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (199 words).
+2025-11-17 22:24:10,286 - INFO - Saved article: MGL expects restoration of gas supply by November 18 - The Hindu from The Hindu
+2025-11-17 22:24:11,502 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/west-bengal-school-recruitment-scam-tainted-candidates-have-made-it-to-the-fresh-interview-list-allege-teachers/article70290838.ece
+2025-11-17 22:24:11,504 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:14,133 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:14,349 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (576 words).
+2025-11-17 22:24:14,543 - INFO - Duplicate article skipped: West Bengal school recruitment scam: ‘Tainted’ candidates have made it to the fresh interview list, allege teachers - The Hindu from The Hindu
+2025-11-17 22:24:15,295 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/school-children-move-delhi-hc-seeking-rescheduling-of-outdoor-sports-to-months-with-safer-air-quality/article70291661.ece
+2025-11-17 22:24:15,295 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:19,804 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:19,939 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (267 words).
+2025-11-17 22:24:20,053 - INFO - Duplicate article skipped: School children move Delhi HC seeking rescheduling of outdoor sports to months with safer air quality - The Hindu from The Hindu
+2025-11-17 22:24:20,865 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/delhi-cm-targets-punjab-over-stubble-burning-air-quality-continues-to-be-very-poor/article70291879.ece
+2025-11-17 22:24:20,865 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:22,624 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:22,694 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (486 words).
+2025-11-17 22:24:22,791 - INFO - Duplicate article skipped: Delhi CM targets Punjab over stubble burning; air quality continues to be ‘very poor’ - The Hindu from The Hindu
+2025-11-17 22:24:23,633 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/director-of-municipal-administration-reviews-progress-of-kallakurichi-bus-terminus/article70290228.ece
+2025-11-17 22:24:23,634 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:26,256 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:26,361 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (111 words).
+2025-11-17 22:24:26,439 - INFO - Duplicate article skipped: Director of Municipal Administration reviews progress of Kallakurichi bus terminus - The Hindu from The Hindu
+2025-11-17 22:24:27,187 - INFO - [The Hindu] Article: https://www.thehindu.com/education/in-2024-25-india-remained-leading-place-of-origin-of-international-students-in-us-report/article70291840.ece
+2025-11-17 22:24:27,187 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:28,042 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:28,153 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (541 words).
+2025-11-17 22:24:28,277 - INFO - Duplicate article skipped: In 2024-25, India remained leading place of origin of international students in U.S.: Report - The Hindu from The Hindu
+2025-11-17 22:24:28,806 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/madhya-pradesh/simhastha-kumbh-mela-madhya-pradesh-ujjain-land-pooling-scheme-reverted/article70292198.ece
+2025-11-17 22:24:28,806 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:24:31,777 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:24:31,945 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (394 words).
+2025-11-17 22:24:32,060 - INFO - Duplicate article skipped: Madhya Pradesh government revokes land pooling scheme for permanent Kumbh city in Ujjain amid farmers’ protest - The Hindu from The Hindu
+2025-11-17 22:24:32,865 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/india-bloc-needs-to-be-strengthened-across-the-country-after-bihar-poll-loss-selvaperunthagai/article70291700.ece
+2025-11-17 22:24:32,866 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:25:32,886 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/india-bloc-needs-to-be-strengthened-across-the-country-after-bihar-poll-loss-selvaperunthagai/article70291700.ece: Message: timeout: Timed out receiving message from renderer: 59.933
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x55d02bf2d32a <unknown>
+#1 0x55d02b979e4b <unknown>
+#2 0x55d02b961e0d <unknown>
+#3 0x55d02b961af0 <unknown>
+#4 0x55d02b95f8ff <unknown>
+#5 0x55d02b96027f <unknown>
+#6 0x55d02b96eca3 <unknown>
+#7 0x55d02b988601 <unknown>
+#8 0x55d02b98ee0b <unknown>
+#9 0x55d02b9609bd <unknown>
+#10 0x55d02b9883a7 <unknown>
+#11 0x55d02ba19170 <unknown>
+#12 0x55d02b9bec1a <unknown>
+#13 0x55d02b9bf921 <unknown>
+#14 0x55d02bef4239 <unknown>
+#15 0x55d02bef71e8 <unknown>
+#16 0x55d02bedd4c9 <unknown>
+#17 0x55d02bef7db5 <unknown>
+#18 0x55d02bec4e93 <unknown>
+#19 0x55d02bf1a098 <unknown>
+#20 0x55d02bf1a273 <unknown>
+#21 0x55d02bf2c2c3 <unknown>
+#22 0x7fe70869caa4 <unknown>
+#23 0x7fe708729c6c <unknown>
+
+2025-11-17 22:25:32,886 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/india-bloc-needs-to-be-strengthened-across-the-country-after-bihar-poll-loss-selvaperunthagai/article70291700.ece. Falling back to RSS description.
+2025-11-17 22:25:32,886 - INFO - Duplicate article skipped: INDIA bloc needs to be strengthened across the country after Bihar poll loss: Selvaperunthagai from The Hindu
+2025-11-17 22:25:33,954 - INFO - [The Hindu] Article: https://www.thehindu.com/opinion/op-ed/time-for-a-re-look-at-road-engineering/article70290114.ece
+2025-11-17 22:25:33,955 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:25:35,510 - INFO - [The Hindu] Page content loaded.
+2025-11-17 22:25:35,561 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (692 words).
+2025-11-17 22:25:35,636 - INFO - Duplicate article skipped: Time for a re-look at road engineering - The Hindu from The Hindu
+2025-11-17 22:25:36,477 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-17 22:25:36,630 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-17 22:26:02,285 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/influencer-lauren-loveless-marries-nikolaus-young-and-shares-sweet-vows-in-a-touching-coastal-ceremony/articleshow/125395521.cms: HTTPConnectionPool(host='localhost', port=40761): Read timed out. (read timeout=120)
+2025-11-17 22:26:02,285 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/influencer-lauren-loveless-marries-nikolaus-young-and-shares-sweet-vows-in-a-touching-coastal-ceremony/articleshow/125395521.cms. Falling back to RSS description.
+2025-11-17 22:26:02,287 - INFO - Saved article: Influencer Lauren Loveless marries Nikolaus Young and shares sweet vows in a touching coastal ceremony from Times of India
+2025-11-17 22:26:02,975 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/qtcinderella-faces-backlash-as-asmongold-and-tectone-question-fairness-of-the-streamer-awards/articleshow/125395371.cms
+2025-11-17 22:26:02,976 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:28:03,077 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/qtcinderella-faces-backlash-as-asmongold-and-tectone-question-fairness-of-the-streamer-awards/articleshow/125395371.cms: HTTPConnectionPool(host='localhost', port=40761): Read timed out. (read timeout=120)
+2025-11-17 22:28:03,077 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/qtcinderella-faces-backlash-as-asmongold-and-tectone-question-fairness-of-the-streamer-awards/articleshow/125395371.cms. Falling back to RSS description.
+2025-11-17 22:28:03,078 - INFO - Saved article: QTCinderella faces backlash as Asmongold and Tectone question fairness of the streamer awards from Times of India
+2025-11-17 22:28:04,178 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/did-fbi-remove-trumps-name-from-epstein-files-report-claims-review-of-100000-documents-300gb-of-evidence/articleshow/125394873.cms
+2025-11-17 22:28:04,178 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 22:28:54,415 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-11-17 22:28:54,416 - ERROR - A thread has timed out and will be abandoned.
+2025-11-17 22:28:54,416 - INFO - Shutting down thread pool (wait=False)...
+2025-11-17 22:28:54,416 - INFO - Scraped: 2 BBC, 2 The Hindu, 1 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 5)
+2025-11-17 22:28:54,416 - INFO - --- Scraping job finished ---
+2025-11-17 22:28:54,416 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-17 22:28:54,416 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
