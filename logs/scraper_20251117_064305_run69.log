@@ -1,0 +1,147 @@
+2025-11-17 06:38:05,113 - INFO - Initializing database connection at: news_articles.db
+2025-11-17 06:38:05,113 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-17 06:38:05,113 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-17 06:38:05,113 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-17 06:38:05,113 - INFO - Proxy is DISABLED.
+2025-11-17 06:38:05,114 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-17 06:38:05,114 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-17 06:38:05,114 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-17 06:38:05,114 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-17 06:38:05,115 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-17 06:38:05,115 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-17 06:38:05,115 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-17 06:38:05,354 - INFO - Found 37 articles in BBC RSS feed. Processing up to 10.
+2025-11-17 06:38:05,354 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgv653v1vjo?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:05,354 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:05,388 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-17 06:38:05,388 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/15/ethiopia-confirms-outbreak-of-deadly-marburg-virus
+2025-11-17 06:38:05,388 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:05,427 - INFO - [The Guardian] Success with 'requests_browser'. Found content (279 words).
+2025-11-17 06:38:05,462 - INFO - Duplicate article skipped: Ethiopia confirms outbreak of deadly Marburg virus | Ethiopia | The Guardian from The Guardian
+2025-11-17 06:38:05,520 - INFO - [BBC] Success with 'requests_browser'. Found content (822 words).
+2025-11-17 06:38:05,618 - INFO - Saved article: Trump calls on House Republicans to vote to release Epstein files from BBC
+2025-11-17 06:38:06,095 - INFO - [The Guardian] Article: https://www.theguardian.com/australia-news/2025/nov/16/australia-dubai-international-airshow-defence-weapons-arms-fair-sudan-uae
+2025-11-17 06:38:06,095 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:06,144 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1164 words).
+2025-11-17 06:38:06,194 - INFO - Duplicate article skipped: Australia is selling arms at a weapons fair in Dubai. Are they destined to be used in Sudan atrocities? | Australia news | The Guardian from The Guardian
+2025-11-17 06:38:06,509 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2emyz0zpxko?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:06,509 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:06,551 - INFO - [BBC] Success with 'requests_browser'. Found content (1461 words).
+2025-11-17 06:38:06,586 - INFO - Duplicate article skipped: Haditha: Two US marines implicated in killing family in notorious Iraq war shooting, expert tells BBC from BBC
+2025-11-17 06:38:06,889 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/15/health-uk-cut-global-fund-aids-tuberculosis-tb-malaria-africa
+2025-11-17 06:38:06,889 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:06,927 - INFO - [The Guardian] Success with 'requests_browser'. Found content (681 words).
+2025-11-17 06:38:06,962 - INFO - Duplicate article skipped: UK warned that 15% cut to health fund will force ‘impossible choices’ on Africa | Global Fund to Fight Aids, Tuberculosis and Malaria | The Guardian from The Guardian
+2025-11-17 06:38:07,550 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/14/anger-south-africa-plane-palestinians-held-12-hours
+2025-11-17 06:38:07,550 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:07,588 - INFO - [The Guardian] Success with 'requests_browser'. Found content (620 words).
+2025-11-17 06:38:07,630 - INFO - Duplicate article skipped: South Africa to investigate ‘mysterious’ arrival of 153 Palestinians on plane | South Africa | The Guardian from The Guardian
+2025-11-17 06:38:08,053 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crkl3d6pegpo?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:08,053 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:08,110 - INFO - [BBC] Success with 'requests_browser'. Found content (2228 words).
+2025-11-17 06:38:08,150 - INFO - Duplicate article skipped: How realistic is the plan to build a 'drone wall' against Russia? from BBC
+2025-11-17 06:38:08,814 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/14/british-egyptian-activist-alaa-abd-el-fattah-stopped-from-flying-to-uk-says-family
+2025-11-17 06:38:08,814 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:08,853 - INFO - [The Guardian] Success with 'requests_browser'. Found content (456 words).
+2025-11-17 06:38:08,894 - INFO - Duplicate article skipped: British-Egyptian activist stopped from flying to UK, says family | Egypt | The Guardian from The Guardian
+2025-11-17 06:38:09,317 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crexy0e2373o?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:09,317 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:09,351 - INFO - [BBC] Success with 'requests_browser'. Found content (755 words).
+2025-11-17 06:38:09,382 - INFO - Saved article: Jurors in Toyah Cordingley murder trial visit beach where body found from BBC
+2025-11-17 06:38:09,820 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/far-right-candidate-jose-antonio-kast-favourite-to-become-chiles-next-president-after-first-round-vote
+2025-11-17 06:38:09,820 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:09,857 - INFO - [The Guardian] Success with 'requests_browser'. Found content (573 words).
+2025-11-17 06:38:09,911 - INFO - Duplicate article skipped: Far-right candidate José Antonio Kast favourite to become Chile’s next president after first round vote | Chile | The Guardian from The Guardian
+2025-11-17 06:38:10,591 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0jd0v8dvpwo?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:10,591 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:10,621 - INFO - [BBC] Success with 'requests_browser'. Found content (566 words).
+2025-11-17 06:38:10,648 - INFO - Duplicate article skipped: Communist and far-right candidates head to Chile presidential run-off from BBC
+2025-11-17 06:38:11,195 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/16/have-courage-to-create-fossil-fuel-phaseout-roadmap-at-cop30-brazilian-minister-urges
+2025-11-17 06:38:11,195 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:11,243 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1091 words).
+2025-11-17 06:38:11,297 - INFO - Duplicate article skipped: Have courage to create fossil fuel phaseout roadmap at Cop30, Brazilian minister urges | Cop30 | The Guardian from The Guardian
+2025-11-17 06:38:11,702 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqjw2x10njeo?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:11,702 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:11,828 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/16/gen-z-protests-against-mexico-president-turn-violent-amid-anger-over-mayors-death
+2025-11-17 06:38:11,829 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:11,863 - INFO - [The Guardian] Success with 'requests_browser'. Found content (541 words).
+2025-11-17 06:38:11,896 - INFO - Duplicate article skipped: At least 120 hurt in gen Z protests over corruption and drug violence in Mexico | Mexico | The Guardian from The Guardian
+2025-11-17 06:38:12,116 - INFO - [BBC] Success with 'requests_browser'. Found content (947 words).
+2025-11-17 06:38:12,147 - INFO - Duplicate article skipped: Gujarat: Hackers steal maternity ward CCTV videos in India cybercrime racket from BBC
+2025-11-17 06:38:12,822 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c891zkwvjl2o?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:12,823 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:12,859 - INFO - [BBC] Success with 'requests_browser'. Found content (624 words).
+2025-11-17 06:38:12,896 - INFO - Saved article: Ecuador votes against allowing foreign military bases in country from BBC
+2025-11-17 06:38:13,380 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/16/chile-election-president-crime-migration-fears
+2025-11-17 06:38:13,380 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:13,413 - INFO - [The Guardian] Success with 'requests_browser'. Found content (664 words).
+2025-11-17 06:38:13,448 - INFO - Duplicate article skipped: Chile votes for next president in contest dominated by crime and migration fears | Chile | The Guardian from The Guardian
+2025-11-17 06:38:13,671 - INFO - Selenium driver initialized successfully.
+2025-11-17 06:38:13,671 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-17 06:38:13,672 - INFO - Selenium driver initialized successfully.
+2025-11-17 06:38:13,672 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-17 06:38:13,900 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-17 06:38:13,900 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/india/over-40-indians-feared-dead-in-saudi-arabia-mecca-bound-bus-collides-with-diesel-tanker-majority-pilgrims-from-hyderabad/articleshow/125376587.cms
+2025-11-17 06:38:13,900 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:38:14,261 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgkz42yz35do?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:14,261 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:14,419 - INFO - [BBC] Success with 'requests_browser'. Found content (1219 words).
+2025-11-17 06:38:14,464 - INFO - Saved article: The oil pipeline feud testing Canada's global ambitions from BBC
+2025-11-17 06:38:14,465 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/16/caribbean-reparations-crc-uk-visit-britain-colonial-legacy
+2025-11-17 06:38:14,465 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:14,502 - INFO - [The Guardian] Success with 'requests_browser'. Found content (667 words).
+2025-11-17 06:38:14,550 - INFO - Duplicate article skipped: Caribbean reparations leaders in ‘historic’ first UK visit to press for justice | Reparations and reparative justice | The Guardian from The Guardian
+2025-11-17 06:38:14,571 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-17 06:38:14,572 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/supreme-court-seeks-saharas-response-on-amicus-submission-of-34-claims-to-properties-siccl-wants-to-sell-to-adani-properties/article70289614.ece
+2025-11-17 06:38:14,572 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:38:15,705 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn8vm30rr78o?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:15,705 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:15,752 - INFO - [BBC] Success with 'requests_browser'. Found content (410 words).
+2025-11-17 06:38:15,826 - INFO - Duplicate article skipped: Thousands protest against government in Mexico City as clashes leave 120 injured from BBC
+2025-11-17 06:38:16,513 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqx3n4r2g04o?at_medium=RSS&at_campaign=rss
+2025-11-17 06:38:16,514 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-17 06:38:16,617 - INFO - [BBC] Success with 'requests_browser'. Found content (468 words).
+2025-11-17 06:38:16,745 - INFO - Duplicate article skipped: Charlotte faces DHS crackdown as agents target 'criminal illegal aliens' from BBC
+2025-11-17 06:38:19,415 - INFO - [The Hindu] Page content loaded.
+2025-11-17 06:38:19,581 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (525 words).
+2025-11-17 06:38:19,827 - INFO - Saved article: Supreme Court seeks Sahara’s response on amicus submission of 34 claims to properties SICCL wants to sell to Adani Properties - The Hindu from The Hindu
+2025-11-17 06:38:20,367 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/kerala-mvd-detects-suspected-state-government-scrapped-vehicle-re-registration-fraud/article70289640.ece
+2025-11-17 06:38:20,367 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:38:22,925 - INFO - [The Hindu] Page content loaded.
+2025-11-17 06:38:23,220 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (376 words).
+2025-11-17 06:38:23,389 - INFO - Saved article: Kerala MVD detects suspected State government-scrapped vehicle re-registration fraud - The Hindu from The Hindu
+2025-11-17 06:38:24,659 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/dubai-air-show-2025-november-17-2025-india-air-force/article70289586.ece
+2025-11-17 06:38:24,659 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:38:30,396 - INFO - [The Hindu] Page content loaded.
+2025-11-17 06:38:30,752 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (292 words).
+2025-11-17 06:38:31,071 - INFO - Saved article: India to showcase defence prowess at Dubai Air Show 2025 from November 17 - The Hindu from The Hindu
+2025-11-17 06:38:32,570 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/bengal-governor-search-operation-raj-bhavan-november-17/article70289585.ece
+2025-11-17 06:38:32,570 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:40:14,000 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/india/over-40-indians-feared-dead-in-saudi-arabia-mecca-bound-bus-collides-with-diesel-tanker-majority-pilgrims-from-hyderabad/articleshow/125376587.cms: HTTPConnectionPool(host='localhost', port=52567): Read timed out. (read timeout=120)
+2025-11-17 06:40:14,000 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/india/over-40-indians-feared-dead-in-saudi-arabia-mecca-bound-bus-collides-with-diesel-tanker-majority-pilgrims-from-hyderabad/articleshow/125376587.cms. Falling back to RSS description.
+2025-11-17 06:40:14,002 - INFO - Saved article: Over 40 Indians feared dead in Saudi Arabia: Medina-bound bus collides with diesel tanker; majority pilgrims from Hyderabad from Times of India
+2025-11-17 06:40:15,501 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/qatars-best-view-yet-the-fastest-annual-meteor-shower-arrives-nov-17/articleshow/125377745.cms
+2025-11-17 06:40:15,501 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:40:32,668 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/west-bengal/bengal-governor-search-operation-raj-bhavan-november-17/article70289585.ece: HTTPConnectionPool(host='localhost', port=40965): Read timed out. (read timeout=120)
+2025-11-17 06:40:32,668 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/west-bengal/bengal-governor-search-operation-raj-bhavan-november-17/article70289585.ece. Falling back to RSS description.
+2025-11-17 06:40:32,671 - INFO - Saved article: Bengal Governor to lead search operation at Raj Bhavan for “arms” post TMC MP's allegations from The Hindu
+2025-11-17 06:40:34,137 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/woman-killed-four-injured-as-cars-collide-on-highway-in-keralas-kasaragod/article70289597.ece
+2025-11-17 06:40:34,137 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:42:15,601 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/qatars-best-view-yet-the-fastest-annual-meteor-shower-arrives-nov-17/articleshow/125377745.cms: HTTPConnectionPool(host='localhost', port=52567): Read timed out. (read timeout=120)
+2025-11-17 06:42:15,601 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/qatars-best-view-yet-the-fastest-annual-meteor-shower-arrives-nov-17/articleshow/125377745.cms. Falling back to RSS description.
+2025-11-17 06:42:15,604 - INFO - Saved article: Qatar’s best view yet: The fastest annual meteor shower arrives Nov 17 from Times of India
+2025-11-17 06:42:16,308 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/india/helpline-numbers-released-after-indian-pilgrims-killed-in-saudi-bus-crash-owaisi-requests-govt-to-bring-back-bodies-what-we-know-so-far/articleshow/125377120.cms
+2025-11-17 06:42:16,308 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:42:34,238 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/kerala/woman-killed-four-injured-as-cars-collide-on-highway-in-keralas-kasaragod/article70289597.ece: HTTPConnectionPool(host='localhost', port=40965): Read timed out. (read timeout=120)
+2025-11-17 06:42:34,238 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/kerala/woman-killed-four-injured-as-cars-collide-on-highway-in-keralas-kasaragod/article70289597.ece. Falling back to RSS description.
+2025-11-17 06:42:34,247 - INFO - Saved article: Woman killed, four injured as cars collide on highway in Kerala’s Kasaragod from The Hindu
+2025-11-17 06:42:35,384 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/saudi-umrah-bus-tragedy-telangana-cm-revanth-reddy-asks-cs-dgp-to-coordinate-with-indian-embassy/article70289557.ece
+2025-11-17 06:42:35,384 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-17 06:43:05,115 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-11-17 06:43:05,116 - ERROR - A thread has timed out and will be abandoned.
+2025-11-17 06:43:05,116 - ERROR - A thread has timed out and will be abandoned.
+2025-11-17 06:43:05,116 - INFO - Shutting down thread pool (wait=False)...
+2025-11-17 06:43:05,116 - INFO - Scraped: 0 The Guardian, 4 BBC, 2 Timed_Out_Jobs articles. (Total saved: 4)
+2025-11-17 06:43:05,116 - INFO - --- Scraping job finished ---
+2025-11-17 06:43:05,116 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-17 06:43:05,117 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
