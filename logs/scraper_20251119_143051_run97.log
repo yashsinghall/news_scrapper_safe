@@ -1,0 +1,185 @@
+2025-11-19 14:25:51,699 - INFO - Initializing database connection at: news_articles.db
+2025-11-19 14:25:51,699 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-19 14:25:51,700 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-19 14:25:51,700 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-19 14:25:51,700 - INFO - Proxy is DISABLED.
+2025-11-19 14:25:51,700 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-19 14:25:51,700 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-19 14:25:51,700 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-19 14:25:51,701 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-19 14:25:51,701 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-19 14:25:51,701 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-19 14:25:51,703 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-19 14:25:51,788 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-19 14:25:51,788 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/19/new-drug-could-be-breakthrough-killer-tb-tuberculosis-sorfequiline
+2025-11-19 14:25:51,788 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:51,818 - INFO - [The Guardian] Success with 'requests_browser'. Found content (589 words).
+2025-11-19 14:25:51,858 - INFO - Duplicate article skipped: New drug could be a breakthrough in treatment for killer TB, trial suggests | Global health | The Guardian from The Guardian
+2025-11-19 14:25:51,863 - INFO - Found 31 articles in BBC RSS feed. Processing up to 10.
+2025-11-19 14:25:51,863 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy0yere4k0zo?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:51,864 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:52,001 - INFO - [BBC] Success with 'requests_browser'. Found content (791 words).
+2025-11-19 14:25:52,128 - INFO - Duplicate article skipped: Russian attack on Ternopil kills 25 in one of deadliest strikes on western Ukraine from BBC
+2025-11-19 14:25:52,976 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/18/congo-basin-rainforest-africa-research-funding-aoe
+2025-11-19 14:25:52,977 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:53,003 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1040 words).
+2025-11-19 14:25:53,042 - INFO - Duplicate article skipped: The rainforest the world forgot: the Congo basin is the second largest on Earth, so why is it being neglected? | Global development | The Guardian from The Guardian
+2025-11-19 14:25:53,375 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn0gdkwp2p9o?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:53,375 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:53,609 - INFO - [BBC] Success with 'requests_browser'. Found content (663 words).
+2025-11-19 14:25:53,641 - INFO - Duplicate article skipped: 'Things happen' - Trump defends Saudi crown prince over Khashoggi killing from BBC
+2025-11-19 14:25:54,281 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/17/nestle-accused-of-risking-health-of-babies-for-profit-over-added-sugar-in-cereals-sold-in-african-countries
+2025-11-19 14:25:54,281 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:54,317 - INFO - [The Guardian] Success with 'requests_browser'. Found content (744 words).
+2025-11-19 14:25:54,367 - INFO - Duplicate article skipped: Nestlé accused of ‘risking health of babies for profit’ over added sugar in cereals sold in African countries | Global development | The Guardian from The Guardian
+2025-11-19 14:25:54,591 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm2emm4737zo?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:54,591 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:54,615 - INFO - [BBC] Success with 'requests_browser'. Found content (343 words).
+2025-11-19 14:25:54,646 - INFO - Duplicate article skipped: Gustav Klimt painting becomes second most expensive artwork sold at auction from BBC
+2025-11-19 14:25:55,379 - INFO - Selenium driver initialized successfully.
+2025-11-19 14:25:55,379 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-19 14:25:55,380 - INFO - Selenium driver initialized successfully.
+2025-11-19 14:25:55,380 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-19 14:25:55,590 - INFO - [The Guardian] Article: https://www.theguardian.com/music/2025/nov/17/nicki-minaj-un-speech-trump-nigeria-christian
+2025-11-19 14:25:55,590 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:55,611 - INFO - [The Guardian] Success with 'requests_browser'. Found content (512 words).
+2025-11-19 14:25:55,646 - INFO - Duplicate article skipped: Nicki Minaj to spotlight plight of Nigerian Christians in UN speech arranged by White House | Nicki Minaj | The Guardian from The Guardian
+2025-11-19 14:25:55,657 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-19 14:25:55,658 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/are-jack-doherty-and-mckinley-richardson-still-together-youtubers-miami-arrest-has-fans-digging-into-their-past-/articleshow/125439406.cms
+2025-11-19 14:25:55,658 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:25:55,970 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxr1r34ev9o?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:55,970 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:56,004 - INFO - [BBC] Success with 'requests_browser'. Found content (1174 words).
+2025-11-19 14:25:56,056 - INFO - Duplicate article skipped: Epstein files: Congress votes to send bill to Trump from BBC
+2025-11-19 14:25:56,238 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-19 14:25:56,238 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/bhagavad-gita-abhiyan-at-sonda-swarnavalli-mahasamsthan/article70299525.ece
+2025-11-19 14:25:56,239 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:25:57,055 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/eswatini-5-m-dollars-us-deportees
+2025-11-19 14:25:57,055 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:57,068 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp3delkdjkqo?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:57,068 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:57,094 - INFO - [The Guardian] Success with 'requests_browser'. Found content (330 words).
+2025-11-19 14:25:57,154 - INFO - Duplicate article skipped: Eswatini confirms receiving over $5m from US to accept deportees | Eswatini | The Guardian from The Guardian
+2025-11-19 14:25:57,249 - INFO - [BBC] Success with 'requests_browser'. Found content (791 words).
+2025-11-19 14:25:57,335 - INFO - Duplicate article skipped: Dadri lynching case: Mohammad Akhlaq's family says won't stop fight for justice from BBC
+2025-11-19 14:25:57,870 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0l73j781y9o?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:57,870 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:58,103 - INFO - [BBC] Success with 'requests_browser'. Found content (401 words).
+2025-11-19 14:25:58,132 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/19/cop30-live-brazilian-president-lula-climate-summit-belem-latest-news-updates
+2025-11-19 14:25:58,132 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:25:58,196 - INFO - Duplicate article skipped: Lebanon says Israeli strike killed 13 people near Palestinian refugee camp from BBC
+2025-11-19 14:25:58,932 - INFO - [The Guardian] Success with 'requests_browser'. Found content (3099 words).
+2025-11-19 14:25:59,136 - INFO - Saved article: Cop30 live: Brazil aims for early agreement on ‘big four’ issues | Cop30 | The Guardian from The Guardian
+2025-11-19 14:25:59,690 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crmxgymr8ewo?at_medium=RSS&at_campaign=rss
+2025-11-19 14:25:59,691 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:00,030 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/19/argentina-immunisations-childhood-adolescent-plummet
+2025-11-19 14:26:00,030 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:00,089 - INFO - [The Guardian] Success with 'requests_browser'. Found content (654 words).
+2025-11-19 14:26:00,187 - INFO - Duplicate article skipped: Disease fears as Argentina child vaccination rates hit historic lows | Argentina | The Guardian from The Guardian
+2025-11-19 14:26:00,325 - INFO - [BBC] Success with 'requests_browser'. Found content (443 words).
+2025-11-19 14:26:00,499 - INFO - Duplicate article skipped: Two Miss Universe judges quit scandal-hit pageant, as one claims it's rigged from BBC
+2025-11-19 14:26:01,204 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crl2g195n96o?at_medium=RSS&at_campaign=rss
+2025-11-19 14:26:01,204 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:01,213 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/british-woman-among-four-tourists-killed-in-blizzard-at-nature-reserve-in-chile
+2025-11-19 14:26:01,213 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:01,383 - INFO - [The Guardian] Success with 'requests_browser'. Found content (332 words).
+2025-11-19 14:26:01,439 - INFO - [BBC] Success with 'requests_browser'. Found content (515 words).
+2025-11-19 14:26:01,557 - INFO - Duplicate article skipped: British woman among four tourists killed in blizzard at nature reserve in Chile | Chile | The Guardian from The Guardian
+2025-11-19 14:26:01,615 - INFO - Duplicate article skipped: Clay Higgins: The lone lawmaker to vote against releasing the Epstein files from BBC
+2025-11-19 14:26:02,520 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce868dmz2mdo?at_medium=RSS&at_campaign=rss
+2025-11-19 14:26:02,520 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:02,716 - INFO - [BBC] Success with 'requests_browser'. Found content (422 words).
+2025-11-19 14:26:02,832 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/claudia-sheinbaum-us-military-mexico-trump
+2025-11-19 14:26:02,841 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:03,027 - INFO - Saved article: Larry Summers resigns from OpenAI board after Epstein emails made public from BBC
+2025-11-19 14:26:03,053 - INFO - [The Guardian] Success with 'requests_browser'. Found content (439 words).
+2025-11-19 14:26:03,356 - INFO - Duplicate article skipped: Sheinbaum again dismisses Trump’s threat of sending troops to Mexico: ‘We do not want intervention’ | Claudia Sheinbaum | The Guardian from The Guardian
+2025-11-19 14:26:03,779 - INFO - [The Hindu] Page content loaded.
+2025-11-19 14:26:04,005 - WARNING - [The Hindu] FAILED with 'selenium_browser' (content was too short: 64 words).
+2025-11-19 14:26:04,005 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/karnataka/bhagavad-gita-abhiyan-at-sonda-swarnavalli-mahasamsthan/article70299525.ece. Falling back to RSS description.
+2025-11-19 14:26:04,009 - INFO - Saved article: Bhagavad Gita Abhiyan at Sonda Swarnavalli Mahasamsthan from The Hindu
+2025-11-19 14:26:04,493 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3vngv60l0qo?at_medium=RSS&at_campaign=rss
+2025-11-19 14:26:04,493 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:04,580 - INFO - [BBC] Success with 'requests_browser'. Found content (499 words).
+2025-11-19 14:26:04,683 - INFO - Saved article: Gen Z protests: Kenya authorities paid trolls to threaten activists, Amnesty says from BBC
+2025-11-19 14:26:04,802 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/argentina-judge-diego-maradona-case-fired
+2025-11-19 14:26:04,802 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 14:26:05,068 - INFO - [The Guardian] Success with 'requests_browser'. Found content (310 words).
+2025-11-19 14:26:05,300 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/btech-student-dies-after-auto-trolley-rams-bike-in-shamshabad/article70299271.ece
+2025-11-19 14:26:05,300 - INFO - Duplicate article skipped: Argentina judge fired after causing mistrial in case over Maradona’s death | Argentina | The Guardian from The Guardian
+2025-11-19 14:26:05,301 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:26:55,697 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/are-jack-doherty-and-mckinley-richardson-still-together-youtubers-miami-arrest-has-fans-digging-into-their-past-/articleshow/125439406.cms: Message: timeout: Timed out receiving message from renderer: 59.652
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x56196512732a <unknown>
+#1 0x561964b73e4b <unknown>
+#2 0x561964b5be0d <unknown>
+#3 0x561964b5baf0 <unknown>
+#4 0x561964b598ff <unknown>
+#5 0x561964b5a27f <unknown>
+#6 0x561964b68ca3 <unknown>
+#7 0x561964b82601 <unknown>
+#8 0x561964b88e0b <unknown>
+#9 0x561964b5a9bd <unknown>
+#10 0x561964b823a7 <unknown>
+#11 0x561964c13170 <unknown>
+#12 0x561964bb8c1a <unknown>
+#13 0x561964bb9921 <unknown>
+#14 0x5619650ee239 <unknown>
+#15 0x5619650f11e8 <unknown>
+#16 0x5619650d74c9 <unknown>
+#17 0x5619650f1db5 <unknown>
+#18 0x5619650bee93 <unknown>
+#19 0x561965114098 <unknown>
+#20 0x561965114273 <unknown>
+#21 0x5619651262c3 <unknown>
+#22 0x7f2a9389caa4 <unknown>
+#23 0x7f2a93929c6c <unknown>
+
+2025-11-19 14:26:55,698 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/are-jack-doherty-and-mckinley-richardson-still-together-youtubers-miami-arrest-has-fans-digging-into-their-past-/articleshow/125439406.cms. Falling back to RSS description.
+2025-11-19 14:26:55,702 - INFO - Saved article: Are Jack Doherty and McKinley Richardson still together? YouTuber’s Miami arrest has fans digging into their past. from Times of India
+2025-11-19 14:26:56,699 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/las-vegas-police-report-sheds-light-on-death-of-uae-based-indian-influencer-anunay-sood/articleshow/125437426.cms
+2025-11-19 14:26:56,699 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:26:58,184 - INFO - [Times of India] Page content loaded.
+2025-11-19 14:26:58,319 - INFO - [Times of India] Success with 'selenium_browser'. Found content (663 words).
+2025-11-19 14:26:58,380 - INFO - Saved article: Las Vegas police report sheds light on death of UAE based Indian influencer Anunay Sood | World News - The Times of India from Times of India
+2025-11-19 14:26:59,474 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/mamdani-is-indian-mehdi-hasan-fires-back-after-donald-trumps-son-says-zohran-hates-indians/articleshow/125437933.cms
+2025-11-19 14:26:59,474 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:27:01,249 - INFO - [Times of India] Page content loaded.
+2025-11-19 14:27:01,366 - INFO - [Times of India] Success with 'selenium_browser'. Found content (303 words).
+2025-11-19 14:27:01,452 - INFO - Saved article: ‘Mamdani is Indian’: Mehdi Hasan fires back after Donald Trump's son says Zohran ‘hates Indians’ - The Times of India from Times of India
+2025-11-19 14:27:02,717 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/row-erupts-over-trump-calling-woman-journalist-piggy-during-epstein-question-should-be-written-on-his-tombstone/articleshow/125436704.cms
+2025-11-19 14:27:02,717 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:27:04,218 - INFO - [Times of India] Page content loaded.
+2025-11-19 14:27:04,350 - INFO - [Times of India] Success with 'selenium_browser'. Found content (266 words).
+2025-11-19 14:27:04,453 - INFO - Duplicate article skipped: Row erupts over Trump calling woman journalist ‘piggy’ over Epstein question: ‘Should be written on his tombstone' - The Times of India from Times of India
+2025-11-19 14:27:05,304 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-questions-why-egyptian-planes-matched-erika-kirks-locations-and-wants-answers-about-charlie-kirks-assassination/articleshow/125421437.cms
+2025-11-19 14:27:05,304 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:27:06,702 - INFO - [Times of India] Page content loaded.
+2025-11-19 14:27:06,852 - INFO - [Times of India] Success with 'selenium_browser'. Found content (431 words).
+2025-11-19 14:27:06,916 - INFO - Duplicate article skipped: Candace Owens questions why Egyptian planes matched Erika Kirk’s locations and wants answers about Charlie Kirk’s assassination - The Times of India from Times of India
+2025-11-19 14:27:08,299 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/tiktok-star-becca-bloom-fires-back-after-facing-backlash-about-her-wealth-and-inequality-video/articleshow/125436460.cms
+2025-11-19 14:27:08,300 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:28:05,356 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/cities/Hyderabad/btech-student-dies-after-auto-trolley-rams-bike-in-shamshabad/article70299271.ece: HTTPConnectionPool(host='localhost', port=56317): Read timed out. (read timeout=120)
+2025-11-19 14:28:05,356 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/Hyderabad/btech-student-dies-after-auto-trolley-rams-bike-in-shamshabad/article70299271.ece. Falling back to RSS description.
+2025-11-19 14:28:05,358 - INFO - Saved article: B.Tech student dies after auto trolley rams bike in Shamshabad from The Hindu
+2025-11-19 14:28:05,879 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/guest-lecturers-plea-to-cm/article70299435.ece
+2025-11-19 14:28:05,879 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:29:08,401 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/tiktok-star-becca-bloom-fires-back-after-facing-backlash-about-her-wealth-and-inequality-video/articleshow/125436460.cms: HTTPConnectionPool(host='localhost', port=50017): Read timed out. (read timeout=120)
+2025-11-19 14:29:08,401 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/tiktok-star-becca-bloom-fires-back-after-facing-backlash-about-her-wealth-and-inequality-video/articleshow/125436460.cms. Falling back to RSS description.
+2025-11-19 14:29:08,402 - INFO - Duplicate article skipped: TikTok star Becca Bloom fires back after facing backlash about her wealth and inequality video from Times of India
+2025-11-19 14:29:09,119 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/mizkif-caught-on-camera-at-quiet-dinner-with-asian-girl-as-emiru-claims-and-lawsuit-grow-louder-online/articleshow/125435344.cms
+2025-11-19 14:29:09,120 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:30:05,980 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/karnataka/guest-lecturers-plea-to-cm/article70299435.ece: HTTPConnectionPool(host='localhost', port=56317): Read timed out. (read timeout=120)
+2025-11-19 14:30:05,980 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/karnataka/guest-lecturers-plea-to-cm/article70299435.ece. Falling back to RSS description.
+2025-11-19 14:30:05,983 - INFO - Saved article: Guest lecturers’ plea to CM from The Hindu
+2025-11-19 14:30:07,406 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/farmers-left-in-the-lurch-as-govt-pushes-hiltp-bjp/article70298628.ece
+2025-11-19 14:30:07,406 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 14:30:51,703 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-11-19 14:30:51,703 - ERROR - A thread has timed out and will be abandoned.
+2025-11-19 14:30:51,703 - ERROR - A thread has timed out and will be abandoned.
+2025-11-19 14:30:51,703 - INFO - Shutting down thread pool (wait=False)...
+2025-11-19 14:30:51,703 - INFO - Scraped: 1 The Guardian, 2 BBC, 2 Timed_Out_Jobs articles. (Total saved: 3)
+2025-11-19 14:30:51,703 - INFO - --- Scraping job finished ---
+2025-11-19 14:30:51,704 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-19 14:30:51,704 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
