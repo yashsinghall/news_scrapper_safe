@@ -1,0 +1,142 @@
+2025-11-19 03:16:42,097 - INFO - Initializing database connection at: news_articles.db
+2025-11-19 03:16:42,098 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-19 03:16:42,098 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-19 03:16:42,098 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-19 03:16:42,098 - INFO - Proxy is DISABLED.
+2025-11-19 03:16:42,098 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-19 03:16:42,099 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-19 03:16:42,099 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-19 03:16:42,099 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-19 03:16:42,102 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-19 03:16:42,102 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-19 03:16:42,103 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-19 03:16:42,221 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-19 03:16:42,221 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/18/congo-basin-rainforest-africa-research-funding-aoe
+2025-11-19 03:16:42,221 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:42,256 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1040 words).
+2025-11-19 03:16:42,297 - INFO - Duplicate article skipped: The rainforest the world forgot: the Congo basin is the second largest on Earth, so why is it being neglected? | Global development | The Guardian from The Guardian
+2025-11-19 03:16:42,369 - INFO - Found 25 articles in BBC RSS feed. Processing up to 10.
+2025-11-19 03:16:42,370 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxr1r34ev9o?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:42,370 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:42,504 - INFO - [BBC] Success with 'requests_browser'. Found content (960 words).
+2025-11-19 03:16:42,546 - INFO - Duplicate article skipped: Congress approves bill to release Epstein files that will head to Trump's desk from BBC
+2025-11-19 03:16:43,230 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0l73j781y9o?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:43,230 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:43,348 - INFO - [BBC] Success with 'requests_browser'. Found content (401 words).
+2025-11-19 03:16:43,355 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/17/nestle-accused-of-risking-health-of-babies-for-profit-over-added-sugar-in-cereals-sold-in-african-countries
+2025-11-19 03:16:43,361 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:43,376 - INFO - Duplicate article skipped: Lebanon says Israeli strike killed 13 people near Palestinian refugee camp from BBC
+2025-11-19 03:16:43,407 - INFO - [The Guardian] Success with 'requests_browser'. Found content (744 words).
+2025-11-19 03:16:43,443 - INFO - Duplicate article skipped: Nestlé accused of ’risking health of babies for profit’ over added sugar in cereals sold in African countries | Global development | The Guardian from The Guardian
+2025-11-19 03:16:44,007 - INFO - [The Guardian] Article: https://www.theguardian.com/music/2025/nov/17/nicki-minaj-un-speech-trump-nigeria-christian
+2025-11-19 03:16:44,007 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:44,033 - INFO - [The Guardian] Success with 'requests_browser'. Found content (512 words).
+2025-11-19 03:16:44,076 - INFO - Duplicate article skipped: Nicki Minaj to spotlight plight of Nigerian Christians in UN speech arranged by White House | Nicki Minaj | The Guardian from The Guardian
+2025-11-19 03:16:44,636 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c993e74pxd7o?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:44,636 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:44,667 - INFO - [BBC] Success with 'requests_browser'. Found content (591 words).
+2025-11-19 03:16:44,698 - INFO - Duplicate article skipped: Cristiano Ronaldo to visit White House on same day as Saudi crown prince from BBC
+2025-11-19 03:16:44,901 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/eswatini-5-m-dollars-us-deportees
+2025-11-19 03:16:44,902 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:44,925 - INFO - [The Guardian] Success with 'requests_browser'. Found content (330 words).
+2025-11-19 03:16:44,960 - INFO - Duplicate article skipped: Eswatini confirms receiving over $5m from US to accept deportees | Eswatini | The Guardian from The Guardian
+2025-11-19 03:16:45,953 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg72r6myz4o?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:45,953 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:46,158 - INFO - [BBC] Success with 'requests_browser'. Found content (525 words).
+2025-11-19 03:16:46,188 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/sheffield-based-propagandist-sudan-rsf-militia-abdalmonim-alrabea
+2025-11-19 03:16:46,188 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:46,193 - INFO - Duplicate article skipped: Suspected Hezbollah member goes on trial in Germany from BBC
+2025-11-19 03:16:46,215 - INFO - [The Guardian] Success with 'requests_browser'. Found content (814 words).
+2025-11-19 03:16:46,251 - INFO - Duplicate article skipped: ‘His role is to recruit’: the Sheffield-based propagandist for Sudan’s RSF militia | Sudan | The Guardian from The Guardian
+2025-11-19 03:16:46,820 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn0gdkwp2p9o?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:46,821 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:46,856 - INFO - [BBC] Success with 'requests_browser'. Found content (659 words).
+2025-11-19 03:16:46,876 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/british-woman-among-four-tourists-killed-in-blizzard-at-nature-reserve-in-chile
+2025-11-19 03:16:46,876 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:46,890 - INFO - Duplicate article skipped: 'Things happen' - Trump defends Saudi crown prince over Khashoggi killing from BBC
+2025-11-19 03:16:46,908 - INFO - [The Guardian] Success with 'requests_browser'. Found content (332 words).
+2025-11-19 03:16:46,965 - INFO - Duplicate article skipped: British woman among four tourists killed in blizzard at nature reserve in Chile | Chile | The Guardian from The Guardian
+2025-11-19 03:16:47,480 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c740290l8gzo?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:47,480 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:47,641 - INFO - [BBC] Success with 'requests_browser'. Found content (537 words).
+2025-11-19 03:16:47,669 - INFO - Duplicate article skipped: Bodies of missing mum and child found in freezers in Austria from BBC
+2025-11-19 03:16:48,251 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/claudia-sheinbaum-us-military-mexico-trump
+2025-11-19 03:16:48,252 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:48,277 - INFO - [The Guardian] Success with 'requests_browser'. Found content (439 words).
+2025-11-19 03:16:48,314 - INFO - Duplicate article skipped: Sheinbaum again dismisses Trump’s threat of sending troops to Mexico: ‘We do not want intervention’ | Claudia Sheinbaum | The Guardian from The Guardian
+2025-11-19 03:16:48,699 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gknv8nxlzo?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:48,699 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:48,809 - INFO - [BBC] Success with 'requests_browser'. Found content (638 words).
+2025-11-19 03:16:48,851 - INFO - Duplicate article skipped: Two Ukrainians working for Russia behind rail sabotage, Polish PM says from BBC
+2025-11-19 03:16:49,098 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/argentina-judge-diego-maradona-case-fired
+2025-11-19 03:16:49,098 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:49,125 - INFO - [The Guardian] Success with 'requests_browser'. Found content (310 words).
+2025-11-19 03:16:49,173 - INFO - Duplicate article skipped: Argentina judge fired after causing mistrial in case over Maradona’s death | Argentina | The Guardian from The Guardian
+2025-11-19 03:16:49,752 - INFO - Selenium driver initialized successfully.
+2025-11-19 03:16:49,752 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-19 03:16:49,753 - INFO - Selenium driver initialized successfully.
+2025-11-19 03:16:49,753 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-19 03:16:49,830 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-19 03:16:49,830 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/defence-boost-nuclear-push-us-saudi-arabia-ink-major-agreements-f-35-sale-gets-nod/articleshow/125424228.cms
+2025-11-19 03:16:49,830 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:16:49,897 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c620p6jnynko?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:49,897 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:49,952 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-19 03:16:49,953 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/cm-stalin-accuses-centre-of-denying-metro-rail-projects-for-coimbatore-madurai-on-flimsy-grounds/article70297391.ece
+2025-11-19 03:16:49,953 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:16:50,003 - INFO - [BBC] Success with 'requests_browser'. Found content (585 words).
+2025-11-19 03:16:50,035 - INFO - Duplicate article skipped: Zelensky to meet Trump envoy in Turkey in bid to 'intensify' peace talks from BBC
+2025-11-19 03:16:50,368 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/venezuela-new-era-maria-corina-machado-trump
+2025-11-19 03:16:50,368 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:50,399 - INFO - [The Guardian] Success with 'requests_browser'. Found content (718 words).
+2025-11-19 03:16:50,444 - INFO - Duplicate article skipped: Venezuela’s top opposition leader claims ‘new era’ is coming despite lack of clear plan | Venezuela | The Guardian from The Guardian
+2025-11-19 03:16:51,204 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/17/cop30-belem-brazil-global-warming-latest-news-updates
+2025-11-19 03:16:51,204 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:51,293 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crreg2l7kezo?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:51,293 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:51,454 - INFO - [BBC] Success with 'requests_browser'. Found content (843 words).
+2025-11-19 03:16:51,573 - INFO - Duplicate article skipped: At least 94 Palestinians died in Israeli prisons in two years, human rights group says from BBC
+2025-11-19 03:16:51,820 - INFO - [The Guardian] Success with 'requests_browser'. Found content (4056 words).
+2025-11-19 03:16:52,189 - INFO - Duplicate article skipped: Cop30: UN accused of crackdown on Indigenous people – as it happened | Cop30 | The Guardian from The Guardian
+2025-11-19 03:16:52,496 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cddr199d3z0o?at_medium=RSS&at_campaign=rss
+2025-11-19 03:16:52,496 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 03:16:52,705 - INFO - [BBC] Success with 'requests_browser'. Found content (683 words).
+2025-11-19 03:16:52,794 - INFO - Duplicate article skipped: Larry Summers steps back from public role after Epstein emails emerge from BBC
+2025-11-19 03:16:55,259 - INFO - [The Hindu] Page content loaded.
+2025-11-19 03:16:55,699 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (255 words).
+2025-11-19 03:16:55,947 - INFO - Saved article: CM Stalin accuses Centre of denying Metro Rail projects for Coimbatore, Madurai on flimsy grounds - The Hindu from The Hindu
+2025-11-19 03:16:57,392 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/what-can-local-bodies-expect-from-the-16th-finance-commission-explained/article70296119.ece
+2025-11-19 03:16:57,393 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:17:02,903 - INFO - [The Hindu] Page content loaded.
+2025-11-19 03:17:03,101 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (798 words).
+2025-11-19 03:17:03,546 - INFO - Saved article: What can local bodies expect from the 16th Finance Commission? | Explained - The Hindu from The Hindu
+2025-11-19 03:17:04,059 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/gujarat/cyber-slavery-mastermind-arrested-in-gujarat/article70295663.ece
+2025-11-19 03:17:04,060 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:18:49,931 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/defence-boost-nuclear-push-us-saudi-arabia-ink-major-agreements-f-35-sale-gets-nod/articleshow/125424228.cms: HTTPConnectionPool(host='localhost', port=34227): Read timed out. (read timeout=120)
+2025-11-19 03:18:49,931 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/defence-boost-nuclear-push-us-saudi-arabia-ink-major-agreements-f-35-sale-gets-nod/articleshow/125424228.cms. Falling back to RSS description.
+2025-11-19 03:18:49,933 - INFO - Saved article: ‘Defence boost, nuclear push’: US, Saudi Arabia ink major agreements; F-35 sale gets nod from Times of India
+2025-11-19 03:18:51,008 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/bill-that-could-imprison-people-who-get-abortions-stalls-lawmakers-split-whats-in-it/articleshow/125424745.cms
+2025-11-19 03:18:51,008 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:19:04,165 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/gujarat/cyber-slavery-mastermind-arrested-in-gujarat/article70295663.ece: HTTPConnectionPool(host='localhost', port=59727): Read timed out. (read timeout=120)
+2025-11-19 03:19:04,165 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/gujarat/cyber-slavery-mastermind-arrested-in-gujarat/article70295663.ece. Falling back to RSS description.
+2025-11-19 03:19:04,167 - INFO - Saved article: Cyber-slavery mastermind arrested in Gujarat from The Hindu
+2025-11-19 03:19:05,519 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/the-row-over-karunanidhi-anna-way-periyar-way-remark-during-1991-election-campaign-in-coimbatore/article70291983.ece
+2025-11-19 03:19:05,520 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:20:51,101 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/bill-that-could-imprison-people-who-get-abortions-stalls-lawmakers-split-whats-in-it/articleshow/125424745.cms: HTTPConnectionPool(host='localhost', port=34227): Read timed out. (read timeout=120)
+2025-11-19 03:20:51,101 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/bill-that-could-imprison-people-who-get-abortions-stalls-lawmakers-split-whats-in-it/articleshow/125424745.cms. Falling back to RSS description.
+2025-11-19 03:20:51,103 - INFO - Saved article: Bill that could imprison people who get abortions stalls; lawmakers split — what’s in it? from Times of India
+2025-11-19 03:20:51,814 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/sports/nfl/news/bryce-dunlap-cause-of-death-a-young-fans-life-ends-abruptly-leaving-behind-questions-and-sadness/articleshow/125424671.cms
+2025-11-19 03:20:51,814 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:21:05,621 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/the-row-over-karunanidhi-anna-way-periyar-way-remark-during-1991-election-campaign-in-coimbatore/article70291983.ece: HTTPConnectionPool(host='localhost', port=59727): Read timed out. (read timeout=120)
+2025-11-19 03:21:05,621 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/the-row-over-karunanidhi-anna-way-periyar-way-remark-during-1991-election-campaign-in-coimbatore/article70291983.ece. Falling back to RSS description.
+2025-11-19 03:21:05,621 - INFO - Duplicate article skipped: The row over Karunanidhi’s ‘Anna way-Periyar way’ remark during 1991 election campaign from The Hindu
+2025-11-19 03:21:07,061 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/a-lost-garden-and-a-forgotten-square-in-chennai/article70289765.ece
+2025-11-19 03:21:07,061 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 03:21:42,103 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-11-19 03:21:42,103 - ERROR - A thread has timed out and will be abandoned.
+2025-11-19 03:21:42,103 - ERROR - A thread has timed out and will be abandoned.
+2025-11-19 03:21:42,103 - INFO - Shutting down thread pool (wait=False)...
+2025-11-19 03:21:42,103 - INFO - Scraped: 0 The Guardian, 0 BBC, 2 Timed_Out_Jobs articles. (Total saved: 0)
+2025-11-19 03:21:42,103 - INFO - --- Scraping job finished ---
+2025-11-19 03:21:42,104 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-19 03:21:42,104 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
