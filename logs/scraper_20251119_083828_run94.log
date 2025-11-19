@@ -1,0 +1,164 @@
+2025-11-19 08:33:28,523 - INFO - Initializing database connection at: news_articles.db
+2025-11-19 08:33:28,524 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-19 08:33:28,524 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-19 08:33:28,524 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-19 08:33:28,524 - INFO - Proxy is DISABLED.
+2025-11-19 08:33:28,524 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-19 08:33:28,525 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-19 08:33:28,525 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-19 08:33:28,525 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-19 08:33:28,526 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-19 08:33:28,526 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-19 08:33:28,527 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-19 08:33:28,616 - INFO - Found 28 articles in BBC RSS feed. Processing up to 10.
+2025-11-19 08:33:28,616 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy0yere4k0zo?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:28,616 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:28,623 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-19 08:33:28,623 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/18/congo-basin-rainforest-africa-research-funding-aoe
+2025-11-19 08:33:28,623 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:28,659 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1040 words).
+2025-11-19 08:33:28,699 - INFO - Duplicate article skipped: The rainforest the world forgot: the Congo basin is the second largest on Earth, so why is it being neglected? | Global development | The Guardian from The Guardian
+2025-11-19 08:33:28,900 - INFO - [BBC] Success with 'requests_browser'. Found content (319 words).
+2025-11-19 08:33:28,942 - INFO - Saved article: Nine killed in Russian attack on Ternopil in western Ukraine, Zelensky says from BBC
+2025-11-19 08:33:29,211 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/17/nestle-accused-of-risking-health-of-babies-for-profit-over-added-sugar-in-cereals-sold-in-african-countries
+2025-11-19 08:33:29,211 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:29,385 - INFO - [The Guardian] Success with 'requests_browser'. Found content (744 words).
+2025-11-19 08:33:29,423 - INFO - Duplicate article skipped: Nestlé accused of ’risking health of babies for profit’ over added sugar in cereals sold in African countries | Global development | The Guardian from The Guardian
+2025-11-19 08:33:30,278 - INFO - [The Guardian] Article: https://www.theguardian.com/music/2025/nov/17/nicki-minaj-un-speech-trump-nigeria-christian
+2025-11-19 08:33:30,278 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:30,300 - INFO - [The Guardian] Success with 'requests_browser'. Found content (512 words).
+2025-11-19 08:33:30,352 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn0gdkwp2p9o?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:30,353 - INFO - Duplicate article skipped: Nicki Minaj to spotlight plight of Nigerian Christians in UN speech arranged by White House | Nicki Minaj | The Guardian from The Guardian
+2025-11-19 08:33:30,353 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:30,385 - INFO - [BBC] Success with 'requests_browser'. Found content (663 words).
+2025-11-19 08:33:30,419 - INFO - Duplicate article skipped: 'Things happen' - Trump defends Saudi crown prince over Khashoggi killing from BBC
+2025-11-19 08:33:31,016 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c993e74pxd7o?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:31,016 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:31,042 - INFO - [BBC] Success with 'requests_browser'. Found content (627 words).
+2025-11-19 08:33:31,075 - INFO - Duplicate article skipped: Cristiano Ronaldo attends White House dinner alongside Saudi crown prince from BBC
+2025-11-19 08:33:31,128 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/eswatini-5-m-dollars-us-deportees
+2025-11-19 08:33:31,129 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:31,604 - INFO - [The Guardian] Success with 'requests_browser'. Found content (330 words).
+2025-11-19 08:33:31,639 - INFO - Duplicate article skipped: Eswatini confirms receiving over $5m from US to accept deportees | Eswatini | The Guardian from The Guardian
+2025-11-19 08:33:32,122 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxr1r34ev9o?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:32,122 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:32,152 - INFO - [BBC] Success with 'requests_browser'. Found content (1008 words).
+2025-11-19 08:33:32,185 - INFO - Duplicate article skipped: Congress approves bill to release Epstein files that will head to Trump's desk from BBC
+2025-11-19 08:33:32,302 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/17/sheffield-based-propagandist-sudan-rsf-militia-abdalmonim-alrabea
+2025-11-19 08:33:32,302 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:32,326 - INFO - [The Guardian] Success with 'requests_browser'. Found content (814 words).
+2025-11-19 08:33:32,364 - INFO - Duplicate article skipped: ‘His role is to recruit’: the Sheffield-based propagandist for Sudan’s RSF militia | Sudan | The Guardian from The Guardian
+2025-11-19 08:33:32,698 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crl2g195n96o?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:32,698 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:32,721 - INFO - [BBC] Success with 'requests_browser'. Found content (515 words).
+2025-11-19 08:33:32,756 - INFO - Saved article: Clay Higgins: The lone lawmaker to vote against releasing the Epstein files from BBC
+2025-11-19 08:33:33,267 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/british-woman-among-four-tourists-killed-in-blizzard-at-nature-reserve-in-chile
+2025-11-19 08:33:33,268 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:33,290 - INFO - [The Guardian] Success with 'requests_browser'. Found content (332 words).
+2025-11-19 08:33:33,350 - INFO - Duplicate article skipped: British woman among four tourists killed in blizzard at nature reserve in Chile | Chile | The Guardian from The Guardian
+2025-11-19 08:33:33,438 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2p8dpw1rwo?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:33,438 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:33,472 - INFO - [BBC] Success with 'requests_browser'. Found content (2011 words).
+2025-11-19 08:33:33,510 - INFO - Saved article: Ethiopia's Amhara conflict: The forgotten war destroying women's lives from BBC
+2025-11-19 08:33:34,174 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/claudia-sheinbaum-us-military-mexico-trump
+2025-11-19 08:33:34,174 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:34,198 - INFO - [The Guardian] Success with 'requests_browser'. Found content (439 words).
+2025-11-19 08:33:34,234 - INFO - Duplicate article skipped: Sheinbaum again dismisses Trump’s threat of sending troops to Mexico: ‘We do not want intervention’ | Claudia Sheinbaum | The Guardian from The Guardian
+2025-11-19 08:33:34,982 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0l73j781y9o?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:34,982 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:35,621 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/argentina-judge-diego-maradona-case-fired
+2025-11-19 08:33:35,621 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:35,643 - INFO - [The Guardian] Success with 'requests_browser'. Found content (310 words).
+2025-11-19 08:33:35,684 - INFO - Duplicate article skipped: Argentina judge fired after causing mistrial in case over Maradona’s death | Argentina | The Guardian from The Guardian
+2025-11-19 08:33:35,928 - INFO - [BBC] Success with 'requests_browser'. Found content (401 words).
+2025-11-19 08:33:35,957 - INFO - Duplicate article skipped: Lebanon says Israeli strike killed 13 people near Palestinian refugee camp from BBC
+2025-11-19 08:33:36,447 - INFO - Selenium driver initialized successfully.
+2025-11-19 08:33:36,447 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-19 08:33:36,448 - INFO - Selenium driver initialized successfully.
+2025-11-19 08:33:36,448 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-19 08:33:36,509 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-19 08:33:36,510 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/bahrain-unveils-incentive-program-for-domestic-retailers-to-encourage-consumer-spending-and-boost-economy-this-festive-season/articleshow/125430797.cms
+2025-11-19 08:33:36,510 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:33:36,918 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/18/venezuela-new-era-maria-corina-machado-trump
+2025-11-19 08:33:36,918 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:36,949 - INFO - [The Guardian] Success with 'requests_browser'. Found content (718 words).
+2025-11-19 08:33:36,990 - INFO - Duplicate article skipped: Venezuela’s top opposition leader claims ‘new era’ is coming despite lack of clear plan | Venezuela | The Guardian from The Guardian
+2025-11-19 08:33:37,102 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cq83lejgvdyo?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:37,102 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:37,274 - INFO - [BBC] Success with 'requests_browser'. Found content (560 words).
+2025-11-19 08:33:37,311 - INFO - Saved article: GGCSS Maga: Two schoolgirls escape Nigeria kidnap ordeal, official says from BBC
+2025-11-19 08:33:37,346 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-19 08:33:37,346 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/driving-or-walking-in-foggy-conditions-telangana-police-outlines-precautions/article70297876.ece
+2025-11-19 08:33:37,346 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:33:38,005 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/17/cop30-belem-brazil-global-warming-latest-news-updates
+2025-11-19 08:33:38,005 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:38,408 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd7r1y30ljqo?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:38,408 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:38,426 - INFO - [The Guardian] Success with 'requests_browser'. Found content (4056 words).
+2025-11-19 08:33:38,604 - INFO - Duplicate article skipped: Cop30: UN accused of crackdown on Indigenous people – as it happened | Cop30 | The Guardian from The Guardian
+2025-11-19 08:33:38,647 - INFO - [BBC] Success with 'requests_browser'. Found content (530 words).
+2025-11-19 08:33:38,701 - INFO - Saved article: Nicki Minaj at the UN: Christians are being persecuted in Nigeria from BBC
+2025-11-19 08:33:39,827 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c620p6jnynko?at_medium=RSS&at_campaign=rss
+2025-11-19 08:33:39,827 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-19 08:33:39,875 - INFO - [BBC] Success with 'requests_browser'. Found content (585 words).
+2025-11-19 08:33:40,008 - INFO - Duplicate article skipped: Zelensky to meet Trump envoy in Turkey in bid to 'intensify' peace talks from BBC
+2025-11-19 08:34:36,524 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/bahrain-unveils-incentive-program-for-domestic-retailers-to-encourage-consumer-spending-and-boost-economy-this-festive-season/articleshow/125430797.cms: Message: timeout: Timed out receiving message from renderer: 59.702
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x5610e9e9832a <unknown>
+#1 0x5610e98e4e4b <unknown>
+#2 0x5610e98cce0d <unknown>
+#3 0x5610e98ccaf0 <unknown>
+#4 0x5610e98ca8ff <unknown>
+#5 0x5610e98cb27f <unknown>
+#6 0x5610e98d9ca3 <unknown>
+#7 0x5610e98f3601 <unknown>
+#8 0x5610e98f9e0b <unknown>
+#9 0x5610e98cb9bd <unknown>
+#10 0x5610e98f33a7 <unknown>
+#11 0x5610e9984170 <unknown>
+#12 0x5610e9929c1a <unknown>
+#13 0x5610e992a921 <unknown>
+#14 0x5610e9e5f239 <unknown>
+#15 0x5610e9e621e8 <unknown>
+#16 0x5610e9e484c9 <unknown>
+#17 0x5610e9e62db5 <unknown>
+#18 0x5610e9e2fe93 <unknown>
+#19 0x5610e9e85098 <unknown>
+#20 0x5610e9e85273 <unknown>
+#21 0x5610e9e972c3 <unknown>
+#22 0x7fb6d649caa4 <unknown>
+#23 0x7fb6d6529c6c <unknown>
+
+2025-11-19 08:34:36,524 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/bahrain-unveils-incentive-program-for-domestic-retailers-to-encourage-consumer-spending-and-boost-economy-this-festive-season/articleshow/125430797.cms. Falling back to RSS description.
+2025-11-19 08:34:36,527 - INFO - Saved article: Bahrain unveils incentive program for domestic retailers to encourage consumer spending and boost economy this festive season from Times of India
+2025-11-19 08:34:37,082 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/oman-announces-2025-national-day-fireworks-schedule-across-major-cities/articleshow/125431367.cms
+2025-11-19 08:34:37,082 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:34:40,354 - INFO - [Times of India] Page content loaded.
+2025-11-19 08:34:40,575 - INFO - [Times of India] Success with 'selenium_browser'. Found content (299 words).
+2025-11-19 08:34:40,674 - INFO - Saved article: Oman announces 2025 National Day fireworks schedule across major cities | World News - The Times of India from Times of India
+2025-11-19 08:34:41,327 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/innocent-will-be-hurt-rep-higgins-sole-no-as-us-house-pushes-epstein-files-release-heres-why/articleshow/125427836.cms
+2025-11-19 08:34:41,328 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:35:37,441 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/cities/Hyderabad/driving-or-walking-in-foggy-conditions-telangana-police-outlines-precautions/article70297876.ece: HTTPConnectionPool(host='localhost', port=53701): Read timed out. (read timeout=120)
+2025-11-19 08:35:37,441 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/Hyderabad/driving-or-walking-in-foggy-conditions-telangana-police-outlines-precautions/article70297876.ece. Falling back to RSS description.
+2025-11-19 08:35:37,443 - INFO - Saved article: Driving or walking in foggy conditions? Telangana police outlines precautions from The Hindu
+2025-11-19 08:35:38,196 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/air-india-lobbies-to-use-airspace-over-chinas-xinjiang-as-financial-woes-mount/article70298057.ece
+2025-11-19 08:35:38,196 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:36:41,394 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/innocent-will-be-hurt-rep-higgins-sole-no-as-us-house-pushes-epstein-files-release-heres-why/articleshow/125427836.cms: HTTPConnectionPool(host='localhost', port=37613): Read timed out. (read timeout=120)
+2025-11-19 08:36:41,394 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/innocent-will-be-hurt-rep-higgins-sole-no-as-us-house-pushes-epstein-files-release-heres-why/articleshow/125427836.cms. Falling back to RSS description.
+2025-11-19 08:36:41,396 - INFO - Saved article: 'Innocent will be hurt': Rep. Higgins sole 'no' as US House pushes Epstein files release — here's why from Times of India
+2025-11-19 08:36:42,227 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/home/environment/cutting-methane-emissions-a-fast-cheap-climate-solution/articleshow/125428707.cms
+2025-11-19 08:36:42,227 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:37:38,288 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/air-india-lobbies-to-use-airspace-over-chinas-xinjiang-as-financial-woes-mount/article70298057.ece: HTTPConnectionPool(host='localhost', port=53701): Read timed out. (read timeout=120)
+2025-11-19 08:37:38,288 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/air-india-lobbies-to-use-airspace-over-chinas-xinjiang-as-financial-woes-mount/article70298057.ece. Falling back to RSS description.
+2025-11-19 08:37:38,289 - INFO - Saved article: Air India lobbies to use airspace over China's Xinjiang as financial woes mount from The Hindu
+2025-11-19 08:37:39,141 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rg-kar-case-cant-pass-blanket-orders-protecting-doctors-involved-in-protests-says-supreme-court/article70298050.ece
+2025-11-19 08:37:39,141 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-19 08:38:28,527 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-11-19 08:38:28,527 - ERROR - A thread has timed out and will be abandoned.
+2025-11-19 08:38:28,527 - ERROR - A thread has timed out and will be abandoned.
+2025-11-19 08:38:28,527 - INFO - Shutting down thread pool (wait=False)...
+2025-11-19 08:38:28,527 - INFO - Scraped: 0 The Guardian, 5 BBC, 2 Timed_Out_Jobs articles. (Total saved: 5)
+2025-11-19 08:38:28,527 - INFO - --- Scraping job finished ---
+2025-11-19 08:38:28,527 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-19 08:38:28,527 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
