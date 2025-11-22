@@ -1,0 +1,199 @@
+2025-11-22 16:28:32,609 - INFO - Initializing database connection at: news_articles.db
+2025-11-22 16:28:32,610 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-22 16:28:32,610 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-22 16:28:32,610 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-22 16:28:32,610 - INFO - Proxy is DISABLED.
+2025-11-22 16:28:32,610 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-22 16:28:32,611 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-22 16:28:32,611 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-22 16:28:32,611 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-22 16:28:32,612 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-22 16:28:32,612 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-22 16:28:32,615 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-22 16:28:32,772 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-22 16:28:32,772 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/nov/22/south-africa-g20-protests-gender-based-violence-national-disaster
+2025-11-22 16:28:32,772 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:32,803 - INFO - Found 33 articles in BBC RSS feed. Processing up to 10.
+2025-11-22 16:28:32,803 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clydg8w7kxvo?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:32,803 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:32,810 - INFO - [The Guardian] Success with 'requests_browser'. Found content (437 words).
+2025-11-22 16:28:32,868 - INFO - Duplicate article skipped: South Africa declares gender-based violence a national disaster amid G20 protests | Violence against women and girls | The Guardian from The Guardian
+2025-11-22 16:28:33,002 - INFO - [BBC] Success with 'requests_browser'. Found content (678 words).
+2025-11-22 16:28:33,033 - INFO - Duplicate article skipped: Ukraine's allies voice concerns over US plan to end war from BBC
+2025-11-22 16:28:33,912 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/nigeria-reels-after-second-mass-school-abduction-in-a-week
+2025-11-22 16:28:33,912 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:33,935 - INFO - [The Guardian] Success with 'requests_browser'. Found content (744 words).
+2025-11-22 16:28:33,970 - INFO - Duplicate article skipped: Nigeria reels after 215 children taken in second mass school abduction in a week | Nigeria | The Guardian from The Guardian
+2025-11-22 16:28:34,527 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cde6yld78d6o?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:34,527 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:34,601 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/run-up-to-g20-in-south-africa-marred-by-hosts-simmering-row-with-us
+2025-11-22 16:28:34,601 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:34,634 - INFO - [The Guardian] Success with 'requests_browser'. Found content (887 words).
+2025-11-22 16:28:34,680 - INFO - Duplicate article skipped: South Africa’s dispute with US escalates amid row over G20 handover event | G20 | The Guardian from The Guardian
+2025-11-22 16:28:34,693 - INFO - [BBC] Success with 'requests_browser'. Found content (1624 words).
+2025-11-22 16:28:34,727 - INFO - Duplicate article skipped: What we know about leaked US draft plan to end Russia's Ukraine war from BBC
+2025-11-22 16:28:35,289 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj4qx1lenvjo?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:35,289 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:35,318 - INFO - [BBC] Success with 'requests_browser'. Found content (708 words).
+2025-11-22 16:28:35,353 - INFO - Duplicate article skipped: Marjorie Taylor Greene to quit Congress after Trump feud from BBC
+2025-11-22 16:28:35,770 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2025/nov/20/keir-starmer-defends-south-africa-g20-budget
+2025-11-22 16:28:35,771 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:35,802 - INFO - [The Guardian] Success with 'requests_browser'. Found content (646 words).
+2025-11-22 16:28:35,839 - INFO - Duplicate article skipped: Keir Starmer defends trip to South Africa for G20 summit as budget looms | Keir Starmer | The Guardian from The Guardian
+2025-11-22 16:28:36,513 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce8qdm5zg10o?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:36,513 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:36,543 - INFO - [BBC] Success with 'requests_browser'. Found content (607 words).
+2025-11-22 16:28:36,556 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/20/south-africa-says-us-boycott-of-g20-is-coercion-by-absentia
+2025-11-22 16:28:36,556 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:36,581 - INFO - Saved article: Jair Bolsonaro: Brazilian ex-president arrested after being determined a flight risk from BBC
+2025-11-22 16:28:36,600 - INFO - [The Guardian] Success with 'requests_browser'. Found content (765 words).
+2025-11-22 16:28:36,645 - INFO - Duplicate article skipped: US in talks to attend G20 summit after initial boycott, South Africa says | G20 | The Guardian from The Guardian
+2025-11-22 16:28:37,611 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/22/far-right-former-president-jair-bolsonaro-arrested-in-brazil
+2025-11-22 16:28:37,611 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:37,641 - INFO - [The Guardian] Success with 'requests_browser'. Found content (692 words).
+2025-11-22 16:28:37,710 - INFO - Saved article: Brazilian police arrest Bolsonaro amid suspicions he was about to flee | Jair Bolsonaro | The Guardian from The Guardian
+2025-11-22 16:28:38,070 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgqd42gl0qo?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:38,070 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:38,100 - INFO - [BBC] Success with 'requests_browser'. Found content (970 words).
+2025-11-22 16:28:38,136 - INFO - Duplicate article skipped: Takeaways from Trump and Mamdani's surprisingly cordial meeting from BBC
+2025-11-22 16:28:38,816 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3w7621xypyo?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:38,817 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:38,831 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/22/survivor-of-chilean-blizzard-that-killed-briton-says-staff-told-trekkers-to-proceed
+2025-11-22 16:28:38,831 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:38,859 - INFO - [BBC] Success with 'requests_browser'. Found content (718 words).
+2025-11-22 16:28:38,891 - INFO - Duplicate article skipped: Nigeria sees one of worst mass abductions as 315 taken from school from BBC
+2025-11-22 16:28:38,899 - INFO - [The Guardian] Success with 'requests_browser'. Found content (777 words).
+2025-11-22 16:28:38,933 - INFO - Duplicate article skipped: Survivor of Chilean blizzard that killed Briton says staff told trekkers they could proceed | Chile | The Guardian from The Guardian
+2025-11-22 16:28:39,774 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/grizzly-bear-attacks-children-teachers-canada-british-columbia
+2025-11-22 16:28:39,774 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:39,797 - INFO - [The Guardian] Success with 'requests_browser'. Found content (803 words).
+2025-11-22 16:28:39,831 - INFO - Duplicate article skipped: Eleven injured after grizzly bear attacks schoolchildren and teachers in Canada | Canada | The Guardian from The Guardian
+2025-11-22 16:28:40,290 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c20508y7w5yo?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:40,290 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:40,324 - INFO - [BBC] Success with 'requests_browser'. Found content (1157 words).
+2025-11-22 16:28:40,360 - INFO - Duplicate article skipped: G20: Will Trump’s no-show eclipse South Africa’s moment? from BBC
+2025-11-22 16:28:40,851 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/21/trump-doj-venezuela-2020-election
+2025-11-22 16:28:40,851 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:40,880 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1247 words).
+2025-11-22 16:28:40,932 - INFO - Duplicate article skipped: Trump’s DoJ investigating unfounded claims Venezuela helped steal 2020 election | Trump administration | The Guardian from The Guardian
+2025-11-22 16:28:41,566 - INFO - Selenium driver initialized successfully.
+2025-11-22 16:28:41,566 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-22 16:28:41,567 - INFO - Selenium driver initialized successfully.
+2025-11-22 16:28:41,567 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-22 16:28:41,662 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-22 16:28:41,662 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-to-permit-foreign-property-ownership-from-2026-heres-what-you-can-buy/articleshow/125507757.cms
+2025-11-22 16:28:41,662 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:28:41,673 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz68x1n5qd6o?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:41,673 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:41,697 - INFO - [BBC] Success with 'requests_browser'. Found content (294 words).
+2025-11-22 16:28:41,727 - INFO - Duplicate article skipped: Grizzly bear on loose after attacking school group in Canada, injuring 11 from BBC
+2025-11-22 16:28:41,747 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-22 16:28:41,747 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/six-including-police-constable-arrested-in-atm-cash-van-robbery-case/article70310953.ece
+2025-11-22 16:28:41,747 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:28:42,008 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/21/texas-haiti-rape-indictment
+2025-11-22 16:28:42,008 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:42,036 - INFO - [The Guardian] Success with 'requests_browser'. Found content (376 words).
+2025-11-22 16:28:42,074 - INFO - Duplicate article skipped: US men indicted for alleged coup plot to kill and rape people on Haitian island | US crime | The Guardian from The Guardian
+2025-11-22 16:28:42,374 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cq60rpmq641o?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:42,374 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:42,408 - INFO - [BBC] Success with 'requests_browser'. Found content (371 words).
+2025-11-22 16:28:42,451 - INFO - Duplicate article skipped: Mexico: Seven bodyguards arrested over mayor's murder from BBC
+2025-11-22 16:28:43,364 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yq3g7lqgqo?at_medium=RSS&at_campaign=rss
+2025-11-22 16:28:43,364 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-22 16:28:43,403 - INFO - [BBC] Success with 'requests_browser'. Found content (441 words).
+2025-11-22 16:28:43,492 - INFO - Duplicate article skipped: US judge resigns after being disciplined for wearing Elvis wig in court from BBC
+2025-11-22 16:28:50,778 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:28:51,148 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (685 words).
+2025-11-22 16:28:51,376 - INFO - Saved article: Six, including police constable, arrested in ATM cash van robbery case - The Hindu from The Hindu
+2025-11-22 16:28:52,474 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/west-bengal-sir-will-cause-the-largest-disenfranchisement-of-voters-in-history-activists/article70311671.ece
+2025-11-22 16:28:52,474 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:28:58,864 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:28:58,980 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (721 words).
+2025-11-22 16:28:59,095 - INFO - Saved article: West Bengal SIR will cause the largest disenfranchisement of voters in history: activists - The Hindu from The Hindu
+2025-11-22 16:29:00,159 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/cm-writes-to-pm-on-steep-crash-in-maize-prices/article70312022.ece
+2025-11-22 16:29:00,159 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:00,175 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/karnataka/cm-writes-to-pm-on-steep-crash-in-maize-prices/article70312022.ece: Message: timeout: Timed out receiving message from renderer: 59.958
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x557c1c1fc32a <unknown>
+#1 0x557c1bc48e4b <unknown>
+#2 0x557c1bc30e0d <unknown>
+#3 0x557c1bc30af0 <unknown>
+#4 0x557c1bc2e8ff <unknown>
+#5 0x557c1bc2f27f <unknown>
+#6 0x557c1bc3dca3 <unknown>
+#7 0x557c1bc57601 <unknown>
+#8 0x557c1bc5de0b <unknown>
+#9 0x557c1bc2f9bd <unknown>
+#10 0x557c1bc573a7 <unknown>
+#11 0x557c1bce8170 <unknown>
+#12 0x557c1bc8dc1a <unknown>
+#13 0x557c1bc8e921 <unknown>
+#14 0x557c1c1c3239 <unknown>
+#15 0x557c1c1c61e8 <unknown>
+#16 0x557c1c1ac4c9 <unknown>
+#17 0x557c1c1c6db5 <unknown>
+#18 0x557c1c193e93 <unknown>
+#19 0x557c1c1e9098 <unknown>
+#20 0x557c1c1e9273 <unknown>
+#21 0x557c1c1fb2c3 <unknown>
+#22 0x7f2e3c09caa4 <unknown>
+#23 0x7f2e3c129c6c <unknown>
+
+2025-11-22 16:30:00,175 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/karnataka/cm-writes-to-pm-on-steep-crash-in-maize-prices/article70312022.ece. Falling back to RSS description.
+2025-11-22 16:30:00,177 - INFO - Saved article: CM writes to PM on steep crash in maize prices from The Hindu
+2025-11-22 16:30:01,113 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jammu-and-kashmir/security-in-srinagar-improving-all-measures-in-place-to-maintain-peace-crpf-ig/article70311691.ece
+2025-11-22 16:30:01,113 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:04,900 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:05,018 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (412 words).
+2025-11-22 16:30:05,088 - INFO - Saved article: Security in Srinagar improving, all measures in place to maintain peace: CRPF IG - The Hindu from The Hindu
+2025-11-22 16:30:06,534 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/watch-sons-daughters-and-battle-for-political-legacy-the-lalu-yadav-family-fallout/article70312136.ece
+2025-11-22 16:30:06,534 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:07,067 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:07,170 - WARNING - [The Hindu] FAILED with 'selenium_browser' (content was too short: 72 words).
+2025-11-22 16:30:07,170 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/watch-sons-daughters-and-battle-for-political-legacy-the-lalu-yadav-family-fallout/article70312136.ece. Falling back to RSS description.
+2025-11-22 16:30:07,173 - INFO - Saved article: Watch: Sons, daughters and battle for political legacy: the Lalu Yadav family fallout from The Hindu
+2025-11-22 16:30:07,875 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/govt-schools-to-have-on-grid-solar-power-soon/article70312011.ece
+2025-11-22 16:30:07,875 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:08,725 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:08,869 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (149 words).
+2025-11-22 16:30:08,979 - INFO - Saved article: Govt. schools to have on-grid solar power soon - The Hindu from The Hindu
+2025-11-22 16:30:10,405 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/state-will-not-take-anti-worker-position-says-minister-on-new-labour-codes/article70312088.ece
+2025-11-22 16:30:10,405 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:13,693 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:13,787 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (177 words).
+2025-11-22 16:30:13,881 - INFO - Saved article: State will not take anti-worker position, says Minister on new Labour Codes - The Hindu from The Hindu
+2025-11-22 16:30:15,213 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/operation-sindoor-was-trusted-orchestra-where-every-musician-played-synergistic-role-army-chief/article70312020.ece
+2025-11-22 16:30:15,213 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:16,604 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:16,826 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (887 words).
+2025-11-22 16:30:16,906 - INFO - Saved article: Operation Sindoor was trusted orchestra where every musician played synergistic role: Army Chief - The Hindu from The Hindu
+2025-11-22 16:30:18,256 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/siddaramaiah-meets-kharge-on-resolving-impasse-over-cabinet-reshuffle-power-sharing/article70312013.ece
+2025-11-22 16:30:18,256 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:19,584 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:20,028 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (552 words).
+2025-11-22 16:30:20,141 - INFO - Saved article: Siddaramaiah meets Kharge on resolving impasse over Cabinet reshuffle, power sharing - The Hindu from The Hindu
+2025-11-22 16:30:21,285 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/art-has-to-ask-difficult-questions-tm-krishna/article70311922.ece
+2025-11-22 16:30:21,285 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:30:22,731 - INFO - [The Hindu] Page content loaded.
+2025-11-22 16:30:22,805 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (406 words).
+2025-11-22 16:30:22,894 - INFO - Saved article: Art has to ask difficult questions: T.M. Krishna - The Hindu from The Hindu
+2025-11-22 16:30:24,055 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-22 16:30:24,229 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-22 16:30:41,689 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-to-permit-foreign-property-ownership-from-2026-heres-what-you-can-buy/articleshow/125507757.cms: HTTPConnectionPool(host='localhost', port=48881): Read timed out. (read timeout=120)
+2025-11-22 16:30:41,689 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-to-permit-foreign-property-ownership-from-2026-heres-what-you-can-buy/articleshow/125507757.cms. Falling back to RSS description.
+2025-11-22 16:30:41,691 - INFO - Saved article: Saudi Arabia to permit foreign property ownership from 2026: Here’s what you can buy from Times of India
+2025-11-22 16:30:42,332 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/good-boy-mamdani-and-trump-in-control-body-language-expert-decodes-white-house-meeting/articleshow/125507481.cms
+2025-11-22 16:30:42,332 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:32:42,432 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/good-boy-mamdani-and-trump-in-control-body-language-expert-decodes-white-house-meeting/articleshow/125507481.cms: HTTPConnectionPool(host='localhost', port=48881): Read timed out. (read timeout=120)
+2025-11-22 16:32:42,432 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/good-boy-mamdani-and-trump-in-control-body-language-expert-decodes-white-house-meeting/articleshow/125507481.cms. Falling back to RSS description.
+2025-11-22 16:32:42,434 - INFO - Saved article: ‘Good boy’ Mamdani and Trump ‘in control’: Body language expert decodes White House meeting from Times of India
+2025-11-22 16:32:42,991 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/massive-milestone-dubai-police-cuts-response-time-to-5-8-minutes-achieves-5200-rescues-in-10-months/articleshow/125506982.cms
+2025-11-22 16:32:42,991 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-22 16:33:32,615 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-11-22 16:33:32,616 - ERROR - A thread has timed out and will be abandoned.
+2025-11-22 16:33:32,616 - INFO - Shutting down thread pool (wait=False)...
+2025-11-22 16:33:32,616 - INFO - Scraped: 1 The Guardian, 10 The Hindu, 1 BBC, 1 Timed_Out_Jobs articles. (Total saved: 12)
+2025-11-22 16:33:32,616 - INFO - --- Scraping job finished ---
+2025-11-22 16:33:32,616 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-22 16:33:32,616 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
