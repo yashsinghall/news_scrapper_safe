@@ -1,0 +1,171 @@
+2025-11-23 16:28:29,245 - INFO - Initializing database connection at: news_articles.db
+2025-11-23 16:28:29,246 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-23 16:28:29,246 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-23 16:28:29,246 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-23 16:28:29,246 - INFO - Proxy is DISABLED.
+2025-11-23 16:28:29,246 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-23 16:28:29,247 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-23 16:28:29,247 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-23 16:28:29,247 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-23 16:28:29,248 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-23 16:28:29,248 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-23 16:28:29,249 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-23 16:28:29,385 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-23 16:28:29,385 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/23/cyril-ramaphosa-gavel-g20-summit-us-handover
+2025-11-23 16:28:29,385 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:29,430 - INFO - [The Guardian] Success with 'requests_browser'. Found content (520 words).
+2025-11-23 16:28:29,482 - INFO - Saved article: Cyril Ramaphosa closes G20 summit after US boycott and handover row | G20 | The Guardian from The Guardian
+2025-11-23 16:28:29,602 - INFO - Found 22 articles in BBC RSS feed. Processing up to 10.
+2025-11-23 16:28:29,602 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn81j54xjx1o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:29,602 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:29,790 - INFO - [BBC] Success with 'requests_browser'. Found content (462 words).
+2025-11-23 16:28:29,854 - INFO - Saved article: Israel targets key Hezbollah official in first attack on Beirut in months from BBC
+2025-11-23 16:28:30,870 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/22/security-fears-rise-in-nigeria-after-more-than-300-taken-mass-school-kidnapping
+2025-11-23 16:28:30,870 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:30,913 - INFO - [The Guardian] Success with 'requests_browser'. Found content (642 words).
+2025-11-23 16:28:30,959 - INFO - Duplicate article skipped: Security fears rise in Nigeria after more than 300 schoolchildren kidnapped | Nigeria | The Guardian from The Guardian
+2025-11-23 16:28:31,194 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpwk5qzzppzo?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:31,194 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:31,239 - INFO - [BBC] Success with 'requests_browser'. Found content (788 words).
+2025-11-23 16:28:31,274 - INFO - Saved article: Fifty children escape after mass school abduction in Nigeria from BBC
+2025-11-23 16:28:31,898 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpd6qey9e4zo?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:31,898 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:32,343 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/nov/22/south-africa-g20-protests-gender-based-violence-national-disaster
+2025-11-23 16:28:32,343 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:32,377 - INFO - [The Guardian] Success with 'requests_browser'. Found content (437 words).
+2025-11-23 16:28:32,413 - INFO - Duplicate article skipped: South Africa declares gender-based violence a national disaster amid G20 protests | Violence against women and girls | The Guardian from The Guardian
+2025-11-23 16:28:32,469 - INFO - [BBC] Success with 'requests_browser'. Found content (320 words).
+2025-11-23 16:28:32,500 - INFO - Duplicate article skipped: Man who grabbed Ariana Grande at premiere banned from Singapore from BBC
+2025-11-23 16:28:33,173 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwywl8g31g7o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:33,173 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:33,189 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/nigeria-reels-after-second-mass-school-abduction-in-a-week
+2025-11-23 16:28:33,189 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:33,211 - INFO - [BBC] Success with 'requests_browser'. Found content (288 words).
+2025-11-23 16:28:33,244 - INFO - Duplicate article skipped: Vietnam floods leave at least 90 dead and 12 missing from BBC
+2025-11-23 16:28:33,254 - INFO - [The Guardian] Success with 'requests_browser'. Found content (744 words).
+2025-11-23 16:28:33,294 - INFO - Duplicate article skipped: Nigeria reels after 215 children taken in second mass school abduction in a week | Nigeria | The Guardian from The Guardian
+2025-11-23 16:28:34,287 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/run-up-to-g20-in-south-africa-marred-by-hosts-simmering-row-with-us
+2025-11-23 16:28:34,287 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:34,327 - INFO - [The Guardian] Success with 'requests_browser'. Found content (887 words).
+2025-11-23 16:28:34,371 - INFO - Duplicate article skipped: South Africa’s dispute with US escalates amid row over G20 handover event | G20 | The Guardian from The Guardian
+2025-11-23 16:28:34,401 - INFO - [BBC] Article: https://www.bbc.com/sport/articles/cp84m625d33o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:34,401 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:34,439 - INFO - [BBC] Success with 'requests_browser'. Found content (390 words).
+2025-11-23 16:28:34,496 - INFO - Saved article: Aonishiki: Ukraine sumo prodigy becomes champion in Japan - BBC Sport from BBC
+2025-11-23 16:28:34,928 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/23/cop30-talks-climate-progress-five-threats
+2025-11-23 16:28:34,928 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:34,965 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1188 words).
+2025-11-23 16:28:35,002 - INFO - Duplicate article skipped: Trump, war, absent media: five threats to climate progress that dogged Cop30 | Cop30 | The Guardian from The Guardian
+2025-11-23 16:28:35,155 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpvdyg348pko?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:35,155 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:35,306 - INFO - [BBC] Success with 'requests_browser'. Found content (517 words).
+2025-11-23 16:28:35,338 - INFO - Duplicate article skipped: JFK's granddaughter Tatiana Schlossberg shares terminal cancer diagnosis from BBC
+2025-11-23 16:28:36,119 - INFO - Selenium driver initialized successfully.
+2025-11-23 16:28:36,120 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-23 16:28:36,120 - INFO - Selenium driver initialized successfully.
+2025-11-23 16:28:36,121 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-23 16:28:36,373 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-23 16:28:36,374 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/new-aicc-secretary-srinivas-bv-gets-warm-reception/article70314810.ece
+2025-11-23 16:28:36,374 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:28:36,462 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/22/cop30-deal-inches-closer-to-end-of-fossil-fuel-era-after-bitter-standoff
+2025-11-23 16:28:36,462 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:36,507 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1071 words).
+2025-11-23 16:28:36,554 - INFO - Duplicate article skipped: End of fossil fuel era inches closer as Cop30 deal agreed after bitter standoff | Cop30 | The Guardian from The Guardian
+2025-11-23 16:28:36,586 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-23 16:28:36,586 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/to-target-supreme-leader-iran-warns-of-attempts-to-assassinate-khamenei-plot-to-destabilise-country/articleshow/125520686.cms
+2025-11-23 16:28:36,586 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:28:36,703 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy8j4m45yx2o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:36,703 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:36,741 - INFO - [BBC] Success with 'requests_browser'. Found content (298 words).
+2025-11-23 16:28:36,775 - INFO - Duplicate article skipped: Seven arrested in India after police crack $800,000 bank heist from BBC
+2025-11-23 16:28:37,642 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/22/far-right-former-president-jair-bolsonaro-arrested-in-brazil
+2025-11-23 16:28:37,642 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:37,703 - INFO - [The Guardian] Success with 'requests_browser'. Found content (768 words).
+2025-11-23 16:28:37,775 - INFO - Duplicate article skipped: Jair Bolsonaro arrested after tampering with ankle tag ‘out of curiosity’ | Jair Bolsonaro | The Guardian from The Guardian
+2025-11-23 16:28:38,025 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c75vn7yel73o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:38,025 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:38,262 - INFO - [BBC] Success with 'requests_browser'. Found content (916 words).
+2025-11-23 16:28:38,328 - INFO - Duplicate article skipped: COP30: UN climate talks fail to secure new fossil fuel promises from BBC
+2025-11-23 16:28:38,875 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce8qdm5zg10o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:38,875 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:38,988 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/22/survivor-of-chilean-blizzard-that-killed-briton-says-staff-told-trekkers-to-proceed
+2025-11-23 16:28:38,989 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:39,060 - INFO - [The Guardian] Success with 'requests_browser'. Found content (760 words).
+2025-11-23 16:28:39,186 - INFO - Duplicate article skipped: Survivor of Chilean blizzard that killed Briton says staff told trekkers they could proceed | Chile | The Guardian from The Guardian
+2025-11-23 16:28:39,400 - INFO - [BBC] Success with 'requests_browser'. Found content (678 words).
+2025-11-23 16:28:39,499 - INFO - Duplicate article skipped: Jair Bolsonaro: Brazilian ex-president arrested after being determined a flight risk from BBC
+2025-11-23 16:28:40,048 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/grizzly-bear-attacks-children-teachers-canada-british-columbia
+2025-11-23 16:28:40,048 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:40,152 - INFO - [The Guardian] Success with 'requests_browser'. Found content (803 words).
+2025-11-23 16:28:40,350 - INFO - Duplicate article skipped: Eleven injured after grizzly bear attacks schoolchildren and teachers in Canada | Canada | The Guardian from The Guardian
+2025-11-23 16:28:40,833 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwywjz202r7o?at_medium=RSS&at_campaign=rss
+2025-11-23 16:28:40,833 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-23 16:28:41,079 - INFO - [BBC] Success with 'requests_browser'. Found content (871 words).
+2025-11-23 16:28:41,268 - INFO - Duplicate article skipped: How Marjorie Taylor Greene went from Trump ally to quitting Congress from BBC
+2025-11-23 16:28:41,451 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:28:41,759 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (108 words).
+2025-11-23 16:28:42,080 - INFO - Saved article: New AICC secretary Srinivas B.V. gets warm reception - The Hindu from The Hindu
+2025-11-23 16:28:43,351 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/vijayendra-apprises-amit-shah-of-political-developments-in-karnataka/article70314927.ece
+2025-11-23 16:28:43,351 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:28:50,296 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:28:52,490 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (236 words).
+2025-11-23 16:28:53,486 - INFO - Saved article: Vijayendra apprises Amit Shah of political developments in Karnataka - The Hindu from The Hindu
+2025-11-23 16:28:54,165 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/iit-tirupati-signs-mou-with-cems-vizag/article70314781.ece
+2025-11-23 16:28:54,165 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:28:56,957 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:28:57,315 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (183 words).
+2025-11-23 16:28:57,449 - INFO - Saved article: IIT-Tirupati signs MoU with CEMS Vizag - The Hindu from The Hindu
+2025-11-23 16:28:57,993 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/three-feared-drowned-in-jhanjhavati-rubber-dam/article70314814.ece
+2025-11-23 16:28:57,993 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:28:58,657 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:28:58,717 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (105 words).
+2025-11-23 16:28:58,846 - INFO - Saved article: Three feared drowned in Jhanjhavati rubber dam - The Hindu from The Hindu
+2025-11-23 16:28:59,968 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/presidential-reference-opinion-does-not-overrule-a-judgment-says-cji-gavai/article70314778.ece
+2025-11-23 16:28:59,968 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:29:00,835 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:29:00,915 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (675 words).
+2025-11-23 16:29:01,011 - INFO - Saved article: Presidential Reference opinion does not overrule a judgment, says CJI Gavai - The Hindu from The Hindu
+2025-11-23 16:29:01,664 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/kharge-says-high-command-will-take-decision-on-leadership/article70314885.ece
+2025-11-23 16:29:01,664 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:29:02,862 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:29:02,945 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (833 words).
+2025-11-23 16:29:03,037 - INFO - Saved article: Kharge says high command will take decision on leadership - The Hindu from The Hindu
+2025-11-23 16:29:03,607 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/mind-your-administrative-language-supreme-court-report-tells-judiciary/article70314989.ece
+2025-11-23 16:29:03,607 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:29:04,615 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:29:04,664 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (348 words).
+2025-11-23 16:29:04,739 - INFO - Saved article: Mind your ‘administrative’ language, Supreme Court report tells judiciary - The Hindu from The Hindu
+2025-11-23 16:29:06,132 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/sindh-may-return-to-india-someday-says-rajnath-singh/article70314994.ece
+2025-11-23 16:29:06,132 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:29:07,007 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:29:07,054 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (406 words).
+2025-11-23 16:29:07,126 - INFO - Saved article: Sindh may ‘return to India someday’, says Rajnath Singh - The Hindu from The Hindu
+2025-11-23 16:29:08,279 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/local-body-polls-vd-satheesan-slams-rejection-of-nominations-filed-by-udf-candidates/article70315074.ece
+2025-11-23 16:29:08,279 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:29:09,054 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:29:09,130 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (212 words).
+2025-11-23 16:29:09,225 - INFO - Saved article: Local body polls | V.D. Satheesan slams rejection of nominations filed by UDF candidates - The Hindu from The Hindu
+2025-11-23 16:29:09,857 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/suchitwa-mission-launches-intensive-drive-to-enforce-green-protocol-for-local-body-polls/article70314718.ece
+2025-11-23 16:29:09,857 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:29:10,560 - INFO - [The Hindu] Page content loaded.
+2025-11-23 16:29:10,625 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (400 words).
+2025-11-23 16:29:10,701 - INFO - Saved article: Suchitwa Mission launches intensive drive to enforce green protocol for local body polls - The Hindu from The Hindu
+2025-11-23 16:29:11,298 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-23 16:29:11,416 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-23 16:30:36,601 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/to-target-supreme-leader-iran-warns-of-attempts-to-assassinate-khamenei-plot-to-destabilise-country/articleshow/125520686.cms: HTTPConnectionPool(host='localhost', port=54729): Read timed out. (read timeout=120)
+2025-11-23 16:30:36,601 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/to-target-supreme-leader-iran-warns-of-attempts-to-assassinate-khamenei-plot-to-destabilise-country/articleshow/125520686.cms. Falling back to RSS description.
+2025-11-23 16:30:36,603 - INFO - Saved article: ‘To target supreme leader’: Iran warns of attempts to assassinate Khamenei; plot to destabilise country from Times of India
+2025-11-23 16:30:37,200 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/who-is-lindsey-halligan-from-miss-colorado-finalist-to-being-called-trumps-puppet-to-prosecute-comey/articleshow/125521328.cms
+2025-11-23 16:30:37,200 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:32:37,296 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/who-is-lindsey-halligan-from-miss-colorado-finalist-to-being-called-trumps-puppet-to-prosecute-comey/articleshow/125521328.cms: HTTPConnectionPool(host='localhost', port=54729): Read timed out. (read timeout=120)
+2025-11-23 16:32:37,296 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/who-is-lindsey-halligan-from-miss-colorado-finalist-to-being-called-trumps-puppet-to-prosecute-comey/articleshow/125521328.cms. Falling back to RSS description.
+2025-11-23 16:32:37,298 - INFO - Saved article: Who is Lindsey Halligan? From Miss Colorado finalist to being called Trump’s ‘puppet’ to prosecute Comey from Times of India
+2025-11-23 16:32:38,243 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/it-was-uncomfortable-for-me-us-f-16-pilot-shocked-that-dubai-air-show-went-on-even-after-tejas-crash/articleshow/125520952.cms
+2025-11-23 16:32:38,244 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-23 16:33:29,251 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-11-23 16:33:29,251 - ERROR - A thread has timed out and will be abandoned.
+2025-11-23 16:33:29,251 - INFO - Shutting down thread pool (wait=False)...
+2025-11-23 16:33:29,251 - INFO - Scraped: 1 The Guardian, 3 BBC, 10 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 14)
+2025-11-23 16:33:29,251 - INFO - --- Scraping job finished ---
+2025-11-23 16:33:29,251 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-23 16:33:29,252 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
