@@ -1,0 +1,171 @@
+2025-11-24 12:53:55,028 - INFO - Initializing database connection at: news_articles.db
+2025-11-24 12:53:55,029 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-24 12:53:55,029 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-24 12:53:55,029 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-24 12:53:55,029 - INFO - Proxy is DISABLED.
+2025-11-24 12:53:55,029 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-24 12:53:55,030 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-24 12:53:55,030 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-24 12:53:55,030 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-24 12:53:55,031 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-24 12:53:55,031 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-24 12:53:55,031 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-24 12:53:55,226 - INFO - Found 32 articles in BBC RSS feed. Processing up to 10.
+2025-11-24 12:53:55,226 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce3zwy808dpo?at_medium=RSS&at_campaign=rss
+2025-11-24 12:53:55,227 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:55,235 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-24 12:53:55,235 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/23/cyril-ramaphosa-gavel-g20-summit-us-handover
+2025-11-24 12:53:55,235 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:55,264 - INFO - [The Guardian] Success with 'requests_browser'. Found content (520 words).
+2025-11-24 12:53:55,306 - INFO - Duplicate article skipped: Cyril Ramaphosa closes G20 summit after US boycott and handover row | G20 | The Guardian from The Guardian
+2025-11-24 12:53:55,529 - INFO - [BBC] Success with 'requests_browser'. Found content (997 words).
+2025-11-24 12:53:55,576 - INFO - Duplicate article skipped: US and Ukraine signal peace plan progress after Geneva talks from BBC
+2025-11-24 12:53:55,894 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/22/security-fears-rise-in-nigeria-after-more-than-300-taken-mass-school-kidnapping
+2025-11-24 12:53:55,894 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:55,923 - INFO - [The Guardian] Success with 'requests_browser'. Found content (642 words).
+2025-11-24 12:53:55,965 - INFO - Duplicate article skipped: Security fears rise in Nigeria after more than 300 schoolchildren kidnapped | Nigeria | The Guardian from The Guardian
+2025-11-24 12:53:56,165 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn7klr7647jo?at_medium=RSS&at_campaign=rss
+2025-11-24 12:53:56,165 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:56,203 - INFO - [BBC] Success with 'requests_browser'. Found content (1038 words).
+2025-11-24 12:53:56,245 - INFO - Duplicate article skipped: Gaza food kitchens still missing essential products despite ceasefire from BBC
+2025-11-24 12:53:56,622 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/nov/22/south-africa-g20-protests-gender-based-violence-national-disaster
+2025-11-24 12:53:56,623 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:56,673 - INFO - [The Guardian] Success with 'requests_browser'. Found content (437 words).
+2025-11-24 12:53:56,750 - INFO - Duplicate article skipped: South Africa declares gender-based violence a national disaster amid G20 protests | Violence against women and girls | The Guardian from The Guardian
+2025-11-24 12:53:56,779 - INFO - Selenium driver initialized successfully.
+2025-11-24 12:53:56,779 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-24 12:53:56,782 - INFO - Selenium driver initialized successfully.
+2025-11-24 12:53:56,782 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-24 12:53:56,863 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-24 12:53:56,863 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/anybody-want-bacon-three-men-charged-for-disturbing-muslim-students-who-were-praying-in-florida/articleshow/125540334.cms
+2025-11-24 12:53:56,863 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:53:56,965 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-24 12:53:56,965 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/mandya-deputy-commissioner-directs-officials-to-stop-sewage-from-entering-cauvery/article70317353.ece
+2025-11-24 12:53:56,965 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:53:57,508 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce8g8wrd61zo?at_medium=RSS&at_campaign=rss
+2025-11-24 12:53:57,508 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:57,561 - INFO - [BBC] Success with 'requests_browser'. Found content (980 words).
+2025-11-24 12:53:57,613 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/nigeria-reels-after-second-mass-school-abduction-in-a-week
+2025-11-24 12:53:57,618 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:57,647 - INFO - Duplicate article skipped: Machu Picchu hit by a row over tourist buses from BBC
+2025-11-24 12:53:57,671 - INFO - [The Guardian] Success with 'requests_browser'. Found content (744 words).
+2025-11-24 12:53:57,740 - INFO - Duplicate article skipped: Nigeria reels after 215 children taken in second mass school abduction in a week | Nigeria | The Guardian from The Guardian
+2025-11-24 12:53:58,464 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cg66lv566kyo?at_medium=RSS&at_campaign=rss
+2025-11-24 12:53:58,464 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:58,605 - INFO - [BBC] Success with 'requests_browser'. Found content (1160 words).
+2025-11-24 12:53:58,769 - INFO - Duplicate article skipped: Dharmendra: Bollywood's 'He-Man' dies at 89 from BBC
+2025-11-24 12:53:58,902 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/21/run-up-to-g20-in-south-africa-marred-by-hosts-simmering-row-with-us
+2025-11-24 12:53:58,902 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:53:59,085 - INFO - [The Guardian] Success with 'requests_browser'. Found content (887 words).
+2025-11-24 12:53:59,295 - INFO - Duplicate article skipped: South Africa’s dispute with US escalates amid row over G20 handover event | G20 | The Guardian from The Guardian
+2025-11-24 12:54:00,017 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqlkve4qz0ro?at_medium=RSS&at_campaign=rss
+2025-11-24 12:54:00,018 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:00,139 - INFO - [BBC] Success with 'requests_browser'. Found content (373 words).
+2025-11-24 12:54:00,233 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2025/nov/24/us-politics-trump-venezuela-marjorie-tayor-greene-latest-updates
+2025-11-24 12:54:00,233 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:00,286 - INFO - Duplicate article skipped: Duduzile Zuma: Daughter of South Africa's ex-president accused of Russia recruitment plot from BBC
+2025-11-24 12:54:00,851 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxgdelzeq1o?at_medium=RSS&at_campaign=rss
+2025-11-24 12:54:00,851 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:01,368 - INFO - [BBC] Success with 'requests_browser'. Found content (455 words).
+2025-11-24 12:54:01,767 - INFO - Duplicate article skipped: South Korea's most prolific online sex criminal sentenced to life in prison from BBC
+2025-11-24 12:54:01,772 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1413 words).
+2025-11-24 12:54:01,779 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:01,932 - INFO - Saved article: US reportedly ready for next phase of Venezuela military operations – live | Trump administration | The Guardian from The Guardian
+2025-11-24 12:54:02,029 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (343 words).
+2025-11-24 12:54:02,205 - INFO - Saved article: Mandya Deputy Commissioner directs officials to stop sewage from entering Cauvery - The Hindu from The Hindu
+2025-11-24 12:54:02,604 - INFO - [The Guardian] Article: https://www.theguardian.com/music/2025/nov/24/jimmy-cliff-jamaican-reggae-singer-actor-and-cultural-icon-dies-aged-81
+2025-11-24 12:54:02,604 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:02,721 - INFO - [The Guardian] Success with 'requests_browser'. Found content (932 words).
+2025-11-24 12:54:02,932 - INFO - Saved article: Jimmy Cliff, Jamaican reggae singer, actor and cultural icon, dies aged 81 | Jimmy Cliff | The Guardian from The Guardian
+2025-11-24 12:54:03,142 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy840l75gx3o?at_medium=RSS&at_campaign=rss
+2025-11-24 12:54:03,142 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:03,250 - INFO - [BBC] Success with 'requests_browser'. Found content (455 words).
+2025-11-24 12:54:03,346 - INFO - Duplicate article skipped: Skye Gyngell: Michelin-starred Australian chef dies aged 62 from BBC
+2025-11-24 12:54:03,652 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/maharashtra-local-body-elections-40-bjp-candidates-to-be-below-35-years-of-age-says-cm-fadnavis/article70317530.ece
+2025-11-24 12:54:03,652 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:03,996 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/23/jair-bolsonaro-claims-psychotic-attack-made-him-tamper-with-ankle-monitor
+2025-11-24 12:54:03,997 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:04,126 - INFO - [The Guardian] Success with 'requests_browser'. Found content (530 words).
+2025-11-24 12:54:04,339 - INFO - Duplicate article skipped: Jair Bolsonaro claims ‘psychotic attack’ made him tamper with ankle monitor | Jair Bolsonaro | The Guardian from The Guardian
+2025-11-24 12:54:04,672 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpwk5qzzppzo?at_medium=RSS&at_campaign=rss
+2025-11-24 12:54:04,672 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:04,835 - INFO - [BBC] Success with 'requests_browser'. Found content (972 words).
+2025-11-24 12:54:04,926 - INFO - Duplicate article skipped: Fifty children escape after mass school abduction in Nigeria from BBC
+2025-11-24 12:54:05,478 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/23/un-warns-world-losing-climate-battle-but-fragile-cop30-deal-keeps-up-the-fight
+2025-11-24 12:54:05,478 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:05,612 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1071 words).
+2025-11-24 12:54:05,776 - INFO - Duplicate article skipped: UN warns world losing climate battle but fragile Cop30 deal keeps up the fight | Cop30 | The Guardian from The Guardian
+2025-11-24 12:54:06,302 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgkv47xqn5o?at_medium=RSS&at_campaign=rss
+2025-11-24 12:54:06,302 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:06,425 - INFO - [BBC] Success with 'requests_browser'. Found content (339 words).
+2025-11-24 12:54:06,513 - INFO - Duplicate article skipped: Pakistan: Five dead in suicide bombing on paramilitary headquarters from BBC
+2025-11-24 12:54:06,616 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:06,783 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/23/cop30-talks-climate-progress-five-threats
+2025-11-24 12:54:06,783 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:06,853 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (527 words).
+2025-11-24 12:54:06,978 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1188 words).
+2025-11-24 12:54:07,269 - INFO - Saved article: Maharashtra local body elections: 40% BJP candidates to be below 35 years of age, says CM Fadnavis - The Hindu from The Hindu
+2025-11-24 12:54:07,291 - INFO - Duplicate article skipped: Trump, war, absent media: five threats to climate progress that dogged Cop30 | Cop30 | The Guardian from The Guardian
+2025-11-24 12:54:07,638 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn81j54xjx1o?at_medium=RSS&at_campaign=rss
+2025-11-24 12:54:07,639 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-24 12:54:07,713 - INFO - [BBC] Success with 'requests_browser'. Found content (553 words).
+2025-11-24 12:54:08,010 - INFO - Duplicate article skipped: Israel kills top Hezbollah official in first attack on Beirut in months from BBC
+2025-11-24 12:54:08,526 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/eci-should-protect-blos-safeguard-voters-rights-tmc-mp/article70317487.ece
+2025-11-24 12:54:08,527 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:18,033 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:18,354 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (365 words).
+2025-11-24 12:54:18,681 - INFO - Saved article: ECI should protect BLOs, safeguard voters' rights: TMC MP - The Hindu from The Hindu
+2025-11-24 12:54:19,469 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/tmcs-rally-to-protest-babri-masjid-demolition-part-of-vote-bank-politics-alleges-bjp/article70317533.ece
+2025-11-24 12:54:19,470 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:24,666 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:24,881 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (190 words).
+2025-11-24 12:54:25,162 - INFO - Saved article: TMC's rally to protest Babri Masjid demolition part of vote bank politics, alleges BJP - The Hindu from The Hindu
+2025-11-24 12:54:26,378 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/blo-issues-suicide-threat-revenue-officials-reach-out-to-him/article70317518.ece
+2025-11-24 12:54:26,378 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:28,208 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:28,578 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (429 words).
+2025-11-24 12:54:28,761 - INFO - Saved article: BLO issues suicide threat, revenue officials reach out to him - The Hindu from The Hindu
+2025-11-24 12:54:30,170 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/iffk-delegate-registration-from-november-25/article70317434.ece
+2025-11-24 12:54:30,171 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:38,618 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:38,742 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (162 words).
+2025-11-24 12:54:38,872 - INFO - Saved article: IFFK delegate registration from November 25 - The Hindu from The Hindu
+2025-11-24 12:54:39,411 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/ambayathode-action-committee-leader-in-hiding-contests-local-body-polls-on-iuml-ticket/article70317420.ece
+2025-11-24 12:54:39,411 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:40,597 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:40,767 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (435 words).
+2025-11-24 12:54:40,910 - INFO - Saved article: Ambayathode action committee leader in hiding contests local body polls on the IUML ticket - The Hindu from The Hindu
+2025-11-24 12:54:41,935 - INFO - [The Hindu] Article: https://www.thehindu.com/entertainment/northeasts-maiden-comic-con-india-stirs-latent-pop-culture/article70316606.ece
+2025-11-24 12:54:41,936 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:49,473 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:49,558 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (434 words).
+2025-11-24 12:54:49,663 - INFO - Saved article: Northeast’s maiden Comic Con India stirs latent pop culture - The Hindu from The Hindu
+2025-11-24 12:54:50,211 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/blos-protest-outside-bengal-ceos-office-over-excessive-work-pressure-under-sir/article70317369.ece
+2025-11-24 12:54:50,211 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:50,890 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:50,955 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (299 words).
+2025-11-24 12:54:51,028 - INFO - Saved article: BLOs protest outside Bengal CEO’s office over ‘excessive’ work pressure under SIR - The Hindu from The Hindu
+2025-11-24 12:54:52,452 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/doddalathur-megalithic-excavations-reveal-rare-burial-practices-rock-art-in-southern-karnataka/article70317256.ece
+2025-11-24 12:54:52,452 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:54:53,483 - INFO - [The Hindu] Page content loaded.
+2025-11-24 12:54:53,660 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (458 words).
+2025-11-24 12:54:53,755 - INFO - Saved article: Doddalathur megalithic excavations reveal rare burial practices, rock art in southern Karnataka - The Hindu from The Hindu
+2025-11-24 12:54:54,757 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-24 12:54:54,896 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-24 12:55:56,948 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/anybody-want-bacon-three-men-charged-for-disturbing-muslim-students-who-were-praying-in-florida/articleshow/125540334.cms: HTTPConnectionPool(host='localhost', port=45779): Read timed out. (read timeout=120)
+2025-11-24 12:55:56,948 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/anybody-want-bacon-three-men-charged-for-disturbing-muslim-students-who-were-praying-in-florida/articleshow/125540334.cms. Falling back to RSS description.
+2025-11-24 12:55:56,950 - INFO - Saved article: ‘Anybody want bacon?’: Three men charged for disturbing Muslim students who were praying in Florida from Times of India
+2025-11-24 12:55:57,528 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/entertainment/english/music/news/jamaican-reggae-legend-jimmy-cliff-dies-at-81/articleshow/125540973.cms
+2025-11-24 12:55:57,528 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:57:57,629 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/entertainment/english/music/news/jamaican-reggae-legend-jimmy-cliff-dies-at-81/articleshow/125540973.cms: HTTPConnectionPool(host='localhost', port=45779): Read timed out. (read timeout=120)
+2025-11-24 12:57:57,629 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/entertainment/english/music/news/jamaican-reggae-legend-jimmy-cliff-dies-at-81/articleshow/125540973.cms. Falling back to RSS description.
+2025-11-24 12:57:57,631 - INFO - Saved article: Jamaican reggae legend Jimmy Cliff dies at 81 from Times of India
+2025-11-24 12:57:58,134 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/indian-family-with-toddler-randomly-pepper-sprayed-in-san-antonio-attacker-was-asked-to-lower-phone-volume/articleshow/125540655.cms
+2025-11-24 12:57:58,134 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-24 12:58:55,031 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-11-24 12:58:55,031 - ERROR - A thread has timed out and will be abandoned.
+2025-11-24 12:58:55,031 - INFO - Shutting down thread pool (wait=False)...
+2025-11-24 12:58:55,031 - INFO - Scraped: 0 BBC, 2 The Guardian, 10 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 12)
+2025-11-24 12:58:55,032 - INFO - --- Scraping job finished ---
+2025-11-24 12:58:55,032 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-24 12:58:55,032 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
