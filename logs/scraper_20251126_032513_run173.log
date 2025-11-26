@@ -1,0 +1,162 @@
+2025-11-26 03:20:13,864 - INFO - Initializing database connection at: news_articles.db
+2025-11-26 03:20:13,864 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-26 03:20:13,864 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-26 03:20:13,864 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-26 03:20:13,865 - INFO - Proxy is DISABLED.
+2025-11-26 03:20:13,865 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-26 03:20:13,865 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-26 03:20:13,865 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-26 03:20:13,866 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-26 03:20:13,867 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-26 03:20:13,867 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-26 03:20:13,867 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-26 03:20:14,177 - INFO - Found 30 articles in BBC RSS feed. Processing up to 10.
+2025-11-26 03:20:14,178 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy95jvw57v2o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:14,178 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:14,209 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-26 03:20:14,209 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/nigerian-schoolgirls-rescued-after-mass-abduction-in-kebbi
+2025-11-26 03:20:14,209 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:14,386 - INFO - [The Guardian] Success with 'requests_browser'. Found content (515 words).
+2025-11-26 03:20:14,430 - INFO - Duplicate article skipped: Nigerian schoolgirls rescued after mass abduction in Kebbi | Nigeria | The Guardian from The Guardian
+2025-11-26 03:20:14,729 - INFO - [BBC] Success with 'requests_browser'. Found content (1006 words).
+2025-11-26 03:20:14,781 - INFO - Duplicate article skipped: Ukraine-Russia war: Ukraine says 'understanding' reached with US on peace plan, as Trump says his envoy will meet Putin in Moscow from BBC
+2025-11-26 03:20:15,130 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/jacob-zuma-daughter-accused-tricking-men-fighting-for-russia-in-ukraine
+2025-11-26 03:20:15,130 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:15,172 - INFO - [The Guardian] Success with 'requests_browser'. Found content (656 words).
+2025-11-26 03:20:15,218 - INFO - Duplicate article skipped: Jacob Zuma’s daughter accused of tricking men into fighting for Russia in Ukraine | South Africa | The Guardian from The Guardian
+2025-11-26 03:20:15,489 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1dzp050yn2o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:15,489 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:15,558 - INFO - [BBC] Success with 'requests_browser'. Found content (1214 words).
+2025-11-26 03:20:15,594 - INFO - Duplicate article skipped: Italian parliament unanimously votes to make femicide a crime from BBC
+2025-11-26 03:20:15,787 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/nov/24/uk-rejects-nigerian-request-to-deport-former-politican-ike-ekweremadu-jailed-for-organ-trafficking
+2025-11-26 03:20:15,787 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:16,064 - INFO - [The Guardian] Success with 'requests_browser'. Found content (545 words).
+2025-11-26 03:20:16,097 - INFO - Duplicate article skipped: UK rejects Nigerian request to deport former politican jailed for organ trafficking | UK news | The Guardian from The Guardian
+2025-11-26 03:20:16,158 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crmx7x3yjyko?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:16,159 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:16,202 - INFO - [BBC] Success with 'requests_browser'. Found content (1927 words).
+2025-11-26 03:20:16,243 - INFO - Duplicate article skipped: Russia's Wagner group accused of killing civilians in cold-blood in Mali from BBC
+2025-11-26 03:20:16,916 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp84xed0g18o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:16,916 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:16,946 - INFO - [BBC] Success with 'requests_browser'. Found content (500 words).
+2025-11-26 03:20:16,995 - INFO - Saved article: New Zealand 'suitcase murders': Woman gets life in prison for killing her two children from BBC
+2025-11-26 03:20:17,275 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/24/ethiopian-volcano-hayli-gubbi-erupts-first-time-12000-years
+2025-11-26 03:20:17,275 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:17,309 - INFO - [The Guardian] Success with 'requests_browser'. Found content (306 words).
+2025-11-26 03:20:17,343 - INFO - Duplicate article skipped: Ethiopian volcano erupts for first time in 12,000 years | Ethiopia | The Guardian from The Guardian
+2025-11-26 03:20:17,967 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c17x0xjqj21o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:17,967 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:18,000 - INFO - [BBC] Success with 'requests_browser'. Found content (423 words).
+2025-11-26 03:20:18,035 - INFO - Duplicate article skipped: Israel receives coffin that Hamas says contains Gaza hostage's body from BBC
+2025-11-26 03:20:18,682 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/23/cyril-ramaphosa-gavel-g20-summit-us-handover
+2025-11-26 03:20:18,682 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:18,746 - INFO - [The Guardian] Success with 'requests_browser'. Found content (520 words).
+2025-11-26 03:20:18,786 - INFO - Duplicate article skipped: Cyril Ramaphosa closes G20 summit after US boycott and handover row | G20 | The Guardian from The Guardian
+2025-11-26 03:20:19,530 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr4dl19npv5o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:19,530 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:19,566 - INFO - [BBC] Success with 'requests_browser'. Found content (398 words).
+2025-11-26 03:20:19,601 - INFO - Duplicate article skipped: Brazil: Bolsonaro ordered to start serving 27-year prison sentence for coup plot from BBC
+2025-11-26 03:20:19,857 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/jair-bolsonaro-brazil-prison
+2025-11-26 03:20:19,857 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:19,959 - INFO - [The Guardian] Success with 'requests_browser'. Found content (877 words).
+2025-11-26 03:20:19,995 - INFO - Duplicate article skipped: Jair Bolsonaro ordered to start 27-year prison term for plotting Brazil coup | Jair Bolsonaro | The Guardian from The Guardian
+2025-11-26 03:20:20,759 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c997r8pyyz4o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:20,759 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:20,793 - INFO - [BBC] Success with 'requests_browser'. Found content (311 words).
+2025-11-26 03:20:20,829 - INFO - Saved article: Parking inspector and wife arrested for €1m meter theft from BBC
+2025-11-26 03:20:20,918 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/uk-accused-of-caving-in-to-british-virgin-islands-over-access-to-company-register
+2025-11-26 03:20:20,918 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:21,018 - INFO - [The Guardian] Success with 'requests_browser'. Found content (566 words).
+2025-11-26 03:20:21,050 - INFO - Duplicate article skipped: UK accused of caving-in to British Virgin Islands over access to companies register | British Virgin Islands | The Guardian from The Guardian
+2025-11-26 03:20:21,802 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/canadian-author-thomas-king-not-indigenous-cherokee-inconvenient-indian
+2025-11-26 03:20:21,802 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:21,915 - INFO - [The Guardian] Success with 'requests_browser'. Found content (541 words).
+2025-11-26 03:20:21,953 - INFO - Duplicate article skipped: Canada: ‘Inconvenient Indian’ author Thomas King says he is not Indigenous | Canada | The Guardian from The Guardian
+2025-11-26 03:20:22,233 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj01j710rmmo?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:22,233 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:22,277 - INFO - [BBC] Success with 'requests_browser'. Found content (1043 words).
+2025-11-26 03:20:22,316 - INFO - Duplicate article skipped: Ex-wife of Dubai royal says she fears arrest as custody battle escalates from BBC
+2025-11-26 03:20:22,833 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2025/nov/24/us-politics-trump-venezuela-marjorie-tayor-greene-latest-updates
+2025-11-26 03:20:22,833 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:22,960 - INFO - Selenium driver initialized successfully.
+2025-11-26 03:20:22,960 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-26 03:20:22,962 - INFO - Selenium driver initialized successfully.
+2025-11-26 03:20:22,962 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-26 03:20:23,188 - INFO - [The Guardian] Success with 'requests_browser'. Found content (3832 words).
+2025-11-26 03:20:23,281 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-26 03:20:23,287 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/i-had-no-idea-zohran-mamdani-recalls-weirdest-moment-at-white-house-watch/articleshow/125577751.cms
+2025-11-26 03:20:23,288 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:23,299 - INFO - Duplicate article skipped: Cases against Comey and James tossed, Pentagon investigating US senator and Turning Point USA looks to 2028 – as it happened | Trump administration | The Guardian from The Guardian
+2025-11-26 03:20:23,321 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-26 03:20:23,321 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/what-is-the-row-over-selecting-a-head-of-police-force-in-tamil-nadu-explained/article70323190.ece
+2025-11-26 03:20:23,321 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:23,442 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1kpnxvpgy2o?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:23,442 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:23,477 - INFO - [BBC] Success with 'requests_browser'. Found content (325 words).
+2025-11-26 03:20:23,514 - INFO - Saved article: Foreign tourists to pay $100 fee to visit US national parks from BBC
+2025-11-26 03:20:24,746 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/24/canada-grizzly-bear-attack-search
+2025-11-26 03:20:24,746 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:24,807 - INFO - [The Guardian] Success with 'requests_browser'. Found content (852 words).
+2025-11-26 03:20:24,863 - INFO - Duplicate article skipped: Grizzly bear that attacked children and teachers in Canada still eludes searchers | Canada | The Guardian from The Guardian
+2025-11-26 03:20:24,887 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr5zm7n8ngpo?at_medium=RSS&at_campaign=rss
+2025-11-26 03:20:24,887 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-26 03:20:24,957 - INFO - [BBC] Success with 'requests_browser'. Found content (481 words).
+2025-11-26 03:20:25,019 - INFO - Duplicate article skipped: Four more arrests made following Louvre jewellery heist from BBC
+2025-11-26 03:20:27,300 - INFO - [The Hindu] Page content loaded.
+2025-11-26 03:20:27,454 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (607 words).
+2025-11-26 03:20:27,813 - INFO - Saved article: What is the row over selecting a Head of Police Force in Tamil Nadu? | Explained - The Hindu from The Hindu
+2025-11-26 03:20:29,167 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/what-does-the-draft-seeds-bill-entail-explained/article70323160.ece
+2025-11-26 03:20:29,168 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:36,006 - INFO - [The Hindu] Page content loaded.
+2025-11-26 03:20:36,240 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (838 words).
+2025-11-26 03:20:36,457 - INFO - Saved article: What does the draft Seeds Bill entail? | Explained - The Hindu from The Hindu
+2025-11-26 03:20:37,048 - INFO - [The Hindu] Article: https://www.thehindu.com/data/widely-quoted-who-norm-of-1-doctor-per-1000-people-is-not-official/article70321684.ece
+2025-11-26 03:20:37,048 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:42,199 - INFO - [The Hindu] Page content loaded.
+2025-11-26 03:20:42,274 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (885 words).
+2025-11-26 03:20:42,342 - INFO - Duplicate article skipped: Widely quoted WHO norm of 1 doctor per 1,000 people is not official - The Hindu from The Hindu
+2025-11-26 03:20:43,001 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/mekedatu-dam-project-a-long-standing-source-of-friction-between-tamil-nadu-and-karnataka/article70321302.ece
+2025-11-26 03:20:43,001 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:43,961 - INFO - [The Hindu] Page content loaded.
+2025-11-26 03:20:44,035 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1500 words).
+2025-11-26 03:20:44,104 - INFO - Duplicate article skipped: Mekedatu dam project: a long-standing source of friction between Tamil Nadu and Karnataka - The Hindu from The Hindu
+2025-11-26 03:20:45,513 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/cabinet-takes-serious-note-of-brs-charges-on-industrial-land-policy/article70321798.ece
+2025-11-26 03:20:45,513 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:47,020 - INFO - [The Hindu] Page content loaded.
+2025-11-26 03:20:47,106 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (611 words).
+2025-11-26 03:20:47,174 - INFO - Duplicate article skipped: Cabinet takes serious note of BRS charges on industrial land policy - The Hindu from The Hindu
+2025-11-26 03:20:47,811 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/bank-clerk-held-in-ranipet-for-embezzling-25-crore/article70321971.ece
+2025-11-26 03:20:47,811 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:20:49,040 - INFO - [The Hindu] Page content loaded.
+2025-11-26 03:20:49,093 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (166 words).
+2025-11-26 03:20:49,169 - INFO - Duplicate article skipped: Bank clerk held in Ranipet for embezzling ₹2.5 crore - The Hindu from The Hindu
+2025-11-26 03:20:49,850 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/community-conference-held-at-stella-maris-college/article70322743.ece
+2025-11-26 03:20:49,851 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:22:23,380 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/i-had-no-idea-zohran-mamdani-recalls-weirdest-moment-at-white-house-watch/articleshow/125577751.cms: HTTPConnectionPool(host='localhost', port=54539): Read timed out. (read timeout=120)
+2025-11-26 03:22:23,380 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/i-had-no-idea-zohran-mamdani-recalls-weirdest-moment-at-white-house-watch/articleshow/125577751.cms. Falling back to RSS description.
+2025-11-26 03:22:23,382 - INFO - Saved article: ‘I had no idea’: Zohran Mamdani recalls ‘weirdest’ moment at White House — watch from Times of India
+2025-11-26 03:22:24,563 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/what-is-whiteness-pandemic-university-of-minnesota-urges-adults-to-self-reflect-offers-resources-for-white-parents/articleshow/125577305.cms
+2025-11-26 03:22:24,564 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:22:49,923 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/community-conference-held-at-stella-maris-college/article70322743.ece: HTTPConnectionPool(host='localhost', port=35455): Read timed out. (read timeout=120)
+2025-11-26 03:22:49,924 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/community-conference-held-at-stella-maris-college/article70322743.ece. Falling back to RSS description.
+2025-11-26 03:22:49,924 - INFO - Duplicate article skipped: Community Conference held at Stella Maris College from The Hindu
+2025-11-26 03:22:51,334 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/ootupurai-the-traditional-feeding-house-for-brahmins-in-kanniyakumari-temples-in-the-past/article70321255.ece
+2025-11-26 03:22:51,334 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:24:24,660 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/what-is-whiteness-pandemic-university-of-minnesota-urges-adults-to-self-reflect-offers-resources-for-white-parents/articleshow/125577305.cms: HTTPConnectionPool(host='localhost', port=54539): Read timed out. (read timeout=120)
+2025-11-26 03:24:24,661 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/what-is-whiteness-pandemic-university-of-minnesota-urges-adults-to-self-reflect-offers-resources-for-white-parents/articleshow/125577305.cms. Falling back to RSS description.
+2025-11-26 03:24:24,663 - INFO - Saved article: What is the ‘Whiteness Pandemic’? University of Minnesota urges students and parents to re-educate from Times of India
+2025-11-26 03:24:25,637 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-recalls-college-moment-she-felt-feminism-was-a-lie-and-reveals-the-class-blamed-men-for-all-problems/articleshow/125576678.cms
+2025-11-26 03:24:25,637 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:24:51,357 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/ootupurai-the-traditional-feeding-house-for-brahmins-in-kanniyakumari-temples-in-the-past/article70321255.ece: HTTPConnectionPool(host='localhost', port=35455): Read timed out. (read timeout=120)
+2025-11-26 03:24:51,358 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/ootupurai-the-traditional-feeding-house-for-brahmins-in-kanniyakumari-temples-in-the-past/article70321255.ece. Falling back to RSS description.
+2025-11-26 03:24:51,358 - INFO - Duplicate article skipped: Ootupurai, the traditional feeding house in Kanniyakumari temples from The Hindu
+2025-11-26 03:24:51,951 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/woman-arrested-for-killing-her-three-month-old-daughter-in-ambur/article70321993.ece
+2025-11-26 03:24:51,951 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-26 03:25:13,867 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-11-26 03:25:13,867 - ERROR - A thread has timed out and will be abandoned.
+2025-11-26 03:25:13,867 - ERROR - A thread has timed out and will be abandoned.
+2025-11-26 03:25:13,867 - INFO - Shutting down thread pool (wait=False)...
+2025-11-26 03:25:13,867 - INFO - Scraped: 0 The Guardian, 3 BBC, 2 Timed_Out_Jobs articles. (Total saved: 3)
+2025-11-26 03:25:13,867 - INFO - --- Scraping job finished ---
+2025-11-26 03:25:13,868 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-26 03:25:13,868 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
