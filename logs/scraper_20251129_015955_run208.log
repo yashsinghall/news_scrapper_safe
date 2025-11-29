@@ -1,0 +1,176 @@
+2025-11-29 01:54:55,322 - INFO - Initializing database connection at: news_articles.db
+2025-11-29 01:54:55,323 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-29 01:54:55,323 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-29 01:54:55,323 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-29 01:54:55,323 - INFO - Proxy is DISABLED.
+2025-11-29 01:54:55,323 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-29 01:54:55,324 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-29 01:54:55,324 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-29 01:54:55,325 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-29 01:54:55,325 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-29 01:54:55,325 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-29 01:54:55,325 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-29 01:54:55,519 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-29 01:54:55,519 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/28/jacob-zuma-daughter-resigns-claims-south-africans-tricked-fight-russia
+2025-11-29 01:54:55,519 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:55,565 - INFO - [The Guardian] Success with 'requests_browser'. Found content (753 words).
+2025-11-29 01:54:55,610 - INFO - Duplicate article skipped: Jacob Zuma’s daughter resigns amid claims South Africans tricked to fight for Russia | South Africa | The Guardian from The Guardian
+2025-11-29 01:54:55,637 - INFO - Found 31 articles in BBC RSS feed. Processing up to 10.
+2025-11-29 01:54:55,638 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxweyy157go?at_medium=RSS&at_campaign=rss
+2025-11-29 01:54:55,638 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:55,882 - INFO - [BBC] Success with 'requests_browser'. Found content (1169 words).
+2025-11-29 01:54:55,931 - INFO - Duplicate article skipped: US halts all asylum claim decisions in wake of National Guard shooting from BBC
+2025-11-29 01:54:56,686 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/28/africa-forests-transformed-carbon-sink-carbon-source-study
+2025-11-29 01:54:56,686 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:56,709 - INFO - [The Guardian] Success with 'requests_browser'. Found content (458 words).
+2025-11-29 01:54:56,745 - INFO - Duplicate article skipped: Africa’s forests transformed from carbon sink to carbon source, study finds | Climate crisis | The Guardian from The Guardian
+2025-11-29 01:54:56,749 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9nd2wddno?at_medium=RSS&at_campaign=rss
+2025-11-29 01:54:56,749 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:56,781 - INFO - [BBC] Success with 'requests_browser'. Found content (929 words).
+2025-11-29 01:54:56,817 - INFO - Duplicate article skipped: Zelensky's chief of staff Andriy Yermak resigns after anti-corruption raid from BBC
+2025-11-29 01:54:57,264 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/26/guinea-bissau-officers-take-total-control-close-borders-amid-election-chaos
+2025-11-29 01:54:57,264 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:57,289 - INFO - [The Guardian] Success with 'requests_browser'. Found content (412 words).
+2025-11-29 01:54:57,325 - INFO - Duplicate article skipped: Guinea-Bissau military takes ‘total control’ amid election chaos | Guinea-Bissau | The Guardian from The Guardian
+2025-11-29 01:54:58,214 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c79xd17dre3o?at_medium=RSS&at_campaign=rss
+2025-11-29 01:54:58,214 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:58,249 - INFO - [BBC] Success with 'requests_browser'. Found content (771 words).
+2025-11-29 01:54:58,287 - INFO - Duplicate article skipped: Hong Kong tower blocks fire death toll rises to 128 from BBC
+2025-11-29 01:54:58,646 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/nigerian-schoolgirls-rescued-after-mass-abduction-in-kebbi
+2025-11-29 01:54:58,646 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:58,674 - INFO - [The Guardian] Success with 'requests_browser'. Found content (515 words).
+2025-11-29 01:54:58,718 - INFO - Duplicate article skipped: Nigerian schoolgirls rescued after mass abduction in Kebbi | Nigeria | The Guardian from The Guardian
+2025-11-29 01:54:59,632 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1kpm0rvxepo?at_medium=RSS&at_campaign=rss
+2025-11-29 01:54:59,632 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:59,662 - INFO - [BBC] Success with 'requests_browser'. Found content (461 words).
+2025-11-29 01:54:59,702 - INFO - Saved article: Trump says he will pardon ex-Honduras president convicted of drug trafficking from BBC
+2025-11-29 01:54:59,837 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/25/jacob-zuma-daughter-accused-tricking-men-fighting-for-russia-in-ukraine
+2025-11-29 01:54:59,837 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:54:59,868 - INFO - [The Guardian] Success with 'requests_browser'. Found content (656 words).
+2025-11-29 01:54:59,917 - INFO - Duplicate article skipped: Jacob Zuma’s daughter accused of tricking men into fighting for Russia in Ukraine | South Africa | The Guardian from The Guardian
+2025-11-29 01:55:00,230 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz0nlxlr87go?at_medium=RSS&at_campaign=rss
+2025-11-29 01:55:00,230 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:00,284 - INFO - [BBC] Success with 'requests_browser'. Found content (498 words).
+2025-11-29 01:55:00,321 - INFO - Saved article: Guinea-Bissau coup called a 'sham' by West African political figures from BBC
+2025-11-29 01:55:00,857 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0q5w8l88dvo?at_medium=RSS&at_campaign=rss
+2025-11-29 01:55:00,857 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:00,895 - INFO - [BBC] Success with 'requests_browser'. Found content (700 words).
+2025-11-29 01:55:00,931 - INFO - Duplicate article skipped: Afghans in US issue plea to Trump after 'tragic' Washington DC shooting from BBC
+2025-11-29 01:55:01,311 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/28/trump-pardon-honduras-hernandez-drugs
+2025-11-29 01:55:01,311 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:01,341 - INFO - [The Guardian] Success with 'requests_browser'. Found content (560 words).
+2025-11-29 01:55:01,379 - INFO - Saved article: Trump to pardon ex-Honduras leader serving drug trafficking sentence in US | Donald Trump | The Guardian from The Guardian
+2025-11-29 01:55:01,650 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp89k31krz4o?at_medium=RSS&at_campaign=rss
+2025-11-29 01:55:01,650 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:01,676 - INFO - [BBC] Success with 'requests_browser'. Found content (485 words).
+2025-11-29 01:55:01,721 - INFO - Duplicate article skipped: Thirteen killed in deadliest Israeli raid for months in southern Syria from BBC
+2025-11-29 01:55:02,879 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/28/college-student-deported-boston-flight-thanksgiving
+2025-11-29 01:55:02,879 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:02,900 - INFO - [The Guardian] Success with 'requests_browser'. Found content (274 words).
+2025-11-29 01:55:02,933 - INFO - Duplicate article skipped: College student deported when flying home for Thanksgiving, despite court order | ICE (US Immigration and Customs Enforcement) | The Guardian from The Guardian
+2025-11-29 01:55:03,143 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckglrdg6kz7o?at_medium=RSS&at_campaign=rss
+2025-11-29 01:55:03,143 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:03,212 - INFO - [BBC] Success with 'requests_browser'. Found content (639 words).
+2025-11-29 01:55:03,245 - INFO - Duplicate article skipped: UN panel says Israel operating 'de facto policy of torture' from BBC
+2025-11-29 01:55:03,801 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0l9z176lnlo?at_medium=RSS&at_campaign=rss
+2025-11-29 01:55:03,801 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:03,803 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/28/quebec-prayer-law-canada
+2025-11-29 01:55:03,803 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:03,837 - INFO - [BBC] Success with 'requests_browser'. Found content (678 words).
+2025-11-29 01:55:03,884 - INFO - Duplicate article skipped: Austrian nuns win reprieve in abandoned convent - if they stay off social media from BBC
+2025-11-29 01:55:03,889 - INFO - [The Guardian] Success with 'requests_browser'. Found content (539 words).
+2025-11-29 01:55:03,923 - INFO - Duplicate article skipped: Quebec to ban public prayer in sweeping new secularism law | Quebec | The Guardian from The Guardian
+2025-11-29 01:55:04,161 - INFO - Selenium driver initialized successfully.
+2025-11-29 01:55:04,162 - INFO - Selenium driver initialized successfully.
+2025-11-29 01:55:04,162 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-29 01:55:04,162 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-29 01:55:04,284 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-29 01:55:04,285 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/trump-pauses-all-asylum-decisions-order-applies-to-all-nationalities-follows-shooting-near-white-house/articleshow/125649450.cms
+2025-11-29 01:55:04,285 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:04,634 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2dndy228xo?at_medium=RSS&at_campaign=rss
+2025-11-29 01:55:04,634 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:04,702 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-29 01:55:04,702 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/cyclone-ditwah-live-updates-rains-tamil-nadu-andhra-pradesh-sri-lanka-november-29-2025/article70337452.ece
+2025-11-29 01:55:04,702 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:04,715 - INFO - [BBC] Success with 'requests_browser'. Found content (1379 words).
+2025-11-29 01:55:04,774 - INFO - Duplicate article skipped: Duduzile Zuma-Sambudla resigns as South African MP over Russia mercenary recruitment scandal from BBC
+2025-11-29 01:55:05,172 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/28/haida-nation-mark-carney-pipe-dream-oil-energy
+2025-11-29 01:55:05,173 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:05,205 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1103 words).
+2025-11-29 01:55:05,262 - INFO - Duplicate article skipped: ‘Not going to happen’: First Nations threaten to end Carney’s pipe dream | Canada | The Guardian from The Guardian
+2025-11-29 01:55:06,387 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/28/st-vincent-caribbean-opposition-party-celebrates-historic-election-win
+2025-11-29 01:55:06,388 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-29 01:55:06,449 - INFO - [The Guardian] Success with 'requests_browser'. Found content (609 words).
+2025-11-29 01:55:06,530 - INFO - Duplicate article skipped: St Vincent opposition party celebrates historic election win | St Vincent and the Grenadines | The Guardian from The Guardian
+2025-11-29 01:55:06,828 - INFO - [Times of India] Page content loaded.
+2025-11-29 01:55:07,018 - INFO - [Times of India] Success with 'selenium_browser'. Found content (309 words).
+2025-11-29 01:55:07,217 - INFO - Saved article: Trump pauses all asylum decisions: Order applies to all nationalities; follows shooting near White House - The Times of India from Times of India
+2025-11-29 01:55:07,749 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:07,951 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/treated-very-harshly-trump-pardons-ex-honduras-president-hernandez-ahead-of-elections/articleshow/125649378.cms
+2025-11-29 01:55:07,951 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:08,015 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (167 words).
+2025-11-29 01:55:08,285 - INFO - Saved article: Cylcone Ditwah LIVE updates: Rains to intensify along Tamil Nadu, Andhra Pradesh coasts today - The Hindu from The Hindu
+2025-11-29 01:55:09,379 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttarakhand/uttarakhand-paper-leak-case-cbi-arrests-assistant-professor/article70335578.ece
+2025-11-29 01:55:09,379 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:14,327 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:14,437 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (172 words).
+2025-11-29 01:55:14,675 - INFO - Saved article: Uttarakhand paper-leak case: CBI arrests assistant professor - The Hindu from The Hindu
+2025-11-29 01:55:15,378 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/a-new-lease-of-life-under-the-sun-for-death-row-prisoners/article70334987.ece
+2025-11-29 01:55:15,378 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:22,737 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:22,985 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (2397 words).
+2025-11-29 01:55:23,154 - INFO - Saved article: A new lease of life under the sun for death row prisoners - The Hindu from The Hindu
+2025-11-29 01:55:24,615 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tripura/protests-against-attacks-on-cpim-congress-offices-leaders-intripura/article70337445.ece
+2025-11-29 01:55:24,615 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:29,770 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:29,975 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (279 words).
+2025-11-29 01:55:30,203 - INFO - Saved article: Protests against attacks on CPI(M), Congress offices, leaders in Tripura - The Hindu from The Hindu
+2025-11-29 01:55:30,935 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/sir-in-bengal-being-held-under-intimidation-eci-must-give-security-to-blos-says-bjp/article70335500.ece
+2025-11-29 01:55:30,935 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:31,990 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:32,164 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (546 words).
+2025-11-29 01:55:32,254 - INFO - Saved article: SIR in Bengal being held under intimidation, ECI must give security to BLOs, says BJP - The Hindu from The Hindu
+2025-11-29 01:55:32,815 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rajasthan/call-for-extension-of-sir-timeline-in-rajasthan/article70335103.ece
+2025-11-29 01:55:32,815 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:33,826 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:33,903 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (459 words).
+2025-11-29 01:55:33,990 - INFO - Saved article: Call for extension of SIR timeline in Rajasthan - The Hindu from The Hindu
+2025-11-29 01:55:35,267 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/assam/opposing-ucc-plan-congress-says-assam-cms-days-numbered/article70335506.ece
+2025-11-29 01:55:35,267 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:36,636 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:36,913 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (328 words).
+2025-11-29 01:55:37,019 - INFO - Saved article: Opposing UCC plan, Congress says Assam CM’s days numbered - The Hindu from The Hindu
+2025-11-29 01:55:37,947 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/supreme-court-agrees-to-hear-on-december-1-pleas-for-extension-of-time-for-registration-of-waqf-properties/article70336251.ece
+2025-11-29 01:55:37,947 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:38,745 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:38,830 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (349 words).
+2025-11-29 01:55:38,931 - INFO - Saved article: Supreme Court agrees to hear on December 1 pleas for extension of time for registration of Waqf properties - The Hindu from The Hindu
+2025-11-29 01:55:39,880 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/mumbai/bombay-high-court-orders-audit-of-construction-sites-to-combat-mumbais-air-pollution/article70335314.ece
+2025-11-29 01:55:39,880 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:41,172 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:41,287 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (463 words).
+2025-11-29 01:55:41,384 - INFO - Saved article: Bombay High Court orders audit of construction sites to combat Mumbai’s air pollution - The Hindu from The Hindu
+2025-11-29 01:55:42,625 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/trinamool-bjp-clash-over-student-credit-card-scheme/article70334865.ece
+2025-11-29 01:55:42,625 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:55:43,757 - INFO - [The Hindu] Page content loaded.
+2025-11-29 01:55:43,951 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (282 words).
+2025-11-29 01:55:44,042 - INFO - Duplicate article skipped: Trinamool, BJP clash over student credit card scheme - The Hindu from The Hindu
+2025-11-29 01:55:45,209 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-29 01:55:45,360 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-29 01:57:08,049 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/treated-very-harshly-trump-pardons-ex-honduras-president-hernandez-ahead-of-elections/articleshow/125649378.cms: HTTPConnectionPool(host='localhost', port=40615): Read timed out. (read timeout=120)
+2025-11-29 01:57:08,049 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/treated-very-harshly-trump-pardons-ex-honduras-president-hernandez-ahead-of-elections/articleshow/125649378.cms. Falling back to RSS description.
+2025-11-29 01:57:08,051 - INFO - Saved article: 'Treated very harshly': Trump pardons ex-Honduras president Hernandez ahead of elections from Times of India
+2025-11-29 01:57:08,795 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/dc-shooting-us-treasury-to-cut-federal-benefits-to-illegal-aliens-amid-trumps-rant-on-immigrants-from-third-world-countries/articleshow/125646901.cms
+2025-11-29 01:57:08,795 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:59:08,834 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/dc-shooting-us-treasury-to-cut-federal-benefits-to-illegal-aliens-amid-trumps-rant-on-immigrants-from-third-world-countries/articleshow/125646901.cms: HTTPConnectionPool(host='localhost', port=40615): Read timed out. (read timeout=120)
+2025-11-29 01:59:08,834 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/dc-shooting-us-treasury-to-cut-federal-benefits-to-illegal-aliens-amid-trumps-rant-on-immigrants-from-third-world-countries/articleshow/125646901.cms. Falling back to RSS description.
+2025-11-29 01:59:08,834 - INFO - Duplicate article skipped: DC shooting: US Treasury to cut federal benefits to 'illegal aliens' amid Trump’s rant on immigrants from third-world countries from Times of India
+2025-11-29 01:59:10,097 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/didnt-speak-english-much-dc-shooter-suspect-rahmanullah-lakanwal-often-seen-playing-video-games/articleshow/125646871.cms
+2025-11-29 01:59:10,097 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-29 01:59:55,326 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-11-29 01:59:55,326 - ERROR - A thread has timed out and will be abandoned.
+2025-11-29 01:59:55,326 - INFO - Shutting down thread pool (wait=False)...
+2025-11-29 01:59:55,326 - INFO - Scraped: 9 The Hindu, 2 BBC, 1 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 12)
+2025-11-29 01:59:55,326 - INFO - --- Scraping job finished ---
+2025-11-29 01:59:55,326 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-29 01:59:55,326 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
