@@ -1,0 +1,250 @@
+2025-12-01 16:35:38,155 - INFO - Initializing database connection at: news_articles.db
+2025-12-01 16:35:38,155 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-01 16:35:38,155 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-01 16:35:38,155 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-01 16:35:38,155 - INFO - Proxy is DISABLED.
+2025-12-01 16:35:38,156 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-01 16:35:38,156 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-01 16:35:38,156 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-01 16:35:38,157 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-01 16:35:38,157 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-01 16:35:38,157 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-01 16:35:38,157 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-01 16:35:38,309 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-01 16:35:38,309 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/01/south-africans-court-alleged-recruitment-russia-war-ukraine
+2025-12-01 16:35:38,309 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:38,375 - INFO - [The Guardian] Success with 'requests_browser'. Found content (506 words).
+2025-12-01 16:35:38,434 - INFO - Found 40 articles in BBC RSS feed. Processing up to 10.
+2025-12-01 16:35:38,435 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1m8nmx75evo?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:38,435 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:38,437 - INFO - Saved article: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-01 16:35:38,708 - INFO - [BBC] Success with 'requests_browser'. Found content (573 words).
+2025-12-01 16:35:38,744 - INFO - Duplicate article skipped: Four dead in Russian attack as diplomatic efforts to end war continue from BBC
+2025-12-01 16:35:39,285 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czrk7g50e1po?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:39,285 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:39,339 - INFO - [BBC] Success with 'requests_browser'. Found content (1693 words).
+2025-12-01 16:35:39,379 - INFO - Duplicate article skipped: WW1 toxic compound sprayed on Georgian protesters, BBC evidence suggests from BBC
+2025-12-01 16:35:39,770 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/01/global-health-hiv-aids-funding-cuts-infections-prevention
+2025-12-01 16:35:39,770 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:39,813 - INFO - [The Guardian] Success with 'requests_browser'. Found content (674 words).
+2025-12-01 16:35:39,851 - INFO - Duplicate article skipped: Aid cuts have shaken HIV/Aids care to its core – and will mean millions more infections ahead | Global health | The Guardian from The Guardian
+2025-12-01 16:35:40,443 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9204y4w5o?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:40,443 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:40,493 - INFO - [BBC] Success with 'requests_browser'. Found content (557 words).
+2025-12-01 16:35:40,531 - INFO - Saved article: Anicet Ekane: Cameroon opposition firebrand dies in detention aged 74 from BBC
+2025-12-01 16:35:41,180 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/30/african-leaders-push-for-recognition-of-colonial-crimes-and-reparations
+2025-12-01 16:35:41,180 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:41,225 - INFO - [The Guardian] Success with 'requests_browser'. Found content (670 words).
+2025-12-01 16:35:41,272 - INFO - Duplicate article skipped: African leaders push for recognition of colonial crimes and reparations | Colonialism | The Guardian from The Guardian
+2025-12-01 16:35:41,624 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g9dyd84lwo?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:41,624 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:41,670 - INFO - [BBC] Success with 'requests_browser'. Found content (1145 words).
+2025-12-01 16:35:41,709 - INFO - Duplicate article skipped: Tulip Siddiq MP given jail sentence in Bangladesh after trial in her absence from BBC
+2025-12-01 16:35:42,422 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/28/jacob-zuma-daughter-resigns-claims-south-africans-tricked-fight-russia
+2025-12-01 16:35:42,422 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:42,580 - INFO - [The Guardian] Success with 'requests_browser'. Found content (753 words).
+2025-12-01 16:35:42,619 - INFO - Duplicate article skipped: Jacob Zuma’s daughter resigns amid claims South Africans tricked to fight for Russia | South Africa | The Guardian from The Guardian
+2025-12-01 16:35:43,059 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2dgp8mvmno?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:43,059 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:43,102 - INFO - [BBC] Success with 'requests_browser'. Found content (663 words).
+2025-12-01 16:35:43,166 - INFO - Duplicate article skipped: Honduras election on a knife edge as Trump-backed man slightly ahead from BBC
+2025-12-01 16:35:43,385 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/28/africa-forests-transformed-carbon-sink-carbon-source-study
+2025-12-01 16:35:43,385 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:43,422 - INFO - [The Guardian] Success with 'requests_browser'. Found content (458 words).
+2025-12-01 16:35:43,461 - INFO - Duplicate article skipped: Africa’s forests transformed from carbon sink to carbon source, study finds | Climate crisis | The Guardian from The Guardian
+2025-12-01 16:35:44,638 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g4enlp6kzo?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:44,638 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:44,673 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2025/dec/01/donald-trump-pete-hegseth-caribbean-boats-venezuela-immigration-us-politics-latest-news-updates
+2025-12-01 16:35:44,673 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:44,903 - INFO - [The Guardian] Success with 'requests_browser'. Found content (2034 words).
+2025-12-01 16:35:44,987 - INFO - Duplicate article skipped: Trump backs Hegseth as defense secretary denies ordering second strike on boat – US politics live | US news | The Guardian from The Guardian
+2025-12-01 16:35:44,994 - INFO - [BBC] Success with 'requests_browser'. Found content (870 words).
+2025-12-01 16:35:45,030 - INFO - Duplicate article skipped: Indonesia floods death toll passes 500 from BBC
+2025-12-01 16:35:45,835 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c79x8285n29o?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:45,835 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:45,881 - INFO - [BBC] Success with 'requests_browser'. Found content (439 words).
+2025-12-01 16:35:45,930 - INFO - Saved article: Nigeria's kidnap crisis: Pastor abducted in Kogi state and a bride in Sokoto from BBC
+2025-12-01 16:35:46,418 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/01/trump-maduro-ultimatum-relinquish-power-venezuela
+2025-12-01 16:35:46,418 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:46,455 - INFO - [The Guardian] Success with 'requests_browser'. Found content (498 words).
+2025-12-01 16:35:46,492 - INFO - Duplicate article skipped: Trump reportedly gave Maduro ultimatum to relinquish power in Venezuela | Nicolás Maduro | The Guardian from The Guardian
+2025-12-01 16:35:46,614 - INFO - Selenium driver initialized successfully.
+2025-12-01 16:35:46,614 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-01 16:35:46,615 - INFO - Selenium driver initialized successfully.
+2025-12-01 16:35:46,615 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-01 16:35:46,726 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpvdn8pmmd1o?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:46,726 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:46,787 - INFO - [BBC] Success with 'requests_browser'. Found content (1661 words).
+2025-12-01 16:35:46,830 - INFO - Duplicate article skipped: Sudan civil war: The terrifying escape from el-Fasher in Darfur from BBC
+2025-12-01 16:35:46,848 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-01 16:35:46,848 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bihar/senior-bjp-leader-prem-kumar-all-set-to-become-speaker-of-bihar-assembly/article70345349.ece
+2025-12-01 16:35:46,848 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:35:47,106 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-01 16:35:47,106 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/mike-majlak-fights-rumor-with-strong-clip-as-stevewilldoit-is-seen-taking-tequila-from-manager-during-impaulsive-podcast/articleshow/125698183.cms
+2025-12-01 16:35:47,106 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:35:47,322 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/01/st-lucia-votes-election-economy-crime-passport-sales
+2025-12-01 16:35:47,322 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:47,358 - INFO - [The Guardian] Success with 'requests_browser'. Found content (284 words).
+2025-12-01 16:35:47,394 - INFO - Duplicate article skipped: St Lucia votes in election dominated by economy, crime and passport sales | St Lucia | The Guardian from The Guardian
+2025-12-01 16:35:48,298 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp8zyp988zvo?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:48,298 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:48,358 - INFO - [BBC] Success with 'requests_browser'. Found content (847 words).
+2025-12-01 16:35:48,427 - INFO - Duplicate article skipped: US lawmakers demand answers over Hegseth Venezuela boat strike reports from BBC
+2025-12-01 16:35:48,452 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/30/trump-nicolas-maduro-venezuela-call
+2025-12-01 16:35:48,452 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:48,505 - INFO - [The Guardian] Success with 'requests_browser'. Found content (760 words).
+2025-12-01 16:35:48,579 - INFO - Duplicate article skipped: Trump ‘wouldn’t have wanted’ second strike on Caribbean boat survivors | US foreign policy | The Guardian from The Guardian
+2025-12-01 16:35:49,605 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/30/honduras-vote-election-trump-threat-cut-aid-if-nasry-tito-asfura-loses
+2025-12-01 16:35:49,605 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:49,747 - INFO - [The Guardian] Success with 'requests_browser'. Found content (534 words).
+2025-12-01 16:35:49,838 - INFO - Duplicate article skipped: Hondurans vote amid Trump threat to cut aid if his preferred candidate loses | Honduras | The Guardian from The Guardian
+2025-12-01 16:35:49,885 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg989gnen5o?at_medium=RSS&at_campaign=rss
+2025-12-01 16:35:49,885 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-01 16:35:49,971 - INFO - [BBC] Success with 'requests_browser'. Found content (373 words).
+2025-12-01 16:35:50,089 - INFO - Duplicate article skipped: Ukrainian President Volodymyr Zelensky set for Republic of Ireland visit from BBC
+2025-12-01 16:36:46,862 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/bihar/senior-bjp-leader-prem-kumar-all-set-to-become-speaker-of-bihar-assembly/article70345349.ece: Message: timeout: Timed out receiving message from renderer: 59.786
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x55c3fbd9332a <unknown>
+#1 0x55c3fb7dfe4b <unknown>
+#2 0x55c3fb7c7e0d <unknown>
+#3 0x55c3fb7c7af0 <unknown>
+#4 0x55c3fb7c58ff <unknown>
+#5 0x55c3fb7c627f <unknown>
+#6 0x55c3fb7d4ca3 <unknown>
+#7 0x55c3fb7ee601 <unknown>
+#8 0x55c3fb7f4e0b <unknown>
+#9 0x55c3fb7c69bd <unknown>
+#10 0x55c3fb7ee3a7 <unknown>
+#11 0x55c3fb87f170 <unknown>
+#12 0x55c3fb824c1a <unknown>
+#13 0x55c3fb825921 <unknown>
+#14 0x55c3fbd5a239 <unknown>
+#15 0x55c3fbd5d1e8 <unknown>
+#16 0x55c3fbd434c9 <unknown>
+#17 0x55c3fbd5ddb5 <unknown>
+#18 0x55c3fbd2ae93 <unknown>
+#19 0x55c3fbd80098 <unknown>
+#20 0x55c3fbd80273 <unknown>
+#21 0x55c3fbd922c3 <unknown>
+#22 0x7ff16f69caa4 <unknown>
+#23 0x7ff16f729c6c <unknown>
+
+2025-12-01 16:36:46,862 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/bihar/senior-bjp-leader-prem-kumar-all-set-to-become-speaker-of-bihar-assembly/article70345349.ece. Falling back to RSS description.
+2025-12-01 16:36:46,864 - INFO - Saved article: Senior BJP leader Prem Kumar all set to become Speaker of Bihar Assembly from The Hindu
+2025-12-01 16:36:47,122 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/mike-majlak-fights-rumor-with-strong-clip-as-stevewilldoit-is-seen-taking-tequila-from-manager-during-impaulsive-podcast/articleshow/125698183.cms: Message: timeout: Timed out receiving message from renderer: 59.539
+  (Session info: chrome=142.0.7444.162)
+Stacktrace:
+#0 0x55ad1d6c632a <unknown>
+#1 0x55ad1d112e4b <unknown>
+#2 0x55ad1d0fae0d <unknown>
+#3 0x55ad1d0faaf0 <unknown>
+#4 0x55ad1d0f88ff <unknown>
+#5 0x55ad1d0f927f <unknown>
+#6 0x55ad1d107ca3 <unknown>
+#7 0x55ad1d121601 <unknown>
+#8 0x55ad1d127e0b <unknown>
+#9 0x55ad1d0f99bd <unknown>
+#10 0x55ad1d1213a7 <unknown>
+#11 0x55ad1d1b2170 <unknown>
+#12 0x55ad1d157c1a <unknown>
+#13 0x55ad1d158921 <unknown>
+#14 0x55ad1d68d239 <unknown>
+#15 0x55ad1d6901e8 <unknown>
+#16 0x55ad1d6764c9 <unknown>
+#17 0x55ad1d690db5 <unknown>
+#18 0x55ad1d65de93 <unknown>
+#19 0x55ad1d6b3098 <unknown>
+#20 0x55ad1d6b3273 <unknown>
+#21 0x55ad1d6c52c3 <unknown>
+#22 0x7f1ca0a9caa4 <unknown>
+#23 0x7f1ca0b29c6c <unknown>
+
+2025-12-01 16:36:47,122 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/mike-majlak-fights-rumor-with-strong-clip-as-stevewilldoit-is-seen-taking-tequila-from-manager-during-impaulsive-podcast/articleshow/125698183.cms. Falling back to RSS description.
+2025-12-01 16:36:47,124 - INFO - Saved article: Mike Majlak fights rumor with strong clip as SteveWillDoIt is seen taking tequila from manager during Impaulsive podcast from Times of India
+2025-12-01 16:36:47,618 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/suspected-scrub-typhus-death-reported-in-state-officials-say-no-cause-for-alarm/article70346364.ece
+2025-12-01 16:36:47,618 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:36:47,874 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/this-is-so-stupid-inside-the-controversy-over-zentreyas-new-model-and-the-accusations-fueling-it/articleshow/125697224.cms
+2025-12-01 16:36:47,874 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:36:53,191 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:36:53,301 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (290 words).
+2025-12-01 16:36:53,677 - INFO - Saved article: Suspected Scrub Typhus death reported in State, officials say no cause for alarm - The Hindu from The Hindu
+2025-12-01 16:36:54,343 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/third-edition-of-blr-hubba-to-begin-on-january-16/article70346404.ece
+2025-12-01 16:36:54,343 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:36:55,491 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:36:55,545 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (333 words).
+2025-12-01 16:36:55,643 - INFO - Saved article: Third edition of BLR Hubba to begin on January 16 - The Hindu from The Hindu
+2025-12-01 16:36:57,125 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/cp-radhakrishnan-chairs-first-rajya-sabha-session-opposition-urges-him-to-be-impartial/article70346116.ece
+2025-12-01 16:36:57,125 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:36:57,900 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:36:57,982 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (630 words).
+2025-12-01 16:36:58,058 - INFO - Saved article: C.P. Radhakrishnan chairs first Rajya Sabha session, Opposition urges him to be impartial - The Hindu from The Hindu
+2025-12-01 16:36:59,388 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/renewable-low-carbon-systems-to-fuel-tg-clean-energy-powerhouse-vision/article70346652.ece
+2025-12-01 16:36:59,388 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:36:59,764 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-12-01 16:37:00,056 - INFO - [Times of India] Success with 'selenium_browser'. Found content (392 words).
+2025-12-01 16:37:00,179 - INFO - Saved article: “This is so stupid”: Inside the controversy over Zentreya’s new model and the accusations fueling it - The Times of India from Times of India
+2025-12-01 16:37:00,236 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:37:00,313 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (639 words).
+2025-12-01 16:37:00,395 - INFO - Saved article: Renewable, low-carbon systems to fuel TG clean-energy powerhouse vision - The Hindu from The Hindu
+2025-12-01 16:37:00,960 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/bengaluru-central-corporation-targets-major-commercial-establishments-for-tax-evasion/article70338593.ece
+2025-12-01 16:37:00,960 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:01,119 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/throw-her-the-hell-out-of-our-country-could-ilhan-omar-be-deported-for-marrying-her-brother/articleshow/125697306.cms
+2025-12-01 16:37:01,119 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:01,480 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:37:01,525 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (417 words).
+2025-12-01 16:37:01,608 - INFO - Saved article: Bengaluru Central Corporation targets major commercial establishments for tax evasion - The Hindu from The Hindu
+2025-12-01 16:37:02,571 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/congress-govt-planning-82000-crore-burden-on-people-with-new-thermal-power-projects/article70346502.ece
+2025-12-01 16:37:02,571 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:02,749 - INFO - [Times of India] Page content loaded.
+2025-12-01 16:37:02,983 - INFO - [Times of India] Success with 'selenium_browser'. Found content (411 words).
+2025-12-01 16:37:03,112 - INFO - Saved article: 'Throw her out of our country': Could Ilhan Omar be deported for 'marrying her brother'? - The Times of India from Times of India
+2025-12-01 16:37:03,693 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:37:03,865 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (417 words).
+2025-12-01 16:37:04,017 - INFO - Saved article: ‘Congress govt. planning ₹82,000 crore burden on people with new thermal power projects’ - The Hindu from The Hindu
+2025-12-01 16:37:04,559 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/self-deport-now-ice-issues-warning-as-donald-trump-cracks-down-on-somalis/articleshow/125696759.cms
+2025-12-01 16:37:04,559 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:05,185 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/suraj-lama-missing-case-hc-seeks-details-from-hospital/article70346338.ece
+2025-12-01 16:37:05,185 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:05,937 - INFO - [Times of India] Page content loaded.
+2025-12-01 16:37:06,119 - INFO - [Times of India] Success with 'selenium_browser'. Found content (360 words).
+2025-12-01 16:37:06,190 - INFO - Saved article: 'Self-deport now': ICE issues warning as Donald Trump cracks down on Somalis - The Times of India from Times of India
+2025-12-01 16:37:06,563 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:37:06,633 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (416 words).
+2025-12-01 16:37:06,784 - INFO - Saved article: Suraj Lama missing case: Kerala HC seeks details from hospital - The Hindu from The Hindu
+2025-12-01 16:37:07,270 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/kash-patels-girlfriend-alexis-wilkins-speaks-up-on-h-1b-row-we-do-not-want-this/articleshow/125695226.cms
+2025-12-01 16:37:07,271 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:07,821 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/imd-forecasts-warm-and-sunny-tuesday/article70346198.ece
+2025-12-01 16:37:07,821 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:08,846 - INFO - [Times of India] Page content loaded.
+2025-12-01 16:37:08,929 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:37:09,101 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (268 words).
+2025-12-01 16:37:09,249 - INFO - Saved article: IMD forecasts warm and sunny Tuesday - The Hindu from The Hindu
+2025-12-01 16:37:09,259 - INFO - [Times of India] Success with 'selenium_browser'. Found content (400 words).
+2025-12-01 16:37:09,361 - INFO - Duplicate article skipped: Kash Patel's girlfriend Alexis Wilkins speaks up on H-1B row: 'We do not want this' - The Times of India from Times of India
+2025-12-01 16:37:10,571 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/ministers-brave-rain-to-distribute-ntr-bharosa-pensions-in-south-coastal-ap/article70346410.ece
+2025-12-01 16:37:10,571 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:10,701 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/man-who-beheaded-indin-origin-motel-owner-in-texas-wont-face-death-penalty-prosecution-goes-soft-on-cuban-murderer/articleshow/125694464.cms
+2025-12-01 16:37:10,701 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:37:11,506 - INFO - [The Hindu] Page content loaded.
+2025-12-01 16:37:11,822 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (433 words).
+2025-12-01 16:37:11,936 - INFO - Saved article: Ministers brave rain to distribute NTR Bharosa pensions in South Coastal A.P. - The Hindu from The Hindu
+2025-12-01 16:37:12,975 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-01 16:37:12,983 - INFO - [Times of India] Page content loaded.
+2025-12-01 16:37:13,185 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-01 16:37:13,211 - INFO - [Times of India] Success with 'selenium_browser'. Found content (381 words).
+2025-12-01 16:37:13,282 - INFO - Duplicate article skipped: Man who beheaded Indin-origin motel owner in Texas won't face death penalty; prosecution goes soft on Cuban murderer - The Times of India from Times of India
+2025-12-01 16:37:14,469 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/cory-booker-weds-alexis-lewis-decoding-the-homosexuality-rumours-that-have-persisted-for-long/articleshow/125694311.cms
+2025-12-01 16:37:14,469 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:39:14,539 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/cory-booker-weds-alexis-lewis-decoding-the-homosexuality-rumours-that-have-persisted-for-long/articleshow/125694311.cms: HTTPConnectionPool(host='localhost', port=54453): Read timed out. (read timeout=120)
+2025-12-01 16:39:14,539 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/cory-booker-weds-alexis-lewis-decoding-the-homosexuality-rumours-that-have-persisted-for-long/articleshow/125694311.cms. Falling back to RSS description.
+2025-12-01 16:39:14,539 - INFO - Duplicate article skipped: Cory Booker weds Alexis Lewis: Decoding the homosexuality rumours that have persisted for long from Times of India
+2025-12-01 16:39:15,425 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/putin-is-coming-to-india-in-december-2025-which-other-russian-presidents-visited-india-including-putins-past-trips/articleshow/125692188.cms
+2025-12-01 16:39:15,425 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-01 16:40:38,157 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-01 16:40:38,157 - ERROR - A thread has timed out and will be abandoned.
+2025-12-01 16:40:38,158 - INFO - Shutting down thread pool (wait=False)...
+2025-12-01 16:40:38,158 - INFO - Scraped: 10 The Hindu, 2 BBC, 1 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 13)
+2025-12-01 16:40:38,158 - INFO - --- Scraping job finished ---
+2025-12-01 16:40:38,158 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-01 16:40:38,158 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
