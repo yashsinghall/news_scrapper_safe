@@ -1,0 +1,171 @@
+2025-12-03 14:27:41,797 - INFO - Initializing database connection at: news_articles.db
+2025-12-03 14:27:41,797 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-03 14:27:41,797 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-03 14:27:41,797 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-03 14:27:41,797 - INFO - Proxy is DISABLED.
+2025-12-03 14:27:41,798 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-03 14:27:41,798 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-03 14:27:41,798 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-03 14:27:41,798 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-03 14:27:41,799 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-03 14:27:41,799 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-03 14:27:41,799 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-03 14:27:42,007 - INFO - Found 39 articles in BBC RSS feed. Processing up to 10.
+2025-12-03 14:27:42,007 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpwk7xen544o?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:42,007 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:42,046 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-03 14:27:42,046 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/03/whistleblower-accuses-foreign-office-of-censoring-warning-of-sudan-genocide
+2025-12-03 14:27:42,046 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:42,270 - INFO - [BBC] Success with 'requests_browser'. Found content (668 words).
+2025-12-03 14:27:42,311 - INFO - Saved article: Israel says Rafah crossing to open soon to let Gazans leave via Egypt from BBC
+2025-12-03 14:27:42,346 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1513 words).
+2025-12-03 14:27:42,393 - INFO - Duplicate article skipped: Whistleblower accuses Foreign Office of ‘censoring’ warning of Sudan genocide | Global development | The Guardian from The Guardian
+2025-12-03 14:27:43,356 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2lvzrve5lqo?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:43,356 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:43,463 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/02/trump-somali-immigrants-minnesota
+2025-12-03 14:27:43,464 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:43,507 - INFO - [The Guardian] Success with 'requests_browser'. Found content (473 words).
+2025-12-03 14:27:43,562 - INFO - Duplicate article skipped: Trump calls Somali immigrants ‘garbage’ as US reportedly targets Minnesota community | Trump administration | The Guardian from The Guardian
+2025-12-03 14:27:43,570 - INFO - [BBC] Success with 'requests_browser'. Found content (292 words).
+2025-12-03 14:27:43,605 - INFO - Duplicate article skipped: Federica Mogherini: Former EU top diplomat accused in fraud investigation from BBC
+2025-12-03 14:27:44,652 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c208x9v68w3o?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:44,652 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:44,698 - INFO - [BBC] Success with 'requests_browser'. Found content (1092 words).
+2025-12-03 14:27:44,722 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/01/south-africans-court-alleged-recruitment-russia-war-ukraine
+2025-12-03 14:27:44,722 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:44,758 - INFO - Duplicate article skipped: Trump says he doesn't want Somalis in US as ICE plans operation from BBC
+2025-12-03 14:27:44,880 - INFO - [The Guardian] Success with 'requests_browser'. Found content (506 words).
+2025-12-03 14:27:44,925 - INFO - Duplicate article skipped: Five South Africans in court over alleged recruitment for Russia’s war in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-03 14:27:45,841 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/01/global-health-hiv-aids-funding-cuts-infections-prevention
+2025-12-03 14:27:45,841 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:45,994 - INFO - [The Guardian] Success with 'requests_browser'. Found content (674 words).
+2025-12-03 14:27:46,001 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy7v077dm0po?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:46,001 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:46,035 - INFO - Duplicate article skipped: Aid cuts have shaken HIV/Aids care to its core – and will mean millions more infections ahead | Global health | The Guardian from The Guardian
+2025-12-03 14:27:46,054 - INFO - [BBC] Success with 'requests_browser'. Found content (308 words).
+2025-12-03 14:27:46,087 - INFO - Duplicate article skipped: MH370: Search for long-missing Malaysia Airlines fight to resume from BBC
+2025-12-03 14:27:46,607 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgq5dvygllo?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:46,607 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:46,623 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/30/african-leaders-push-for-recognition-of-colonial-crimes-and-reparations
+2025-12-03 14:27:46,623 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:46,656 - INFO - [BBC] Success with 'requests_browser'. Found content (1031 words).
+2025-12-03 14:27:46,724 - INFO - Duplicate article skipped: Kenyan MPs accuse British soldiers from Batuk of sexual abuse in Laikipia from BBC
+2025-12-03 14:27:46,809 - INFO - [The Guardian] Success with 'requests_browser'. Found content (670 words).
+2025-12-03 14:27:46,858 - INFO - Duplicate article skipped: African leaders push for recognition of colonial crimes and reparations | Colonialism | The Guardian from The Guardian
+2025-12-03 14:27:47,487 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2025/dec/02/donald-trump-pete-hegseth-boat-venezuela-maduro-tennessee-us-politics-live-news-updates
+2025-12-03 14:27:47,487 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:47,862 - INFO - [The Guardian] Success with 'requests_browser'. Found content (4155 words).
+2025-12-03 14:27:47,965 - INFO - Duplicate article skipped: Pete Hegseth says he ‘didn’t stick around’ to watch second strike on alleged drug boat as Democrats slam administration over attacks – as it happened | Trump administration | The Guardian from The Guardian
+2025-12-03 14:27:48,167 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy8jnxxm70jo?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:48,167 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:48,207 - INFO - [BBC] Success with 'requests_browser'. Found content (244 words).
+2025-12-03 14:27:48,253 - INFO - Duplicate article skipped: Drunk raccoon found passed out on liquor store floor after breaking in from BBC
+2025-12-03 14:27:49,213 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/02/trump-intervention-honduras-presidential-vote-count-stalls-nasry-asfura
+2025-12-03 14:27:49,214 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:49,354 - INFO - [The Guardian] Success with 'requests_browser'. Found content (945 words).
+2025-12-03 14:27:49,399 - INFO - Duplicate article skipped: Trump frees ex-Honduran president from prison as country awaits knife-edge election result | Honduras | The Guardian from The Guardian
+2025-12-03 14:27:49,411 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1m8g5x1xmko?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:49,412 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:49,556 - INFO - [BBC] Success with 'requests_browser'. Found content (308 words).
+2025-12-03 14:27:49,592 - INFO - Saved article: Three French teens drown in freak car crash in swimming pool from BBC
+2025-12-03 14:27:50,418 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgzqxjzjyqo?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:50,418 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:50,460 - INFO - [BBC] Success with 'requests_browser'. Found content (332 words).
+2025-12-03 14:27:50,497 - INFO - Saved article: Production halted at Chinese factory making 'childlike' sex dolls from BBC
+2025-12-03 14:27:50,566 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/02/pete-hegseth-franklin-the-turtle
+2025-12-03 14:27:50,567 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:50,629 - INFO - Selenium driver initialized successfully.
+2025-12-03 14:27:50,629 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-03 14:27:50,630 - INFO - Selenium driver initialized successfully.
+2025-12-03 14:27:50,631 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-03 14:27:50,761 - INFO - [The Guardian] Success with 'requests_browser'. Found content (438 words).
+2025-12-03 14:27:50,797 - INFO - Duplicate article skipped: Publisher condemns ‘violent’ use of Franklin the Turtle after Hegseth’s boat strike post | Pete Hegseth | The Guardian from The Guardian
+2025-12-03 14:27:50,817 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-03 14:27:50,817 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/security-measures-in-place-for-pawans-visit-to-chittoor-on-december-4/article70353668.ece
+2025-12-03 14:27:50,817 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:27:50,997 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-03 14:27:50,997 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/vivek-ramaswamy-dropped-from-tech-conference-after-video-of-indian-origin-woman-saying-kick-trump-goes-viral/articleshow/125743483.cms
+2025-12-03 14:27:50,997 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:27:51,498 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/02/monterrey-mexico-air-quality-industrial-pollution
+2025-12-03 14:27:51,499 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:51,565 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clydg2re4d1o?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:51,567 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:51,586 - INFO - [The Guardian] Success with 'requests_browser'. Found content (3688 words).
+2025-12-03 14:27:51,654 - INFO - Duplicate article skipped: Revealed: Mexico’s industrial boomtown is making goods for the US. Residents say they’re ‘breathing poison’ | Mexico | The Guardian from The Guardian
+2025-12-03 14:27:51,670 - INFO - [BBC] Success with 'requests_browser'. Found content (336 words).
+2025-12-03 14:27:51,729 - INFO - Duplicate article skipped: Sanchar Saathi: India scraps order to pre-install state-run cyber safety app on smartphones from BBC
+2025-12-03 14:27:52,304 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c7vm754r80vo?at_medium=RSS&at_campaign=rss
+2025-12-03 14:27:52,304 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:52,482 - INFO - [BBC] Success with 'requests_browser'. Found content (225 words).
+2025-12-03 14:27:52,541 - INFO - Duplicate article skipped: New Zealand man charged with theft over claims he swallowed $19k Fabergé egg from BBC
+2025-12-03 14:27:52,707 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/02/st-lucia-election-prime-minister-philip-pierre-wins
+2025-12-03 14:27:52,707 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-03 14:27:52,939 - INFO - [The Guardian] Success with 'requests_browser'. Found content (313 words).
+2025-12-03 14:27:53,129 - INFO - Duplicate article skipped: St Lucia prime minister Philip Pierre keeps majority as ruling party wins | St Lucia | The Guardian from The Guardian
+2025-12-03 14:27:56,270 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:27:56,584 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (126 words).
+2025-12-03 14:27:57,127 - INFO - Saved article: Security measures in place for Pawan’s visit to Chittoor on December 4 - The Hindu from The Hindu
+2025-12-03 14:27:58,615 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/vizhinjam-port-boasts-many-records-on-the-first-anniversary-of-commercial-operation/article70353727.ece
+2025-12-03 14:27:58,615 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:01,196 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:01,387 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (354 words).
+2025-12-03 14:28:01,608 - INFO - Saved article: Vizhinjam port boasts many records on the first anniversary of commercial operation - The Hindu from The Hindu
+2025-12-03 14:28:02,306 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/siddaramaiah-will-continue-as-cm-till-2028-mb-patil/article70353239.ece
+2025-12-03 14:28:02,306 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:09,937 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:10,096 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (148 words).
+2025-12-03 14:28:10,170 - INFO - Saved article: Siddaramaiah will continue as CM till 2028: M.B. Patil - The Hindu from The Hindu
+2025-12-03 14:28:11,152 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/hanuma-sankirtana-yatra-held-amid-tight-security-in-srirangapatana/article70353535.ece
+2025-12-03 14:28:11,152 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:11,938 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:12,067 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (371 words).
+2025-12-03 14:28:12,169 - INFO - Saved article: Hanuma Maale Sankirtana Yatra held amid tight security in Srirangapatana - The Hindu from The Hindu
+2025-12-03 14:28:12,806 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/kolusu-parthasaradhi-advocates-for-modern-profitable-farming-at-nekkalam-gollagudem/article70353658.ece
+2025-12-03 14:28:12,806 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:16,934 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:17,127 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (224 words).
+2025-12-03 14:28:17,218 - INFO - Saved article: Kolusu Parthasaradhi advocates for modern, profitable farming at Nekkalam Gollagudem - The Hindu from The Hindu
+2025-12-03 14:28:18,113 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/us-fda-and-telangana-dca-discuss-ongoing-regulatory-collaboration/article70354030.ece
+2025-12-03 14:28:18,113 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:18,942 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:19,024 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (171 words).
+2025-12-03 14:28:19,099 - INFO - Saved article: US FDA and Telangana DCA discuss ongoing regulatory collaboration - The Hindu from The Hindu
+2025-12-03 14:28:20,095 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/two-arrested-for-murder-linked-to-black-magic/article70353558.ece
+2025-12-03 14:28:20,095 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:20,989 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:21,086 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (238 words).
+2025-12-03 14:28:21,190 - INFO - Saved article: Two arrested for murder linked to ‘black magic’ - The Hindu from The Hindu
+2025-12-03 14:28:22,390 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/congress-seat-sharing-committee-meets-stalin/article70353820.ece
+2025-12-03 14:28:22,390 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:23,319 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:23,409 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (323 words).
+2025-12-03 14:28:23,499 - INFO - Saved article: Congress seat-sharing committee meets Stalin - The Hindu from The Hindu
+2025-12-03 14:28:24,410 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/karnataka-govt-finds-itself-in-quota-conundrum/article70350626.ece
+2025-12-03 14:28:24,410 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:25,568 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:25,735 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (672 words).
+2025-12-03 14:28:25,817 - INFO - Saved article: Karnataka govt. finds itself in quota conundrum - The Hindu from The Hindu
+2025-12-03 14:28:26,421 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/join-democracy-do-not-pick-up-guns-venkaiah-naidu-urges-maoists/article70353826.ece
+2025-12-03 14:28:26,421 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:28:29,341 - INFO - [The Hindu] Page content loaded.
+2025-12-03 14:28:29,622 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (375 words).
+2025-12-03 14:28:29,907 - INFO - Saved article: Join democracy, do not pick up guns, Venkaiah Naidu urges Maoists - The Hindu from The Hindu
+2025-12-03 14:28:30,916 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-03 14:28:31,103 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-03 14:29:51,043 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/vivek-ramaswamy-dropped-from-tech-conference-after-video-of-indian-origin-woman-saying-kick-trump-goes-viral/articleshow/125743483.cms: HTTPConnectionPool(host='localhost', port=59025): Read timed out. (read timeout=120)
+2025-12-03 14:29:51,043 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/vivek-ramaswamy-dropped-from-tech-conference-after-video-of-indian-origin-woman-saying-kick-trump-goes-viral/articleshow/125743483.cms. Falling back to RSS description.
+2025-12-03 14:29:51,044 - INFO - Saved article: Vivek Ramaswamy dropped from tech conference after video of Indian-origin woman saying ‘kick Trump’ goes viral from Times of India
+2025-12-03 14:29:52,027 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/kash-patels-mic-drop-reply-to-eric-swalwell-on-jacket-row-i-spent-zero-days-dating-a-chinese-spy/articleshow/125744290.cms
+2025-12-03 14:29:52,027 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:31:52,102 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/kash-patels-mic-drop-reply-to-eric-swalwell-on-jacket-row-i-spent-zero-days-dating-a-chinese-spy/articleshow/125744290.cms: HTTPConnectionPool(host='localhost', port=59025): Read timed out. (read timeout=120)
+2025-12-03 14:31:52,102 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/kash-patels-mic-drop-reply-to-eric-swalwell-on-jacket-row-i-spent-zero-days-dating-a-chinese-spy/articleshow/125744290.cms. Falling back to RSS description.
+2025-12-03 14:31:52,105 - INFO - Saved article: Kash Patel's 'mic drop' reply to Eric Swalwell on 'jacket row': 'I spent zero days dating a Chinese spy' from Times of India
+2025-12-03 14:31:52,742 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/what-happened-between-stable-ronaldo-and-wendy-ortiz-full-livestream-feud-explored/articleshow/125744109.cms
+2025-12-03 14:31:52,742 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-03 14:32:41,799 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-03 14:32:41,800 - ERROR - A thread has timed out and will be abandoned.
+2025-12-03 14:32:41,800 - INFO - Shutting down thread pool (wait=False)...
+2025-12-03 14:32:41,800 - INFO - Scraped: 3 BBC, 10 The Hindu, 0 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 13)
+2025-12-03 14:32:41,800 - INFO - --- Scraping job finished ---
+2025-12-03 14:32:41,800 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-03 14:32:41,800 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
