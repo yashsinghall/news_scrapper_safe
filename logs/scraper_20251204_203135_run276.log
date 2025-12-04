@@ -1,0 +1,236 @@
+2025-12-04 20:30:03,940 - INFO - Initializing database connection at: news_articles.db
+2025-12-04 20:30:03,941 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-04 20:30:03,941 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-04 20:30:03,941 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-04 20:30:03,941 - INFO - Proxy is DISABLED.
+2025-12-04 20:30:03,942 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-04 20:30:03,942 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-04 20:30:03,942 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-04 20:30:03,942 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-04 20:30:03,943 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-04 20:30:03,943 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-04 20:30:03,943 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-04 20:30:04,065 - INFO - Found 43 articles in BBC RSS feed. Processing up to 10.
+2025-12-04 20:30:04,065 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgexgwr1wrro?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:04,065 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:04,073 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-04 20:30:04,074 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/04/us-eu-critical-minerals-project-drc-report-lobito-corridor
+2025-12-04 20:30:04,074 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:04,208 - INFO - [BBC] Success with 'requests_browser'. Found content (758 words).
+2025-12-04 20:30:04,246 - INFO - Duplicate article skipped: Putin says Russia will take Donbas by force or Ukraine's troops will withdraw from BBC
+2025-12-04 20:30:04,274 - INFO - [The Guardian] Success with 'requests_browser'. Found content (813 words).
+2025-12-04 20:30:04,309 - INFO - Duplicate article skipped: US and EU critical minerals project could displace thousands in DRC – report | Democratic Republic of the Congo | The Guardian from The Guardian
+2025-12-04 20:30:04,863 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/04/aid-cuts-africa-uganda-stops-refugee-status-eritreans-somalis-ethiopians
+2025-12-04 20:30:04,863 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:04,888 - INFO - [The Guardian] Success with 'requests_browser'. Found content (587 words).
+2025-12-04 20:30:04,923 - INFO - Duplicate article skipped: Uganda stops granting refugee status for Eritreans, Somalis and Ethiopians | Global development | The Guardian from The Guardian
+2025-12-04 20:30:05,363 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj4q2vpggr9o?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:05,363 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:05,402 - INFO - [BBC] Success with 'requests_browser'. Found content (1436 words).
+2025-12-04 20:30:05,440 - INFO - Duplicate article skipped: India-Russia: Why Putin and Modi are meeting in Delhi from BBC
+2025-12-04 20:30:06,029 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cde6d8wyp79o?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:06,029 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:06,065 - INFO - [BBC] Success with 'requests_browser'. Found content (813 words).
+2025-12-04 20:30:06,102 - INFO - Duplicate article skipped: Ireland among countries boycotting Eurovision after Israel allowed to compete from BBC
+2025-12-04 20:30:06,206 - INFO - [The Guardian] Article: https://www.theguardian.com/artanddesign/2025/dec/04/ibrahim-mahama-ghana-tops-artreview-power-list
+2025-12-04 20:30:06,206 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:06,232 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-04 20:30:06,283 - INFO - Duplicate article skipped: Ghana’s Ibrahim Mahama first African to top annual art power list | Art | The Guardian from The Guardian
+2025-12-04 20:30:07,416 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c157n1g977go?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:07,416 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:07,446 - INFO - [BBC] Success with 'requests_browser'. Found content (1110 words).
+2025-12-04 20:30:07,485 - INFO - Duplicate article skipped: 'Like first aid for manuscripts': Recovery work begins at Gaza's war-damaged heritage sites from BBC
+2025-12-04 20:30:07,708 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/dec/03/british-troops-accused-of-human-rights-violations-environmental-destruction-and-sexual-abuse-in-kenya
+2025-12-04 20:30:07,708 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:07,939 - INFO - [The Guardian] Success with 'requests_browser'. Found content (772 words).
+2025-12-04 20:30:07,985 - INFO - Duplicate article skipped: British troops accused of human rights violations and sexual abuse in Kenya | British army | The Guardian from The Guardian
+2025-12-04 20:30:08,513 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/03/whistleblower-accuses-foreign-office-of-censoring-warning-of-sudan-genocide
+2025-12-04 20:30:08,513 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:08,745 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1465 words).
+2025-12-04 20:30:08,791 - INFO - Duplicate article skipped: Whistleblower accuses Foreign Office of ‘censoring’ warning of Sudan genocide | Global development | The Guardian from The Guardian
+2025-12-04 20:30:08,901 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62d8v6jpwzo?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:08,901 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:08,960 - INFO - [BBC] Success with 'requests_browser'. Found content (535 words).
+2025-12-04 20:30:08,992 - INFO - Duplicate article skipped: Police arrest suspect in DC pipe bomb incident, ending years-long manhunt from BBC
+2025-12-04 20:30:09,936 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/video-second-boat-strike-military-caribbean
+2025-12-04 20:30:09,936 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:09,964 - INFO - [The Guardian] Success with 'requests_browser'. Found content (854 words).
+2025-12-04 20:30:10,004 - INFO - Saved article: US lawmakers call for inquiry into second US military strike on alleged Caribbean drug boat | US military | The Guardian from The Guardian
+2025-12-04 20:30:10,399 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62n6y9yd70o?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:10,399 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:10,428 - INFO - [BBC] Success with 'requests_browser'. Found content (473 words).
+2025-12-04 20:30:10,471 - INFO - Saved article: Israel strikes south Lebanon after first direct talks in decades from BBC
+2025-12-04 20:30:10,814 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/student-describes-horror-show-ice-deportation-to-honduras-at-thanksgiving
+2025-12-04 20:30:10,814 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:10,847 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1024 words).
+2025-12-04 20:30:10,896 - INFO - Duplicate article skipped: Student describes ‘horror show’ ICE deportation to Honduras at Thanksgiving | ICE (US Immigration and Customs Enforcement) | The Guardian from The Guardian
+2025-12-04 20:30:11,172 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp84y7jx2pzo?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:11,172 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:11,198 - INFO - [BBC] Success with 'requests_browser'. Found content (357 words).
+2025-12-04 20:30:11,233 - INFO - Duplicate article skipped: South Korea: Government developing app showing real-time location of stalkers from BBC
+2025-12-04 20:30:11,363 - INFO - Selenium driver initialized successfully.
+2025-12-04 20:30:11,364 - INFO - Selenium driver initialized successfully.
+2025-12-04 20:30:11,364 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-04 20:30:11,364 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-04 20:30:11,470 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-04 20:30:11,470 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/sir-essential-to-ensure-sanctity-of-future-elections-suresh-gopi/article70359150.ece
+2025-12-04 20:30:11,470 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:11,533 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/venezuela-boat-strikes-legality-hegseth
+2025-12-04 20:30:11,533 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:11,560 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1449 words).
+2025-12-04 20:30:11,597 - INFO - Duplicate article skipped: Killing of survivors sparks outrage – but entire US ‘drug boat’ war is legally shaky | US military | The Guardian from The Guardian
+2025-12-04 20:30:11,841 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-04 20:30:11,841 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/never-taking-sides-trump-oversees-congo-rwanda-peace-deal-in-washington/articleshow/125775092.cms
+2025-12-04 20:30:11,841 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:12,154 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwyv7ggqpjpo?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:12,154 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:12,347 - INFO - [BBC] Success with 'requests_browser'. Found content (918 words).
+2025-12-04 20:30:12,403 - INFO - Duplicate article skipped: Mange Kimambi: Tanzanian activist blocked from Instagram after mobilising election protests from BBC
+2025-12-04 20:30:13,086 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/03/epstein-caribbean-island-new-photo-video-release
+2025-12-04 20:30:13,086 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:13,134 - INFO - [The Guardian] Success with 'requests_browser'. Found content (373 words).
+2025-12-04 20:30:13,208 - INFO - Duplicate article skipped: House Democrats release new images of Epstein’s private Caribbean island | Jeffrey Epstein | The Guardian from The Guardian
+2025-12-04 20:30:13,650 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g5rrlve33o?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:13,651 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:13,712 - INFO - [BBC] Success with 'requests_browser'. Found content (1003 words).
+2025-12-04 20:30:13,795 - INFO - Duplicate article skipped: Previously unseen images of Jeffrey Epstein's island released from BBC
+2025-12-04 20:30:13,997 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/03/colombia-trump-warning-military-threat
+2025-12-04 20:30:13,997 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:14,073 - INFO - [The Guardian] Success with 'requests_browser'. Found content (612 words).
+2025-12-04 20:30:14,248 - INFO - Duplicate article skipped: Colombia’s president warns Trump: ‘Do not wake the jaguar’ with threats of military strikes | Colombia | The Guardian from The Guardian
+2025-12-04 20:30:14,555 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8dy1613j2ro?at_medium=RSS&at_campaign=rss
+2025-12-04 20:30:14,556 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-04 20:30:14,740 - INFO - [BBC] Success with 'requests_browser'. Found content (877 words).
+2025-12-04 20:30:14,859 - INFO - Duplicate article skipped: 'Not becoming of a president': Somali-Americans respond to Trump's 'garbage' remarks from BBC
+2025-12-04 20:30:15,988 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:16,422 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (119 words).
+2025-12-04 20:30:16,596 - INFO - Saved article: SIR essential to ensure sanctity of future elections: Suresh Gopi - The Hindu from The Hindu
+2025-12-04 20:30:17,253 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/kc-general-hospital-gets-advanced-cbnaat-machine-to-speed-up-tb-diagnosis/article70358154.ece
+2025-12-04 20:30:17,253 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:23,069 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:23,847 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (354 words).
+2025-12-04 20:30:24,086 - INFO - Saved article: KC General Hospital gets advanced CBNAAT machine to speed up TB diagnosis - The Hindu from The Hindu
+2025-12-04 20:30:25,324 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/maheshwar-rao-inspects-south-bengaluru-metro-corridor-works/article70358223.ece
+2025-12-04 20:30:25,324 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:27,362 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:27,545 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (225 words).
+2025-12-04 20:30:27,852 - INFO - Saved article: Maheshwar Rao inspects South Bengaluru metro corridor works - The Hindu from The Hindu
+2025-12-04 20:30:28,696 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/how-deportee-was-allowed-to-walk-free-asks-hc-on-suraj-lama-missing-case/article70358444.ece
+2025-12-04 20:30:28,697 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:32,521 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:32,822 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (265 words).
+2025-12-04 20:30:32,952 - INFO - Saved article: How deportee was allowed to walk free, asks HC on Suraj Lama missing case - The Hindu from The Hindu
+2025-12-04 20:30:34,035 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-finalises-pg-course-fee-in-five-govt-medical-colleges/article70358628.ece
+2025-12-04 20:30:34,035 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:35,369 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:35,540 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (283 words).
+2025-12-04 20:30:35,658 - INFO - Saved article: Andhra Pradesh finalises PG course fee in five govt. medical colleges - The Hindu from The Hindu
+2025-12-04 20:30:36,358 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/parliament-approves-bill-to-levy-higher-excise-duty-on-tobacco/article70359130.ece
+2025-12-04 20:30:36,358 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:37,303 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:37,372 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (627 words).
+2025-12-04 20:30:37,460 - INFO - Saved article: Parliament approves Bill to levy higher excise duty on tobacco - The Hindu from The Hindu
+2025-12-04 20:30:38,929 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/cruise-on-krishna-river-throws-light-on-evolution-of-village-deities/article70359094.ece
+2025-12-04 20:30:38,929 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:40,077 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:40,165 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (308 words).
+2025-12-04 20:30:40,252 - INFO - Saved article: Cruise on Krishna river throws light on evolution of village deities - The Hindu from The Hindu
+2025-12-04 20:30:41,103 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/five-engineering-students-die-in-accident-on-nh-16-in-palnadu-district/article70358955.ece
+2025-12-04 20:30:41,103 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:42,083 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:42,134 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (138 words).
+2025-12-04 20:30:42,207 - INFO - Saved article: Five engineering students die in accident on NH-16 in Palnadu district - The Hindu from The Hindu
+2025-12-04 20:30:43,427 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/doctors-perform-mechanical-thrombectomy-at-city-hospital/article70358889.ece
+2025-12-04 20:30:43,427 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:44,318 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:44,362 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (126 words).
+2025-12-04 20:30:44,455 - INFO - Saved article: Doctors perform mechanical thrombectomy at city hospital - The Hindu from The Hindu
+2025-12-04 20:30:45,866 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tirupparankundram-row-tn-government-has-abided-by-2014-division-bench-order-says-minister/article70358967.ece
+2025-12-04 20:30:45,866 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:30:46,941 - INFO - [The Hindu] Page content loaded.
+2025-12-04 20:30:46,989 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (418 words).
+2025-12-04 20:30:47,063 - INFO - Saved article: Tirupparankundram row | T.N. government has abided by 2014 Division Bench order, says Minister - The Hindu from The Hindu
+2025-12-04 20:30:47,716 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-04 20:30:47,833 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-04 20:31:11,869 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/never-taking-sides-trump-oversees-congo-rwanda-peace-deal-in-washington/articleshow/125775092.cms: Message: timeout: Timed out receiving message from renderer: 59.787
+  (Session info: chrome=142.0.7444.175)
+Stacktrace:
+#0 0x556d6c1a74ca <unknown>
+#1 0x556d6bbf5e4b <unknown>
+#2 0x556d6bbdde14 <unknown>
+#3 0x556d6bbddaf7 <unknown>
+#4 0x556d6bbdb8ff <unknown>
+#5 0x556d6bbdc27f <unknown>
+#6 0x556d6bbeacb3 <unknown>
+#7 0x556d6bc045f1 <unknown>
+#8 0x556d6bc0adfb <unknown>
+#9 0x556d6bbdc9bd <unknown>
+#10 0x556d6bc04399 <unknown>
+#11 0x556d6bc95169 <unknown>
+#12 0x556d6bc3ac2a <unknown>
+#13 0x556d6bc3b931 <unknown>
+#14 0x556d6c16dcf9 <unknown>
+#15 0x556d6c170cdc <unknown>
+#16 0x556d6c156f79 <unknown>
+#17 0x556d6c1718b5 <unknown>
+#18 0x556d6c13e9c3 <unknown>
+#19 0x556d6c194228 <unknown>
+#20 0x556d6c194403 <unknown>
+#21 0x556d6c1a6463 <unknown>
+#22 0x7f1c19c9caa4 <unknown>
+#23 0x7f1c19d29c6c <unknown>
+
+2025-12-04 20:31:11,870 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/never-taking-sides-trump-oversees-congo-rwanda-peace-deal-in-washington/articleshow/125775092.cms. Falling back to RSS description.
+2025-12-04 20:31:11,873 - INFO - Saved article: 'Never taking sides': Trump oversees Congo-Rwanda peace deal in Washington from Times of India
+2025-12-04 20:31:12,653 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/rakai-breaks-silence-on-walmart-flower-incident-that-led-to-twitch-ban/articleshow/125774678.cms
+2025-12-04 20:31:12,653 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:15,869 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:16,143 - INFO - [Times of India] Success with 'selenium_browser'. Found content (465 words).
+2025-12-04 20:31:16,256 - INFO - Saved article: RaKai breaks silence on Walmart flower incident that led to Twitch ban - The Times of India from Times of India
+2025-12-04 20:31:17,551 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/nike-shoes-hoodie-and-a-black-bag-inside-the-5-year-manhunt-for-jan-6-bomb-suspect-brian-cole/articleshow/125772937.cms
+2025-12-04 20:31:17,551 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:18,507 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:18,690 - INFO - [Times of India] Success with 'selenium_browser'. Found content (309 words).
+2025-12-04 20:31:18,752 - INFO - Saved article: Nike shoes, hoodie, and a black bag: Inside the 5-year manhunt for Jan. 6 bomb suspect Brian Cole - The Times of India from Times of India
+2025-12-04 20:31:20,203 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/pakistan-reshapes-defence-asim-munir-becomes-first-chief-of-defence-forces-president-zardari-approves-historic-appointment/articleshow/125771713.cms
+2025-12-04 20:31:20,203 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:20,771 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:20,937 - INFO - [Times of India] Success with 'selenium_browser'. Found content (467 words).
+2025-12-04 20:31:20,999 - INFO - Duplicate article skipped: Pakistan reshapes defence: Asim Munir becomes first Chief of Defence Forces; President Zardari approves historic appointment - The Times of India from Times of India
+2025-12-04 20:31:22,204 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/homemade-black-powder-kitchen-timer-for-detonation-all-about-pipe-bombs-planted-in-washington-by-brian-cole-hours-before-january-6-riots/articleshow/125771874.cms
+2025-12-04 20:31:22,204 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:22,966 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:23,108 - INFO - [Times of India] Success with 'selenium_browser'. Found content (388 words).
+2025-12-04 20:31:23,173 - INFO - Duplicate article skipped: Homemade black powder, kitchen timer for detonation: All about pipe bombs planted in Washington by Brian Cole hours before January 6 riots - The Times of India from Times of India
+2025-12-04 20:31:24,218 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/south-asia/khaleda-zia-to-be-flown-to-london-air-ambulance-approved-for-critically-ill-ex-bangladesh-pm-transfer-likely-by-friday/articleshow/125771576.cms
+2025-12-04 20:31:24,218 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:25,278 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:25,402 - INFO - [Times of India] Success with 'selenium_browser'. Found content (444 words).
+2025-12-04 20:31:25,478 - INFO - Duplicate article skipped: Khaleda Zia to be flown to London: Air ambulance approved for critically ill ex-Bangladesh PM; transfer likely by Friday - The Times of India from Times of India
+2025-12-04 20:31:26,285 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/who-is-brian-cole-man-accused-of-planting-bombs-in-washington-on-the-eve-of-jan-6-caught-after-five-years/articleshow/125771312.cms
+2025-12-04 20:31:26,285 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:27,383 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:27,516 - INFO - [Times of India] Success with 'selenium_browser'. Found content (339 words).
+2025-12-04 20:31:27,573 - INFO - Duplicate article skipped: Who is Brian Cole? Man accused of planting bombs in Washington on the befoJanuary 6 caught after five years - The Times of India from Times of India
+2025-12-04 20:31:28,142 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/physicists-prove-universe-cannot-be-a-simulation-new-study-debunks-simulation-hypothesis/articleshow/125769394.cms
+2025-12-04 20:31:28,142 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:29,262 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:29,371 - INFO - [Times of India] Success with 'selenium_browser'. Found content (810 words).
+2025-12-04 20:31:29,415 - INFO - Duplicate article skipped: Physicists prove universe cannot be a simulation: New study debunks simulation hypothesis | - The Times of India from Times of India
+2025-12-04 20:31:30,190 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/colombian-man-killed-by-us-strikes-in-caribbean-was-fishing-for-tuna-not-trafficking-drugs-human-rights-lawyer-makes-big-claim/articleshow/125769842.cms
+2025-12-04 20:31:30,190 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:31,435 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:31,557 - INFO - [Times of India] Success with 'selenium_browser'. Found content (302 words).
+2025-12-04 20:31:31,648 - INFO - Duplicate article skipped: Colombian man killed by US strikes in Caribbean was fishing for tuna, not trafficking drugs; human rights lawyer makes big claim - The Times of India from Times of India
+2025-12-04 20:31:32,883 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/just-got-this-house-inside-the-strange-burglary-that-hit-marlon-gracias-home-while-he-was-streaming-across-the-country/articleshow/125769186.cms
+2025-12-04 20:31:32,883 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-04 20:31:34,190 - INFO - [Times of India] Page content loaded.
+2025-12-04 20:31:34,294 - INFO - [Times of India] Success with 'selenium_browser'. Found content (369 words).
+2025-12-04 20:31:34,350 - INFO - Duplicate article skipped: “Just got this house”: Inside the strange burglary that hit Marlon Gracia’s home while he was streaming across the country - The Times of India from Times of India
+2025-12-04 20:31:35,405 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-04 20:31:35,689 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-04 20:31:35,689 - INFO - Shutting down thread pool (wait=False)...
+2025-12-04 20:31:35,689 - INFO - Scraped: 1 BBC, 3 Times of India, 10 The Hindu, 1 The Guardian articles. (Total saved: 15)
+2025-12-04 20:31:35,689 - INFO - --- Scraping job finished ---
+2025-12-04 20:31:35,696 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-04 20:31:35,696 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
