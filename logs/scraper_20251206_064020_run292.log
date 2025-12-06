@@ -1,0 +1,138 @@
+2025-12-06 06:35:20,099 - INFO - Initializing database connection at: news_articles.db
+2025-12-06 06:35:20,099 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-06 06:35:20,099 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-06 06:35:20,099 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-06 06:35:20,100 - INFO - Proxy is DISABLED.
+2025-12-06 06:35:20,100 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-06 06:35:20,100 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-06 06:35:20,100 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-06 06:35:20,101 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-06 06:35:20,101 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-06 06:35:20,101 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-06 06:35:20,101 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-06 06:35:20,280 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-06 06:35:20,280 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/05/people-flee-dr-congo-fighting-one-day-after-peace-deal-signed-in-washington
+2025-12-06 06:35:20,280 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:20,318 - INFO - [The Guardian] Success with 'requests_browser'. Found content (411 words).
+2025-12-06 06:35:20,361 - INFO - Duplicate article skipped: People flee DR Congo fighting one day after peace deal signed in Washington | Democratic Republic of the Congo | The Guardian from The Guardian
+2025-12-06 06:35:20,439 - INFO - Found 44 articles in BBC RSS feed. Processing up to 10.
+2025-12-06 06:35:20,439 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g482m3yyzo?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:20,439 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:20,701 - INFO - [BBC] Success with 'requests_browser'. Found content (690 words).
+2025-12-06 06:35:20,738 - INFO - Duplicate article skipped: Putin in India: Russia ready to provide 'uninterrupted' fuel supplies from BBC
+2025-12-06 06:35:21,004 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/05/rsf-massacres-sudanese-city-el-fasher-slaughterhouse-satellite-images
+2025-12-06 06:35:21,005 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:21,027 - INFO - [The Guardian] Success with 'requests_browser'. Found content (684 words).
+2025-12-06 06:35:21,063 - INFO - Duplicate article skipped: RSF massacres left Sudanese city ‘a slaughterhouse’, satellite images show | Global development | The Guardian from The Guardian
+2025-12-06 06:35:22,085 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9drg8pg1o?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:22,085 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:22,119 - INFO - [BBC] Success with 'requests_browser'. Found content (692 words).
+2025-12-06 06:35:22,155 - INFO - Duplicate article skipped: Germany votes to bring in voluntary military service programme for 18-year-olds from BBC
+2025-12-06 06:35:22,518 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/dec/05/african-penguins-starve-to-death-south-africa-sardine-population-aoe
+2025-12-06 06:35:22,518 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:22,542 - INFO - [The Guardian] Success with 'requests_browser'. Found content (530 words).
+2025-12-06 06:35:22,577 - INFO - Duplicate article skipped: 60,000 African penguins starved to death after sardine numbers collapsed – study | Birds | The Guardian from The Guardian
+2025-12-06 06:35:23,172 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c208j0wrzrvo?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:23,172 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:23,202 - INFO - [BBC] Success with 'requests_browser'. Found content (637 words).
+2025-12-06 06:35:23,239 - INFO - Duplicate article skipped: US Supreme Court agrees to hear case challenging birthright citizenship from BBC
+2025-12-06 06:35:23,315 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/05/us-sanctions-sudan-army-rsf-ceasefire
+2025-12-06 06:35:23,315 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:23,346 - INFO - [The Guardian] Success with 'requests_browser'. Found content (849 words).
+2025-12-06 06:35:23,394 - INFO - Duplicate article skipped: US considers wider sanctions on Sudanese army and RSF as ceasefire efforts falter | Sudan | The Guardian from The Guardian
+2025-12-06 06:35:23,979 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/04/us-eu-critical-minerals-project-drc-report-lobito-corridor
+2025-12-06 06:35:23,979 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:23,999 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2500jkd41o?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:23,999 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:24,002 - INFO - [The Guardian] Success with 'requests_browser'. Found content (813 words).
+2025-12-06 06:35:24,040 - INFO - Duplicate article skipped: US and EU critical minerals project could displace thousands in DRC – report | Democratic Republic of the Congo | The Guardian from The Guardian
+2025-12-06 06:35:24,065 - INFO - [BBC] Success with 'requests_browser'. Found content (558 words).
+2025-12-06 06:35:24,104 - INFO - Duplicate article skipped: Eritreans, including Olympian Zeragaber Gebrehiwot, freed after 18 years in jail without trial from BBC
+2025-12-06 06:35:25,112 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/05/us-airstrike-survivors-clung-to-boat-wreckage-for-an-hour-before-second-deadly-attack-video-shows
+2025-12-06 06:35:25,112 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:25,163 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1016 words).
+2025-12-06 06:35:25,206 - INFO - Duplicate article skipped: US airstrike survivors clung to boat wreckage for an hour before second deadly attack, video shows | US military | The Guardian from The Guardian
+2025-12-06 06:35:25,602 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce91x2jm5pjo?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:25,602 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:25,631 - INFO - [BBC] Success with 'requests_browser'. Found content (980 words).
+2025-12-06 06:35:25,665 - INFO - Duplicate article skipped: Netflix to buy Warner Bros film and streaming businesses for $72bn from BBC
+2025-12-06 06:35:26,290 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/05/neo-nazi-base-leader-on-terrorism-arrest
+2025-12-06 06:35:26,291 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:26,313 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1072 words).
+2025-12-06 06:35:26,353 - INFO - Duplicate article skipped: US leader of global neo-Nazi terrorist group signals retribution for arrests | Far right (US) | The Guardian from The Guardian
+2025-12-06 06:35:26,633 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y2p22z9gno?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:26,633 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:26,660 - INFO - [BBC] Success with 'requests_browser'. Found content (801 words).
+2025-12-06 06:35:26,697 - INFO - Duplicate article skipped: Frank Gehry: Legendary US architect dies aged 96 from BBC
+2025-12-06 06:35:27,392 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c30j7q6qjp9o?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:27,393 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:27,420 - INFO - [BBC] Success with 'requests_browser'. Found content (795 words).
+2025-12-06 06:35:27,457 - INFO - Duplicate article skipped: Namibia loses bid to overturn ban on rhino horn trade at Cites conference in Samarkand from BBC
+2025-12-06 06:35:27,853 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/audio/2025/dec/05/donald-trump-about-to-invade-venezuela-podcast
+2025-12-06 06:35:27,853 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:27,880 - WARNING - [The Guardian] FAILED with 'requests_browser' (content was too short: 72 words).
+2025-12-06 06:35:27,881 - ERROR - [The Guardian] All scrape strategies failed for https://www.theguardian.com/politics/audio/2025/dec/05/donald-trump-about-to-invade-venezuela-podcast. Falling back to RSS description.
+2025-12-06 06:35:27,881 - INFO - Duplicate article skipped: “This is war”: Is Trump about to invade Venezuela? – podcast from The Guardian
+2025-12-06 06:35:28,493 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/pentagon-boat-strike-pacific
+2025-12-06 06:35:28,493 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:28,525 - INFO - [The Guardian] Success with 'requests_browser'. Found content (637 words).
+2025-12-06 06:35:28,563 - INFO - Duplicate article skipped: Pentagon announces it has killed four men in another boat strike in Pacific | US military | The Guardian from The Guardian
+2025-12-06 06:35:28,582 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gp8vjwll2o?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:28,582 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:28,606 - INFO - [BBC] Success with 'requests_browser'. Found content (290 words).
+2025-12-06 06:35:28,641 - INFO - Duplicate article skipped: Woman wanted by Interpol for trafficking tiger parts arrested in India from BBC
+2025-12-06 06:35:29,146 - INFO - Selenium driver initialized successfully.
+2025-12-06 06:35:29,146 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-06 06:35:29,147 - INFO - Selenium driver initialized successfully.
+2025-12-06 06:35:29,147 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-06 06:35:29,304 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-06 06:35:29,305 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/lokayukta-inspector-charred-to-death-in-car-crash-in-karnataka/article70364769.ece
+2025-12-06 06:35:29,305 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:35:29,350 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cjrjn88jqn4o?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:29,350 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:29,388 - INFO - [BBC] Success with 'requests_browser'. Found content (1231 words).
+2025-12-06 06:35:29,431 - INFO - Duplicate article skipped: Trump hosts signing of peace deal between leaders of DR Congo and Rwanda from BBC
+2025-12-06 06:35:29,545 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-06 06:35:29,545 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/etimes/trending/explained-why-is-everyone-yelling-faaaahhh-the-viral-brainrot-sound-sweeping-the-internet/articleshow/125795522.cms
+2025-12-06 06:35:29,545 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:35:29,553 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/video-second-boat-strike-military-caribbean
+2025-12-06 06:35:29,553 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:29,588 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1287 words).
+2025-12-06 06:35:29,653 - INFO - Duplicate article skipped: Experts urge release of boat strike video as US admiral denies ‘kill them all’ order | US military | The Guardian from The Guardian
+2025-12-06 06:35:30,131 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyz18z1gk0o?at_medium=RSS&at_campaign=rss
+2025-12-06 06:35:30,131 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 06:35:30,169 - INFO - [BBC] Success with 'requests_browser'. Found content (466 words).
+2025-12-06 06:35:30,233 - INFO - Duplicate article skipped: IndiGO: Travel chaos worsens in India with hundreds of flights cancelled from BBC
+2025-12-06 06:35:32,138 - INFO - [The Hindu] Page content loaded.
+2025-12-06 06:35:32,353 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (148 words).
+2025-12-06 06:35:32,694 - INFO - Saved article: Lokayukta inspector charred to death in car crash in Karnataka - The Hindu from The Hindu
+2025-12-06 06:35:33,654 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/minister-nara-lokesh-stole-the-show-during-bhamini-tour/article70362668.ece
+2025-12-06 06:35:33,654 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:37:29,637 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/etimes/trending/explained-why-is-everyone-yelling-faaaahhh-the-viral-brainrot-sound-sweeping-the-internet/articleshow/125795522.cms: HTTPConnectionPool(host='localhost', port=55541): Read timed out. (read timeout=120)
+2025-12-06 06:37:29,638 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/etimes/trending/explained-why-is-everyone-yelling-faaaahhh-the-viral-brainrot-sound-sweeping-the-internet/articleshow/125795522.cms. Falling back to RSS description.
+2025-12-06 06:37:29,639 - INFO - Saved article: Explained: Why is everyone yelling FAAAAHHH?! The viral brainrot sound sweeping the internet from Times of India
+2025-12-06 06:37:30,952 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-weather-alert-thunderstorms-expected-across-most-regions-in-kingdom-this-week/articleshow/125800157.cms
+2025-12-06 06:37:30,952 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:37:33,750 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/andhra-pradesh/minister-nara-lokesh-stole-the-show-during-bhamini-tour/article70362668.ece: HTTPConnectionPool(host='localhost', port=41075): Read timed out. (read timeout=120)
+2025-12-06 06:37:33,751 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/andhra-pradesh/minister-nara-lokesh-stole-the-show-during-bhamini-tour/article70362668.ece. Falling back to RSS description.
+2025-12-06 06:37:33,752 - INFO - Saved article: Minister Nara Lokesh stole the show during Bhamini tour from The Hindu
+2025-12-06 06:37:34,892 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/webinar-examining-binge-behaviours-and-addictive-patterns-to-be-held-on-december-7/article70361841.ece
+2025-12-06 06:37:34,893 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:39:31,054 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-weather-alert-thunderstorms-expected-across-most-regions-in-kingdom-this-week/articleshow/125800157.cms: HTTPConnectionPool(host='localhost', port=55541): Read timed out. (read timeout=120)
+2025-12-06 06:39:31,054 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-weather-alert-thunderstorms-expected-across-most-regions-in-kingdom-this-week/articleshow/125800157.cms. Falling back to RSS description.
+2025-12-06 06:39:31,055 - INFO - Saved article: Saudi Arabia weather alert: Thunderstorms expected across most regions in kingdom this week from Times of India
+2025-12-06 06:39:32,105 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/shes-a-liar-and-a-con-artist-candace-owens-roasted-for-running-scared-from-tpusas-charlie-kirk-livestream-she-bragged-shed-win/articleshow/125777736.cms
+2025-12-06 06:39:32,105 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:39:34,992 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/webinar-examining-binge-behaviours-and-addictive-patterns-to-be-held-on-december-7/article70361841.ece: HTTPConnectionPool(host='localhost', port=41075): Read timed out. (read timeout=120)
+2025-12-06 06:39:34,992 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/webinar-examining-binge-behaviours-and-addictive-patterns-to-be-held-on-december-7/article70361841.ece. Falling back to RSS description.
+2025-12-06 06:39:34,994 - INFO - Saved article: Webinar examining binge behaviours and addictive patterns to be held on December 7 from The Hindu
+2025-12-06 06:39:36,170 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/varanasi-police-deploy-new-generation-drones-for-kashi-tamil-sangamam-security/article70364736.ece
+2025-12-06 06:39:36,170 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 06:40:20,102 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-12-06 06:40:20,102 - ERROR - A thread has timed out and will be abandoned.
+2025-12-06 06:40:20,102 - ERROR - A thread has timed out and will be abandoned.
+2025-12-06 06:40:20,102 - INFO - Shutting down thread pool (wait=False)...
+2025-12-06 06:40:20,102 - INFO - Scraped: 0 The Guardian, 0 BBC, 2 Timed_Out_Jobs articles. (Total saved: 0)
+2025-12-06 06:40:20,102 - INFO - --- Scraping job finished ---
+2025-12-06 06:40:20,102 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-06 06:40:20,102 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
