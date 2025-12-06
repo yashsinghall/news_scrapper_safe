@@ -1,0 +1,172 @@
+2025-12-06 01:53:57,373 - INFO - Initializing database connection at: news_articles.db
+2025-12-06 01:53:57,374 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-06 01:53:57,374 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-06 01:53:57,374 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-06 01:53:57,374 - INFO - Proxy is DISABLED.
+2025-12-06 01:53:57,374 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-06 01:53:57,375 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-06 01:53:57,375 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-06 01:53:57,375 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-06 01:53:57,376 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-06 01:53:57,376 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-06 01:53:57,376 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-06 01:53:57,583 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-06 01:53:57,583 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/05/people-flee-dr-congo-fighting-one-day-after-peace-deal-signed-in-washington
+2025-12-06 01:53:57,583 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:53:57,704 - INFO - Found 44 articles in BBC RSS feed. Processing up to 10.
+2025-12-06 01:53:57,705 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g482m3yyzo?at_medium=RSS&at_campaign=rss
+2025-12-06 01:53:57,705 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:53:57,728 - INFO - [The Guardian] Success with 'requests_browser'. Found content (411 words).
+2025-12-06 01:53:57,783 - INFO - Saved article: People flee DR Congo fighting one day after peace deal signed in Washington | Democratic Republic of the Congo | The Guardian from The Guardian
+2025-12-06 01:53:58,152 - INFO - [BBC] Success with 'requests_browser'. Found content (690 words).
+2025-12-06 01:53:58,189 - INFO - Duplicate article skipped: Putin in India: Russia ready to provide 'uninterrupted' fuel supplies from BBC
+2025-12-06 01:53:58,859 - INFO - Selenium driver initialized successfully.
+2025-12-06 01:53:58,860 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-06 01:53:58,862 - INFO - Selenium driver initialized successfully.
+2025-12-06 01:53:58,862 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-06 01:53:59,091 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-06 01:53:59,091 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/fifa-world-cup-draw-donald-trump-kicks-off-the-event-with-his-signature-ymca-dance-watch/articleshow/125798437.cms
+2025-12-06 01:53:59,091 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:53:59,254 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/05/rsf-massacres-sudanese-city-el-fasher-slaughterhouse-satellite-images
+2025-12-06 01:53:59,254 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:53:59,294 - INFO - [The Guardian] Success with 'requests_browser'. Found content (684 words).
+2025-12-06 01:53:59,359 - INFO - Duplicate article skipped: RSF massacres left Sudanese city ‘a slaughterhouse’, satellite images show | Global development | The Guardian from The Guardian
+2025-12-06 01:53:59,386 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-06 01:53:59,386 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/growing-tribe-of-migrant-voters-find-voice-in-local-body-polls/article70361370.ece
+2025-12-06 01:53:59,386 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:53:59,418 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9drg8pg1o?at_medium=RSS&at_campaign=rss
+2025-12-06 01:53:59,418 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:53:59,487 - INFO - [BBC] Success with 'requests_browser'. Found content (692 words).
+2025-12-06 01:53:59,561 - INFO - Duplicate article skipped: Germany votes to bring in voluntary military service programme for 18-year-olds from BBC
+2025-12-06 01:53:59,939 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/dec/05/african-penguins-starve-to-death-south-africa-sardine-population-aoe
+2025-12-06 01:53:59,939 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:00,014 - INFO - [The Guardian] Success with 'requests_browser'. Found content (530 words).
+2025-12-06 01:54:00,097 - INFO - Duplicate article skipped: 60,000 African penguins starved to death after sardine numbers collapsed – study | Birds | The Guardian from The Guardian
+2025-12-06 01:54:00,634 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c208j0wrzrvo?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:00,634 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:00,718 - INFO - [BBC] Success with 'requests_browser'. Found content (637 words).
+2025-12-06 01:54:00,854 - INFO - Duplicate article skipped: US Supreme Court agrees to hear case challenging birthright citizenship from BBC
+2025-12-06 01:54:01,401 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/05/us-sanctions-sudan-army-rsf-ceasefire
+2025-12-06 01:54:01,401 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:01,468 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:01,682 - INFO - [The Guardian] Success with 'requests_browser'. Found content (849 words).
+2025-12-06 01:54:01,801 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2500jkd41o?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:01,801 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:01,820 - INFO - Duplicate article skipped: US considers wider sanctions on Sudanese army and RSF as ceasefire efforts falter | Sudan | The Guardian from The Guardian
+2025-12-06 01:54:01,887 - INFO - [BBC] Success with 'requests_browser'. Found content (558 words).
+2025-12-06 01:54:02,032 - INFO - Duplicate article skipped: Eritreans, including Olympian Zeragaber Gebrehiwot, freed after 18 years in jail without trial from BBC
+2025-12-06 01:54:02,089 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (573 words).
+2025-12-06 01:54:02,323 - INFO - Duplicate article skipped: Growing tribe of migrant voters find voice in local body polls - The Hindu from The Hindu
+2025-12-06 01:54:02,569 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/04/us-eu-critical-minerals-project-drc-report-lobito-corridor
+2025-12-06 01:54:02,569 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:02,649 - INFO - [The Guardian] Success with 'requests_browser'. Found content (813 words).
+2025-12-06 01:54:02,729 - INFO - Duplicate article skipped: US and EU critical minerals project could displace thousands in DRC – report | Democratic Republic of the Congo | The Guardian from The Guardian
+2025-12-06 01:54:03,010 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce91x2jm5pjo?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:03,010 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:03,102 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/debutant-faces-veterans-in-ponnurunni-east-poll-battle/article70361376.ece
+2025-12-06 01:54:03,103 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:03,152 - INFO - [BBC] Success with 'requests_browser'. Found content (980 words).
+2025-12-06 01:54:03,272 - INFO - Duplicate article skipped: Netflix to buy Warner Bros film and streaming businesses for $72bn from BBC
+2025-12-06 01:54:03,878 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/05/us-airstrike-survivors-clung-to-boat-wreckage-for-an-hour-before-second-deadly-attack-video-shows
+2025-12-06 01:54:03,878 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:04,037 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1016 words).
+2025-12-06 01:54:04,183 - INFO - Duplicate article skipped: US airstrike survivors clung to boat wreckage for an hour before second deadly attack, video shows | US military | The Guardian from The Guardian
+2025-12-06 01:54:04,418 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y2p22z9gno?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:04,418 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:04,534 - INFO - [BBC] Success with 'requests_browser'. Found content (403 words).
+2025-12-06 01:54:04,703 - INFO - Duplicate article skipped: Frank Gehry: Legendary US architect dies aged 96 from BBC
+2025-12-06 01:54:05,040 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:05,230 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/05/neo-nazi-base-leader-on-terrorism-arrest
+2025-12-06 01:54:05,230 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:05,372 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1072 words).
+2025-12-06 01:54:05,498 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (536 words).
+2025-12-06 01:54:05,787 - INFO - Duplicate article skipped: US leader of global neo-Nazi terrorist group signals retribution for arrests | Far right (US) | The Guardian from The Guardian
+2025-12-06 01:54:05,837 - INFO - Duplicate article skipped: Debutant faces veterans in Ponnurunni East poll battle - The Hindu from The Hindu
+2025-12-06 01:54:06,049 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c30j7q6qjp9o?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:06,050 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:06,913 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/audio/2025/dec/05/donald-trump-about-to-invade-venezuela-podcast
+2025-12-06 01:54:06,913 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:07,122 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/development-works-worth-700-crore-implemented-in-kannur-corporation-claims-udf/article70362691.ece
+2025-12-06 01:54:07,122 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:07,247 - WARNING - [The Guardian] FAILED with 'requests_browser' (content was too short: 72 words).
+2025-12-06 01:54:07,247 - ERROR - [The Guardian] All scrape strategies failed for https://www.theguardian.com/politics/audio/2025/dec/05/donald-trump-about-to-invade-venezuela-podcast. Falling back to RSS description.
+2025-12-06 01:54:07,248 - INFO - Duplicate article skipped: “This is war”: Is Trump about to invade Venezuela? – podcast from The Guardian
+2025-12-06 01:54:07,824 - INFO - [BBC] Success with 'requests_browser'. Found content (795 words).
+2025-12-06 01:54:07,972 - INFO - Duplicate article skipped: Namibia loses bid to overturn ban on rhino horn trade at Cites conference in Samarkand from BBC
+2025-12-06 01:54:08,415 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/pentagon-boat-strike-pacific
+2025-12-06 01:54:08,415 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:08,530 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gp8vjwll2o?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:08,530 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:08,570 - INFO - [The Guardian] Success with 'requests_browser'. Found content (637 words).
+2025-12-06 01:54:08,843 - INFO - Duplicate article skipped: Pentagon announces it has killed four men in another boat strike in Pacific | US military | The Guardian from The Guardian
+2025-12-06 01:54:09,048 - INFO - [BBC] Success with 'requests_browser'. Found content (290 words).
+2025-12-06 01:54:09,247 - INFO - Duplicate article skipped: Woman wanted by Interpol for trafficking tiger parts arrested in India from BBC
+2025-12-06 01:54:09,605 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/04/video-second-boat-strike-military-caribbean
+2025-12-06 01:54:09,606 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:09,796 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1287 words).
+2025-12-06 01:54:09,970 - INFO - Duplicate article skipped: Experts urge release of boat strike video as US admiral denies ‘kill them all’ order | US military | The Guardian from The Guardian
+2025-12-06 01:54:10,684 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cjrjn88jqn4o?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:10,684 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:10,977 - INFO - [BBC] Success with 'requests_browser'. Found content (1231 words).
+2025-12-06 01:54:11,349 - INFO - Duplicate article skipped: Trump hosts signing of peace deal between leaders of DR Congo and Rwanda from BBC
+2025-12-06 01:54:11,422 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:12,077 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyz18z1gk0o?at_medium=RSS&at_campaign=rss
+2025-12-06 01:54:12,077 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-06 01:54:12,122 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (263 words).
+2025-12-06 01:54:12,620 - INFO - [BBC] Success with 'requests_browser'. Found content (466 words).
+2025-12-06 01:54:12,895 - INFO - Duplicate article skipped: Development works worth ₹700 crore implemented in Kannur Corporation, claims UDF - The Hindu from The Hindu
+2025-12-06 01:54:12,977 - INFO - Duplicate article skipped: IndiGO: Travel chaos worsens in India with hundreds of flights cancelled from BBC
+2025-12-06 01:54:13,443 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/kerala-high-court-orders-kelsa-to-provide-5-lakh-to-acid-attack-survivor/article70363087.ece
+2025-12-06 01:54:13,443 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:18,525 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:18,642 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (98 words).
+2025-12-06 01:54:18,774 - INFO - Duplicate article skipped: Kerala High Court orders KELSA to provide ₹5 lakh to acid attack survivor - The Hindu from The Hindu
+2025-12-06 01:54:20,090 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/manipur/manipurs-banned-outfits-warned-against-disrupting-peace/article70361964.ece
+2025-12-06 01:54:20,090 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:24,652 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:24,855 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (457 words).
+2025-12-06 01:54:24,966 - INFO - Duplicate article skipped: Manipur’s banned outfits warned against disrupting peace - The Hindu from The Hindu
+2025-12-06 01:54:25,695 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/ernakulam-collector-orders-criminal-proceedings-against-42-for-enrolling-in-voters-list-using-fake-documents/article70362530.ece
+2025-12-06 01:54:25,695 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:26,665 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:26,747 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (274 words).
+2025-12-06 01:54:26,877 - INFO - Duplicate article skipped: Ernakulam Collector orders criminal proceedings against 42 for enrolling in voter’s list using fake documents - The Hindu from The Hindu
+2025-12-06 01:54:27,910 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/ernakulam-reports-highest-number-of-influenza-infections-in-kerala/article70346394.ece
+2025-12-06 01:54:27,910 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:28,857 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:29,077 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (302 words).
+2025-12-06 01:54:29,193 - INFO - Duplicate article skipped: Ernakulam reports highest number of influenza infections in Kerala - The Hindu from The Hindu
+2025-12-06 01:54:29,959 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/two-youths-held-with-20-grams-of-suspected-mdma-in-kochi/article70362755.ece
+2025-12-06 01:54:29,959 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:30,858 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:31,011 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (113 words).
+2025-12-06 01:54:31,121 - INFO - Duplicate article skipped: Two youths held with 20 grams of suspected MDMA in Kochi - The Hindu from The Hindu
+2025-12-06 01:54:31,828 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/path-paved-to-link-indias-skill-base-with-russias-demand-for-labourers/article70363270.ece
+2025-12-06 01:54:31,828 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:32,401 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:32,475 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (321 words).
+2025-12-06 01:54:32,579 - INFO - Duplicate article skipped: Path paved to link India’s skill base with Russia’s demand for labourers - The Hindu from The Hindu
+2025-12-06 01:54:33,685 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/for-the-first-time-after-covid-19-foreign-tourist-arrivals-decline-in-country/article70358159.ece
+2025-12-06 01:54:33,685 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:54:34,438 - INFO - [The Hindu] Page content loaded.
+2025-12-06 01:54:34,487 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (394 words).
+2025-12-06 01:54:34,582 - INFO - Duplicate article skipped: For the first time after COVID-19, foreign tourist arrivals decline in country - The Hindu from The Hindu
+2025-12-06 01:54:35,097 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-06 01:54:35,232 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-06 01:55:59,097 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/fifa-world-cup-draw-donald-trump-kicks-off-the-event-with-his-signature-ymca-dance-watch/articleshow/125798437.cms: HTTPConnectionPool(host='localhost', port=56953): Read timed out. (read timeout=120)
+2025-12-06 01:55:59,097 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/fifa-world-cup-draw-donald-trump-kicks-off-the-event-with-his-signature-ymca-dance-watch/articleshow/125798437.cms. Falling back to RSS description.
+2025-12-06 01:55:59,099 - INFO - Saved article: FIFA World Cup draw: Donald Trump kicks off the event with his signature ‘YMCA’ dance - watch from Times of India
+2025-12-06 01:56:00,557 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/pipe-bomb-suspect-was-a-supporter-of-donald-trump-heres-what-brian-cole-revealed-during-investigation/articleshow/125798406.cms
+2025-12-06 01:56:00,557 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:58:00,633 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/pipe-bomb-suspect-was-a-supporter-of-donald-trump-heres-what-brian-cole-revealed-during-investigation/articleshow/125798406.cms: HTTPConnectionPool(host='localhost', port=56953): Read timed out. (read timeout=120)
+2025-12-06 01:58:00,633 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/pipe-bomb-suspect-was-a-supporter-of-donald-trump-heres-what-brian-cole-revealed-during-investigation/articleshow/125798406.cms. Falling back to RSS description.
+2025-12-06 01:58:00,635 - INFO - Saved article: Pipe bomb suspect was a supporter of Donald Trump? Here's what Brian Cole revealed during investigation from Times of India
+2025-12-06 01:58:01,360 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/did-the-rfk-jr-affair-cost-olivia-nuzzi-her-job-inside-the-vanity-fair-breakup/articleshow/125798330.cms
+2025-12-06 01:58:01,360 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-06 01:58:57,376 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-06 01:58:57,376 - ERROR - A thread has timed out and will be abandoned.
+2025-12-06 01:58:57,376 - INFO - Shutting down thread pool (wait=False)...
+2025-12-06 01:58:57,376 - INFO - Scraped: 1 The Guardian, 0 BBC, 0 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 1)
+2025-12-06 01:58:57,376 - INFO - --- Scraping job finished ---
+2025-12-06 01:58:57,376 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-06 01:58:57,376 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
