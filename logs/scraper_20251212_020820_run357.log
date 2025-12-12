@@ -1,0 +1,176 @@
+2025-12-12 02:03:20,413 - INFO - Initializing database connection at: news_articles.db
+2025-12-12 02:03:20,414 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-12 02:03:20,414 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-12 02:03:20,414 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-12 02:03:20,414 - INFO - Proxy is DISABLED.
+2025-12-12 02:03:20,414 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-12 02:03:20,415 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-12 02:03:20,415 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-12 02:03:20,415 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-12 02:03:20,416 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-12 02:03:20,416 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-12 02:03:20,416 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-12 02:03:20,682 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-12 02:03:20,683 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/11/fate-of-11-nigerian-troops-unclear-after-unauthorised-plane-landing-in-burkina-faso
+2025-12-12 02:03:20,683 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:20,714 - INFO - [The Guardian] Success with 'requests_browser'. Found content (276 words).
+2025-12-12 02:03:20,748 - INFO - Duplicate article skipped: Fate of 11 Nigerian troops unclear after ‘unauthorised’ plane landing in Burkina Faso | Burkina Faso | The Guardian from The Guardian
+2025-12-12 02:03:20,873 - INFO - Found 34 articles in BBC RSS feed. Processing up to 10.
+2025-12-12 02:03:20,873 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz688jp90epo?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:20,873 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:21,204 - INFO - [BBC] Success with 'requests_browser'. Found content (554 words).
+2025-12-12 02:03:21,250 - INFO - Saved article: US sanctions six more ships after seizing oil tanker off Venezuela from BBC
+2025-12-12 02:03:22,007 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/10/burkina-faso-releases-nigerian-troops-unauthorised-emergency-landing
+2025-12-12 02:03:22,007 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:22,037 - INFO - [The Guardian] Success with 'requests_browser'. Found content (388 words).
+2025-12-12 02:03:22,071 - INFO - Duplicate article skipped: Burkina Faso releases 11 Nigerian troops after ‘unauthorised’ plane landing | Nigeria | The Guardian from The Guardian
+2025-12-12 02:03:22,556 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y2qd1795yo?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:22,556 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:22,620 - INFO - [BBC] Success with 'requests_browser'. Found content (2377 words).
+2025-12-12 02:03:22,664 - INFO - Saved article: Tricked, abducted and abused: Inside China's schools for 'rebellious' teens from BBC
+2025-12-12 02:03:23,431 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3w792x0ggyo?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:23,431 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:23,471 - INFO - [BBC] Success with 'requests_browser'. Found content (800 words).
+2025-12-12 02:03:23,508 - INFO - Saved article: Suneung: South Korea exam chief quits over 'insane' English test from BBC
+2025-12-12 02:03:23,548 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/09/drc-fighting-forces-200000-to-flee-just-days-after-washington-peace-deal
+2025-12-12 02:03:23,548 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:23,715 - INFO - [The Guardian] Success with 'requests_browser'. Found content (408 words).
+2025-12-12 02:03:23,748 - INFO - Duplicate article skipped: DRC fighting forces 200,000 to flee just days after Washington peace deal | Democratic Republic of the Congo | The Guardian from The Guardian
+2025-12-12 02:03:24,290 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/09/colombian-mercenaries-sudan-sanctions
+2025-12-12 02:03:24,290 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:24,320 - INFO - [The Guardian] Success with 'requests_browser'. Found content (506 words).
+2025-12-12 02:03:24,356 - INFO - Duplicate article skipped: US puts sanctions on network said to funnel Colombian mercenaries to Sudan | Sudan | The Guardian from The Guardian
+2025-12-12 02:03:24,475 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clykk2yrl9ko?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:24,475 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:24,517 - INFO - [BBC] Success with 'requests_browser'. Found content (622 words).
+2025-12-12 02:03:24,558 - INFO - Saved article: Reddit launches High Court challenge to Australia's social media ban for kids from BBC
+2025-12-12 02:03:25,447 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/09/nigeria-troops-held-burkina-faso-emergency-landing
+2025-12-12 02:03:25,447 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:25,474 - INFO - [The Guardian] Success with 'requests_browser'. Found content (386 words).
+2025-12-12 02:03:25,507 - INFO - Duplicate article skipped: Nigerian troops held in Burkina Faso after ‘unfriendly’ emergency landing | Nigeria | The Guardian from The Guardian
+2025-12-12 02:03:25,846 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn4djk0jj4xo?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:25,846 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:25,881 - INFO - [BBC] Success with 'requests_browser'. Found content (448 words).
+2025-12-12 02:03:25,937 - INFO - Duplicate article skipped: Austria bans headscarves in schools for girls under-14 from BBC
+2025-12-12 02:03:26,558 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/11/pressure-on-maduro-grows-after-us-seizes-dark-fleet-tanker-off-coast-of-venezuela
+2025-12-12 02:03:26,558 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:26,722 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1353 words).
+2025-12-12 02:03:26,760 - INFO - Duplicate article skipped: Trump expands Venezuela sanctions as Maduro decries new ‘era of piracy’ | Venezuela | The Guardian from The Guardian
+2025-12-12 02:03:27,290 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c78vz2v85mpo?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:27,290 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:27,328 - INFO - [BBC] Success with 'requests_browser'. Found content (572 words).
+2025-12-12 02:03:27,365 - INFO - Duplicate article skipped: Kilmar Abrego Garcia released from immigration detention after judge's order from BBC
+2025-12-12 02:03:27,764 - INFO - [The Guardian] Article: https://www.theguardian.com/technology/2025/dec/11/elon-musk-el-salvador-grok
+2025-12-12 02:03:27,764 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:27,792 - INFO - [The Guardian] Success with 'requests_browser'. Found content (372 words).
+2025-12-12 02:03:27,828 - INFO - Saved article: Elon Musk teams with El Salvador to bring Grok chatbot to public schools | Technology | The Guardian from The Guardian
+2025-12-12 02:03:28,318 - INFO - Selenium driver initialized successfully.
+2025-12-12 02:03:28,318 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-12 02:03:28,319 - INFO - Selenium driver initialized successfully.
+2025-12-12 02:03:28,319 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-12 02:03:28,579 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-12 02:03:28,580 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/im-in-a-bad-mood-candace-owens-fires-warning-at-erika-kirk-after-new-clip-on-charlie-kirk-conspiracy-fight-goes-viral/articleshow/125923684.cms
+2025-12-12 02:03:28,580 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:28,659 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/11/kilmar-abrego-garcia-released
+2025-12-12 02:03:28,659 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:28,690 - INFO - [The Guardian] Success with 'requests_browser'. Found content (532 words).
+2025-12-12 02:03:28,727 - INFO - Duplicate article skipped: Kilmar Ábrego García released from ICE custody in fight over Trump immigration | Kilmar Ábrego García | The Guardian from The Guardian
+2025-12-12 02:03:28,816 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxwrvl1734o?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:28,816 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:28,860 - INFO - [BBC] Success with 'requests_browser'. Found content (763 words).
+2025-12-12 02:03:28,900 - INFO - Duplicate article skipped: Portugal hit by severe disruption in first general strike for 12 years from BBC
+2025-12-12 02:03:29,161 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-12 02:03:29,161 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/competition-demand-drive-bengaluru-colleges-to-open-admissions-months-early/article70381635.ece
+2025-12-12 02:03:29,161 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:30,212 - INFO - [The Guardian] Article: https://www.theguardian.com/news/audio/2025/dec/11/why-is-trump-attacking-venezuelan-boats-the-latest
+2025-12-12 02:03:30,212 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:30,268 - INFO - [The Guardian] Success with 'requests_browser'. Found content (99 words).
+2025-12-12 02:03:30,297 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgmm92d213o?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:30,297 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:30,368 - INFO - Duplicate article skipped: Why is Trump attacking Venezuelan boats? – The Latest | Venezuela | The Guardian from The Guardian
+2025-12-12 02:03:30,388 - INFO - [BBC] Success with 'requests_browser'. Found content (275 words).
+2025-12-12 02:03:30,452 - INFO - Saved article: Do Kwon: TerraUSD creator sentenced to 15 years in prison over $40bn crash from BBC
+2025-12-12 02:03:31,282 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgjnd9y52pno?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:31,282 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:31,403 - INFO - [BBC] Success with 'requests_browser'. Found content (952 words).
+2025-12-12 02:03:31,494 - INFO - Duplicate article skipped: Zelensky says US wants 'special economic zone' in Ukraine's Donetsk region from BBC
+2025-12-12 02:03:31,835 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/11/lawmakers-venezuela-oil-tanker
+2025-12-12 02:03:31,835 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:31,960 - INFO - [The Guardian] Success with 'requests_browser'. Found content (681 words).
+2025-12-12 02:03:32,131 - INFO - Duplicate article skipped: US lawmakers condemn seizure of Venezuelan oil tanker: ‘Trump is sleepwalking us into a war’ | Trump administration | The Guardian from The Guardian
+2025-12-12 02:03:32,886 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn09g640659o?at_medium=RSS&at_campaign=rss
+2025-12-12 02:03:32,886 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-12 02:03:32,993 - INFO - [BBC] Success with 'requests_browser'. Found content (418 words).
+2025-12-12 02:03:33,141 - INFO - Duplicate article skipped: Bulgarian PM and government resign after mass protests from BBC
+2025-12-12 02:03:34,206 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:03:34,501 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (612 words).
+2025-12-12 02:03:34,967 - INFO - Saved article: Competition, demand drive Bengaluru colleges to open admissions months early - The Hindu from The Hindu
+2025-12-12 02:03:36,458 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/if-us-happy-with-indias-offer-trump-admin-should-sign-trade-deal-on-dotted-lines-piyush-goyal/article70387106.ece
+2025-12-12 02:03:36,458 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:41,874 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:03:42,127 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (731 words).
+2025-12-12 02:03:42,678 - INFO - Saved article: If U.S. happy with India's offer, Trump admin should sign trade deal on dotted lines: Piyush Goyal - The Hindu from The Hindu
+2025-12-12 02:03:42,766 - INFO - [Times of India] Page content loaded.
+2025-12-12 02:03:43,304 - INFO - [Times of India] Success with 'selenium_browser'. Found content (381 words).
+2025-12-12 02:03:43,872 - INFO - Saved article: “I’m in a bad mood”: Candace Owens fires warning at Erika Kirk after new clip on Charlie Kirk conspiracy fight goes viral - The Times of India from Times of India
+2025-12-12 02:03:44,133 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rajasthan/40-detained-over-protest-against-ethanol-plant-in-hanumangarh/article70385177.ece
+2025-12-12 02:03:44,133 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:44,793 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/erika-kirk-debunks-candace-owens-claim-about-charlie-kirks-final-messages-amid-growing-controversy/articleshow/125923549.cms
+2025-12-12 02:03:44,794 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:54,173 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:03:54,341 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (481 words).
+2025-12-12 02:03:54,456 - INFO - Saved article: 40 detained over protest against ethanol plant in Hanumangarh - The Hindu from The Hindu
+2025-12-12 02:03:55,024 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/standing-on-humanitarian-ground/article70384039.ece
+2025-12-12 02:03:55,024 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:55,800 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:03:55,858 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1904 words).
+2025-12-12 02:03:55,916 - INFO - Saved article: Standing on humanitarian ground - The Hindu from The Hindu
+2025-12-12 02:03:57,147 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jammu-and-kashmir/will-establish-peace-not-buy-it-to-reopen-old-terror-cases-jk-l-g-sinha/article70385143.ece
+2025-12-12 02:03:57,147 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:03:58,114 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:03:58,183 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (459 words).
+2025-12-12 02:03:58,258 - INFO - Saved article: Will establish peace, not buy it; to reopen old terror cases: J&K L-G Sinha - The Hindu from The Hindu
+2025-12-12 02:03:58,904 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/odisha/odisha-cm-gives-away-citizenship-certificates-to-35-persons-from-bangladesh/article70385477.ece
+2025-12-12 02:03:58,905 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:04:00,044 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:04:00,089 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (534 words).
+2025-12-12 02:04:00,140 - INFO - Duplicate article skipped: Odisha CM gives away citizenship certificates to 35 persons from Bangladesh - The Hindu from The Hindu
+2025-12-12 02:04:01,560 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/bjp-leaders-gaffe-over-matangini-hazra-gives-trinamool-a-fresh-handle/article70385710.ece
+2025-12-12 02:04:01,561 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:04:03,052 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:04:03,102 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (391 words).
+2025-12-12 02:04:03,152 - INFO - Duplicate article skipped: BJP leader’s gaffe over Matangini Hazra gives Trinamool a fresh handle - The Hindu from The Hindu
+2025-12-12 02:04:04,444 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/wayanad-records-highest-polling-percentage-in-state/article70385396.ece
+2025-12-12 02:04:04,444 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:04:05,703 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:04:05,747 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (136 words).
+2025-12-12 02:04:05,797 - INFO - Duplicate article skipped: Wayanad records highest polling percentage in State - The Hindu from The Hindu
+2025-12-12 02:04:07,149 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/kannur-kasaragod-record-huge-turnout-in-local-body-polls/article70385449.ece
+2025-12-12 02:04:07,149 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:04:09,865 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:04:10,037 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (108 words).
+2025-12-12 02:04:10,139 - INFO - Duplicate article skipped: Kannur, Kasaragod record huge turnout in local body polls - The Hindu from The Hindu
+2025-12-12 02:04:11,560 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/arunachal-road-deaths-kharge-asks-for-just-compensation-to-bereaved-saddening-says-rahul/article70386077.ece
+2025-12-12 02:04:11,560 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:04:12,262 - INFO - [The Hindu] Page content loaded.
+2025-12-12 02:04:12,308 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (459 words).
+2025-12-12 02:04:12,416 - INFO - Duplicate article skipped: Arunachal road deaths: Kharge asks for just compensation to bereaved; saddening, says Rahul - The Hindu from The Hindu
+2025-12-12 02:04:13,580 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-12 02:04:13,741 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-12 02:05:44,805 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/erika-kirk-debunks-candace-owens-claim-about-charlie-kirks-final-messages-amid-growing-controversy/articleshow/125923549.cms: HTTPConnectionPool(host='localhost', port=52489): Read timed out. (read timeout=120)
+2025-12-12 02:05:44,805 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/erika-kirk-debunks-candace-owens-claim-about-charlie-kirks-final-messages-amid-growing-controversy/articleshow/125923549.cms. Falling back to RSS description.
+2025-12-12 02:05:44,807 - INFO - Saved article: Erika Kirk debunks Candace Owens’ claim about Charlie Kirk’s final messages amid growing controversy from Times of India
+2025-12-12 02:05:45,892 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-faces-new-questions-as-tim-pool-claims-she-said-she-hated-charlie-kirk-before-he-was-killed/articleshow/125923405.cms
+2025-12-12 02:05:45,892 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:07:45,900 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-faces-new-questions-as-tim-pool-claims-she-said-she-hated-charlie-kirk-before-he-was-killed/articleshow/125923405.cms: HTTPConnectionPool(host='localhost', port=52489): Read timed out. (read timeout=120)
+2025-12-12 02:07:45,900 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-faces-new-questions-as-tim-pool-claims-she-said-she-hated-charlie-kirk-before-he-was-killed/articleshow/125923405.cms. Falling back to RSS description.
+2025-12-12 02:07:45,903 - INFO - Saved article: Candace Owens faces new questions as Tim Pool claims she said she hated Charlie Kirk before he was killed from Times of India
+2025-12-12 02:07:47,243 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/meghan-markle-syndrome-candace-owens-challenges-erika-kirks-request-to-hide-charlie-kirks-grave-and-raises-fresh-questions/articleshow/125923328.cms
+2025-12-12 02:07:47,243 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-12 02:08:20,416 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-12 02:08:20,416 - ERROR - A thread has timed out and will be abandoned.
+2025-12-12 02:08:20,416 - INFO - Shutting down thread pool (wait=False)...
+2025-12-12 02:08:20,416 - INFO - Scraped: 5 BBC, 1 The Guardian, 5 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 11)
+2025-12-12 02:08:20,416 - INFO - --- Scraping job finished ---
+2025-12-12 02:08:20,416 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-12 02:08:20,416 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
