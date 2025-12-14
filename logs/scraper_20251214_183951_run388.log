@@ -1,0 +1,199 @@
+2025-12-14 18:34:51,392 - INFO - Initializing database connection at: news_articles.db
+2025-12-14 18:34:51,392 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-14 18:34:51,392 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-14 18:34:51,392 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-14 18:34:51,392 - INFO - Proxy is DISABLED.
+2025-12-14 18:34:51,393 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-14 18:34:51,393 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-14 18:34:51,393 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-14 18:34:51,393 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-14 18:34:51,394 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-14 18:34:51,394 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-14 18:34:51,395 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-14 18:34:51,561 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-14 18:34:51,561 - INFO - [The Guardian] Article: https://www.theguardian.com/education/2025/dec/14/ghana-students-uk-universities-face-deportion-funding-crisis
+2025-12-14 18:34:51,561 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:51,603 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-14 18:34:51,641 - INFO - Duplicate article skipped: Ghanaian students at UK universities face deportation amid funding crisis | International students | The Guardian from The Guardian
+2025-12-14 18:34:51,883 - INFO - Found 29 articles in BBC RSS feed. Processing up to 10.
+2025-12-14 18:34:51,883 - INFO - [BBC] Article: https://www.bbc.com/news/videos/c62l00q1v88o?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:51,883 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:52,231 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 77 words).
+2025-12-14 18:34:52,231 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/c62l00q1v88o?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2025-12-14 18:34:52,231 - INFO - Duplicate article skipped: Eyewitness captures moment man tackles and disarms Bondi shooter from BBC
+2025-12-14 18:34:52,839 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2025/dec/15/little-foot-hominin-fossil-may-be-new-species-of-human-ancestor
+2025-12-14 18:34:52,840 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:52,963 - INFO - [The Guardian] Success with 'requests_browser'. Found content (553 words).
+2025-12-14 18:34:52,999 - INFO - Duplicate article skipped: Little Foot hominin fossil may be new species of human ancestor | Evolution | The Guardian from The Guardian
+2025-12-14 18:34:53,322 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9ll6jpl0o?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:53,322 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:53,364 - INFO - [BBC] Success with 'requests_browser'. Found content (465 words).
+2025-12-14 18:34:53,399 - INFO - Duplicate article skipped: 'Person of interest' detained over Brown University shooting, official says from BBC
+2025-12-14 18:34:53,885 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/drone-strike-on-un-facility-in-war-torn-sudan-leaves-six-peacekeepers-dead
+2025-12-14 18:34:53,885 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:53,924 - INFO - [The Guardian] Success with 'requests_browser'. Found content (357 words).
+2025-12-14 18:34:53,967 - INFO - Duplicate article skipped: Drone strike on UN facility in war-torn Sudan leaves six peacekeepers dead | Sudan | The Guardian from The Guardian
+2025-12-14 18:34:54,330 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg1r89m6g7o?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:54,330 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:54,392 - INFO - [BBC] Success with 'requests_browser'. Found content (1005 words).
+2025-12-14 18:34:54,431 - INFO - Duplicate article skipped: 'Never give up': Belarusian prisoners celebrate release after US lifts sanctions from BBC
+2025-12-14 18:34:55,379 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/us-accuses-rwanda-of-violating-peace-deal
+2025-12-14 18:34:55,379 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:55,404 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2dz7r708dxo?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:55,404 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:55,413 - INFO - [The Guardian] Success with 'requests_browser'. Found content (632 words).
+2025-12-14 18:34:55,452 - INFO - Duplicate article skipped: US scolds Rwanda for breaking peace deal as M23 rebels seize key Congo city | Rwanda | The Guardian from The Guardian
+2025-12-14 18:34:55,468 - INFO - [BBC] Success with 'requests_browser'. Found content (295 words).
+2025-12-14 18:34:55,498 - INFO - Duplicate article skipped: Five arrested over plot to attack German Christmas market from BBC
+2025-12-14 18:34:56,047 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2dklj3rxvo?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:56,047 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:56,369 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/12/trump-ends-temporary-legal-status-ethiopia
+2025-12-14 18:34:56,369 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:56,403 - INFO - [The Guardian] Success with 'requests_browser'. Found content (322 words).
+2025-12-14 18:34:56,440 - INFO - Duplicate article skipped: US ends temporary legal status for Ethiopians amid Trump crackdown | Trump administration | The Guardian from The Guardian
+2025-12-14 18:34:57,433 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-14 18:34:57,478 - INFO - Duplicate article skipped: Israel targets senior Hamas official in deadly Gaza strike from BBC
+2025-12-14 18:34:57,700 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/14/chile-presidential-election
+2025-12-14 18:34:57,700 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:57,733 - INFO - [The Guardian] Success with 'requests_browser'. Found content (809 words).
+2025-12-14 18:34:57,791 - INFO - Duplicate article skipped: Far-right José Antonio Kast favored to win as Chile votes in presidential runoff | Chile | The Guardian from The Guardian
+2025-12-14 18:34:58,687 - INFO - [BBC] Article: https://www.bbc.com/news/videos/cy4xgxm2848o?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:58,687 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:58,862 - INFO - [BBC] Success with 'requests_browser'. Found content (126 words).
+2025-12-14 18:34:58,913 - INFO - Duplicate article skipped: John Cena takes his final bow, after last ever WWE fight from BBC
+2025-12-14 18:34:59,151 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/venezuela-oil-exports-reportedly-fall-sharply-after-us-seizure-of-tanker-skipper
+2025-12-14 18:34:59,151 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:59,184 - INFO - [The Guardian] Success with 'requests_browser'. Found content (574 words).
+2025-12-14 18:34:59,220 - INFO - Duplicate article skipped: Venezuela oil exports reportedly fall sharply after US seizure of tanker | Venezuela | The Guardian from The Guardian
+2025-12-14 18:34:59,517 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9vpxjp2go?at_medium=RSS&at_campaign=rss
+2025-12-14 18:34:59,517 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:59,556 - INFO - [BBC] Success with 'requests_browser'. Found content (532 words).
+2025-12-14 18:34:59,590 - INFO - Duplicate article skipped: Three Americans killed by IS gunman in Syria, US military says from BBC
+2025-12-14 18:34:59,779 - INFO - Selenium driver initialized successfully.
+2025-12-14 18:34:59,779 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-14 18:34:59,780 - INFO - Selenium driver initialized successfully.
+2025-12-14 18:34:59,780 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-14 18:34:59,889 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/12/brazilian-judge-sanction-lifted-bolsonaro
+2025-12-14 18:34:59,889 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:34:59,921 - INFO - [The Guardian] Success with 'requests_browser'. Found content (426 words).
+2025-12-14 18:34:59,955 - INFO - Duplicate article skipped: US treasury lifts sanctions on Brazilian judge who presided over Bolsonaro case | Brazil | The Guardian from The Guardian
+2025-12-14 18:34:59,974 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-14 18:34:59,974 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/vice-president-cp-radhakrishnan-releases-postage-stamp-in-honour-of-perumbidugu-mutharaiyar/article70396284.ece
+2025-12-14 18:34:59,974 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:00,108 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-14 18:35:00,108 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/weird-as-nick-fuentes-on-what-went-wrong-between-erika-kirk-and-jd-vance-after-their-warm-hug/articleshow/125964404.cms
+2025-12-14 18:35:00,108 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:00,874 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/12/colombia-eln-guerrilla-rebels-trump
+2025-12-14 18:35:00,874 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:35:00,923 - INFO - [The Guardian] Success with 'requests_browser'. Found content (436 words).
+2025-12-14 18:35:00,996 - INFO - Duplicate article skipped: Colombian rebels warn civilians of military drills amid ‘imperialist’ Trump threats | Colombia | The Guardian from The Guardian
+2025-12-14 18:35:01,058 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g66nll48do?at_medium=RSS&at_campaign=rss
+2025-12-14 18:35:01,058 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:35:01,243 - INFO - [BBC] Success with 'requests_browser'. Found content (694 words).
+2025-12-14 18:35:01,305 - INFO - Duplicate article skipped: Anger at Lionel Messi 'GOAT' India tour as fans throw chairs and bottles at stadium event from BBC
+2025-12-14 18:35:01,951 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0l9954yr9ko?at_medium=RSS&at_campaign=rss
+2025-12-14 18:35:01,951 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:35:02,092 - INFO - [BBC] Success with 'requests_browser'. Found content (963 words).
+2025-12-14 18:35:02,227 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/12/canada-liberals-government-majority-conservative-michael-ma
+2025-12-14 18:35:02,227 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:35:02,265 - INFO - Duplicate article skipped: One million households without electricity in Ukraine after Russian strikes from BBC
+2025-12-14 18:35:02,347 - INFO - [The Guardian] Success with 'requests_browser'. Found content (467 words).
+2025-12-14 18:35:02,462 - INFO - Duplicate article skipped: Canada’s Liberals edge closer to majority after Conservative lawmaker crosses floor | Canada | The Guardian from The Guardian
+2025-12-14 18:35:03,623 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd0kkyx3vvxo?at_medium=RSS&at_campaign=rss
+2025-12-14 18:35:03,625 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-14 18:35:03,749 - INFO - [BBC] Success with 'requests_browser'. Found content (633 words).
+2025-12-14 18:35:03,884 - INFO - Duplicate article skipped: Cambodia shuts border crossings with Thailand as fighting continues from BBC
+2025-12-14 18:35:05,540 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:05,925 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (112 words).
+2025-12-14 18:35:06,174 - INFO - Saved article: Vice-President C.P. Radhakrishnan releases commemorative postage stamp in honour of Perumbidugu Mutharaiyar - The Hindu from The Hindu
+2025-12-14 18:35:07,445 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tn-bjp-organises-three-day-training-programme-for-blas/article70396390.ece
+2025-12-14 18:35:07,445 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:18,389 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:18,489 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (129 words).
+2025-12-14 18:35:18,604 - INFO - Saved article: T.N. BJP organises three-day training programme for BLAs - The Hindu from The Hindu
+2025-12-14 18:35:19,358 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/despite-seeman-attending-right-wing-outfits-event-ntk-leaders-rule-out-nda-tie-up/article70396117.ece
+2025-12-14 18:35:19,358 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:20,021 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:20,069 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (345 words).
+2025-12-14 18:35:20,215 - INFO - Saved article: Despite Seeman attending right wing outfit’s event, NTK leaders rule out NDA tie-up - The Hindu from The Hindu
+2025-12-14 18:35:21,508 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/indian-school-of-nature-wins-climate-guardian-award-at-toft-2025/article70395554.ece
+2025-12-14 18:35:21,508 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:23,895 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:24,191 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (330 words).
+2025-12-14 18:35:24,276 - INFO - Saved article: Indian School of Nature wins Climate Guardian Award at TOFT 2025 - The Hindu from The Hindu
+2025-12-14 18:35:25,509 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/nainar-nagenthran-calls-on-amit-shah-in-new-delhi/article70396633.ece
+2025-12-14 18:35:25,509 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:26,284 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:26,450 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (199 words).
+2025-12-14 18:35:26,560 - INFO - Saved article: Nainar Nagenthran calls on Amit Shah in New Delhi - The Hindu from The Hindu
+2025-12-14 18:35:27,209 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/neither-amit-shah-nor-sangh-army-can-succeed-in-tamil-nadu-says-chief-minister-stalin/article70396308.ece
+2025-12-14 18:35:27,209 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:28,260 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:28,349 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (598 words).
+2025-12-14 18:35:28,420 - INFO - Saved article: Neither Amit Shah nor Sangh army can succeed in Tamil Nadu, says Chief Minister Stalin - The Hindu from The Hindu
+2025-12-14 18:35:29,083 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/shamanur-senior-most-mla-lingayat-leader-industrialist-and-more/article70396322.ece
+2025-12-14 18:35:29,083 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:35:29,893 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:35:30,140 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (506 words).
+2025-12-14 18:35:30,220 - INFO - Saved article: Shamanur: Senior-most MLA, Lingayat leader, industrialist and more - The Hindu from The Hindu
+2025-12-14 18:35:31,335 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/book-documenting-the-long-journey-of-the-saurashtras-from-gujarat-to-tn-launched/article70396292.ece
+2025-12-14 18:35:31,335 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:36:31,354 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/book-documenting-the-long-journey-of-the-saurashtras-from-gujarat-to-tn-launched/article70396292.ece: Message: timeout: Timed out receiving message from renderer: 59.820
+  (Session info: chrome=143.0.7499.40)
+Stacktrace:
+#0 0x55ef532be16a <unknown>
+#1 0x55ef52d3bc4b <unknown>
+#2 0x55ef52d23cf3 <unknown>
+#3 0x55ef52d239d6 <unknown>
+#4 0x55ef52d21897 <unknown>
+#5 0x55ef52d221af <unknown>
+#6 0x55ef52d30970 <unknown>
+#7 0x55ef52d4a017 <unknown>
+#8 0x55ef52d506cb <unknown>
+#9 0x55ef52d228d8 <unknown>
+#10 0x55ef52d49dc3 <unknown>
+#11 0x55ef52dd8f60 <unknown>
+#12 0x55ef52d7fc42 <unknown>
+#13 0x55ef52d808f1 <unknown>
+#14 0x55ef53286f09 <unknown>
+#15 0x55ef53289e4d <unknown>
+#16 0x55ef5326fc51 <unknown>
+#17 0x55ef5328aa2b <unknown>
+#18 0x55ef53256a20 <unknown>
+#19 0x55ef532aba78 <unknown>
+#20 0x55ef532abc49 <unknown>
+#21 0x55ef532bd4c3 <unknown>
+#22 0x7f9d7e89caa4 <unknown>
+#23 0x7f9d7e929c6c <unknown>
+
+2025-12-14 18:36:31,355 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/book-documenting-the-long-journey-of-the-saurashtras-from-gujarat-to-tn-launched/article70396292.ece. Falling back to RSS description.
+2025-12-14 18:36:31,356 - INFO - Saved article: Book documenting the long journey of the Saurashtras from Gujarat to T.N. launched from The Hindu
+2025-12-14 18:36:32,135 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-kings-freedom-fighters-didnt-get-due-recognition-earlier-vice-president/article70395779.ece
+2025-12-14 18:36:32,136 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:36:33,688 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:36:33,739 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (193 words).
+2025-12-14 18:36:33,797 - INFO - Saved article: Tamil kings, freedom fighters didn’t get due recognition earlier: Vice-President - The Hindu from The Hindu
+2025-12-14 18:36:35,075 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/priyanka-gandhi-dares-bjp-to-contest-fair-election-on-ballot/article70396149.ece
+2025-12-14 18:36:35,075 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:36:35,801 - INFO - [The Hindu] Page content loaded.
+2025-12-14 18:36:36,033 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (369 words).
+2025-12-14 18:36:36,134 - INFO - Saved article: Priyanka Gandhi dares BJP to contest “fair election” on ballot - The Hindu from The Hindu
+2025-12-14 18:36:37,532 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-14 18:36:37,674 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-14 18:37:00,207 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/weird-as-nick-fuentes-on-what-went-wrong-between-erika-kirk-and-jd-vance-after-their-warm-hug/articleshow/125964404.cms: HTTPConnectionPool(host='localhost', port=47925): Read timed out. (read timeout=120)
+2025-12-14 18:37:00,207 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/weird-as-nick-fuentes-on-what-went-wrong-between-erika-kirk-and-jd-vance-after-their-warm-hug/articleshow/125964404.cms. Falling back to RSS description.
+2025-12-14 18:37:00,209 - INFO - Saved article: 'Weird as...': Nick Fuentes on what went wrong between Erika Kirk and JD Vance after their warm hug from Times of India
+2025-12-14 18:37:01,131 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/relocate-to-usa-and-india-indian-origin-businessman-forced-to-move-as-firm-gives-up-nuclear-licence-200-high-tech-jobs-at-risk/articleshow/125963897.cms
+2025-12-14 18:37:01,131 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:39:01,231 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/rest-of-world/relocate-to-usa-and-india-indian-origin-businessman-forced-to-move-as-firm-gives-up-nuclear-licence-200-high-tech-jobs-at-risk/articleshow/125963897.cms: HTTPConnectionPool(host='localhost', port=47925): Read timed out. (read timeout=120)
+2025-12-14 18:39:01,231 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/rest-of-world/relocate-to-usa-and-india-indian-origin-businessman-forced-to-move-as-firm-gives-up-nuclear-licence-200-high-tech-jobs-at-risk/articleshow/125963897.cms. Falling back to RSS description.
+2025-12-14 18:39:01,233 - INFO - Saved article: 'Relocate to USA and India': Indian-origin businessman forced to move as firm gives up nuclear licence, 200 'high-tech jobs' at risk from Times of India
+2025-12-14 18:39:02,149 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/professor-says-brown-university-shooter-yelled-something-before-firing-on-students-he-came-in-the-doors-and/articleshow/125963455.cms
+2025-12-14 18:39:02,149 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-14 18:39:51,395 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-14 18:39:51,395 - ERROR - A thread has timed out and will be abandoned.
+2025-12-14 18:39:51,395 - INFO - Shutting down thread pool (wait=False)...
+2025-12-14 18:39:51,395 - INFO - Scraped: 0 BBC, 0 The Guardian, 10 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 10)
+2025-12-14 18:39:51,395 - INFO - --- Scraping job finished ---
+2025-12-14 18:39:51,395 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-14 18:39:51,395 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
