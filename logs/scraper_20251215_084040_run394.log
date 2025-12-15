@@ -1,0 +1,236 @@
+2025-12-15 08:39:18,923 - INFO - Initializing database connection at: news_articles.db
+2025-12-15 08:39:18,923 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-15 08:39:18,923 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-15 08:39:18,923 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-15 08:39:18,923 - INFO - Proxy is DISABLED.
+2025-12-15 08:39:18,924 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-15 08:39:18,924 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-15 08:39:18,924 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-15 08:39:18,924 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-15 08:39:18,925 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-15 08:39:18,925 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-15 08:39:18,925 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-15 08:39:19,065 - INFO - Found 34 articles in BBC RSS feed. Processing up to 10.
+2025-12-15 08:39:19,065 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgz15d5718o?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:19,065 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:19,099 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-15 08:39:19,100 - INFO - [The Guardian] Article: https://www.theguardian.com/education/2025/dec/14/ghana-students-uk-universities-face-deportion-funding-crisis
+2025-12-15 08:39:19,100 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:19,362 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-15 08:39:19,408 - INFO - Duplicate article skipped: Ghanaian students at UK universities face deportation amid funding crisis | International students | The Guardian from The Guardian
+2025-12-15 08:39:19,450 - INFO - [BBC] Success with 'requests_browser'. Found content (1097 words).
+2025-12-15 08:39:19,505 - INFO - Duplicate article skipped: Who were the Bondi beach shooting victims? What we know from BBC
+2025-12-15 08:39:19,945 - INFO - Selenium driver initialized successfully.
+2025-12-15 08:39:19,945 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-15 08:39:19,947 - INFO - Selenium driver initialized successfully.
+2025-12-15 08:39:19,947 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-15 08:39:20,044 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-15 08:39:20,044 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-king-khalid-and-al-baha-universities-suspend-in-person-classes-amid-severe-weather/articleshow/125974091.cms
+2025-12-15 08:39:20,044 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:20,109 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-15 08:39:20,109 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/outraging-womans-modesty-kerala-police-oppose-film-director-cpim-leader-kunju-muhammeds-anticipatory-bail/article70398257.ece
+2025-12-15 08:39:20,109 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:20,194 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2025/dec/15/little-foot-hominin-fossil-may-be-new-species-of-human-ancestor
+2025-12-15 08:39:20,194 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:20,243 - INFO - [The Guardian] Success with 'requests_browser'. Found content (553 words).
+2025-12-15 08:39:20,315 - INFO - Duplicate article skipped: Little Foot hominin fossil may be new species of human ancestor | Evolution | The Guardian from The Guardian
+2025-12-15 08:39:20,673 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz0np02znezo?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:20,673 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:20,733 - INFO - [BBC] Success with 'requests_browser'. Found content (1041 words).
+2025-12-15 08:39:20,814 - INFO - Duplicate article skipped: Rob Reiner: Hollywood director and wife Michele found dead in LA home from BBC
+2025-12-15 08:39:21,667 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/drone-strike-on-un-facility-in-war-torn-sudan-leaves-six-peacekeepers-dead
+2025-12-15 08:39:21,667 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:21,764 - INFO - [The Guardian] Success with 'requests_browser'. Found content (357 words).
+2025-12-15 08:39:21,932 - INFO - Duplicate article skipped: Drone strike on UN facility in war-torn Sudan leaves six peacekeepers dead | Sudan | The Guardian from The Guardian
+2025-12-15 08:39:22,070 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp844kjj37vo?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:22,071 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:22,241 - INFO - [BBC] Success with 'requests_browser'. Found content (1292 words).
+2025-12-15 08:39:22,368 - INFO - Saved article: Jimmy Lai: Hong Kong tycoon found guilty in landmark national security case from BBC
+2025-12-15 08:39:23,016 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/us-accuses-rwanda-of-violating-peace-deal
+2025-12-15 08:39:23,017 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:23,141 - INFO - [The Guardian] Success with 'requests_browser'. Found content (632 words).
+2025-12-15 08:39:23,239 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0kde07lvvro?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:23,239 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:23,273 - INFO - Duplicate article skipped: US scolds Rwanda for breaking peace deal as M23 rebels seize key Congo city | Rwanda | The Guardian from The Guardian
+2025-12-15 08:39:23,389 - INFO - [BBC] Success with 'requests_browser'. Found content (911 words).
+2025-12-15 08:39:23,473 - INFO - Duplicate article skipped: Chile elects far-right José Antonio Kast as next president from BBC
+2025-12-15 08:39:23,740 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:23,905 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (390 words).
+2025-12-15 08:39:24,093 - INFO - Saved article: Outraging woman’s modesty: Kerala police oppose film director, CPI(M) leader Kunju Muhammed’s anticipatory bail - The Hindu from The Hindu
+2025-12-15 08:39:24,431 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/12/trump-ends-temporary-legal-status-ethiopia
+2025-12-15 08:39:24,431 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:24,555 - INFO - [The Guardian] Success with 'requests_browser'. Found content (322 words).
+2025-12-15 08:39:24,643 - INFO - Duplicate article skipped: US ends temporary legal status for Ethiopians amid Trump crackdown | Trump administration | The Guardian from The Guardian
+2025-12-15 08:39:24,793 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9ll6jpl0o?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:24,793 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:24,885 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/shetty-institute-of-technology-hosts-inter-college-coding-contest-code-fusion-2025/article70393014.ece
+2025-12-15 08:39:24,885 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:24,971 - INFO - [BBC] Success with 'requests_browser'. Found content (616 words).
+2025-12-15 08:39:25,077 - INFO - Duplicate article skipped: 'Person of interest' detained over Brown University shooting to be released, officials say from BBC
+2025-12-15 08:39:25,464 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/15/jose-antonio-kast-wins-election-chile-president
+2025-12-15 08:39:25,464 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:25,562 - INFO - [The Guardian] Success with 'requests_browser'. Found content (860 words).
+2025-12-15 08:39:25,696 - INFO - Duplicate article skipped: Ultra-conservative José Antonio Kast elected Chile’s next president | Chile | The Guardian from The Guardian
+2025-12-15 08:39:26,288 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg1r89m6g7o?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:26,289 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:26,661 - INFO - [BBC] Success with 'requests_browser'. Found content (1005 words).
+2025-12-15 08:39:26,864 - INFO - Duplicate article skipped: 'Never give up': Belarusian prisoners celebrate release after US lifts sanctions from BBC
+2025-12-15 08:39:27,037 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/14/jetblue-pilot-avoids-midair-collision-air-force-venezuela
+2025-12-15 08:39:27,037 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:27,138 - INFO - [The Guardian] Success with 'requests_browser'. Found content (321 words).
+2025-12-15 08:39:27,266 - INFO - Duplicate article skipped: Pilot narrowly avoids ‘midair collision’ with US air force plane near Venezuela | US news | The Guardian from The Guardian
+2025-12-15 08:39:27,588 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2dz7r708dxo?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:27,588 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:27,768 - INFO - [BBC] Success with 'requests_browser'. Found content (295 words).
+2025-12-15 08:39:27,839 - INFO - Duplicate article skipped: Five arrested over plot to attack German Christmas market from BBC
+2025-12-15 08:39:28,428 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/14/chile-presidential-election
+2025-12-15 08:39:28,428 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:28,468 - INFO - [The Guardian] Success with 'requests_browser'. Found content (809 words).
+2025-12-15 08:39:28,543 - INFO - Duplicate article skipped: Far-right José Antonio Kast favored to win as Chile votes in presidential runoff | Chile | The Guardian from The Guardian
+2025-12-15 08:39:28,850 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2dklj3rxvo?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:28,850 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:29,286 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-15 08:39:29,406 - INFO - Duplicate article skipped: Israel targets senior Hamas official in deadly Gaza strike from BBC
+2025-12-15 08:39:29,701 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/venezuela-oil-exports-reportedly-fall-sharply-after-us-seizure-of-tanker-skipper
+2025-12-15 08:39:29,703 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:29,756 - INFO - [The Guardian] Success with 'requests_browser'. Found content (574 words).
+2025-12-15 08:39:29,839 - INFO - Duplicate article skipped: Venezuela oil exports reportedly fall sharply after US seizure of tanker | Venezuela | The Guardian from The Guardian
+2025-12-15 08:39:30,367 - INFO - [BBC] Article: https://www.bbc.com/news/videos/cy4xgxm2848o?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:30,367 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:30,499 - INFO - [BBC] Success with 'requests_browser'. Found content (126 words).
+2025-12-15 08:39:30,601 - INFO - Duplicate article skipped: John Cena takes his final bow, after last ever WWE fight from BBC
+2025-12-15 08:39:30,965 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/12/brazilian-judge-sanction-lifted-bolsonaro
+2025-12-15 08:39:30,965 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:31,008 - INFO - [The Guardian] Success with 'requests_browser'. Found content (426 words).
+2025-12-15 08:39:31,112 - INFO - Duplicate article skipped: US treasury lifts sanctions on Brazilian judge who presided over Bolsonaro case | Brazil | The Guardian from The Guardian
+2025-12-15 08:39:31,217 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:31,328 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (234 words).
+2025-12-15 08:39:31,459 - INFO - Saved article: Shetty Institute of Technology hosts inter-college coding contest ‘Code Fusion 2025’ - The Hindu from The Hindu
+2025-12-15 08:39:31,724 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9vpxjp2go?at_medium=RSS&at_campaign=rss
+2025-12-15 08:39:31,724 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 08:39:31,997 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rana-kapoor-yes-bank-enforcement-directorate-anil-ambani-money-laundering-case/article70398264.ece
+2025-12-15 08:39:31,997 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:32,065 - INFO - [BBC] Success with 'requests_browser'. Found content (550 words).
+2025-12-15 08:39:32,331 - INFO - Duplicate article skipped: Three Americans killed by IS gunman in Syria, US military says from BBC
+2025-12-15 08:39:34,186 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:34,259 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (207 words).
+2025-12-15 08:39:35,116 - INFO - Saved article: Enforcement Directorate questions Yes Bank's Rana Kapoor in Reliance Anil Ambani group case - The Hindu from The Hindu
+2025-12-15 08:39:36,281 - INFO - [The Hindu] Article: https://www.thehindu.com/business/Industry/maruti-suzuki-india-ev-localise-in-few-years/article70398026.ece
+2025-12-15 08:39:36,281 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:38,090 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:38,167 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (565 words).
+2025-12-15 08:39:38,231 - INFO - Saved article: Maruti Suzuki India to localise EV components in a few years - The Hindu from The Hindu
+2025-12-15 08:39:39,404 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/supreme-court-grants-interim-bail-to-journalist-mahesh-langa-in-money-laundering-case/article70398235.ece
+2025-12-15 08:39:39,404 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:40,022 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:40,246 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (311 words).
+2025-12-15 08:39:40,356 - INFO - Saved article: Supreme Court grants interim bail to journalist Mahesh Langa in money laundering case - The Hindu from The Hindu
+2025-12-15 08:39:41,371 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/sc-refuses-to-hear-plea-on-cancellation-of-indigo-flights-asks-petitioner-to-move-hc/article70398210.ece
+2025-12-15 08:39:41,371 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:42,622 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:42,930 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (300 words).
+2025-12-15 08:39:43,179 - INFO - Saved article: Cancellation of Indigo flights is a ‘grave and public’ concern: Supreme Court - The Hindu from The Hindu
+2025-12-15 08:39:43,770 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Coimbatore/humane-animal-society-launches-re-vaccination-drive-in-eight-regions-of-coimbatore/article70398035.ece
+2025-12-15 08:39:43,770 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:46,043 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:46,146 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (229 words).
+2025-12-15 08:39:46,227 - INFO - Saved article: Humane Animal Society launches re-vaccination drive in eight regions of Coimbatore - The Hindu from The Hindu
+2025-12-15 08:39:46,840 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/cpi-signals-that-sabarimala-gold-theft-scandal-eclipsed-ldfs-governance-track-record-at-local-body-poll-hustings/article70398136.ece
+2025-12-15 08:39:46,840 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:47,846 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:47,922 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (505 words).
+2025-12-15 08:39:48,018 - INFO - Saved article: CPI signals that Sabarimala gold theft scandal eclipsed LDF’s governance track record at local body poll hustings - The Hindu from The Hindu
+2025-12-15 08:39:49,155 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/nehru-made-kashmir-issue-controversial-india-got-extremism-separatism-from-there-adityanath/article70398112.ece
+2025-12-15 08:39:49,155 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:50,339 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:50,419 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (312 words).
+2025-12-15 08:39:50,602 - INFO - Saved article: Nehru made Kashmir issue controversial, India got extremism, separatism from there: Adityanath - The Hindu from The Hindu
+2025-12-15 08:39:52,029 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/four-flights-cancelled-at-hyderabad-airport-as-dense-fog-in-delhi-north-india-disrupts-air-traffic/article70397776.ece
+2025-12-15 08:39:52,030 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:39:55,373 - INFO - [The Hindu] Page content loaded.
+2025-12-15 08:39:55,465 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (196 words).
+2025-12-15 08:39:55,557 - INFO - Saved article: Four flights cancelled at Hyderabad airport as dense fog in Delhi, North India disrupts air traffic - The Hindu from The Hindu
+2025-12-15 08:39:56,544 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-15 08:39:56,733 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-15 08:40:20,073 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-king-khalid-and-al-baha-universities-suspend-in-person-classes-amid-severe-weather/articleshow/125974091.cms: Message: timeout: Timed out receiving message from renderer: 59.890
+  (Session info: chrome=143.0.7499.40)
+Stacktrace:
+#0 0x559f1cd4916a <unknown>
+#1 0x559f1c7c6c4b <unknown>
+#2 0x559f1c7aecf3 <unknown>
+#3 0x559f1c7ae9d6 <unknown>
+#4 0x559f1c7ac897 <unknown>
+#5 0x559f1c7ad1af <unknown>
+#6 0x559f1c7bb970 <unknown>
+#7 0x559f1c7d5017 <unknown>
+#8 0x559f1c7db6cb <unknown>
+#9 0x559f1c7ad8d8 <unknown>
+#10 0x559f1c7d4dc3 <unknown>
+#11 0x559f1c863f60 <unknown>
+#12 0x559f1c80ac42 <unknown>
+#13 0x559f1c80b8f1 <unknown>
+#14 0x559f1cd11f09 <unknown>
+#15 0x559f1cd14e4d <unknown>
+#16 0x559f1ccfac51 <unknown>
+#17 0x559f1cd15a2b <unknown>
+#18 0x559f1cce1a20 <unknown>
+#19 0x559f1cd36a78 <unknown>
+#20 0x559f1cd36c49 <unknown>
+#21 0x559f1cd484c3 <unknown>
+#22 0x7ff1db69caa4 <unknown>
+#23 0x7ff1db729c6c <unknown>
+
+2025-12-15 08:40:20,073 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-king-khalid-and-al-baha-universities-suspend-in-person-classes-amid-severe-weather/articleshow/125974091.cms. Falling back to RSS description.
+2025-12-15 08:40:20,076 - INFO - Saved article: Saudi Arabia: King Khalid and Al-Baha Universities suspend in-person classes amid severe weather from Times of India
+2025-12-15 08:40:21,248 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-faces-a-major-decline-in-birth-rates-experts-warn-of-an-aging-crisis/articleshow/125973664.cms
+2025-12-15 08:40:21,248 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:22,321 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:22,478 - INFO - [Times of India] Success with 'selenium_browser'. Found content (721 words).
+2025-12-15 08:40:22,564 - INFO - Saved article: Saudi Arabia faces a major decline in birth rates, experts warn of an aging crisis | World News - The Times of India from Times of India
+2025-12-15 08:40:23,753 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/china/fight-on-till-last-day-hong-kong-media-tycoon-jimmy-lai-found-guilty-of-colluding-with-foreign-forces-taiwan-calls-for-his-release/articleshow/125971398.cms
+2025-12-15 08:40:23,753 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:24,602 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:24,726 - INFO - [Times of India] Success with 'selenium_browser'. Found content (577 words).
+2025-12-15 08:40:24,833 - INFO - Saved article: ‘Fight on till last day’: Hong Kong media tycoon Jimmy Lai found guilty of colluding with foreign forces; Taiwan calls for his release - The Times of India from Times of India
+2025-12-15 08:40:25,483 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-china-sign-mutual-visa-exemption-for-diplomats-and-officials/articleshow/125972969.cms
+2025-12-15 08:40:25,483 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:26,434 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:26,547 - INFO - [Times of India] Success with 'selenium_browser'. Found content (371 words).
+2025-12-15 08:40:26,620 - INFO - Saved article: Saudi Arabia, China sign mutual visa exemption for diplomats and officials | World News - The Times of India from Times of India
+2025-12-15 08:40:27,701 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-launches-its-first-licensed-sports-wagering-and-igaming-website/articleshow/125972366.cms
+2025-12-15 08:40:27,701 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:28,884 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:29,041 - INFO - [Times of India] Success with 'selenium_browser'. Found content (765 words).
+2025-12-15 08:40:29,109 - INFO - Saved article: UAE launches its first Licensed Sports Wagering and iGaming Website | World News - The Times of India from Times of India
+2025-12-15 08:40:30,512 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/outrageous-jetblue-pilot-says-he-narrowly-missed-midair-collision-with-us-military-aircraft-audio-surfaces/articleshow/125971120.cms
+2025-12-15 08:40:30,512 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:31,764 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:31,940 - INFO - [Times of India] Success with 'selenium_browser'. Found content (384 words).
+2025-12-15 08:40:32,000 - INFO - Duplicate article skipped: 'Outrageous': JetBlue pilot says he narrowly missed 'midair collision' with US military aircraft; audio surfaces - The Times of India from Times of India
+2025-12-15 08:40:32,516 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/who-were-rob-reiner-and-michele-singer-hollywood-director-and-wife-found-dead-in-la-home-son-nick-under-suspicion/articleshow/125971654.cms
+2025-12-15 08:40:32,516 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:33,423 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:33,567 - INFO - [Times of India] Success with 'selenium_browser'. Found content (399 words).
+2025-12-15 08:40:33,622 - INFO - Duplicate article skipped: Who were Rob Reiner and Michele Singer? Hollywood director and wife found dead in LA home after being 'stabbed' - The Times of India from Times of India
+2025-12-15 08:40:34,373 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-opens-emirates-medical-centre-in-gaza-to-provide-emergency-treatment-and-healthcare-services/articleshow/125971621.cms
+2025-12-15 08:40:34,373 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:35,062 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:35,237 - INFO - [Times of India] Success with 'selenium_browser'. Found content (256 words).
+2025-12-15 08:40:35,298 - INFO - Saved article: UAE Launches Emirates Medical Centre in Gaza to Enhance Healthcare Services | World News - The Times of India from Times of India
+2025-12-15 08:40:36,131 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-introduces-id-wristband-devices-for-child-safety-during-hajj-and-umrah/articleshow/125971558.cms
+2025-12-15 08:40:36,131 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:36,948 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:37,081 - INFO - [Times of India] Success with 'selenium_browser'. Found content (652 words).
+2025-12-15 08:40:37,148 - INFO - Saved article: Saudi Arabia introduces ID Wristband Devices for child safety during Hajj and Umrah | World News - The Times of India from Times of India
+2025-12-15 08:40:38,065 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/bondi-beach-attack-new-video-captures-tense-police-standoff-the-moment-shooter-was-neutralised-watch/articleshow/125969888.cms
+2025-12-15 08:40:38,065 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 08:40:38,854 - INFO - [Times of India] Page content loaded.
+2025-12-15 08:40:39,026 - INFO - [Times of India] Success with 'selenium_browser'. Found content (557 words).
+2025-12-15 08:40:39,087 - INFO - Saved article: Bondi beach attack: New video captures tense police standoff, the moment shooter was neutralised — watch - The Times of India from Times of India
+2025-12-15 08:40:40,554 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-15 08:40:40,812 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-15 08:40:40,812 - INFO - Shutting down thread pool (wait=False)...
+2025-12-15 08:40:40,813 - INFO - Scraped: 1 BBC, 10 The Hindu, 0 The Guardian, 8 Times of India articles. (Total saved: 19)
+2025-12-15 08:40:40,813 - INFO - --- Scraping job finished ---
+2025-12-15 08:40:40,818 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-15 08:40:40,818 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
