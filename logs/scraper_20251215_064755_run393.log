@@ -1,0 +1,171 @@
+2025-12-15 06:42:55,702 - INFO - Initializing database connection at: news_articles.db
+2025-12-15 06:42:55,703 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-15 06:42:55,703 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-15 06:42:55,703 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-15 06:42:55,703 - INFO - Proxy is DISABLED.
+2025-12-15 06:42:55,703 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-15 06:42:55,704 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-15 06:42:55,704 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-15 06:42:55,704 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-15 06:42:55,705 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-15 06:42:55,707 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-15 06:42:55,708 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-15 06:42:55,762 - INFO - Found 33 articles in BBC RSS feed. Processing up to 10.
+2025-12-15 06:42:55,762 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgz15d5718o?at_medium=RSS&at_campaign=rss
+2025-12-15 06:42:55,762 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:55,857 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-15 06:42:55,858 - INFO - [The Guardian] Article: https://www.theguardian.com/education/2025/dec/14/ghana-students-uk-universities-face-deportion-funding-crisis
+2025-12-15 06:42:55,858 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:55,904 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-15 06:42:55,941 - INFO - Duplicate article skipped: Ghanaian students at UK universities face deportation amid funding crisis | International students | The Guardian from The Guardian
+2025-12-15 06:42:55,956 - INFO - [BBC] Success with 'requests_browser'. Found content (1003 words).
+2025-12-15 06:42:56,002 - INFO - Saved article: Who were the Bondi beach shooting victims? What we know from BBC
+2025-12-15 06:42:57,076 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz0np02znezo?at_medium=RSS&at_campaign=rss
+2025-12-15 06:42:57,076 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:57,105 - INFO - [BBC] Success with 'requests_browser'. Found content (575 words).
+2025-12-15 06:42:57,141 - INFO - Saved article: Rob Reiner: Hollywood director and wife Michele found dead in LA home from BBC
+2025-12-15 06:42:57,167 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2025/dec/15/little-foot-hominin-fossil-may-be-new-species-of-human-ancestor
+2025-12-15 06:42:57,167 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:57,189 - INFO - [The Guardian] Success with 'requests_browser'. Found content (553 words).
+2025-12-15 06:42:57,225 - INFO - Duplicate article skipped: Little Foot hominin fossil may be new species of human ancestor | Evolution | The Guardian from The Guardian
+2025-12-15 06:42:58,269 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0kde07lvvro?at_medium=RSS&at_campaign=rss
+2025-12-15 06:42:58,269 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:58,350 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/drone-strike-on-un-facility-in-war-torn-sudan-leaves-six-peacekeepers-dead
+2025-12-15 06:42:58,350 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:58,435 - INFO - [BBC] Success with 'requests_browser'. Found content (911 words).
+2025-12-15 06:42:58,468 - INFO - Saved article: Chile elects far-right José Antonio Kast as next president from BBC
+2025-12-15 06:42:58,537 - INFO - [The Guardian] Success with 'requests_browser'. Found content (357 words).
+2025-12-15 06:42:58,579 - INFO - Duplicate article skipped: Drone strike on UN facility in war-torn Sudan leaves six peacekeepers dead | Sudan | The Guardian from The Guardian
+2025-12-15 06:42:59,068 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckg9ll6jpl0o?at_medium=RSS&at_campaign=rss
+2025-12-15 06:42:59,069 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:59,232 - INFO - [BBC] Success with 'requests_browser'. Found content (616 words).
+2025-12-15 06:42:59,266 - INFO - Duplicate article skipped: 'Person of interest' detained over Brown University shooting to be released, officials say from BBC
+2025-12-15 06:42:59,329 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/us-accuses-rwanda-of-violating-peace-deal
+2025-12-15 06:42:59,329 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:42:59,484 - INFO - [The Guardian] Success with 'requests_browser'. Found content (632 words).
+2025-12-15 06:42:59,517 - INFO - Duplicate article skipped: US scolds Rwanda for breaking peace deal as M23 rebels seize key Congo city | Rwanda | The Guardian from The Guardian
+2025-12-15 06:43:00,225 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/12/trump-ends-temporary-legal-status-ethiopia
+2025-12-15 06:43:00,225 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:00,275 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg1r89m6g7o?at_medium=RSS&at_campaign=rss
+2025-12-15 06:43:00,275 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:00,380 - INFO - [The Guardian] Success with 'requests_browser'. Found content (322 words).
+2025-12-15 06:43:00,414 - INFO - Duplicate article skipped: US ends temporary legal status for Ethiopians amid Trump crackdown | Trump administration | The Guardian from The Guardian
+2025-12-15 06:43:00,855 - INFO - [BBC] Success with 'requests_browser'. Found content (1005 words).
+2025-12-15 06:43:00,912 - INFO - Duplicate article skipped: 'Never give up': Belarusian prisoners celebrate release after US lifts sanctions from BBC
+2025-12-15 06:43:01,496 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/15/jose-antonio-kast-wins-election-chile-president
+2025-12-15 06:43:01,496 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:01,518 - INFO - [The Guardian] Success with 'requests_browser'. Found content (860 words).
+2025-12-15 06:43:01,552 - INFO - Duplicate article skipped: Ultra-conservative José Antonio Kast elected Chile’s next president | Chile | The Guardian from The Guardian
+2025-12-15 06:43:02,291 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2dz7r708dxo?at_medium=RSS&at_campaign=rss
+2025-12-15 06:43:02,291 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:02,452 - INFO - [BBC] Success with 'requests_browser'. Found content (295 words).
+2025-12-15 06:43:02,481 - INFO - Duplicate article skipped: Five arrested over plot to attack German Christmas market from BBC
+2025-12-15 06:43:02,811 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/14/jetblue-pilot-avoids-midair-collision-air-force-venezuela
+2025-12-15 06:43:02,811 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:02,834 - INFO - [The Guardian] Success with 'requests_browser'. Found content (321 words).
+2025-12-15 06:43:02,867 - INFO - Duplicate article skipped: Pilot narrowly avoids ‘midair collision’ with US air force plane near Venezuela | US news | The Guardian from The Guardian
+2025-12-15 06:43:03,693 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/14/chile-presidential-election
+2025-12-15 06:43:03,693 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:03,715 - INFO - [The Guardian] Success with 'requests_browser'. Found content (809 words).
+2025-12-15 06:43:03,742 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2dklj3rxvo?at_medium=RSS&at_campaign=rss
+2025-12-15 06:43:03,742 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:03,752 - INFO - Duplicate article skipped: Far-right José Antonio Kast favored to win as Chile votes in presidential runoff | Chile | The Guardian from The Guardian
+2025-12-15 06:43:03,909 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-15 06:43:03,945 - INFO - Duplicate article skipped: Israel targets senior Hamas official in deadly Gaza strike from BBC
+2025-12-15 06:43:05,094 - INFO - [BBC] Article: https://www.bbc.com/news/videos/cy4xgxm2848o?at_medium=RSS&at_campaign=rss
+2025-12-15 06:43:05,094 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:05,211 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/13/venezuela-oil-exports-reportedly-fall-sharply-after-us-seizure-of-tanker-skipper
+2025-12-15 06:43:05,211 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:05,344 - INFO - [BBC] Success with 'requests_browser'. Found content (126 words).
+2025-12-15 06:43:05,386 - INFO - Duplicate article skipped: John Cena takes his final bow, after last ever WWE fight from BBC
+2025-12-15 06:43:05,406 - INFO - [The Guardian] Success with 'requests_browser'. Found content (574 words).
+2025-12-15 06:43:05,440 - INFO - Duplicate article skipped: Venezuela oil exports reportedly fall sharply after US seizure of tanker | Venezuela | The Guardian from The Guardian
+2025-12-15 06:43:06,374 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/12/brazilian-judge-sanction-lifted-bolsonaro
+2025-12-15 06:43:06,374 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:06,393 - INFO - [The Guardian] Success with 'requests_browser'. Found content (426 words).
+2025-12-15 06:43:06,428 - INFO - Duplicate article skipped: US treasury lifts sanctions on Brazilian judge who presided over Bolsonaro case | Brazil | The Guardian from The Guardian
+2025-12-15 06:43:06,704 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9vpxjp2go?at_medium=RSS&at_campaign=rss
+2025-12-15 06:43:06,704 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:06,731 - INFO - [BBC] Success with 'requests_browser'. Found content (550 words).
+2025-12-15 06:43:06,765 - INFO - Duplicate article skipped: Three Americans killed by IS gunman in Syria, US military says from BBC
+2025-12-15 06:43:07,360 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g66nll48do?at_medium=RSS&at_campaign=rss
+2025-12-15 06:43:07,360 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-15 06:43:07,523 - INFO - [BBC] Success with 'requests_browser'. Found content (694 words).
+2025-12-15 06:43:07,558 - INFO - Duplicate article skipped: Anger at Lionel Messi 'GOAT' India tour as fans throw chairs and bottles at stadium event from BBC
+2025-12-15 06:43:18,728 - INFO - Selenium driver initialized successfully.
+2025-12-15 06:43:18,728 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-15 06:43:18,729 - INFO - Selenium driver initialized successfully.
+2025-12-15 06:43:18,729 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-15 06:43:18,843 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-15 06:43:18,843 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/elderly-woman-found-strangled-to-death-in-nolambur/article70397967.ece
+2025-12-15 06:43:18,844 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:18,846 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-15 06:43:18,846 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/outrageous-jetblue-pilot-says-he-narrowly-missed-midair-collision-with-us-military-aircraft-audio-surfaces/articleshow/125971120.cms
+2025-12-15 06:43:18,846 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:25,100 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:25,178 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (149 words).
+2025-12-15 06:43:25,281 - INFO - Saved article: Elderly woman found strangled to death in Nolambur - The Hindu from The Hindu
+2025-12-15 06:43:26,056 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/india-cannot-afford-to-pollute-its-way-to-prosperity-congress/article70397846.ece
+2025-12-15 06:43:26,056 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:29,068 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:29,328 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (735 words).
+2025-12-15 06:43:29,574 - INFO - Saved article: Delhi AQI: Congress urges action against pollution amid Delhi's severe smog crisis - The Hindu from The Hindu
+2025-12-15 06:43:30,127 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/odisha/congress-expels-odisha-ex-mla-mohammed-moquim-for-anti-party-acitivities/article70397795.ece
+2025-12-15 06:43:30,127 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:36,396 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:36,563 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (366 words).
+2025-12-15 06:43:36,747 - INFO - Saved article: Congress expels Odisha ex-MLA Mohammed Moquim for anti-party acitivities - The Hindu from The Hindu
+2025-12-15 06:43:37,382 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/arunachal-pradesh/arunachal-pradesh-panchayat-civic-bodies-poll-updates-december-15-2025/article70397912.ece
+2025-12-15 06:43:37,382 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:38,062 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:38,176 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (330 words).
+2025-12-15 06:43:38,265 - INFO - Saved article: Polling underway for Panchayat, Civic bodies in Arunachal - The Hindu from The Hindu
+2025-12-15 06:43:39,706 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/centre-to-bring-new-rural-employment-bill-mgnrega-parliament/article70397900.ece
+2025-12-15 06:43:39,706 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:40,550 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:40,657 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (478 words).
+2025-12-15 06:43:40,768 - INFO - Saved article: Centre to bring new rural employment Bill - The Hindu from The Hindu
+2025-12-15 06:43:41,447 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/parliament-winter-session-lok-sabha-rajya-sabha-day-11-live-updates-december-15-2025/article70397841.ece
+2025-12-15 06:43:41,447 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:45,099 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:45,245 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (197 words).
+2025-12-15 06:43:45,342 - INFO - Saved article: Parliament Winter session Day 11 LIVE: Question Hour underway in Rajya Sabha after brief ruckus - The Hindu from The Hindu
+2025-12-15 06:43:46,490 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/ec-appoints-5-nodal-officers-for-evm-first-level-checking-ahead-of-2026-bengal-assembly-polls/article70397762.ece
+2025-12-15 06:43:46,490 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:47,177 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:47,264 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (156 words).
+2025-12-15 06:43:47,348 - INFO - Saved article: EC appoints 5 nodal officers for EVM first-level checking ahead of 2026 Bengal Assembly polls - The Hindu from The Hindu
+2025-12-15 06:43:48,450 - INFO - [The Hindu] Article: https://www.thehindu.com/sci-tech/science/2025-ictp-prize-awarded-to-titas-chanda-sthitadhi-roy/article70397778.ece
+2025-12-15 06:43:48,450 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:49,247 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:49,324 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (528 words).
+2025-12-15 06:43:49,409 - INFO - Duplicate article skipped: 2025 ICTP Prize awarded to Titas Chanda, Sthitadhi Roy - The Hindu from The Hindu
+2025-12-15 06:43:49,991 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/haryana/haryana-ips-officers-death-shatrujeet-kapur-relieved-from-dgp-charge/article70397723.ece
+2025-12-15 06:43:49,992 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:50,846 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:51,063 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (288 words).
+2025-12-15 06:43:51,128 - INFO - Duplicate article skipped: Haryana IPS officer's death: Shatrujeet Kapur relieved from DGP charge - The Hindu from The Hindu
+2025-12-15 06:43:52,352 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/pm-modi-embarks-on-three-nation-visit-beginning-with-jordan/article70397710.ece
+2025-12-15 06:43:52,352 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:43:53,202 - INFO - [The Hindu] Page content loaded.
+2025-12-15 06:43:53,323 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (256 words).
+2025-12-15 06:43:53,414 - INFO - Duplicate article skipped: PM Modi embarks on three-nation visit beginning with Jordan - The Hindu from The Hindu
+2025-12-15 06:43:54,119 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-15 06:43:54,253 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-15 06:45:18,862 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/outrageous-jetblue-pilot-says-he-narrowly-missed-midair-collision-with-us-military-aircraft-audio-surfaces/articleshow/125971120.cms: HTTPConnectionPool(host='localhost', port=34859): Read timed out. (read timeout=120)
+2025-12-15 06:45:18,862 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/outrageous-jetblue-pilot-says-he-narrowly-missed-midair-collision-with-us-military-aircraft-audio-surfaces/articleshow/125971120.cms. Falling back to RSS description.
+2025-12-15 06:45:18,864 - INFO - Saved article: 'Outrageous': JetBlue pilot says he narrowly missed 'midair collision' with US military aircraft; audio surfaces from Times of India
+2025-12-15 06:45:19,979 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/who-were-rob-reiner-and-michele-singer-hollywood-director-and-wife-found-dead-in-la-home-son-nick-under-suspicion/articleshow/125971654.cms
+2025-12-15 06:45:19,979 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:47:19,988 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/who-were-rob-reiner-and-michele-singer-hollywood-director-and-wife-found-dead-in-la-home-son-nick-under-suspicion/articleshow/125971654.cms: HTTPConnectionPool(host='localhost', port=34859): Read timed out. (read timeout=120)
+2025-12-15 06:47:19,989 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/who-were-rob-reiner-and-michele-singer-hollywood-director-and-wife-found-dead-in-la-home-son-nick-under-suspicion/articleshow/125971654.cms. Falling back to RSS description.
+2025-12-15 06:47:19,991 - INFO - Saved article: Who were Rob Reiner and Michele Singer? Hollywood director and wife found dead in LA home after being 'stabbed' from Times of India
+2025-12-15 06:47:20,610 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-opens-emirates-medical-centre-in-gaza-to-provide-emergency-treatment-and-healthcare-services/articleshow/125971621.cms
+2025-12-15 06:47:20,610 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-15 06:47:55,708 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-15 06:47:55,708 - ERROR - A thread has timed out and will be abandoned.
+2025-12-15 06:47:55,708 - INFO - Shutting down thread pool (wait=False)...
+2025-12-15 06:47:55,708 - INFO - Scraped: 3 BBC, 0 The Guardian, 7 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 10)
+2025-12-15 06:47:55,708 - INFO - --- Scraping job finished ---
+2025-12-15 06:47:55,709 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-15 06:47:55,709 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
