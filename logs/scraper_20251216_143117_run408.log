@@ -1,0 +1,209 @@
+2025-12-16 14:30:14,753 - INFO - Initializing database connection at: news_articles.db
+2025-12-16 14:30:14,754 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-16 14:30:14,754 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-16 14:30:14,754 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-16 14:30:14,754 - INFO - Proxy is DISABLED.
+2025-12-16 14:30:14,755 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-16 14:30:14,755 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-16 14:30:14,755 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-16 14:30:14,756 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-16 14:30:14,757 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-16 14:30:14,757 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-16 14:30:14,757 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-16 14:30:14,940 - INFO - Found 34 articles in BBC RSS feed. Processing up to 10.
+2025-12-16 14:30:14,940 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c80xjkm0283o?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:14,940 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:14,988 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-16 14:30:14,988 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/five-key-moments-in-the-assault-on-the-rights-of-women-and-girls-in-2025
+2025-12-16 14:30:14,988 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:15,112 - INFO - [The Guardian] Success with 'requests_browser'. Found content (914 words).
+2025-12-16 14:30:15,179 - INFO - Duplicate article skipped: Five key moments in the assault on the rights of women and girls in 2025 | Anti-rights movement | The Guardian from The Guardian
+2025-12-16 14:30:15,205 - INFO - [BBC] Success with 'requests_browser'. Found content (580 words).
+2025-12-16 14:30:15,250 - INFO - Saved article: Ukraine struggling to keep lights on under Russian attack, says energy boss from BBC
+2025-12-16 14:30:16,161 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2341yx719o?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:16,162 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:16,239 - INFO - [BBC] Success with 'requests_browser'. Found content (717 words).
+2025-12-16 14:30:16,294 - INFO - Duplicate article skipped: Hero couple tried to stop gunman before being killed in Bondi attack from BBC
+2025-12-16 14:30:16,425 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/south-africa-russia-men-tricked-fighting-ukraine
+2025-12-16 14:30:16,425 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:16,543 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2025-12-16 14:30:16,625 - INFO - Duplicate article skipped: South Africa in talks with Russia over men ‘tricked’ into fighting in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-16 14:30:16,687 - INFO - Selenium driver initialized successfully.
+2025-12-16 14:30:16,687 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-16 14:30:16,691 - INFO - Selenium driver initialized successfully.
+2025-12-16 14:30:16,691 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-16 14:30:16,876 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-16 14:30:16,876 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/academic-intensive-care-unit-initiative-of-shaheen-group-wins-award/article70403731.ece
+2025-12-16 14:30:16,876 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:16,888 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwyvxke3wgko?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:16,888 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:16,935 - INFO - [BBC] Success with 'requests_browser'. Found content (499 words).
+2025-12-16 14:30:16,976 - INFO - Saved article: Bondi Beach gunman originally from India, police say from BBC
+2025-12-16 14:30:17,175 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-16 14:30:17,176 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/bishnoi-gangs-threat-a-new-normal-in-ontario-indian-origin-brothers-in-canada-allege-they-received-last-warning-to-pay-2-million/articleshow/126006563.cms
+2025-12-16 14:30:17,176 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:17,442 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/libya-national-museum-reopens
+2025-12-16 14:30:17,442 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:17,553 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1229 words).
+2025-12-16 14:30:17,593 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c7413d9xvkeo?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:17,593 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:17,622 - INFO - Duplicate article skipped: Libya looks to its past to build a new future as national museum reopens | Libya | The Guardian from The Guardian
+2025-12-16 14:30:17,664 - INFO - [BBC] Success with 'requests_browser'. Found content (635 words).
+2025-12-16 14:30:17,723 - INFO - Duplicate article skipped: Trump defends his criticism of killed Hollywood director Rob Reiner from BBC
+2025-12-16 14:30:18,604 - INFO - [The Guardian] Article: https://www.theguardian.com/education/2025/dec/14/ghana-students-uk-universities-face-deportion-funding-crisis
+2025-12-16 14:30:18,604 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:18,740 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-16 14:30:18,858 - INFO - Duplicate article skipped: Ghanaian students at UK universities face deportation amid funding crisis | International students | The Guardian from The Guardian
+2025-12-16 14:30:19,012 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3e0wd7110vo?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:19,012 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:19,203 - INFO - [BBC] Success with 'requests_browser'. Found content (477 words).
+2025-12-16 14:30:19,668 - INFO - Duplicate article skipped: US military says eight killed in strikes on alleged drug vessels from BBC
+2025-12-16 14:30:20,340 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2025/dec/15/little-foot-hominin-fossil-may-be-new-species-of-human-ancestor
+2025-12-16 14:30:20,341 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:20,548 - INFO - [The Guardian] Success with 'requests_browser'. Found content (553 words).
+2025-12-16 14:30:20,559 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4ge7412evlo?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:20,559 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:20,681 - INFO - Duplicate article skipped: Little Foot hominin fossil may be new species of human ancestor | Evolution | The Guardian from The Guardian
+2025-12-16 14:30:20,727 - INFO - [BBC] Success with 'requests_browser'. Found content (733 words).
+2025-12-16 14:30:20,881 - INFO - Duplicate article skipped: Roger Lumbala trial: French court sentences former DR Congo rebel leader to 30 years in jail from BBC
+2025-12-16 14:30:21,741 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/joesley-batista-brazil-luiz-inacio-lula-da-silva-trump
+2025-12-16 14:30:21,741 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:21,882 - INFO - [The Guardian] Success with 'requests_browser'. Found content (878 words).
+2025-12-16 14:30:21,968 - INFO - Duplicate article skipped: How a Brazilian meat tycoon accused of bribery and deforestation became a key player in regional diplomacy | Venezuela | The Guardian from The Guardian
+2025-12-16 14:30:22,086 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yq5802rqeo?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:22,086 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:22,131 - INFO - [BBC] Success with 'requests_browser'. Found content (561 words).
+2025-12-16 14:30:22,204 - INFO - Saved article: Lizzo celebrates legal victory as fat-shaming claims dismissed from BBC
+2025-12-16 14:30:23,276 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg13z47vpdo?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:23,276 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:23,393 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/15/us-military-strikes-vessels-pacific
+2025-12-16 14:30:23,393 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:23,412 - INFO - [BBC] Success with 'requests_browser'. Found content (363 words).
+2025-12-16 14:30:23,531 - INFO - Duplicate article skipped: Australia PM Anthony Albanese visits Bondi hero Ahmed al Ahmed in hospital from BBC
+2025-12-16 14:30:23,585 - INFO - [The Guardian] Success with 'requests_browser'. Found content (244 words).
+2025-12-16 14:30:23,685 - INFO - Duplicate article skipped: US military says eight killed in strikes on three boats in eastern Pacific | US military | The Guardian from The Guardian
+2025-12-16 14:30:24,074 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cde644367j0o?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:24,075 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:24,256 - INFO - [BBC] Success with 'requests_browser'. Found content (618 words).
+2025-12-16 14:30:24,426 - INFO - Duplicate article skipped: Police 'shot in the front': NSW premier rejects criticism of Bondi response from BBC
+2025-12-16 14:30:24,713 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/15/trinidad-tobago-us-access-airports-venezuela-tensions-grow
+2025-12-16 14:30:24,713 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:24,986 - INFO - [The Guardian] Success with 'requests_browser'. Found content (678 words).
+2025-12-16 14:30:25,180 - INFO - Duplicate article skipped: Venezuela accuses Trinidad and Tobago of taking part in US seizure of oil tanker | Trinidad and Tobago | The Guardian from The Guardian
+2025-12-16 14:30:25,521 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c75veyzz2g2o?at_medium=RSS&at_campaign=rss
+2025-12-16 14:30:25,521 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:25,674 - INFO - [BBC] Success with 'requests_browser'. Found content (540 words).
+2025-12-16 14:30:25,970 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/15/jose-antonio-kast-chile-election-analysis
+2025-12-16 14:30:25,978 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:26,129 - INFO - Saved article: Sudan conflict: RSF trying to cover up mass killings in el-Fasher, Yale University researchers say from BBC
+2025-12-16 14:30:26,200 - INFO - [The Guardian] Success with 'requests_browser'. Found content (839 words).
+2025-12-16 14:30:26,310 - INFO - Duplicate article skipped: Chile’s new far-right head is latest Latin American leader to ride hardline wave to power | Chile | The Guardian from The Guardian
+2025-12-16 14:30:27,540 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/15/maria-corina-machado-venezuela-norway
+2025-12-16 14:30:27,540 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-16 14:30:27,729 - INFO - [The Guardian] Success with 'requests_browser'. Found content (192 words).
+2025-12-16 14:30:27,874 - INFO - Duplicate article skipped: Machado suffered vertebra fracture on secret trip from Venezuela to Norway | María Corina Machado | The Guardian from The Guardian
+2025-12-16 14:30:27,982 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:28,640 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (412 words).
+2025-12-16 14:30:29,006 - INFO - Saved article: Academic Intensive Care Unit initiative of Shaheen Group wins award - The Hindu from The Hindu
+2025-12-16 14:30:29,481 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:30:29,714 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/12-nabbed-for-making-derogatory-social-media-posts-against-politicians/article70403520.ece
+2025-12-16 14:30:29,715 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:29,840 - INFO - [Times of India] Success with 'selenium_browser'. Found content (333 words).
+2025-12-16 14:30:30,478 - INFO - Saved article: Bishnoi gang's threat a new normal in Ontario: Indian-origin brothers in Canada allege they received 'last warning to pay $2 million' - The Times of India from Times of India
+2025-12-16 14:30:31,410 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:31,627 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/from-a-10-year-old-girl-to-a-holocaust-survivor-who-were-the-victims-of-the-bondi-beach-attack/articleshow/126004114.cms
+2025-12-16 14:30:31,627 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:31,808 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (340 words).
+2025-12-16 14:30:32,060 - INFO - Saved article: 12 held for making derogatory social media posts against politicians - The Hindu from The Hindu
+2025-12-16 14:30:32,887 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/telangana-sets-march-end-deadline-for-hyderabad-metro-takeover/article70403662.ece
+2025-12-16 14:30:32,888 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:35,195 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:30:37,311 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:37,863 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (203 words).
+2025-12-16 14:30:38,088 - INFO - Saved article: Telangana sets March-end deadline for Hyderabad Metro takeover - The Hindu from The Hindu
+2025-12-16 14:30:38,243 - INFO - [Times of India] Success with 'selenium_browser'. Found content (797 words).
+2025-12-16 14:30:38,573 - INFO - Duplicate article skipped: From a 10-year-old girl to a Holocaust survivor: Who were the victims of the Bondi Beach attack | World News - The Times of India from Times of India
+2025-12-16 14:30:39,284 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/street-dog-adoption-drive-launched-mcc-calls-for-public-participation/article70402594.ece
+2025-12-16 14:30:39,284 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:39,635 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/go-check-on-father-schizophrenic-indian-origin-man-in-illinois-tells-mom-after-killing-dad-calls-murder-religious-duty/articleshow/126003818.cms
+2025-12-16 14:30:39,636 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:41,718 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:41,913 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (330 words).
+2025-12-16 14:30:42,059 - INFO - Saved article: Street dog adoption drive launched; MCC calls for public participation - The Hindu from The Hindu
+2025-12-16 14:30:42,972 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/bangalore/cab-drivers-protest-new-parking-rules-at-kempegowda-international-airport/article70403201.ece
+2025-12-16 14:30:42,972 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:44,700 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:30:48,903 - INFO - [Times of India] Success with 'selenium_browser'. Found content (311 words).
+2025-12-16 14:30:49,176 - INFO - Duplicate article skipped: Indian-origin man kills father in Illinois, asks mother to check on him | World News - The Times of India from Times of India
+2025-12-16 14:30:49,941 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/qatar-announces-2025-national-day-parade-timings/articleshow/126003534.cms
+2025-12-16 14:30:49,942 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:50,679 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:50,866 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (669 words).
+2025-12-16 14:30:51,103 - INFO - Saved article: Cab drivers protest new parking rules at Kempegowda International Airport - The Hindu from The Hindu
+2025-12-16 14:30:51,566 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:30:51,707 - INFO - [Times of India] Success with 'selenium_browser'. Found content (154 words).
+2025-12-16 14:30:52,002 - INFO - Duplicate article skipped: Qatar announces 2025 National Day parade timings | World News - The Times of India from Times of India
+2025-12-16 14:30:52,146 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/rocket-built-by-students-of-idukki-engineering-college-to-launch/article70403232.ece
+2025-12-16 14:30:52,147 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:53,350 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/bondi-beach-attack-fresh-details-reveal-sajid-akrams-roots-in-hyderabad-migrated-to-australia-27-years-ago/articleshow/126002981.cms
+2025-12-16 14:30:53,350 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:53,752 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:54,058 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (359 words).
+2025-12-16 14:30:54,443 - INFO - Saved article: Rocket built by students of Idukki engineering college to launch - The Hindu from The Hindu
+2025-12-16 14:30:55,009 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/anil-akkara-seeks-cms-intervention-to-complete-wadakkanchery-life-mission-flats/article70403609.ece
+2025-12-16 14:30:55,009 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:30:58,039 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:30:59,538 - INFO - [Times of India] Success with 'selenium_browser'. Found content (594 words).
+2025-12-16 14:30:59,575 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:30:59,896 - INFO - Duplicate article skipped: Bondi Beach Attack: Fresh details reveal Sajid Akram’s roots in Hyderabad; migrated to Australia 27 years ago - The Times of India from Times of India
+2025-12-16 14:31:00,012 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (201 words).
+2025-12-16 14:31:00,208 - INFO - Saved article: Anil Akkara seeks CM’s intervention to complete Wadakkanchery LIFE Mission flats - The Hindu from The Hindu
+2025-12-16 14:31:00,925 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/puppets-play-and-learning-workshop-begins-in-mysuru/article70403251.ece
+2025-12-16 14:31:00,926 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:01,279 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/nri/middle-east-news/dubai-visa-rejected-heres-what-youre-doing-wrong/articleshow/126000250.cms
+2025-12-16 14:31:01,279 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:04,679 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:31:04,705 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:31:04,924 - INFO - [Times of India] Success with 'selenium_browser'. Found content (513 words).
+2025-12-16 14:31:04,965 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (224 words).
+2025-12-16 14:31:05,100 - INFO - Duplicate article skipped: Dubai visa rejected? Here’s what you’re doing wrong | - The Times of India from Times of India
+2025-12-16 14:31:05,202 - INFO - Saved article: Puppets, play, and learning: Workshop begins in Mysuru - The Hindu from The Hindu
+2025-12-16 14:31:05,971 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/relief-under-rti-act-for-woman-who-was-stripped-of-land-ownership/article70403529.ece
+2025-12-16 14:31:05,971 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:06,368 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/bondi-beach-attack-shooters-inspired-by-is-under-went-military-style-training-what-cops-revealed/articleshow/125997869.cms
+2025-12-16 14:31:06,369 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:07,558 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:31:07,641 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (430 words).
+2025-12-16 14:31:07,767 - INFO - Saved article: Relief under RTI Act for woman who was stripped of land ownership - The Hindu from The Hindu
+2025-12-16 14:31:07,948 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:31:08,318 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/survivor-in-actor-rape-case-meets-cm/article70403561.ece
+2025-12-16 14:31:08,318 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:08,477 - INFO - [Times of India] Success with 'selenium_browser'. Found content (579 words).
+2025-12-16 14:31:08,602 - INFO - Duplicate article skipped: Bondi beach attack: Shooters inspired by IS, under went military style training — What cops revealed - The Times of India from Times of India
+2025-12-16 14:31:09,612 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/watch-russian-submarine-blows-up-as-ukraine-claims-underwater-drone-strike-first-such-attack/articleshow/125998225.cms
+2025-12-16 14:31:09,612 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:11,183 - INFO - [The Hindu] Page content loaded.
+2025-12-16 14:31:11,273 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (151 words).
+2025-12-16 14:31:11,399 - INFO - Saved article: Survivor in actor rape case meets CM - The Hindu from The Hindu
+2025-12-16 14:31:11,410 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:31:11,592 - INFO - [Times of India] Success with 'selenium_browser'. Found content (226 words).
+2025-12-16 14:31:11,682 - INFO - Duplicate article skipped: Watch: Russian submarine blows up as Ukraine claims underwater drone strike; first such attack - The Times of India from Times of India
+2025-12-16 14:31:12,614 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-16 14:31:12,778 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/rob-and-michele-reiners-murder-what-happened-at-conan-obriens-party-hours-before-the-director-and-his-wife-were-found-dead/articleshow/125997352.cms
+2025-12-16 14:31:12,779 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:12,800 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-16 14:31:13,536 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:31:13,950 - INFO - [Times of India] Success with 'selenium_browser'. Found content (530 words).
+2025-12-16 14:31:14,024 - INFO - Duplicate article skipped: Rob and Michele Reiner’s murder: What happened at Conan O’Brien’s party hours before the director and his wife were found dead? - The Times of India from Times of India
+2025-12-16 14:31:14,646 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/elon-musks-net-worth-the-worlds-richest-man-becomes-the-first-ever-with-600-billion-worth-amid-spacexs-valuation-surge/articleshow/125995554.cms
+2025-12-16 14:31:14,646 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-16 14:31:15,942 - INFO - [Times of India] Page content loaded.
+2025-12-16 14:31:16,110 - INFO - [Times of India] Success with 'selenium_browser'. Found content (656 words).
+2025-12-16 14:31:16,196 - INFO - Duplicate article skipped: Elon Musk's net worth: The world's richest man becomes the first ever with $600 billion worth amid SpaceX's valuation surge | World News - The Times of India from Times of India
+2025-12-16 14:31:16,911 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-16 14:31:17,173 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-16 14:31:17,174 - INFO - Shutting down thread pool (wait=False)...
+2025-12-16 14:31:17,174 - INFO - Scraped: 10 The Hindu, 4 BBC, 1 Times of India, 0 The Guardian articles. (Total saved: 15)
+2025-12-16 14:31:17,174 - INFO - --- Scraping job finished ---
+2025-12-16 14:31:17,183 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-16 14:31:17,183 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
