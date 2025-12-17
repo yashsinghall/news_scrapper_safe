@@ -1,0 +1,263 @@
+2025-12-17 18:40:24,649 - INFO - Initializing database connection at: news_articles.db
+2025-12-17 18:40:24,649 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-17 18:40:24,649 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-17 18:40:24,649 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-17 18:40:24,649 - INFO - Proxy is DISABLED.
+2025-12-17 18:40:24,650 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-17 18:40:24,650 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-17 18:40:24,650 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-17 18:40:24,651 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-17 18:40:24,651 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-17 18:40:24,651 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-17 18:40:24,652 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-17 18:40:24,747 - INFO - Found 28 articles in BBC RSS feed. Processing up to 10.
+2025-12-17 18:40:24,747 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c98nm1ry38jo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:24,747 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:24,752 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-17 18:40:24,752 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/five-key-moments-in-the-assault-on-the-rights-of-women-and-girls-in-2025
+2025-12-17 18:40:24,752 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:24,797 - INFO - [The Guardian] Success with 'requests_browser'. Found content (914 words).
+2025-12-17 18:40:24,838 - INFO - Duplicate article skipped: Five key moments in the assault on the rights of women and girls in 2025 | Anti-rights movement | The Guardian from The Guardian
+2025-12-17 18:40:24,885 - INFO - [BBC] Success with 'requests_browser'. Found content (649 words).
+2025-12-17 18:40:24,921 - INFO - Duplicate article skipped: Bondi shooting suspect Naveed Akram charged with 15 counts of murder from BBC
+2025-12-17 18:40:25,651 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/south-africa-russia-men-tricked-fighting-ukraine
+2025-12-17 18:40:25,651 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:25,843 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2025-12-17 18:40:25,877 - INFO - Duplicate article skipped: South Africa in talks with Russia over men ‘tricked’ into fighting in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-17 18:40:25,920 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2p4vw595jo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:25,920 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:25,955 - INFO - [BBC] Success with 'requests_browser'. Found content (863 words).
+2025-12-17 18:40:25,991 - INFO - Duplicate article skipped: Trump is good news for Nato, Mark Rutte tells BBC from BBC
+2025-12-17 18:40:27,005 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/libya-national-museum-reopens
+2025-12-17 18:40:27,005 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:27,166 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1229 words).
+2025-12-17 18:40:27,203 - INFO - Duplicate article skipped: Libya looks to its past to build a new future as national museum reopens | Libya | The Guardian from The Guardian
+2025-12-17 18:40:27,336 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gej5ezyypo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:27,336 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:27,367 - INFO - [BBC] Success with 'requests_browser'. Found content (687 words).
+2025-12-17 18:40:27,404 - INFO - Duplicate article skipped: Venezuela denounces Trump's order for ship blockade as 'warmongering threats' from BBC
+2025-12-17 18:40:27,790 - INFO - [The Guardian] Article: https://www.theguardian.com/education/2025/dec/14/ghana-students-uk-universities-face-deportion-funding-crisis
+2025-12-17 18:40:27,790 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:28,186 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yjv5md3jzo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:28,186 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:28,215 - INFO - [BBC] Success with 'requests_browser'. Found content (579 words).
+2025-12-17 18:40:28,253 - INFO - Duplicate article skipped: Nick Reiner charged with his parents Rob and Michele murders from BBC
+2025-12-17 18:40:28,270 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-17 18:40:28,303 - INFO - Duplicate article skipped: Ghanaian students at UK universities face deportation amid funding crisis | International students | The Guardian from The Guardian
+2025-12-17 18:40:29,243 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2025/dec/15/little-foot-hominin-fossil-may-be-new-species-of-human-ancestor
+2025-12-17 18:40:29,243 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:29,266 - INFO - [The Guardian] Success with 'requests_browser'. Found content (553 words).
+2025-12-17 18:40:29,305 - INFO - Duplicate article skipped: Little Foot hominin fossil may be new species of human ancestor | Evolution | The Guardian from The Guardian
+2025-12-17 18:40:29,522 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2468q3y75vo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:29,522 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:29,550 - INFO - [BBC] Success with 'requests_browser'. Found content (730 words).
+2025-12-17 18:40:29,611 - INFO - Duplicate article skipped: Afrikaner refugees: Kenyans found illegally working at US asylum claim centre in South Africa from BBC
+2025-12-17 18:40:30,150 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/17/canada-polar-bear-adopts-new-cub
+2025-12-17 18:40:30,150 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:30,172 - INFO - [The Guardian] Success with 'requests_browser'. Found content (520 words).
+2025-12-17 18:40:30,207 - INFO - Saved article: Scientists log rare case of female polar bear adopting cub: ‘They’re really good moms’ | Canada | The Guardian from The Guardian
+2025-12-17 18:40:30,294 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cde657xj3pxo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:30,295 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:30,325 - INFO - [BBC] Success with 'requests_browser'. Found content (580 words).
+2025-12-17 18:40:30,362 - INFO - Duplicate article skipped: Miss Finland's viral 'slanted-eyes' photo stirs racism firestorm from BBC
+2025-12-17 18:40:30,936 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg803v3erko?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:30,936 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:30,961 - INFO - [BBC] Success with 'requests_browser'. Found content (345 words).
+2025-12-17 18:40:30,994 - INFO - Duplicate article skipped: Polar bear mother adopts cub in rarely documented case from BBC
+2025-12-17 18:40:31,301 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/17/what-action-is-trump-taking-against-venezuela-oil-industry
+2025-12-17 18:40:31,301 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:31,453 - INFO - [The Guardian] Success with 'requests_browser'. Found content (679 words).
+2025-12-17 18:40:31,505 - INFO - Duplicate article skipped: What action is Trump taking against Venezuela’s oil industry? | Venezuela | The Guardian from The Guardian
+2025-12-17 18:40:32,153 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yj8ew1pnlo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:32,153 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:32,179 - INFO - [BBC] Success with 'requests_browser'. Found content (390 words).
+2025-12-17 18:40:32,219 - INFO - Saved article: Spain to open climate shelter network ahead of next summer from BBC
+2025-12-17 18:40:32,277 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/17/british-baker-outrages-mexicans-with-attack-on-ugly-bread
+2025-12-17 18:40:32,277 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:32,298 - INFO - [The Guardian] Success with 'requests_browser'. Found content (578 words).
+2025-12-17 18:40:32,337 - INFO - Duplicate article skipped: British baker outrages Mexicans with attack on their ‘ugly’ bread | Mexico | The Guardian from The Guardian
+2025-12-17 18:40:32,658 - INFO - Selenium driver initialized successfully.
+2025-12-17 18:40:32,658 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-17 18:40:32,659 - INFO - Selenium driver initialized successfully.
+2025-12-17 18:40:32,659 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-17 18:40:32,719 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-17 18:40:32,719 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/indians-will-never-be-vivek-ramaswamy-faces-backlash-after-either-youre-an-american-or-youre-not-comment-in-nyt-op-ed/articleshow/126042886.cms
+2025-12-17 18:40:32,719 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:40:32,782 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm21rvdwv1ro?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:32,782 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:32,823 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-17 18:40:32,823 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/19-crore-penalty-imposed-for-violation-of-waste-management-norms-in-kochi/article70407562.ece
+2025-12-17 18:40:32,823 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:40:32,839 - INFO - [BBC] Success with 'requests_browser'. Found content (430 words).
+2025-12-17 18:40:32,911 - INFO - Duplicate article skipped: Jack Smith defends Trump prosecutions in testimony to Congress from BBC
+2025-12-17 18:40:33,173 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/16/trump-orders-blockade-oil-tankers-venezuela
+2025-12-17 18:40:33,174 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:33,196 - INFO - [The Guardian] Success with 'requests_browser'. Found content (816 words).
+2025-12-17 18:40:33,246 - INFO - Duplicate article skipped: Trump orders blockade of sanctioned oil tankers entering and leaving Venezuela | Donald Trump | The Guardian from The Guardian
+2025-12-17 18:40:33,734 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz687wv9vqxo?at_medium=RSS&at_campaign=rss
+2025-12-17 18:40:33,735 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:33,778 - INFO - [BBC] Success with 'requests_browser'. Found content (568 words).
+2025-12-17 18:40:33,852 - INFO - Duplicate article skipped: Warner Bros favours Netflix offer over $108bn Paramount bid from BBC
+2025-12-17 18:40:34,184 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/pentagon-wont-release-full-video-caribbean-attack
+2025-12-17 18:40:34,184 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-17 18:40:34,391 - INFO - [The Guardian] Success with 'requests_browser'. Found content (945 words).
+2025-12-17 18:40:34,468 - INFO - Duplicate article skipped: Pentagon won’t release full video of Caribbean strike that killed two people, Hegseth says | Venezuela | The Guardian from The Guardian
+2025-12-17 18:41:32,762 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/indians-will-never-be-vivek-ramaswamy-faces-backlash-after-either-youre-an-american-or-youre-not-comment-in-nyt-op-ed/articleshow/126042886.cms: Message: timeout: Timed out receiving message from renderer: 59.909
+  (Session info: chrome=143.0.7499.40)
+Stacktrace:
+#0 0x56527470616a <unknown>
+#1 0x565274183c4b <unknown>
+#2 0x56527416bcf3 <unknown>
+#3 0x56527416b9d6 <unknown>
+#4 0x565274169897 <unknown>
+#5 0x56527416a1af <unknown>
+#6 0x565274178970 <unknown>
+#7 0x565274192017 <unknown>
+#8 0x5652741986cb <unknown>
+#9 0x56527416a8d8 <unknown>
+#10 0x565274191dc3 <unknown>
+#11 0x565274220f60 <unknown>
+#12 0x5652741c7c42 <unknown>
+#13 0x5652741c88f1 <unknown>
+#14 0x5652746cef09 <unknown>
+#15 0x5652746d1e4d <unknown>
+#16 0x5652746b7c51 <unknown>
+#17 0x5652746d2a2b <unknown>
+#18 0x56527469ea20 <unknown>
+#19 0x5652746f3a78 <unknown>
+#20 0x5652746f3c49 <unknown>
+#21 0x5652747054c3 <unknown>
+#22 0x7f84cfe9caa4 <unknown>
+#23 0x7f84cff29c6c <unknown>
+
+2025-12-17 18:41:32,762 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/indians-will-never-be-vivek-ramaswamy-faces-backlash-after-either-youre-an-american-or-youre-not-comment-in-nyt-op-ed/articleshow/126042886.cms. Falling back to RSS description.
+2025-12-17 18:41:32,767 - INFO - Saved article: ‘Indians will never be…’: Vivek Ramaswamy faces backlash after ‘either you’re an American, or you’re not’ comment in NYT op-ed from Times of India
+2025-12-17 18:41:32,844 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/kerala/19-crore-penalty-imposed-for-violation-of-waste-management-norms-in-kochi/article70407562.ece: Message: timeout: Timed out receiving message from renderer: 59.954
+  (Session info: chrome=143.0.7499.40)
+Stacktrace:
+#0 0x5576fd2ad16a <unknown>
+#1 0x5576fcd2ac4b <unknown>
+#2 0x5576fcd12cf3 <unknown>
+#3 0x5576fcd129d6 <unknown>
+#4 0x5576fcd10897 <unknown>
+#5 0x5576fcd111af <unknown>
+#6 0x5576fcd1f970 <unknown>
+#7 0x5576fcd39017 <unknown>
+#8 0x5576fcd3f6cb <unknown>
+#9 0x5576fcd118d8 <unknown>
+#10 0x5576fcd38dc3 <unknown>
+#11 0x5576fcdc7f60 <unknown>
+#12 0x5576fcd6ec42 <unknown>
+#13 0x5576fcd6f8f1 <unknown>
+#14 0x5576fd275f09 <unknown>
+#15 0x5576fd278e4d <unknown>
+#16 0x5576fd25ec51 <unknown>
+#17 0x5576fd279a2b <unknown>
+#18 0x5576fd245a20 <unknown>
+#19 0x5576fd29aa78 <unknown>
+#20 0x5576fd29ac49 <unknown>
+#21 0x5576fd2ac4c3 <unknown>
+#22 0x7f824ca9caa4 <unknown>
+#23 0x7f824cb29c6c <unknown>
+
+2025-12-17 18:41:32,844 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/kerala/19-crore-penalty-imposed-for-violation-of-waste-management-norms-in-kochi/article70407562.ece. Falling back to RSS description.
+2025-12-17 18:41:32,848 - INFO - Saved article: ₹1.9-crore penalty imposed for violation of waste management norms in Kochi from The Hindu
+2025-12-17 18:41:34,028 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/sec-to-hold-workshop-on-evms-in-kochi/article70407715.ece
+2025-12-17 18:41:34,028 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:34,180 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-issues-alert-against-traveling-to-thailand-cambodia-border-says-security-situation-unpredictable/articleshow/126043161.cms
+2025-12-17 18:41:34,180 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:35,413 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:35,484 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (252 words).
+2025-12-17 18:41:35,590 - INFO - Saved article: SEC to hold workshop on EVMs in Kochi - The Hindu from The Hindu
+2025-12-17 18:41:35,978 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:36,243 - INFO - [Times of India] Success with 'selenium_browser'. Found content (358 words).
+2025-12-17 18:41:36,443 - INFO - Saved article: US issues alert against traveling to Thailand-Cambodia border, says security situation unpredictable - The Times of India from Times of India
+2025-12-17 18:41:36,461 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/state-allocated-11310-crore-for-menstrual-hygiene-programme-in-2024-25-a-g-tells-madras-high-court/article70407771.ece
+2025-12-17 18:41:36,461 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:37,932 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/from-kash-patel-to-jd-vance-what-susie-wiles-said-about-team-trump/articleshow/126043076.cms
+2025-12-17 18:41:37,933 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:38,183 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:38,442 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (294 words).
+2025-12-17 18:41:38,574 - INFO - Saved article: State allocated ₹113.10 crore for menstrual hygiene programme in 2024-25, A-G tells Madras High Court - The Hindu from The Hindu
+2025-12-17 18:41:39,146 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:39,275 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/delhi-air-pollution-sc-points-to-winter-school-break-while-hearing-a-plea-to-open-primary-classes-mid-day-meal/article70407996.ece
+2025-12-17 18:41:39,275 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:39,290 - INFO - [Times of India] Success with 'selenium_browser'. Found content (777 words).
+2025-12-17 18:41:39,391 - INFO - Saved article: From Kash Patel to JD Vance: What Susie Wiles said about Team Trump | World News - The Times of India from Times of India
+2025-12-17 18:41:39,863 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:39,943 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (560 words).
+2025-12-17 18:41:40,077 - INFO - Saved article: Delhi air pollution: SC points to winter school break while hearing a plea to open primary classes, mid-day meal - The Hindu from The Hindu
+2025-12-17 18:41:40,532 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/laura-loomer-slams-kash-patel-for-doing-podcasts-with-girlfriend-alexis-wilkins-while-jews-and-christians-are-being-slaughtered/articleshow/126042562.cms
+2025-12-17 18:41:40,532 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:41,325 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/more-communities-to-be-included-in-obc-list/article70408689.ece
+2025-12-17 18:41:41,325 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:41,756 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:41,932 - INFO - [Times of India] Success with 'selenium_browser'. Found content (331 words).
+2025-12-17 18:41:42,039 - INFO - Saved article: Laura Loomer slams Kash Patel for doing podcasts with girlfriend Alexis Wilkins while 'Jews and Christians are being slaughtered' - The Times of India from Times of India
+2025-12-17 18:41:42,291 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:42,417 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (104 words).
+2025-12-17 18:41:42,507 - INFO - Saved article: More communities to be included in OBC list - The Hindu from The Hindu
+2025-12-17 18:41:43,166 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/minister-lays-stone-for-crmas-research-manufacturing-centre/article70408702.ece
+2025-12-17 18:41:43,166 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:43,204 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/if-you-publicly-call-usha-vance-vivek-ramaswamy-slams-nick-fuentes-opens-up-on-go-back-to-india-slurs/articleshow/126042205.cms
+2025-12-17 18:41:43,204 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:44,409 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:44,551 - INFO - [Times of India] Success with 'selenium_browser'. Found content (338 words).
+2025-12-17 18:41:44,561 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:44,648 - INFO - Saved article: 'If you publicly call Usha Vance...': Vivek Ramaswamy slams Nick Fuentes, opens up on 'go back to India' slurs - The Times of India from Times of India
+2025-12-17 18:41:44,663 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (217 words).
+2025-12-17 18:41:44,769 - INFO - Saved article: Minister lays stone for CRMAS research, manufacturing centre - The Hindu from The Hindu
+2025-12-17 18:41:45,857 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/etimes/trending/when-a-teapot-became-hitler-the-bizarre-billboard-controversy-that-took-over-the-internet/articleshow/126040985.cms
+2025-12-17 18:41:45,858 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:46,265 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/delhi-hc-cracks-down-on-alleged-use-of-pirated-surveillance-software-at-udyog-bhawan/article70407581.ece
+2025-12-17 18:41:46,265 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:47,516 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:47,572 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (401 words).
+2025-12-17 18:41:47,681 - INFO - Saved article: Delhi HC cracks down on alleged use of pirated surveillance software at Udyog Bhawan - The Hindu from The Hindu
+2025-12-17 18:41:47,769 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:47,972 - INFO - [Times of India] Success with 'selenium_browser'. Found content (862 words).
+2025-12-17 18:41:48,068 - INFO - Saved article: When a teapot became Hitler: The bizarre billboard controversy that took over the internet | - The Times of India from Times of India
+2025-12-17 18:41:48,913 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/ug-medical-19-seats-allotted-in-second-stray-vacancy-round-seven-seats-still-vacant/article70408007.ece
+2025-12-17 18:41:48,914 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:49,012 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/after-karoline-leavitt-marco-rubios-vanity-fair-photo-goes-viral-quietly-cries-in-the-corner/articleshow/126041723.cms
+2025-12-17 18:41:49,013 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:50,070 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:50,148 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (145 words).
+2025-12-17 18:41:50,329 - INFO - Saved article: UG medical: 19 seats allotted in second stray vacancy round, seven seats still vacant - The Hindu from The Hindu
+2025-12-17 18:41:51,056 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/case-registered-against-iuml-workers-for-alleged-caste-slur/article70408693.ece
+2025-12-17 18:41:51,056 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:51,441 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:51,671 - INFO - [Times of India] Success with 'selenium_browser'. Found content (296 words).
+2025-12-17 18:41:51,766 - INFO - Duplicate article skipped: After Karoline Leavitt, Marco Rubio's Vanity Fair photo goes viral: 'Quietly cries in the corner' - The Times of India from Times of India
+2025-12-17 18:41:52,156 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:52,207 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (187 words).
+2025-12-17 18:41:52,293 - INFO - Saved article: Case registered against IUML workers for alleged caste slur - The Hindu from The Hindu
+2025-12-17 18:41:52,358 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/ice-agents-pin-down-pregnant-woman-to-pavement-in-viral-video-draws-flak-she-cant-breathe-we-kept-yelling/articleshow/126041589.cms
+2025-12-17 18:41:52,359 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:52,833 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/inspector-files-plaint-against-woman-for-professing-love-and-threatening-him/article70408650.ece
+2025-12-17 18:41:52,834 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:54,420 - INFO - [The Hindu] Page content loaded.
+2025-12-17 18:41:54,477 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (388 words).
+2025-12-17 18:41:54,578 - INFO - Saved article: Inspector files plaint against woman for professing love and threatening him - The Hindu from The Hindu
+2025-12-17 18:41:54,692 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:55,558 - INFO - [Times of India] Success with 'selenium_browser'. Found content (374 words).
+2025-12-17 18:41:55,646 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-17 18:41:55,678 - INFO - Duplicate article skipped: ICE agents pin down pregnant woman to pavement in viral video, draws flak: 'She cant breathe, We kept yelling' - The Times of India from Times of India
+2025-12-17 18:41:55,857 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-17 18:41:56,923 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/i-will-not-be-coming-inside-the-controversy-surrounding-caleb-hammers-financial-audit-invite-and-frogans-public-refusal/articleshow/126041164.cms
+2025-12-17 18:41:56,923 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:57,489 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:57,621 - INFO - [Times of India] Success with 'selenium_browser'. Found content (461 words).
+2025-12-17 18:41:57,680 - INFO - Saved article: “I will not be coming”: Inside the controversy surrounding Caleb Hammer’s Financial Audit invite and Frogan’s public refusal - The Times of India from Times of India
+2025-12-17 18:41:58,574 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/indian-origin-man-from-ontario-arrested-at-us-canada-border-for-driving-stolen-truck-released-on-bond/articleshow/126041181.cms
+2025-12-17 18:41:58,574 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-17 18:41:59,730 - INFO - [Times of India] Page content loaded.
+2025-12-17 18:41:59,882 - INFO - [Times of India] Success with 'selenium_browser'. Found content (116 words).
+2025-12-17 18:41:59,941 - INFO - Saved article: Indian-origin man from Ontario arrested at US-Canada border for driving stolen truck; released on bond - The Times of India from Times of India
+2025-12-17 18:42:00,784 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-17 18:42:01,067 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-17 18:42:01,067 - INFO - Shutting down thread pool (wait=False)...
+2025-12-17 18:42:01,067 - INFO - Scraped: 10 The Hindu, 1 BBC, 1 The Guardian, 8 Times of India articles. (Total saved: 20)
+2025-12-17 18:42:01,067 - INFO - --- Scraping job finished ---
+2025-12-17 18:42:01,077 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-17 18:42:01,078 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
