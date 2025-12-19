@@ -1,0 +1,203 @@
+2025-12-19 04:38:19,448 - INFO - Initializing database connection at: news_articles.db
+2025-12-19 04:38:19,448 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-19 04:38:19,448 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-19 04:38:19,448 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-19 04:38:19,449 - INFO - Proxy is DISABLED.
+2025-12-19 04:38:19,449 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-19 04:38:19,449 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-19 04:38:19,449 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-19 04:38:19,450 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-19 04:38:19,450 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-19 04:38:19,451 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-19 04:38:19,451 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-19 04:38:19,538 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-19 04:38:19,539 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/18/morocco-genz212-protests-police-mass-arrests-beatings-detentions-rights
+2025-12-19 04:38:19,539 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:19,543 - INFO - Found 36 articles in BBC RSS feed. Processing up to 10.
+2025-12-19 04:38:19,543 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3e025vyppeo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:19,543 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:19,681 - INFO - [BBC] Success with 'requests_browser'. Found content (439 words).
+2025-12-19 04:38:19,727 - INFO - Saved article: EU leaders to loan €90bn to Ukraine - but fail to agree on using Russian assets from BBC
+2025-12-19 04:38:19,749 - INFO - [The Guardian] Success with 'requests_browser'. Found content (772 words).
+2025-12-19 04:38:19,794 - INFO - Duplicate article skipped: Morocco accused of ‘horrific’ abuse of detained gen Z protesters | Morocco | The Guardian from The Guardian
+2025-12-19 04:38:20,278 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2e14z2j9jo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:20,278 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:20,322 - INFO - [BBC] Success with 'requests_browser'. Found content (534 words).
+2025-12-19 04:38:20,357 - INFO - Duplicate article skipped: Brown University shooting suspect found dead from BBC
+2025-12-19 04:38:20,888 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/five-key-moments-in-the-assault-on-the-rights-of-women-and-girls-in-2025
+2025-12-19 04:38:20,888 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:21,059 - INFO - [The Guardian] Success with 'requests_browser'. Found content (914 words).
+2025-12-19 04:38:21,100 - INFO - Duplicate article skipped: Five key moments in the assault on the rights of women and girls in 2025 | Anti-rights movement | The Guardian from The Guardian
+2025-12-19 04:38:21,450 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn09p4kjj4wo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:21,450 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:21,477 - INFO - [BBC] Success with 'requests_browser'. Found content (521 words).
+2025-12-19 04:38:21,514 - INFO - Duplicate article skipped: Australia announced gun buyback scheme in wake of Bondi attack from BBC
+2025-12-19 04:38:21,940 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/south-africa-russia-men-tricked-fighting-ukraine
+2025-12-19 04:38:21,940 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:22,109 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2025-12-19 04:38:22,145 - INFO - Duplicate article skipped: South Africa in talks with Russia over men ‘tricked’ into fighting in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-19 04:38:22,477 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c623rzzenmyo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:22,477 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:22,559 - INFO - [BBC] Success with 'requests_browser'. Found content (380 words).
+2025-12-19 04:38:22,598 - INFO - Duplicate article skipped: Violence erupts in Bangladesh after death of youth protest leader from BBC
+2025-12-19 04:38:23,579 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/libya-national-museum-reopens
+2025-12-19 04:38:23,579 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:23,760 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1229 words).
+2025-12-19 04:38:23,799 - INFO - Duplicate article skipped: Libya looks to its past to build a new future as national museum reopens | Libya | The Guardian from The Guardian
+2025-12-19 04:38:23,933 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c741r9ve3z7o?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:23,933 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:24,028 - INFO - [BBC] Success with 'requests_browser'. Found content (652 words).
+2025-12-19 04:38:24,064 - INFO - Duplicate article skipped: Greg Biffle: Ex-Nascar driver and family among seven killed in plane crash from BBC
+2025-12-19 04:38:25,141 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgexp1q8wn1o?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:25,141 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:25,172 - INFO - [BBC] Success with 'requests_browser'. Found content (655 words).
+2025-12-19 04:38:25,222 - INFO - [The Guardian] Article: https://www.theguardian.com/education/2025/dec/14/ghana-students-uk-universities-face-deportion-funding-crisis
+2025-12-19 04:38:25,227 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:25,232 - INFO - Duplicate article skipped: TikTok owner signs join venture agreements to avoid US ban from BBC
+2025-12-19 04:38:25,406 - INFO - [The Guardian] Success with 'requests_browser'. Found content (604 words).
+2025-12-19 04:38:25,441 - INFO - Duplicate article skipped: Ghanaian students at UK universities face deportation amid funding crisis | International students | The Guardian from The Guardian
+2025-12-19 04:38:25,945 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy472pygwljo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:25,945 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:25,973 - INFO - [BBC] Success with 'requests_browser'. Found content (705 words).
+2025-12-19 04:38:26,014 - INFO - Duplicate article skipped: Democrats release latest batch of photos as Epstein deadline looms from BBC
+2025-12-19 04:38:26,881 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/18/brazilian-congress-passes-bill-cut-jair-bolsonaro-prison-term
+2025-12-19 04:38:26,881 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:26,908 - INFO - [The Guardian] Success with 'requests_browser'. Found content (472 words).
+2025-12-19 04:38:26,954 - INFO - Duplicate article skipped: Brazilian president vows to veto bill cutting Jair Bolsonaro’s prison term | Jair Bolsonaro | The Guardian from The Guardian
+2025-12-19 04:38:27,146 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8983vzg79go?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:27,146 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:27,212 - INFO - [BBC] Success with 'requests_browser'. Found content (578 words).
+2025-12-19 04:38:27,247 - INFO - Duplicate article skipped: Pope Leo names Ronald Hicks next archbishop of New York from BBC
+2025-12-19 04:38:27,375 - INFO - Selenium driver initialized successfully.
+2025-12-19 04:38:27,375 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-19 04:38:27,376 - INFO - Selenium driver initialized successfully.
+2025-12-19 04:38:27,376 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-19 04:38:27,472 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-19 04:38:27,472 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bharats-unity-lies-not-in-uniformity-but-in-mutual-respect-and-shared-values-says-vice-president/article70413029.ece
+2025-12-19 04:38:27,473 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:38:27,651 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-19 04:38:27,651 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/lolita-bill-gates-and-passports-new-epstein-photos-released-what-they-reveal/articleshow/126067829.cms
+2025-12-19 04:38:27,652 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:38:28,008 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/18/canada-immigration-population-analysis
+2025-12-19 04:38:28,008 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:28,076 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1042 words).
+2025-12-19 04:38:28,131 - INFO - Duplicate article skipped: Canada’s population drop reflects souring of attitudes to immigration | Canada | The Guardian from The Guardian
+2025-12-19 04:38:28,133 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cg7vp937jyxo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:28,133 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:28,174 - INFO - [BBC] Success with 'requests_browser'. Found content (830 words).
+2025-12-19 04:38:28,216 - INFO - Duplicate article skipped: Kristin Cabot: HR exec in viral Coldplay clip speaks of abuse, threats and trying to find a new job from BBC
+2025-12-19 04:38:28,658 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/17/military-strike-pacific-hegseth
+2025-12-19 04:38:28,658 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:28,843 - INFO - [The Guardian] Success with 'requests_browser'. Found content (524 words).
+2025-12-19 04:38:28,904 - INFO - Duplicate article skipped: US strike on alleged drug boat in Pacific kills four, as Trump accuses Venezuela of taking ‘our oil’ | US news | The Guardian from The Guardian
+2025-12-19 04:38:29,608 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c93wxp2p05xo?at_medium=RSS&at_campaign=rss
+2025-12-19 04:38:29,608 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:29,801 - INFO - [BBC] Success with 'requests_browser'. Found content (434 words).
+2025-12-19 04:38:29,935 - INFO - Duplicate article skipped: Wiz Khalifa sentenced to nine months jail in Romania from BBC
+2025-12-19 04:38:30,060 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/17/canada-population-drop-international-students
+2025-12-19 04:38:30,064 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:30,169 - INFO - [The Guardian] Success with 'requests_browser'. Found content (489 words).
+2025-12-19 04:38:30,242 - INFO - Duplicate article skipped: Canada sees large drop in population amid international students crackdown | Canada | The Guardian from The Guardian
+2025-12-19 04:38:30,964 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/17/canada-polar-bear-adopts-new-cub
+2025-12-19 04:38:30,965 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-19 04:38:31,195 - INFO - [The Guardian] Success with 'requests_browser'. Found content (520 words).
+2025-12-19 04:38:31,420 - INFO - Duplicate article skipped: Scientists log rare case of female polar bear adopting cub: ‘They’re really good moms’ | Canada | The Guardian from The Guardian
+2025-12-19 04:38:36,845 - INFO - [The Hindu] Page content loaded.
+2025-12-19 04:38:37,165 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (259 words).
+2025-12-19 04:38:37,446 - INFO - Saved article: Bharat’s unity lies not in uniformity but in mutual respect and shared values, says Vice-President - The Hindu from The Hindu
+2025-12-19 04:38:38,271 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/pari-nagaswaram-and-musical-tradition-of-thyagarajaswamy-temple-in-tiruvarur/article70411690.ece
+2025-12-19 04:38:38,271 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:27,678 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/lolita-bill-gates-and-passports-new-epstein-photos-released-what-they-reveal/articleshow/126067829.cms: Message: timeout: Timed out receiving message from renderer: 59.916
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x56022268f19a <unknown>
+#1 0x56022210cc4b <unknown>
+#2 0x5602220f4cf3 <unknown>
+#3 0x5602220f49d6 <unknown>
+#4 0x5602220f2897 <unknown>
+#5 0x5602220f31af <unknown>
+#6 0x560222101970 <unknown>
+#7 0x56022211b017 <unknown>
+#8 0x5602221216cb <unknown>
+#9 0x5602220f38d8 <unknown>
+#10 0x56022211adc3 <unknown>
+#11 0x5602221a9f60 <unknown>
+#12 0x560222150c42 <unknown>
+#13 0x5602221518f1 <unknown>
+#14 0x560222657f39 <unknown>
+#15 0x56022265ae7d <unknown>
+#16 0x560222640c81 <unknown>
+#17 0x56022265ba5b <unknown>
+#18 0x560222627a50 <unknown>
+#19 0x56022267caa8 <unknown>
+#20 0x56022267cc79 <unknown>
+#21 0x56022268e4f3 <unknown>
+#22 0x7fd079a9caa4 <unknown>
+#23 0x7fd079b29c6c <unknown>
+
+2025-12-19 04:39:27,678 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/lolita-bill-gates-and-passports-new-epstein-photos-released-what-they-reveal/articleshow/126067829.cms. Falling back to RSS description.
+2025-12-19 04:39:27,683 - INFO - Saved article: 'Lolita', Bill Gates and passports: New Epstein photos released — what they reveal from Times of India
+2025-12-19 04:39:28,268 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/day-of-reflection-australia-to-take-moment-to-pause-and-reflect-sunday-to-mark-one-week-of-bondi-beach-mass-shooting/articleshow/126067851.cms
+2025-12-19 04:39:28,268 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:31,267 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:31,528 - INFO - [Times of India] Success with 'selenium_browser'. Found content (435 words).
+2025-12-19 04:39:31,657 - INFO - Saved article: Day of Reflection: Australia to take 'moment to pause and reflect'; Sunday to mark one week of Bondi Beach mass shooting - The Times of India from Times of India
+2025-12-19 04:39:32,772 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/brown-university-shooting-who-is-claudio-manuel-neves-valente-suspected-gunman-from-portugal-found-dead/articleshow/126068081.cms
+2025-12-19 04:39:32,772 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:33,669 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:33,815 - INFO - [Times of India] Success with 'selenium_browser'. Found content (338 words).
+2025-12-19 04:39:33,882 - INFO - Saved article: Brown University shooting: Who was Claudio Manuel Neves-Valente? Suspected gunman from Portugal found dead - The Times of India from Times of India
+2025-12-19 04:39:34,759 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/who-is-ashy-bines-glam-influencer-faces-backlash-for-linking-bondi-terror-attack-to-paid-wellbeing-podcast/articleshow/126067609.cms
+2025-12-19 04:39:34,759 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:36,067 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:36,215 - INFO - [Times of India] Success with 'selenium_browser'. Found content (453 words).
+2025-12-19 04:39:36,281 - INFO - Duplicate article skipped: Who is Ashy Bines? Australian glam influencer faces backlash for linking Bondi terror attack to paid wellbeing podcast - The Times of India from Times of India
+2025-12-19 04:39:36,884 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/who-is-influencer-ash-trevino-texas-police-arrest-explained-after-felony-warrants-surface/articleshow/126067403.cms
+2025-12-19 04:39:36,884 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:37,815 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:37,939 - INFO - [Times of India] Success with 'selenium_browser'. Found content (409 words).
+2025-12-19 04:39:38,011 - INFO - Duplicate article skipped: Who is influencer Ash Trevino? Texas police arrest explained after felony warrants surface - The Times of India from Times of India
+2025-12-19 04:39:38,947 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/nascar-driver-greg-biffles-wife-shared-an-inspiring-final-message-moments-before-their-deaths-heres-what-it-said/articleshow/126067066.cms
+2025-12-19 04:39:38,947 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:40,151 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:40,283 - INFO - [Times of India] Success with 'selenium_browser'. Found content (477 words).
+2025-12-19 04:39:40,367 - INFO - Duplicate article skipped: NASCAR Driver Greg Biffle’s wife shared an inspiring final message moments before their deaths — here’s what it said - The Times of India from Times of India
+2025-12-19 04:39:41,556 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/brown-university-shooting-police-examine-possible-mit-connection-video-captures-law-enforcement-activity-in-salem-heres-why/articleshow/126067237.cms
+2025-12-19 04:39:41,556 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:42,388 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:42,515 - INFO - [Times of India] Success with 'selenium_browser'. Found content (487 words).
+2025-12-19 04:39:42,571 - INFO - Duplicate article skipped: Brown University shooting: Police examine possible MIT connection — Here's why - The Times of India from Times of India
+2025-12-19 04:39:43,511 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/youtuber-ross-creations-under-investigation-for-launching-opossum-in-viral-video/articleshow/126045363.cms
+2025-12-19 04:39:43,511 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:44,437 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:44,569 - INFO - [Times of India] Success with 'selenium_browser'. Found content (421 words).
+2025-12-19 04:39:44,632 - INFO - Duplicate article skipped: YouTuber Ross Creations under investigation for launching opossum in viral video - The Times of India from Times of India
+2025-12-19 04:39:46,020 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/adin-ross-instantly-bans-mizkif-from-his-kick-chat-during-livestream/articleshow/126064615.cms
+2025-12-19 04:39:46,020 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:47,561 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:47,739 - INFO - [Times of India] Success with 'selenium_browser'. Found content (445 words).
+2025-12-19 04:39:47,797 - INFO - Duplicate article skipped: Adin Ross instantly bans Mizkif from his Kick chat during livestream - The Times of India from Times of India
+2025-12-19 04:39:48,713 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/can-trump-rename-the-kennedy-center-board-vote-sparks-constitutional-debate/articleshow/126067346.cms
+2025-12-19 04:39:48,713 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:39:49,976 - INFO - [Times of India] Page content loaded.
+2025-12-19 04:39:50,118 - INFO - [Times of India] Success with 'selenium_browser'. Found content (548 words).
+2025-12-19 04:39:50,212 - INFO - Duplicate article skipped: Can Trump rename the Kennedy Center? Board vote sparks constitutional debate - The Times of India from Times of India
+2025-12-19 04:39:51,513 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-19 04:39:51,814 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-19 04:40:38,274 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/pari-nagaswaram-and-musical-tradition-of-thyagarajaswamy-temple-in-tiruvarur/article70411690.ece: HTTPConnectionPool(host='localhost', port=40311): Read timed out. (read timeout=120)
+2025-12-19 04:40:38,274 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/pari-nagaswaram-and-musical-tradition-of-thyagarajaswamy-temple-in-tiruvarur/article70411690.ece. Falling back to RSS description.
+2025-12-19 04:40:38,276 - INFO - Saved article: Pari nagaswaram and musical tradition of Thyagarajaswamy Temple in Tiruvarur from The Hindu
+2025-12-19 04:40:39,079 - INFO - [The Hindu] Article: https://www.thehindu.com/business/patanjali-foods-moves-bombay-hc-over-defamatory-youtube-video-onnutrelasoya-chunks/article70412412.ece
+2025-12-19 04:40:39,079 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:42:39,101 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/business/patanjali-foods-moves-bombay-hc-over-defamatory-youtube-video-onnutrelasoya-chunks/article70412412.ece: HTTPConnectionPool(host='localhost', port=40311): Read timed out. (read timeout=120)
+2025-12-19 04:42:39,101 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/business/patanjali-foods-moves-bombay-hc-over-defamatory-youtube-video-onnutrelasoya-chunks/article70412412.ece. Falling back to RSS description.
+2025-12-19 04:42:39,103 - INFO - Saved article: Patanjali Foods moves Bombay HC over ‘defamatory’ YouTube video on Nutrela Soya Chunks from The Hindu
+2025-12-19 04:42:40,131 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/sekkipatti-where-muslims-receive-temple-honours-and-hindus-worship-make-offerings-at-adargah/article70411513.ece
+2025-12-19 04:42:40,131 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-19 04:43:19,454 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-19 04:43:19,454 - ERROR - A thread has timed out and will be abandoned.
+2025-12-19 04:43:19,454 - INFO - Shutting down thread pool (wait=False)...
+2025-12-19 04:43:19,454 - INFO - Scraped: 0 The Guardian, 1 BBC, 3 Times of India, 1 Timed_Out_Jobs articles. (Total saved: 4)
+2025-12-19 04:43:19,454 - INFO - --- Scraping job finished ---
+2025-12-19 04:43:19,454 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-19 04:43:19,454 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
