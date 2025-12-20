@@ -1,0 +1,132 @@
+2025-12-20 22:23:31,376 - INFO - Initializing database connection at: news_articles.db
+2025-12-20 22:23:31,377 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-20 22:23:31,377 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-20 22:23:31,377 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-20 22:23:31,377 - INFO - Proxy is DISABLED.
+2025-12-20 22:23:31,377 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-20 22:23:31,378 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-20 22:23:31,378 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-20 22:23:31,379 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-20 22:23:31,379 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-20 22:23:31,379 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-20 22:23:31,379 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-20 22:23:31,478 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-20 22:23:31,479 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/dec/19/hepatitis-b-vaccine-study-guinea-bissau-rfk
+2025-12-20 22:23:31,479 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:31,507 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1565 words).
+2025-12-20 22:23:31,545 - INFO - Duplicate article skipped: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ | Vaccines and immunisation | The Guardian from The Guardian
+2025-12-20 22:23:31,812 - INFO - Found 38 articles in BBC RSS feed. Processing up to 10.
+2025-12-20 22:23:31,813 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c14vy02847vo?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:31,813 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:32,114 - INFO - [BBC] Success with 'requests_browser'. Found content (1112 words).
+2025-12-20 22:23:32,153 - INFO - Duplicate article skipped: Survivors are 'nervous and sceptical' about partial Epstein file release from BBC
+2025-12-20 22:23:32,324 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/19/colombian-mercenaries-sudan-rsf-us-sanctions-recruited-uk-registered-firms-investigation
+2025-12-20 22:23:32,324 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:32,489 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1251 words).
+2025-12-20 22:23:32,532 - INFO - Duplicate article skipped: Colombian mercenaries in Sudan ‘recruited by UK-registered firms’ | Conflict and arms | The Guardian from The Guardian
+2025-12-20 22:23:33,109 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/18/morocco-genz212-protests-police-mass-arrests-beatings-detentions-rights
+2025-12-20 22:23:33,109 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:33,118 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0mpy1ynnzzo?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:33,118 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:33,140 - INFO - [The Guardian] Success with 'requests_browser'. Found content (772 words).
+2025-12-20 22:23:33,179 - INFO - Duplicate article skipped: Morocco accused of ‘horrific’ abuse of detained gen Z protesters | Morocco | The Guardian from The Guardian
+2025-12-20 22:23:33,194 - INFO - [BBC] Success with 'requests_browser'. Found content (497 words).
+2025-12-20 22:23:33,229 - INFO - Duplicate article skipped: US seizes vessel in international waters off Venezuela's coast, officials say from BBC
+2025-12-20 22:23:34,030 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/five-key-moments-in-the-assault-on-the-rights-of-women-and-girls-in-2025
+2025-12-20 22:23:34,030 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:34,057 - INFO - [The Guardian] Success with 'requests_browser'. Found content (914 words).
+2025-12-20 22:23:34,097 - INFO - Duplicate article skipped: Five key moments in the assault on the rights of women and girls in 2025 | Anti-rights movement | The Guardian from The Guardian
+2025-12-20 22:23:34,640 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yq7zzw618o?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:34,640 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:34,667 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-20 22:23:34,706 - INFO - Duplicate article skipped: US carries out 'massive' strike against IS in Syria from BBC
+2025-12-20 22:23:34,950 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/south-africa-russia-men-tricked-fighting-ukraine
+2025-12-20 22:23:34,950 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:34,972 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2025-12-20 22:23:35,006 - INFO - Duplicate article skipped: South Africa in talks with Russia over men ‘tricked’ into fighting in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-20 22:23:35,571 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/20/us-second-merchant-vessel-venezuela
+2025-12-20 22:23:35,571 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:35,593 - INFO - [The Guardian] Success with 'requests_browser'. Found content (345 words).
+2025-12-20 22:23:35,630 - INFO - Duplicate article skipped: US intercepts second merchant vessel off coast of Venezuela in international waters | US military | The Guardian from The Guardian
+2025-12-20 22:23:36,083 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp89p082y2xo?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:36,083 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:36,120 - INFO - [BBC] Success with 'requests_browser'. Found content (1125 words).
+2025-12-20 22:23:36,180 - INFO - Duplicate article skipped: Putin vows no more wars if West treats Russia with respect from BBC
+2025-12-20 22:23:36,182 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/19/trump-venezuela-war
+2025-12-20 22:23:36,182 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:36,204 - INFO - [The Guardian] Success with 'requests_browser'. Found content (817 words).
+2025-12-20 22:23:36,239 - INFO - Duplicate article skipped: Trump and top aides refuse to rule out war with Venezuela | US foreign policy | The Guardian from The Guardian
+2025-12-20 22:23:37,015 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y9ed5d1r4o?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:37,015 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:37,050 - INFO - [BBC] Success with 'requests_browser'. Found content (556 words).
+2025-12-20 22:23:37,092 - INFO - Duplicate article skipped: Steve Rosenberg: Was Putin's response to my question about war in Europe an olive branch? from BBC
+2025-12-20 22:23:37,662 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/montreal-grocery-store-santas-elves-robbery
+2025-12-20 22:23:37,662 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:37,686 - INFO - [The Guardian] Success with 'requests_browser'. Found content (403 words).
+2025-12-20 22:23:37,726 - INFO - Duplicate article skipped: Santas and elves rob Montreal grocery store to ‘give food to the needy’ | Canada | The Guardian from The Guardian
+2025-12-20 22:23:37,891 - INFO - Selenium driver initialized successfully.
+2025-12-20 22:23:37,891 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-20 22:23:37,891 - INFO - Selenium driver initialized successfully.
+2025-12-20 22:23:37,892 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-20 22:23:37,916 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y9z0g7lleo?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:37,916 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:37,938 - INFO - [BBC] Success with 'requests_browser'. Found content (441 words).
+2025-12-20 22:23:37,970 - INFO - Duplicate article skipped: Blue Origin: Engineer becomes first wheelchair user to go to space from BBC
+2025-12-20 22:23:38,136 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-20 22:23:38,137 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/watch-trump-goes-off-topic-and-talks-about-wife-melanias-undergarments/articleshow/126098330.cms
+2025-12-20 22:23:38,137 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 22:23:38,257 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-20 22:23:38,257 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/strict-action-against-those-cheating-people-in-the-name-of-overseas-employment-says-up-cm-yogi/article70419863.ece
+2025-12-20 22:23:38,257 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 22:23:38,868 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62vx2pgl0eo?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:38,868 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:38,944 - INFO - [BBC] Success with 'requests_browser'. Found content (572 words).
+2025-12-20 22:23:39,010 - INFO - Duplicate article skipped: Imran Khan and wife sentenced for state gift fraud from BBC
+2025-12-20 22:23:39,209 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/colombia-eln-guerrilla-group-attack-military-base
+2025-12-20 22:23:39,209 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:39,248 - INFO - [The Guardian] Success with 'requests_browser'. Found content (351 words).
+2025-12-20 22:23:39,338 - INFO - Duplicate article skipped: Seven Colombian soldiers killed in rebel drone attack on base near Venezuela | Colombia | The Guardian from The Guardian
+2025-12-20 22:23:39,573 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx251p7k23mo?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:39,573 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:39,613 - INFO - [BBC] Success with 'requests_browser'. Found content (415 words).
+2025-12-20 22:23:39,685 - INFO - Duplicate article skipped: Taiwan: Knife attacker kills three after smoke bombing Taipei metro from BBC
+2025-12-20 22:23:39,857 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/i-cant-think-of-a-place-more-pristine-133000-hectares-of-chilean-patagonia-preserved-after-local-fundraising
+2025-12-20 22:23:39,857 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:39,908 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1210 words).
+2025-12-20 22:23:39,991 - INFO - Duplicate article skipped: ‘I can’t think of a place more pristine’: 133,000 hectares of Chilean Patagonia preserved after local fundraising | Chile | The Guardian from The Guardian
+2025-12-20 22:23:40,245 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c14v23vppz8o?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:40,245 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:40,317 - INFO - [BBC] Success with 'requests_browser'. Found content (541 words).
+2025-12-20 22:23:40,443 - INFO - Duplicate article skipped: Australian state to ban intifada chants after Bondi shooting from BBC
+2025-12-20 22:23:41,530 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8dy8r7lq0go?at_medium=RSS&at_campaign=rss
+2025-12-20 22:23:41,530 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 22:23:41,684 - INFO - [BBC] Success with 'requests_browser'. Found content (1597 words).
+2025-12-20 22:23:41,857 - INFO - Duplicate article skipped: Palestinians tell BBC they were sexually abused in Israeli prisons from BBC
+2025-12-20 22:25:38,238 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/watch-trump-goes-off-topic-and-talks-about-wife-melanias-undergarments/articleshow/126098330.cms: HTTPConnectionPool(host='localhost', port=44395): Read timed out. (read timeout=120)
+2025-12-20 22:25:38,238 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/watch-trump-goes-off-topic-and-talks-about-wife-melanias-undergarments/articleshow/126098330.cms. Falling back to RSS description.
+2025-12-20 22:25:38,239 - INFO - Saved article: Watch: Trump goes off-topic and talks about wife Melania's undergarments from Times of India
+2025-12-20 22:25:38,345 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/uttar-pradesh/strict-action-against-those-cheating-people-in-the-name-of-overseas-employment-says-up-cm-yogi/article70419863.ece: HTTPConnectionPool(host='localhost', port=60881): Read timed out. (read timeout=120)
+2025-12-20 22:25:38,345 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/uttar-pradesh/strict-action-against-those-cheating-people-in-the-name-of-overseas-employment-says-up-cm-yogi/article70419863.ece. Falling back to RSS description.
+2025-12-20 22:25:38,347 - INFO - Saved article: Strict action against those cheating people in the name of overseas employment, says U.P. CM Yogi from The Hindu
+2025-12-20 22:25:39,237 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/why-does-the-govt-want-to-replace-mgnrega-explained/article70420658.ece
+2025-12-20 22:25:39,237 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 22:25:39,609 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/jd-vance-wanted-to-release-the-epstein-files-in-2021-what-happened-now/articleshow/126098324.cms
+2025-12-20 22:25:39,609 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 22:27:39,338 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/why-does-the-govt-want-to-replace-mgnrega-explained/article70420658.ece: HTTPConnectionPool(host='localhost', port=60881): Read timed out. (read timeout=120)
+2025-12-20 22:27:39,338 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/why-does-the-govt-want-to-replace-mgnrega-explained/article70420658.ece. Falling back to RSS description.
+2025-12-20 22:27:39,341 - INFO - Saved article: Why does the govt. want to replace MGNREGA? | Explained from The Hindu
+2025-12-20 22:27:39,704 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/jd-vance-wanted-to-release-the-epstein-files-in-2021-what-happened-now/articleshow/126098324.cms: HTTPConnectionPool(host='localhost', port=44395): Read timed out. (read timeout=120)
+2025-12-20 22:27:39,705 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/jd-vance-wanted-to-release-the-epstein-files-in-2021-what-happened-now/articleshow/126098324.cms. Falling back to RSS description.
+2025-12-20 22:27:39,706 - INFO - Saved article: JD Vance wanted to release the Epstein files in 2021. What happened now? from Times of India
+2025-12-20 22:27:39,864 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/where-does-india-stand-on-child-marriage-explained/article70420642.ece
+2025-12-20 22:27:39,865 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 22:27:40,570 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/epstein-files-democrats-claim-doj-deleted-photo-of-donald-trump-what-happened-to-file-468/articleshow/126098265.cms
+2025-12-20 22:27:40,570 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 22:28:31,379 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-12-20 22:28:31,379 - ERROR - A thread has timed out and will be abandoned.
+2025-12-20 22:28:31,380 - ERROR - A thread has timed out and will be abandoned.
+2025-12-20 22:28:31,380 - INFO - Shutting down thread pool (wait=False)...
+2025-12-20 22:28:31,380 - INFO - Scraped: 0 BBC, 0 The Guardian, 2 Timed_Out_Jobs articles. (Total saved: 0)
+2025-12-20 22:28:31,380 - INFO - --- Scraping job finished ---
+2025-12-20 22:28:31,380 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-20 22:28:31,380 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
