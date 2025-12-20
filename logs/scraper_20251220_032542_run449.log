@@ -1,0 +1,137 @@
+2025-12-20 03:20:42,733 - INFO - Initializing database connection at: news_articles.db
+2025-12-20 03:20:42,734 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-20 03:20:42,734 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-20 03:20:42,734 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-20 03:20:42,734 - INFO - Proxy is DISABLED.
+2025-12-20 03:20:42,734 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-20 03:20:42,734 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-20 03:20:42,735 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-20 03:20:42,735 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-20 03:20:42,736 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-20 03:20:42,736 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-20 03:20:42,736 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-20 03:20:43,172 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-20 03:20:43,172 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/dec/19/hepatitis-b-vaccine-study-guinea-bissau-rfk
+2025-12-20 03:20:43,172 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:43,209 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1565 words).
+2025-12-20 03:20:43,245 - INFO - Duplicate article skipped: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ | Vaccines and immunisation | The Guardian from The Guardian
+2025-12-20 03:20:43,426 - INFO - Found 35 articles in BBC RSS feed. Processing up to 10.
+2025-12-20 03:20:43,426 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp89p082y2xo?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:43,427 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:43,617 - INFO - [BBC] Success with 'requests_browser'. Found content (1125 words).
+2025-12-20 03:20:43,655 - INFO - Duplicate article skipped: Putin vows no more wars if West treats Russia with respect from BBC
+2025-12-20 03:20:44,216 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y9ed5d1r4o?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:44,216 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:44,254 - INFO - [BBC] Success with 'requests_browser'. Found content (556 words).
+2025-12-20 03:20:44,289 - INFO - Duplicate article skipped: Steve Rosenberg: Was Putin's response to my question about war in Europe an olive branch? from BBC
+2025-12-20 03:20:44,634 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/19/colombian-mercenaries-sudan-rsf-us-sanctions-recruited-uk-registered-firms-investigation
+2025-12-20 03:20:44,634 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:44,674 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1251 words).
+2025-12-20 03:20:44,731 - INFO - Duplicate article skipped: Colombian mercenaries in Sudan ‘recruited by UK-registered firms’ | Conflict and arms | The Guardian from The Guardian
+2025-12-20 03:20:45,190 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yq7zzw618o?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:45,190 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:45,227 - INFO - [BBC] Success with 'requests_browser'. Found content (549 words).
+2025-12-20 03:20:45,264 - INFO - Duplicate article skipped: US carries out 'massive' strike against IS in Syria from BBC
+2025-12-20 03:20:45,870 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/18/morocco-genz212-protests-police-mass-arrests-beatings-detentions-rights
+2025-12-20 03:20:45,870 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:46,031 - INFO - [The Guardian] Success with 'requests_browser'. Found content (772 words).
+2025-12-20 03:20:46,070 - INFO - Duplicate article skipped: Morocco accused of ‘horrific’ abuse of detained gen Z protesters | Morocco | The Guardian from The Guardian
+2025-12-20 03:20:46,310 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3e025vyppeo?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:46,310 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:46,347 - INFO - [BBC] Success with 'requests_browser'. Found content (817 words).
+2025-12-20 03:20:46,385 - INFO - Duplicate article skipped: EU leaders to loan €90bn to Ukraine - but fail to agree on using Russian assets from BBC
+2025-12-20 03:20:46,635 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/five-key-moments-in-the-assault-on-the-rights-of-women-and-girls-in-2025
+2025-12-20 03:20:46,635 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:46,845 - INFO - [The Guardian] Success with 'requests_browser'. Found content (914 words).
+2025-12-20 03:20:46,888 - INFO - Duplicate article skipped: Five key moments in the assault on the rights of women and girls in 2025 | Anti-rights movement | The Guardian from The Guardian
+2025-12-20 03:20:47,360 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8dy8r7lq0go?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:47,360 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:47,406 - INFO - [BBC] Success with 'requests_browser'. Found content (1597 words).
+2025-12-20 03:20:47,471 - INFO - Duplicate article skipped: Palestinians tell BBC they were sexually abused in Israeli prisons from BBC
+2025-12-20 03:20:47,693 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/south-africa-russia-men-tricked-fighting-ukraine
+2025-12-20 03:20:47,693 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:47,850 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2025-12-20 03:20:47,887 - INFO - Duplicate article skipped: South Africa in talks with Russia over men ‘tricked’ into fighting in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-20 03:20:48,237 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx251p7k23mo?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:48,237 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:48,271 - INFO - [BBC] Success with 'requests_browser'. Found content (415 words).
+2025-12-20 03:20:48,305 - INFO - Duplicate article skipped: Taiwan: Knife attacker kills three after smoke bombing Taipei metro from BBC
+2025-12-20 03:20:49,025 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp84p722m3do?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:49,025 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:49,041 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/19/trump-venezuela-war
+2025-12-20 03:20:49,041 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:49,065 - INFO - [BBC] Success with 'requests_browser'. Found content (516 words).
+2025-12-20 03:20:49,108 - INFO - Duplicate article skipped: Erika Kirk endorses JD Vance for president at conservative event from BBC
+2025-12-20 03:20:49,118 - INFO - [The Guardian] Success with 'requests_browser'. Found content (817 words).
+2025-12-20 03:20:49,155 - INFO - Duplicate article skipped: Trump and top aides refuse to rule out war with Venezuela | US foreign policy | The Guardian from The Guardian
+2025-12-20 03:20:50,009 - INFO - Selenium driver initialized successfully.
+2025-12-20 03:20:50,010 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-20 03:20:50,011 - INFO - Selenium driver initialized successfully.
+2025-12-20 03:20:50,011 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-20 03:20:50,034 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y9x4pj54eo?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:50,034 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:50,064 - INFO - [BBC] Success with 'requests_browser'. Found content (346 words).
+2025-12-20 03:20:50,093 - INFO - Duplicate article skipped: French court rejects Shein website ban over childlike sex dolls from BBC
+2025-12-20 03:20:50,237 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-20 03:20:50,237 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/brown-university-shooting-how-a-reddit-post-helped-police-track-the-shooter/articleshow/126086882.cms
+2025-12-20 03:20:50,237 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:20:50,280 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-20 03:20:50,280 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/maharashtra-municipal-councils-nagar-panchayats-election-voting-begins/article70418569.ece
+2025-12-20 03:20:50,280 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:20:50,586 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/montreal-grocery-store-santas-elves-robbery
+2025-12-20 03:20:50,586 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:50,614 - INFO - [The Guardian] Success with 'requests_browser'. Found content (403 words).
+2025-12-20 03:20:50,649 - INFO - Duplicate article skipped: Santas and elves rob Montreal grocery store to ‘give food to the needy’ | Canada | The Guardian from The Guardian
+2025-12-20 03:20:51,084 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp89p41gr06o?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:51,084 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:51,131 - INFO - [BBC] Success with 'requests_browser'. Found content (291 words).
+2025-12-20 03:20:51,193 - INFO - Duplicate article skipped: Rome: Tourists to face €2 fee to get near Trevi Fountain from BBC
+2025-12-20 03:20:52,140 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/colombia-eln-guerrilla-group-attack-military-base
+2025-12-20 03:20:52,140 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:52,296 - INFO - [The Guardian] Success with 'requests_browser'. Found content (351 words).
+2025-12-20 03:20:52,371 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpq4p535347o?at_medium=RSS&at_campaign=rss
+2025-12-20 03:20:52,371 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:52,422 - INFO - Duplicate article skipped: Seven Colombian soldiers killed in rebel drone attack on base near Venezuela | Colombia | The Guardian from The Guardian
+2025-12-20 03:20:52,519 - INFO - [BBC] Success with 'requests_browser'. Found content (548 words).
+2025-12-20 03:20:52,648 - INFO - Duplicate article skipped: Norway's crown princess likely needs lung transplant, palace says from BBC
+2025-12-20 03:20:52,974 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/i-cant-think-of-a-place-more-pristine-133000-hectares-of-chilean-patagonia-preserved-after-local-fundraising
+2025-12-20 03:20:52,974 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:53,073 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1210 words).
+2025-12-20 03:20:53,340 - INFO - Duplicate article skipped: ‘I can’t think of a place more pristine’: 133,000 hectares of Chilean Patagonia preserved after local fundraising | Chile | The Guardian from The Guardian
+2025-12-20 03:20:54,131 - INFO - [The Hindu] Page content loaded.
+2025-12-20 03:20:54,310 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (176 words).
+2025-12-20 03:20:54,451 - INFO - Saved article: Voting begins in 23 municipal councils and nagar panchayats in Maharashtra - The Hindu from The Hindu
+2025-12-20 03:20:54,829 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/18/brazilian-congress-passes-bill-cut-jair-bolsonaro-prison-term
+2025-12-20 03:20:54,829 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 03:20:55,070 - INFO - [The Guardian] Success with 'requests_browser'. Found content (472 words).
+2025-12-20 03:20:55,144 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/odisha/rural-indebtedness-rising-due-to-unregulated-microfinance-institutions-brinda-karat/article70416201.ece
+2025-12-20 03:20:55,144 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:20:55,296 - INFO - Duplicate article skipped: Brazilian president vows to veto bill cutting Jair Bolsonaro’s prison term | Jair Bolsonaro | The Guardian from The Guardian
+2025-12-20 03:22:50,319 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/brown-university-shooting-how-a-reddit-post-helped-police-track-the-shooter/articleshow/126086882.cms: HTTPConnectionPool(host='localhost', port=58319): Read timed out. (read timeout=120)
+2025-12-20 03:22:50,319 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/brown-university-shooting-how-a-reddit-post-helped-police-track-the-shooter/articleshow/126086882.cms. Falling back to RSS description.
+2025-12-20 03:22:50,322 - INFO - Saved article: Brown University shooting: How a Reddit post helped police track the shooter from Times of India
+2025-12-20 03:22:50,945 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/trump-kennedy-center-kerry-kennedy-vows-to-remove-presidents-name-maria-shriver-calls-it-not-dignified/articleshow/126086946.cms
+2025-12-20 03:22:50,945 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:22:55,202 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/odisha/rural-indebtedness-rising-due-to-unregulated-microfinance-institutions-brinda-karat/article70416201.ece: HTTPConnectionPool(host='localhost', port=40671): Read timed out. (read timeout=120)
+2025-12-20 03:22:55,202 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/odisha/rural-indebtedness-rising-due-to-unregulated-microfinance-institutions-brinda-karat/article70416201.ece. Falling back to RSS description.
+2025-12-20 03:22:55,203 - INFO - Duplicate article skipped: Rural indebtedness rising due to unregulated microfinance institutions: Brinda Karat from The Hindu
+2025-12-20 03:22:55,785 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/srmist-signs-mou-with-niftem/article70416982.ece
+2025-12-20 03:22:55,785 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:24:50,964 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/trump-kennedy-center-kerry-kennedy-vows-to-remove-presidents-name-maria-shriver-calls-it-not-dignified/articleshow/126086946.cms: HTTPConnectionPool(host='localhost', port=58319): Read timed out. (read timeout=120)
+2025-12-20 03:24:50,964 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/trump-kennedy-center-kerry-kennedy-vows-to-remove-presidents-name-maria-shriver-calls-it-not-dignified/articleshow/126086946.cms. Falling back to RSS description.
+2025-12-20 03:24:50,967 - INFO - Saved article: Trump Kennedy Center: Kerry Kennedy vows to remove president’s name; Maria Shriver calls it ‘not dignified’ from Times of India
+2025-12-20 03:24:51,813 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-escalates-pressure-on-nicols-maduro-imposes-sanctions-on-family-members-who-are-they/articleshow/126087046.cms
+2025-12-20 03:24:51,813 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:24:55,880 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/srmist-signs-mou-with-niftem/article70416982.ece: HTTPConnectionPool(host='localhost', port=40671): Read timed out. (read timeout=120)
+2025-12-20 03:24:55,881 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/srmist-signs-mou-with-niftem/article70416982.ece. Falling back to RSS description.
+2025-12-20 03:24:55,881 - INFO - Duplicate article skipped: SRMIST signs MoU with NIFTEM from The Hindu
+2025-12-20 03:24:56,458 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/kolkata/congress-cpim-leaders-in-bengal-say-risinginfiltrators-narrativeof-bjp-proved-wrongaftersirdraft-list/article70415703.ece
+2025-12-20 03:24:56,458 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 03:25:42,736 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-12-20 03:25:42,737 - ERROR - A thread has timed out and will be abandoned.
+2025-12-20 03:25:42,737 - ERROR - A thread has timed out and will be abandoned.
+2025-12-20 03:25:42,737 - INFO - Shutting down thread pool (wait=False)...
+2025-12-20 03:25:42,737 - INFO - Scraped: 0 BBC, 0 The Guardian, 2 Timed_Out_Jobs articles. (Total saved: 0)
+2025-12-20 03:25:42,737 - INFO - --- Scraping job finished ---
+2025-12-20 03:25:42,737 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-20 03:25:42,737 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
