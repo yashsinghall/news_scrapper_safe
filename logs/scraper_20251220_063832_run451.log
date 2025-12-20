@@ -1,0 +1,209 @@
+2025-12-20 06:37:36,538 - INFO - Initializing database connection at: news_articles.db
+2025-12-20 06:37:36,538 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-20 06:37:36,538 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-20 06:37:36,538 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-20 06:37:36,539 - INFO - Proxy is DISABLED.
+2025-12-20 06:37:36,539 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-20 06:37:36,539 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-20 06:37:36,539 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-20 06:37:36,540 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-20 06:37:36,540 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-20 06:37:36,540 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-20 06:37:36,540 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-20 06:37:36,669 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-20 06:37:36,670 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/dec/19/hepatitis-b-vaccine-study-guinea-bissau-rfk
+2025-12-20 06:37:36,670 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:36,713 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1565 words).
+2025-12-20 06:37:36,763 - INFO - Duplicate article skipped: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ | Vaccines and immunisation | The Guardian from The Guardian
+2025-12-20 06:37:36,832 - INFO - Found 35 articles in BBC RSS feed. Processing up to 10.
+2025-12-20 06:37:36,832 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp89p082y2xo?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:36,832 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:36,991 - INFO - [BBC] Success with 'requests_browser'. Found content (1125 words).
+2025-12-20 06:37:37,028 - INFO - Duplicate article skipped: Putin vows no more wars if West treats Russia with respect from BBC
+2025-12-20 06:37:37,873 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/19/colombian-mercenaries-sudan-rsf-us-sanctions-recruited-uk-registered-firms-investigation
+2025-12-20 06:37:37,873 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:37,921 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1251 words).
+2025-12-20 06:37:37,982 - INFO - Duplicate article skipped: Colombian mercenaries in Sudan ‘recruited by UK-registered firms’ | Conflict and arms | The Guardian from The Guardian
+2025-12-20 06:37:38,490 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y9ed5d1r4o?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:38,490 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:38,530 - INFO - [BBC] Success with 'requests_browser'. Found content (556 words).
+2025-12-20 06:37:38,565 - INFO - Duplicate article skipped: Steve Rosenberg: Was Putin's response to my question about war in Europe an olive branch? from BBC
+2025-12-20 06:37:38,617 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/18/morocco-genz212-protests-police-mass-arrests-beatings-detentions-rights
+2025-12-20 06:37:38,617 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:38,653 - INFO - [The Guardian] Success with 'requests_browser'. Found content (772 words).
+2025-12-20 06:37:38,691 - INFO - Duplicate article skipped: Morocco accused of ‘horrific’ abuse of detained gen Z protesters | Morocco | The Guardian from The Guardian
+2025-12-20 06:37:39,494 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/five-key-moments-in-the-assault-on-the-rights-of-women-and-girls-in-2025
+2025-12-20 06:37:39,494 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:39,529 - INFO - [The Guardian] Success with 'requests_browser'. Found content (914 words).
+2025-12-20 06:37:39,568 - INFO - Duplicate article skipped: Five key moments in the assault on the rights of women and girls in 2025 | Anti-rights movement | The Guardian from The Guardian
+2025-12-20 06:37:39,660 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yq7zzw618o?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:39,661 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:39,702 - INFO - [BBC] Success with 'requests_browser'. Found content (549 words).
+2025-12-20 06:37:39,738 - INFO - Duplicate article skipped: US carries out 'massive' strike against IS in Syria from BBC
+2025-12-20 06:37:40,515 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/16/south-africa-russia-men-tricked-fighting-ukraine
+2025-12-20 06:37:40,515 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:40,547 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2025-12-20 06:37:40,582 - INFO - Duplicate article skipped: South Africa in talks with Russia over men ‘tricked’ into fighting in Ukraine | South Africa | The Guardian from The Guardian
+2025-12-20 06:37:41,091 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3e025vyppeo?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:41,091 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:41,132 - INFO - [BBC] Success with 'requests_browser'. Found content (817 words).
+2025-12-20 06:37:41,168 - INFO - Duplicate article skipped: EU leaders to loan €90bn to Ukraine - but fail to agree on using Russian assets from BBC
+2025-12-20 06:37:41,649 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/19/trump-venezuela-war
+2025-12-20 06:37:41,649 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:41,708 - INFO - [The Guardian] Success with 'requests_browser'. Found content (817 words).
+2025-12-20 06:37:41,742 - INFO - Duplicate article skipped: Trump and top aides refuse to rule out war with Venezuela | US foreign policy | The Guardian from The Guardian
+2025-12-20 06:37:42,450 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8dy8r7lq0go?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:42,450 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:42,498 - INFO - [BBC] Success with 'requests_browser'. Found content (1597 words).
+2025-12-20 06:37:42,535 - INFO - Duplicate article skipped: Palestinians tell BBC they were sexually abused in Israeli prisons from BBC
+2025-12-20 06:37:42,901 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/montreal-grocery-store-santas-elves-robbery
+2025-12-20 06:37:42,901 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:42,932 - INFO - [The Guardian] Success with 'requests_browser'. Found content (403 words).
+2025-12-20 06:37:42,965 - INFO - Duplicate article skipped: Santas and elves rob Montreal grocery store to ‘give food to the needy’ | Canada | The Guardian from The Guardian
+2025-12-20 06:37:43,133 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx251p7k23mo?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:43,133 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:43,172 - INFO - [BBC] Success with 'requests_browser'. Found content (415 words).
+2025-12-20 06:37:43,214 - INFO - Duplicate article skipped: Taiwan: Knife attacker kills three after smoke bombing Taipei metro from BBC
+2025-12-20 06:37:44,126 - INFO - Selenium driver initialized successfully.
+2025-12-20 06:37:44,126 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-20 06:37:44,127 - INFO - Selenium driver initialized successfully.
+2025-12-20 06:37:44,127 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-20 06:37:44,274 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/colombia-eln-guerrilla-group-attack-military-base
+2025-12-20 06:37:44,275 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:44,305 - INFO - [The Guardian] Success with 'requests_browser'. Found content (351 words).
+2025-12-20 06:37:44,339 - INFO - Duplicate article skipped: Seven Colombian soldiers killed in rebel drone attack on base near Venezuela | Colombia | The Guardian from The Guardian
+2025-12-20 06:37:44,420 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-20 06:37:44,420 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/epstein-files-opened-from-steamy-photos-to-call-logs-whats-in-them-and-what-is-still-missing/articleshow/126088917.cms
+2025-12-20 06:37:44,420 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:37:44,677 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp84p722m3do?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:44,677 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:44,716 - INFO - [BBC] Success with 'requests_browser'. Found content (516 words).
+2025-12-20 06:37:44,750 - INFO - Duplicate article skipped: Erika Kirk endorses JD Vance for president at conservative event from BBC
+2025-12-20 06:37:45,124 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-20 06:37:45,124 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/panneerselvam-dhinakaran-urge-dmk-govt-to-accept-nurses-demand-for-regularisation-of-services/article70416215.ece
+2025-12-20 06:37:45,124 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:37:45,389 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y9x4pj54eo?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:45,389 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:45,429 - INFO - [BBC] Success with 'requests_browser'. Found content (346 words).
+2025-12-20 06:37:45,477 - INFO - Duplicate article skipped: French court rejects Shein website ban over childlike sex dolls from BBC
+2025-12-20 06:37:45,566 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/i-cant-think-of-a-place-more-pristine-133000-hectares-of-chilean-patagonia-preserved-after-local-fundraising
+2025-12-20 06:37:45,566 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:45,613 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1210 words).
+2025-12-20 06:37:45,657 - INFO - Duplicate article skipped: ‘I can’t think of a place more pristine’: 133,000 hectares of Chilean Patagonia preserved after local fundraising | Chile | The Guardian from The Guardian
+2025-12-20 06:37:46,264 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/18/brazilian-congress-passes-bill-cut-jair-bolsonaro-prison-term
+2025-12-20 06:37:46,264 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:46,330 - INFO - [The Guardian] Success with 'requests_browser'. Found content (472 words).
+2025-12-20 06:37:46,403 - INFO - Duplicate article skipped: Brazilian president vows to veto bill cutting Jair Bolsonaro’s prison term | Jair Bolsonaro | The Guardian from The Guardian
+2025-12-20 06:37:46,565 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp89p41gr06o?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:46,565 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:46,619 - INFO - [BBC] Success with 'requests_browser'. Found content (291 words).
+2025-12-20 06:37:46,700 - INFO - Duplicate article skipped: Rome: Tourists to face €2 fee to get near Trevi Fountain from BBC
+2025-12-20 06:37:47,969 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpq4p535347o?at_medium=RSS&at_campaign=rss
+2025-12-20 06:37:47,969 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-20 06:37:48,077 - INFO - [BBC] Success with 'requests_browser'. Found content (548 words).
+2025-12-20 06:37:48,208 - INFO - Duplicate article skipped: Norway's crown princess likely needs lung transplant, palace says from BBC
+2025-12-20 06:37:52,414 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:37:52,868 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (142 words).
+2025-12-20 06:37:53,040 - INFO - Saved article: Panneerselvam, Dhinakaran urge DMK govt. to accept nurses’ demand for regularisation of services - The Hindu from The Hindu
+2025-12-20 06:37:53,687 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/goa/goa-nightclub-fire-police-initiate-process-for-blue-corner-notice-against-khosla-who-fled-to-uk/article70418874.ece
+2025-12-20 06:37:53,687 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:37:54,245 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:37:54,665 - INFO - [Times of India] Success with 'selenium_browser'. Found content (666 words).
+2025-12-20 06:37:55,780 - INFO - Saved article: Epstein files opened: From steamy photos to call logs — What's in them and what is still missing - The Times of India from Times of India
+2025-12-20 06:37:56,909 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-records-rare-snowfall-in-tabuk-and-hail-as-videos-go-viral/articleshow/126088916.cms
+2025-12-20 06:37:56,909 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:37:56,931 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:37:57,202 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (207 words).
+2025-12-20 06:37:57,355 - INFO - Saved article: Goa nightclub fire: Police initiate process for Blue Corner Notice against Khosla who fled to U.K. - The Hindu from The Hindu
+2025-12-20 06:37:58,701 - INFO - [The Hindu] Article: https://www.thehindu.com/entertainment/movies/sreenivasan-gave-me-my-best-characters-urvashi-reminisces/article70418818.ece
+2025-12-20 06:37:58,701 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:01,441 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:01,768 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (203 words).
+2025-12-20 06:38:02,154 - INFO - Saved article: ‘Sreenivasan gave me my best characters,’ Urvashi reminisces - The Hindu from The Hindu
+2025-12-20 06:38:02,870 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/take-strict-action-against-travel-agents-cheating-people-on-pretext-of-sending-them-abroad-up-cm/article70418779.ece
+2025-12-20 06:38:02,870 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:03,156 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:03,396 - INFO - [Times of India] Success with 'selenium_browser'. Found content (517 words).
+2025-12-20 06:38:03,651 - INFO - Saved article: Saudi Arabia records rare snowfall in Tabuk and Hail as videos go viral | World News - The Times of India from Times of India
+2025-12-20 06:38:03,853 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:04,065 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (323 words).
+2025-12-20 06:38:04,135 - INFO - Saved article: Take strict action against travel agents cheating people on pretext of sending them abroad: U.P. CM - The Hindu from The Hindu
+2025-12-20 06:38:04,509 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/elise-stefanik-exits-politics-donald-trumps-ally-quits-new-york-governor-race-but-why/articleshow/126088298.cms
+2025-12-20 06:38:04,509 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:05,330 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/sreenivasan-actor-death-and-sathyan-anthikad/article70418765.ece
+2025-12-20 06:38:05,330 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:05,841 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:06,122 - INFO - [Times of India] Success with 'selenium_browser'. Found content (562 words).
+2025-12-20 06:38:06,267 - INFO - Saved article: Elise Stefanik exits politics: Donald Trump’s ally quits New York governor race — but why? - The Times of India from Times of India
+2025-12-20 06:38:06,933 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/from-eisenhower-to-trump-how-us-presidents-shaped-the-kennedy-center/articleshow/126088564.cms
+2025-12-20 06:38:06,933 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:07,602 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:07,707 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (497 words).
+2025-12-20 06:38:07,864 - INFO - Saved article: ‘We shared a strong bond’: Filmmaker Sathyan Anthikad remembers his longtime friend and collaborator Sreenivasan - The Hindu from The Hindu
+2025-12-20 06:38:08,552 - INFO - [The Hindu] Article: https://www.thehindu.com/entertainment/movies/sreenivasan-a-thalassery-legend-becomes-part-of-history/article70418800.ece
+2025-12-20 06:38:08,553 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:09,023 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:09,286 - INFO - [Times of India] Success with 'selenium_browser'. Found content (713 words).
+2025-12-20 06:38:09,399 - INFO - Saved article: From Eisenhower to Trump: How US presidents shaped the Kennedy Center - The Times of India from Times of India
+2025-12-20 06:38:10,482 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/watch-us-strikes-over-70-targets-in-syria-calls-it-declaration-of-vengeance/articleshow/126087663.cms
+2025-12-20 06:38:10,482 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:11,562 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:11,905 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (418 words).
+2025-12-20 06:38:12,068 - INFO - Saved article: Sreenivasan, a Thalassery legend, becomes part of history - The Hindu from The Hindu
+2025-12-20 06:38:12,375 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:12,584 - INFO - [Times of India] Success with 'selenium_browser'. Found content (653 words).
+2025-12-20 06:38:12,650 - INFO - Saved article: Watch: US strikes over 70 targets in Syria; calls it 'declaration of vengeance' - The Times of India from Times of India
+2025-12-20 06:38:13,098 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/as-ev-charging-expands-start-up-comes-up-with-software-to-fix-charger-failures/article70415568.ece
+2025-12-20 06:38:13,098 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:13,888 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/business/international-business/who-is-anand-varadarajan-starbucks-appoints-indian-national-as-chief-technology-officer/articleshow/126087136.cms
+2025-12-20 06:38:13,888 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:14,629 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:14,901 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (487 words).
+2025-12-20 06:38:15,251 - INFO - Saved article: As EV charging expands, start-up comes up with software to fix charger failures - The Hindu from The Hindu
+2025-12-20 06:38:15,916 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:16,093 - INFO - [Times of India] Success with 'selenium_browser'. Found content (288 words).
+2025-12-20 06:38:16,206 - INFO - Duplicate article skipped: Who is Anand Varadarajan? Starbucks appoints Indian national as chief technology officer - The Times of India from Times of India
+2025-12-20 06:38:16,347 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/scheme-for-citizens-to-obtain-khata-services-from-home-launched-by-karnataka-cm/article70416442.ece
+2025-12-20 06:38:16,347 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:17,166 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/brown-university-shooting-how-a-reddit-post-helped-police-track-the-shooter/articleshow/126086882.cms
+2025-12-20 06:38:17,166 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:19,627 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:19,889 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (103 words).
+2025-12-20 06:38:19,953 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:20,084 - INFO - Saved article: Scheme for citizens to obtain khata services from home launched by Karnataka CM - The Hindu from The Hindu
+2025-12-20 06:38:20,334 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1192 words).
+2025-12-20 06:38:20,432 - INFO - Duplicate article skipped: Brown University shooting: How a Reddit post helped police track the shooter - The Times of India from Times of India
+2025-12-20 06:38:20,685 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/actor-director-sreenivasan-satirist-who-made-kerala-laugh-political-satire-movies/article70418716.ece
+2025-12-20 06:38:20,685 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:21,887 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/trump-kennedy-center-kerry-kennedy-vows-to-remove-presidents-name-maria-shriver-calls-it-not-dignified/articleshow/126086946.cms
+2025-12-20 06:38:21,888 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:22,996 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:23,599 - INFO - [Times of India] Success with 'selenium_browser'. Found content (504 words).
+2025-12-20 06:38:23,605 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:23,715 - INFO - Duplicate article skipped: Trump Kennedy Center: Kerry Kennedy vows to remove president’s name; Maria Shriver calls it ‘not dignified’ - The Times of India from Times of India
+2025-12-20 06:38:23,752 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (527 words).
+2025-12-20 06:38:23,894 - INFO - Saved article: Malayalam actor Sreenivasan: the satirist who made Kerala laugh, think, and remember - The Hindu from The Hindu
+2025-12-20 06:38:24,401 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/actor-director-sreenivasan-death-live-updates-december-20-2025/article70418735.ece
+2025-12-20 06:38:24,401 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:24,493 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-escalates-pressure-on-nicols-maduro-imposes-sanctions-on-family-members-who-are-they/articleshow/126087046.cms
+2025-12-20 06:38:24,493 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:26,500 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:26,720 - INFO - [Times of India] Success with 'selenium_browser'. Found content (330 words).
+2025-12-20 06:38:26,879 - INFO - Saved article: US escalates pressure on Nicolás Maduro, imposes sanctions on family members: Who are they? - The Times of India from Times of India
+2025-12-20 06:38:27,384 - INFO - [The Hindu] Page content loaded.
+2025-12-20 06:38:27,484 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (163 words).
+2025-12-20 06:38:27,654 - INFO - Saved article: Sreenivasan Death News LIVE: Malayalam actor-filmmaker's mortal remains at his Kandanad residence - The Hindu from The Hindu
+2025-12-20 06:38:27,759 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/epstein-files-released-us-justice-department-publishes-first-batch-of-documents-whats-new/articleshow/126084632.cms
+2025-12-20 06:38:27,759 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-20 06:38:28,650 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-20 06:38:28,859 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-20 06:38:29,297 - INFO - [Times of India] Page content loaded.
+2025-12-20 06:38:29,492 - INFO - [Times of India] Success with 'selenium_browser'. Found content (373 words).
+2025-12-20 06:38:29,562 - INFO - Saved article: Epstein files released: US justice department publishes first batch of documents – What’s new? - The Times of India from Times of India
+2025-12-20 06:38:30,809 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-20 06:38:32,025 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-20 06:38:32,025 - INFO - Shutting down thread pool (wait=False)...
+2025-12-20 06:38:32,025 - INFO - Scraped: 10 The Hindu, 0 BBC, 0 The Guardian, 7 Times of India articles. (Total saved: 17)
+2025-12-20 06:38:32,025 - INFO - --- Scraping job finished ---
+2025-12-20 06:38:32,030 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-20 06:38:32,030 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
