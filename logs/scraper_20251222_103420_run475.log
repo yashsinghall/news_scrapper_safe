@@ -1,0 +1,132 @@
+2025-12-22 10:29:20,065 - INFO - Initializing database connection at: news_articles.db
+2025-12-22 10:29:20,066 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-22 10:29:20,066 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-22 10:29:20,066 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-22 10:29:20,066 - INFO - Proxy is DISABLED.
+2025-12-22 10:29:20,066 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-22 10:29:20,067 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-22 10:29:20,067 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-22 10:29:20,067 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-22 10:29:20,068 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-22 10:29:20,068 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-22 10:29:20,068 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-22 10:29:20,202 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-22 10:29:20,202 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/more-kidnapped-schoolchildren-freed-in-nigeria
+2025-12-22 10:29:20,202 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:20,226 - INFO - [The Guardian] Success with 'requests_browser'. Found content (382 words).
+2025-12-22 10:29:20,261 - INFO - Duplicate article skipped: Another 130 kidnapped schoolchildren released in Nigeria | Nigeria | The Guardian from The Guardian
+2025-12-22 10:29:20,346 - INFO - Found 28 articles in BBC RSS feed. Processing up to 10.
+2025-12-22 10:29:20,346 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce86l95gx5po?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:20,346 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:20,509 - INFO - [BBC] Success with 'requests_browser'. Found content (786 words).
+2025-12-22 10:29:20,546 - INFO - Duplicate article skipped: Bondi gunmen 'meticulously' planned attack for months, police allege from BBC
+2025-12-22 10:29:21,352 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8jwn9wznx1o?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:21,352 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:21,377 - INFO - [BBC] Success with 'requests_browser'. Found content (297 words).
+2025-12-22 10:29:21,406 - INFO - Duplicate article skipped: Russian general killed by car bomb in Moscow, officials say from BBC
+2025-12-22 10:29:21,666 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/dec/21/manchester-museum-uncover-hidden-histories-africa-hub
+2025-12-22 10:29:21,666 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:21,687 - INFO - [The Guardian] Success with 'requests_browser'. Found content (542 words).
+2025-12-22 10:29:21,723 - INFO - Duplicate article skipped: Manchester Museum seeks help to uncover hidden histories of African collection | Manchester | The Guardian from The Guardian
+2025-12-22 10:29:22,277 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/21/sweden-and-germany-slash-aid-budgets-to-focus-on-ukraine-and-defence-spending
+2025-12-22 10:29:22,277 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:22,299 - INFO - [The Guardian] Success with 'requests_browser'. Found content (721 words).
+2025-12-22 10:29:22,334 - INFO - Duplicate article skipped: Sweden and Germany slash aid budgets to focus on Ukraine and defence spending | Global development | The Guardian from The Guardian
+2025-12-22 10:29:22,807 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c208y2wxxeno?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:22,807 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:22,840 - INFO - [BBC] Success with 'requests_browser'. Found content (817 words).
+2025-12-22 10:29:22,888 - INFO - Saved article: Image in Epstein files that features Trump reinstated after backlash from BBC
+2025-12-22 10:29:22,915 - INFO - [The Guardian] Article: https://www.theguardian.com/society/2025/dec/19/hepatitis-b-vaccine-study-guinea-bissau-rfk
+2025-12-22 10:29:22,915 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:22,942 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1565 words).
+2025-12-22 10:29:22,977 - INFO - Duplicate article skipped: US plan for $1.6m hepatitis B vaccine study in Africa called ‘highly unethical’ | Vaccines and immunisation | The Guardian from The Guardian
+2025-12-22 10:29:23,723 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/19/colombian-mercenaries-sudan-rsf-us-sanctions-recruited-uk-registered-firms-investigation
+2025-12-22 10:29:23,723 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:23,755 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1251 words).
+2025-12-22 10:29:23,798 - INFO - Duplicate article skipped: Colombian mercenaries in Sudan ‘recruited by UK-registered firms’ | Conflict and arms | The Guardian from The Guardian
+2025-12-22 10:29:24,147 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn5lnzlvqg2o?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:24,147 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:24,169 - INFO - [BBC] Success with 'requests_browser'. Found content (406 words).
+2025-12-22 10:29:24,206 - INFO - Duplicate article skipped: US and Ukraine call Miami talks productive despite no breakthrough from BBC
+2025-12-22 10:29:25,131 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cjrjpdz33vxo?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:25,131 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:25,161 - INFO - [BBC] Success with 'requests_browser'. Found content (1328 words).
+2025-12-22 10:29:25,168 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/22/cbs-news-delays-60-minutes-segment-featuring-investigation-into-cecot-megaprison
+2025-12-22 10:29:25,168 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:25,225 - INFO - Duplicate article skipped: In rebel-held Myanmar, civilians flee junta airstrikes and a forced election from BBC
+2025-12-22 10:29:25,242 - INFO - [The Guardian] Success with 'requests_browser'. Found content (713 words).
+2025-12-22 10:29:25,282 - INFO - Duplicate article skipped: CBS News delays 60 Minutes segment featuring investigation into El Salvador’s Cecot megaprison | CBS | The Guardian from The Guardian
+2025-12-22 10:29:26,161 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c99722j4lkgo?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:26,161 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:26,188 - INFO - [BBC] Success with 'requests_browser'. Found content (478 words).
+2025-12-22 10:29:26,222 - INFO - Duplicate article skipped: US reportedly pursuing third oil tanker linked to Venezuela from BBC
+2025-12-22 10:29:26,673 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/man-jailed-1335-years-el-salvador-sentences-ms-13-gang-members
+2025-12-22 10:29:26,673 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:26,693 - INFO - [The Guardian] Success with 'requests_browser'. Found content (273 words).
+2025-12-22 10:29:26,727 - INFO - Duplicate article skipped: Man jailed for 1,335 years as El Salvador sentences almost 250 MS-13 gang members | El Salvador | The Guardian from The Guardian
+2025-12-22 10:29:27,010 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3d03943zg8o?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:27,010 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:27,039 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-22 10:29:27,075 - INFO - Duplicate article skipped: Nigeria Papiri kidnapping: All pupils kidnapped from Catholic school now free - officials from BBC
+2025-12-22 10:29:27,378 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/20/us-second-merchant-vessel-venezuela
+2025-12-22 10:29:27,378 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:27,401 - INFO - [The Guardian] Success with 'requests_browser'. Found content (911 words).
+2025-12-22 10:29:27,437 - INFO - Duplicate article skipped: US intercepts second merchant vessel off coast of Venezuela in international waters | US military | The Guardian from The Guardian
+2025-12-22 10:29:27,759 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn8eknv7zkyo?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:27,759 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:27,798 - INFO - [BBC] Success with 'requests_browser'. Found content (2103 words).
+2025-12-22 10:29:27,847 - INFO - Duplicate article skipped: A memorial ends - but Bondi tragedy has left Australia reeling, again from BBC
+2025-12-22 10:29:28,352 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/19/trump-venezuela-war
+2025-12-22 10:29:28,352 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:28,485 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqjg18xe0wwo?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:28,485 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:28,514 - INFO - [The Guardian] Success with 'requests_browser'. Found content (817 words).
+2025-12-22 10:29:28,556 - INFO - Duplicate article skipped: Trump and top aides refuse to rule out war with Venezuela | US foreign policy | The Guardian from The Guardian
+2025-12-22 10:29:28,561 - INFO - [BBC] Success with 'requests_browser'. Found content (515 words).
+2025-12-22 10:29:28,598 - INFO - Duplicate article skipped: Israel approves 19 new settlements in occupied West Bank from BBC
+2025-12-22 10:29:28,833 - INFO - Selenium driver initialized successfully.
+2025-12-22 10:29:28,833 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-22 10:29:28,834 - INFO - Selenium driver initialized successfully.
+2025-12-22 10:29:28,834 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-22 10:29:28,908 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-22 10:29:28,909 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/saudi-arabia-honours-asim-munir-pakistan-army-chief-conferred-king-abdulaziz-medal-of-excellence-defence-ties-in-focus/articleshow/126119051.cms
+2025-12-22 10:29:28,909 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 10:29:29,382 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5ydej888n9o?at_medium=RSS&at_campaign=rss
+2025-12-22 10:29:29,382 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:29,407 - INFO - [BBC] Success with 'requests_browser'. Found content (653 words).
+2025-12-22 10:29:29,442 - INFO - Duplicate article skipped: Thailand, Cambodia agree to talks in bid to end deadly conflict - minister from BBC
+2025-12-22 10:29:29,521 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/19/montreal-grocery-store-santas-elves-robbery
+2025-12-22 10:29:29,521 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 10:29:29,543 - INFO - [The Guardian] Success with 'requests_browser'. Found content (403 words).
+2025-12-22 10:29:29,584 - INFO - Duplicate article skipped: Santas and elves rob Montreal grocery store to ‘give food to the needy’ | Canada | The Guardian from The Guardian
+2025-12-22 10:29:29,635 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-22 10:29:29,635 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Kochi/udf-in-kerala-inducts-pv-anvar-ck-janu-as-associate-members/article70425585.ece
+2025-12-22 10:29:29,635 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 10:31:29,007 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/pakistan/saudi-arabia-honours-asim-munir-pakistan-army-chief-conferred-king-abdulaziz-medal-of-excellence-defence-ties-in-focus/articleshow/126119051.cms: HTTPConnectionPool(host='localhost', port=49177): Read timed out. (read timeout=120)
+2025-12-22 10:31:29,007 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/pakistan/saudi-arabia-honours-asim-munir-pakistan-army-chief-conferred-king-abdulaziz-medal-of-excellence-defence-ties-in-focus/articleshow/126119051.cms. Falling back to RSS description.
+2025-12-22 10:31:29,010 - INFO - Saved article: Saudi Arabia honours Asim Munir: Pakistan army chief conferred King Abdulaziz Medal of Excellence; defence ties in focus from Times of India
+2025-12-22 10:31:29,564 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/watch-asim-munir-says-he-felt-divine-intervention-during-operation-sindoor-asks-afghanistan-to-choose-between-pakistan-and-ttp/articleshow/126115813.cms
+2025-12-22 10:31:29,564 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 10:31:29,728 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/cities/Kochi/udf-in-kerala-inducts-pv-anvar-ck-janu-as-associate-members/article70425585.ece: HTTPConnectionPool(host='localhost', port=59341): Read timed out. (read timeout=120)
+2025-12-22 10:31:29,728 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/Kochi/udf-in-kerala-inducts-pv-anvar-ck-janu-as-associate-members/article70425585.ece. Falling back to RSS description.
+2025-12-22 10:31:29,731 - INFO - Saved article: UDF in Kerala inducts P.V. Anvar, C.K. Janu as associate members from The Hindu
+2025-12-22 10:31:30,916 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jaishankar-to-visit-sri-lanka-as-special-envoy-of-pm-modi-on-december-23/article70425550.ece
+2025-12-22 10:31:30,916 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 10:33:29,657 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/pakistan/watch-asim-munir-says-he-felt-divine-intervention-during-operation-sindoor-asks-afghanistan-to-choose-between-pakistan-and-ttp/articleshow/126115813.cms: HTTPConnectionPool(host='localhost', port=49177): Read timed out. (read timeout=120)
+2025-12-22 10:33:29,657 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/pakistan/watch-asim-munir-says-he-felt-divine-intervention-during-operation-sindoor-asks-afghanistan-to-choose-between-pakistan-and-ttp/articleshow/126115813.cms. Falling back to RSS description.
+2025-12-22 10:33:29,660 - INFO - Saved article: Watch: Asim Munir says he felt 'divine intervention' during Operation Sindoor; asks Afghanistan to choose between Pakistan and TTP from Times of India
+2025-12-22 10:33:30,566 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/can-you-qualify-for-a-uae-golden-visa-by-buying-real-estate-with-crypto/articleshow/126116052.cms
+2025-12-22 10:33:30,566 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 10:33:31,017 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/jaishankar-to-visit-sri-lanka-as-special-envoy-of-pm-modi-on-december-23/article70425550.ece: HTTPConnectionPool(host='localhost', port=59341): Read timed out. (read timeout=120)
+2025-12-22 10:33:31,017 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/jaishankar-to-visit-sri-lanka-as-special-envoy-of-pm-modi-on-december-23/article70425550.ece. Falling back to RSS description.
+2025-12-22 10:33:31,019 - INFO - Saved article: Jaishankar to visit Sri Lanka as Special Envoy of PM Modi on December 23 from The Hindu
+2025-12-22 10:33:32,249 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/police-raid-on-gambling-den-in-eluru-district-281-arrested-130-cars-32-lakh-cash-seized/article70425336.ece
+2025-12-22 10:33:32,249 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 10:34:20,068 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-12-22 10:34:20,068 - ERROR - A thread has timed out and will be abandoned.
+2025-12-22 10:34:20,069 - ERROR - A thread has timed out and will be abandoned.
+2025-12-22 10:34:20,069 - INFO - Shutting down thread pool (wait=False)...
+2025-12-22 10:34:20,069 - INFO - Scraped: 1 BBC, 0 The Guardian, 2 Timed_Out_Jobs articles. (Total saved: 1)
+2025-12-22 10:34:20,069 - INFO - --- Scraping job finished ---
+2025-12-22 10:34:20,069 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-22 10:34:20,069 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
