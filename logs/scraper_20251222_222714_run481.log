@@ -1,0 +1,209 @@
+2025-12-22 22:26:05,627 - INFO - Initializing database connection at: news_articles.db
+2025-12-22 22:26:05,627 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-22 22:26:05,627 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-22 22:26:05,627 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-22 22:26:05,627 - INFO - Proxy is DISABLED.
+2025-12-22 22:26:05,628 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-22 22:26:05,628 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-22 22:26:05,628 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-22 22:26:05,631 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-22 22:26:05,632 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-22 22:26:05,632 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-22 22:26:05,632 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-22 22:26:05,899 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-22 22:26:05,899 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/freed-nigerian-schoolchildren-set-to-be-reunited-with-families
+2025-12-22 22:26:05,899 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:05,930 - INFO - [The Guardian] Success with 'requests_browser'. Found content (365 words).
+2025-12-22 22:26:05,960 - INFO - Duplicate article skipped: Freed Nigerian schoolchildren to be reunited with families | Nigeria | The Guardian from The Guardian
+2025-12-22 22:26:06,176 - INFO - Found 36 articles in BBC RSS feed. Processing up to 10.
+2025-12-22 22:26:06,176 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgmd132ge4o?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:06,176 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:06,488 - INFO - [BBC] Success with 'requests_browser'. Found content (729 words).
+2025-12-22 22:26:06,520 - INFO - Duplicate article skipped: New Trump envoy says he will serve to make Greenland part of US from BBC
+2025-12-22 22:26:07,009 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/more-kidnapped-schoolchildren-freed-in-nigeria
+2025-12-22 22:26:07,009 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:07,100 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8jwn9wznx1o?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:07,101 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:07,132 - INFO - [BBC] Success with 'requests_browser'. Found content (334 words).
+2025-12-22 22:26:07,160 - INFO - Duplicate article skipped: Russian general killed by car bomb in Moscow, officials say from BBC
+2025-12-22 22:26:07,174 - INFO - [The Guardian] Success with 'requests_browser'. Found content (382 words).
+2025-12-22 22:26:07,203 - INFO - Duplicate article skipped: Another 130 kidnapped schoolchildren released in Nigeria | Nigeria | The Guardian from The Guardian
+2025-12-22 22:26:07,814 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/dec/21/manchester-museum-uncover-hidden-histories-africa-hub
+2025-12-22 22:26:07,814 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:07,935 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxe8yqlvgzo?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:07,935 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:07,968 - INFO - [BBC] Success with 'requests_browser'. Found content (655 words).
+2025-12-22 22:26:07,999 - INFO - Duplicate article skipped: Russia escalates attacks on key Ukrainian region of Odesa from BBC
+2025-12-22 22:26:08,063 - INFO - [The Guardian] Success with 'requests_browser'. Found content (543 words).
+2025-12-22 22:26:08,093 - INFO - Duplicate article skipped: Manchester Museum seeks help to uncover hidden histories of African collection | Manchester | The Guardian from The Guardian
+2025-12-22 22:26:09,138 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/21/sweden-and-germany-slash-aid-budgets-to-focus-on-ukraine-and-defence-spending
+2025-12-22 22:26:09,138 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:09,167 - INFO - [The Guardian] Success with 'requests_browser'. Found content (721 words).
+2025-12-22 22:26:09,197 - INFO - Duplicate article skipped: Sweden and Germany slash aid budgets to focus on Ukraine and defence spending | Global development | The Guardian from The Guardian
+2025-12-22 22:26:09,367 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz7ndpq42y0o?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:09,367 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:09,397 - INFO - [BBC] Success with 'requests_browser'. Found content (479 words).
+2025-12-22 22:26:09,432 - INFO - Saved article: Wildfire-hit town wins €468m in Spain's Christmas lottery from BBC
+2025-12-22 22:26:10,020 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2dmj7p8y2o?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:10,020 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:10,057 - INFO - [BBC] Success with 'requests_browser'. Found content (830 words).
+2025-12-22 22:26:10,090 - INFO - Saved article: NGOs fear Israel registration rules risk collapse of Gaza aid operations from BBC
+2025-12-22 22:26:10,354 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/gunmen-johannesburg-township-in-south-africas-second-mass-shooting-within-weeks
+2025-12-22 22:26:10,354 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:10,382 - INFO - [The Guardian] Success with 'requests_browser'. Found content (473 words).
+2025-12-22 22:26:10,412 - INFO - Duplicate article skipped: Gunmen kill nine in Johannesburg township in South Africa’s second mass shooting this month | South Africa | The Guardian from The Guardian
+2025-12-22 22:26:10,863 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2084n1pyvdo?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:10,863 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:10,899 - INFO - [BBC] Success with 'requests_browser'. Found content (1077 words).
+2025-12-22 22:26:10,955 - INFO - Duplicate article skipped: Baby Siwar back in hospital in Gaza after returning from treatment in Jordan from BBC
+2025-12-22 22:26:11,415 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/22/cbs-pulls-60-minutes-segment-el-salvador-prison
+2025-12-22 22:26:11,415 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:11,443 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1192 words).
+2025-12-22 22:26:11,473 - INFO - Duplicate article skipped: Outrage after CBS pulls 60 Minutes segment on El Salvador’s Cecot prison | CBS | The Guardian from The Guardian
+2025-12-22 22:26:12,342 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/ecuador-guayaquil-four-military-sentenced
+2025-12-22 22:26:12,342 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:12,369 - INFO - [The Guardian] Success with 'requests_browser'. Found content (577 words).
+2025-12-22 22:26:12,398 - INFO - Duplicate article skipped: Ecuador court sentences 11 air force troops over disappearance of four boys | Ecuador | The Guardian from The Guardian
+2025-12-22 22:26:12,415 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx237k4rr04o?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:12,415 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:12,445 - INFO - [BBC] Success with 'requests_browser'. Found content (423 words).
+2025-12-22 22:26:12,473 - INFO - Saved article: Ecuadorean soldiers found guilty of boys' forced disappearance from BBC
+2025-12-22 22:26:13,446 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz0n51p00jmo?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:13,447 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:13,449 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/22/cbs-news-delays-60-minutes-segment-featuring-investigation-into-cecot-megaprison
+2025-12-22 22:26:13,449 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:13,483 - INFO - [BBC] Success with 'requests_browser'. Found content (352 words).
+2025-12-22 22:26:13,509 - INFO - Duplicate article skipped: Élysée Palace staff member to stand trial over theft of precious tableware from BBC
+2025-12-22 22:26:13,513 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1052 words).
+2025-12-22 22:26:13,544 - INFO - Duplicate article skipped: CBS News delays 60 Minutes segment on El Salvador’s Cecot mega-prison | CBS | The Guardian from The Guardian
+2025-12-22 22:26:14,333 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5ydej888n9o?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:14,333 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:14,366 - INFO - [BBC] Success with 'requests_browser'. Found content (653 words).
+2025-12-22 22:26:14,397 - INFO - Duplicate article skipped: Thailand, Cambodia agree to talks in bid to end deadly conflict - minister from BBC
+2025-12-22 22:26:14,865 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/man-jailed-1335-years-el-salvador-sentences-ms-13-gang-members
+2025-12-22 22:26:14,866 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:15,025 - INFO - [The Guardian] Success with 'requests_browser'. Found content (273 words).
+2025-12-22 22:26:15,053 - INFO - Duplicate article skipped: Man jailed for 1,335 years as El Salvador sentences almost 250 MS-13 gang members | El Salvador | The Guardian from The Guardian
+2025-12-22 22:26:15,445 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd74ldr2zryo?at_medium=RSS&at_campaign=rss
+2025-12-22 22:26:15,445 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:15,478 - INFO - [BBC] Success with 'requests_browser'. Found content (531 words).
+2025-12-22 22:26:15,508 - INFO - Duplicate article skipped: Gold and silver hit records as investors hunt for safety from BBC
+2025-12-22 22:26:16,305 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/21/coast-guard-pursuing-oil-tanker-venezuela-coast
+2025-12-22 22:26:16,305 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 22:26:16,779 - INFO - [The Guardian] Success with 'requests_browser'. Found content (652 words).
+2025-12-22 22:26:16,810 - INFO - Duplicate article skipped: US Coast Guard pursuing another oil tanker off coast of Venezuela | Trump administration | The Guardian from The Guardian
+2025-12-22 22:26:25,563 - INFO - Selenium driver initialized successfully.
+2025-12-22 22:26:25,563 - INFO - Selenium driver initialized successfully.
+2025-12-22 22:26:25,563 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-22 22:26:25,564 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-22 22:26:25,939 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-22 22:26:25,939 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/maga-rift-heritage-foundation-staff-walk-out-after-president-defends-tucker-carlson-interview-with-nick-fuentes/articleshow/126128706.cms
+2025-12-22 22:26:25,939 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:26,460 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-22 22:26:26,460 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttarakhand/haridwar-hotel-cancel-christmas-event-after-protest-by-hindu-groups/article70427146.ece
+2025-12-22 22:26:26,460 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:34,175 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:35,551 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (172 words).
+2025-12-22 22:26:35,683 - INFO - Saved article: Haridwar hotel cancel Christmas event after protest by Hindu groups - The Hindu from The Hindu
+2025-12-22 22:26:36,890 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/shiv-sena-ubt-and-mns-to-announce-alliance-in-two-days/article70426579.ece
+2025-12-22 22:26:36,890 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:38,722 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:26:39,303 - INFO - [Times of India] Success with 'selenium_browser'. Found content (607 words).
+2025-12-22 22:26:39,590 - INFO - Saved article: MAGA rift: Heritage Foundation staff walk out after president defends Tucker Carlson interview with Nick Fuentes | World News - The Times of India from Times of India
+2025-12-22 22:26:40,987 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/who-is-saeed-tavakoli-iranian-national-wanted-by-fbi-for-links-to-islamic-terror-group-and-alleged-violent-operations/articleshow/126128730.cms
+2025-12-22 22:26:40,987 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:41,969 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:42,923 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (362 words).
+2025-12-22 22:26:43,000 - INFO - Saved article: Shiv Sena (UBT) and MNS to announce alliance in two days - The Hindu from The Hindu
+2025-12-22 22:26:43,587 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/haryana/haryana-assembly-amends-private-universities-law-to-tighten-its-grip-over-the-institutes/article70427231.ece
+2025-12-22 22:26:43,587 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:44,361 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:26:44,364 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:44,415 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (414 words).
+2025-12-22 22:26:44,510 - INFO - Saved article: Haryana Assembly amends private universities law to tighten its grip over the institutes - The Hindu from The Hindu
+2025-12-22 22:26:44,604 - INFO - [Times of India] Success with 'selenium_browser'. Found content (265 words).
+2025-12-22 22:26:44,721 - INFO - Saved article: Who is Saeed Tavakoli? Iranian national wanted by FBI for links to Islamic terror group and alleged violent operations - The Times of India from Times of India
+2025-12-22 22:26:45,315 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/bjp-is-pushing-country-towardsits-endby-removing-gandhijis-name-from-mgnrega-mamata-on-vb-g-ram-g-bill/article70426477.ece
+2025-12-22 22:26:45,315 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:45,744 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/business/international-business/fedex-questioned-for-hiring-hundreds-of-h-1b-workers-while-firing-us-staff-after-2-24-billion-federal-contract-our-strategy-is-/articleshow/126128648.cms
+2025-12-22 22:26:45,744 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:47,326 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:47,470 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (292 words).
+2025-12-22 22:26:47,547 - INFO - Saved article: BJP is pushing country towards its end by removing Gandhiji’s name from MGNREGA: Mamata on VB-G RAM G Bill - The Hindu from The Hindu
+2025-12-22 22:26:47,569 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:26:47,686 - INFO - [Times of India] Success with 'selenium_browser'. Found content (476 words).
+2025-12-22 22:26:47,735 - INFO - Saved article: FedEx questioned for hiring hundreds of H-1B workers while firing US staff after $2.24 billion federal contract: 'Our strategy is...' - The Times of India from Times of India
+2025-12-22 22:26:48,669 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/real-life-stranger-things-girl-who-went-to-explore-hawkins-lab-site-dies-after-falling-from-building/articleshow/126128579.cms
+2025-12-22 22:26:48,669 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:48,953 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/agustawestland-court-reserves-order-on-christian-michels-plea-seeking-release-in-cbi-case/article70426910.ece
+2025-12-22 22:26:48,953 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:49,647 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:26:49,747 - INFO - [Times of India] Success with 'selenium_browser'. Found content (457 words).
+2025-12-22 22:26:49,813 - INFO - Duplicate article skipped: Real-life Stranger Things: Girl who went to explore Hawkins Lab site dies after falling from building | World News - The Times of India from Times of India
+2025-12-22 22:26:49,918 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:50,009 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (200 words).
+2025-12-22 22:26:50,127 - INFO - Duplicate article skipped: AgustaWestland: Court reserves order on Christian Michel’s plea seeking release in CBI case - The Hindu from The Hindu
+2025-12-22 22:26:50,367 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/maga-meltdown-at-americafest-carlson-kelly-bannon-shapiro-and-owens-clash-in-media-fray/articleshow/126128552.cms
+2025-12-22 22:26:50,367 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:51,243 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bangladesh-high-commission-stops-visa-services-citing-security-situation/article70427161.ece
+2025-12-22 22:26:51,243 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:51,843 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:26:52,005 - INFO - [Times of India] Success with 'selenium_browser'. Found content (360 words).
+2025-12-22 22:26:52,099 - INFO - Duplicate article skipped: MAGA meltdown at AmericaFest: Carlson, Kelly, Bannon, Shapiro, and Owens clash in media fray - The Times of India from Times of India
+2025-12-22 22:26:52,215 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:52,352 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (412 words).
+2025-12-22 22:26:52,480 - INFO - Duplicate article skipped: Bangladesh High Commission stops visa services citing ‘security situation’ - The Hindu from The Hindu
+2025-12-22 22:26:52,821 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/french-court-rejects-nationwide-kick-ban-following-jean-pormanoves-death/articleshow/126128145.cms
+2025-12-22 22:26:52,821 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:53,348 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/must-learn-hindi-to-work-in-delhi-bjp-councillor-tells-football-coach-from-africa/article70427389.ece
+2025-12-22 22:26:53,348 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:54,314 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:54,403 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (309 words).
+2025-12-22 22:26:54,480 - INFO - Duplicate article skipped: Must learn Hindi to work in Delhi, BJP councillor tells football coach from Africa - The Hindu from The Hindu
+2025-12-22 22:26:55,212 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/axiado-corporation-raises-100-million-to-hire-more-in-india/article70426218.ece
+2025-12-22 22:26:55,212 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:26:56,525 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:26:56,597 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (279 words).
+2025-12-22 22:26:56,680 - INFO - Duplicate article skipped: Axiado Corporation raises $100 million, to hire more in India - The Hindu from The Hindu
+2025-12-22 22:26:58,032 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/motilal-oswal-alternates-invests-72-million-in-hyderabad-medical-devices-maker-sensa-core/article70426043.ece
+2025-12-22 22:26:58,032 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:27:00,232 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:27:00,426 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (304 words).
+2025-12-22 22:27:00,550 - INFO - Duplicate article skipped: Motilal Oswal Alternates invests $72 million in Hyderabad medical devices maker Sensa Core - The Hindu from The Hindu
+2025-12-22 22:27:01,415 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/sc-constituencies-in-tamil-nadu-see-lower-reduction-in-electorate-size-due-to-special-intensive-revision/article70426642.ece
+2025-12-22 22:27:01,416 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:27:03,015 - INFO - [The Hindu] Page content loaded.
+2025-12-22 22:27:03,143 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (305 words).
+2025-12-22 22:27:03,229 - INFO - Duplicate article skipped: SC constituencies in Tamil Nadu see lower reduction in electorate size due to Special Intensive Revision - The Hindu from The Hindu
+2025-12-22 22:27:04,546 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-22 22:27:04,675 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-22 22:27:04,870 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-12-22 22:27:05,035 - INFO - [Times of India] Success with 'selenium_browser'. Found content (404 words).
+2025-12-22 22:27:05,121 - INFO - Duplicate article skipped: French court rejects nationwide Kick ban following Jean Pormanove’s death - The Times of India from Times of India
+2025-12-22 22:27:06,573 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/trumps-greenland-obsession-gets-official-president-taps-maga-ally-as-greenland-envoy-denmark-warns-on-sovereignty/articleshow/126127673.cms
+2025-12-22 22:27:06,573 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:27:07,264 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:27:07,382 - INFO - [Times of India] Success with 'selenium_browser'. Found content (512 words).
+2025-12-22 22:27:07,433 - INFO - Duplicate article skipped: Trump’s Greenland obsession gets official: President taps MAGA ally as Greenland envoy; Denmark warns on sovereignty - The Times of India from Times of India
+2025-12-22 22:27:08,833 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/real-christianity-means-restricting-h-1bs-right-wing-influencer-confronts-jd-vance-on-american-identity-after-fiery-americafest-speech/articleshow/126127313.cms
+2025-12-22 22:27:08,833 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:27:09,775 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:27:09,897 - INFO - [Times of India] Success with 'selenium_browser'. Found content (319 words).
+2025-12-22 22:27:09,954 - INFO - Duplicate article skipped: 'Real Christianity means restricting H-1Bs': Right-wing influencer confronts JD Vance on 'American identity' after fiery AmericaFest speech - The Times of India from Times of India
+2025-12-22 22:27:11,075 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/embarrassment-fbi-director-kash-patel-under-fire-for-using-taxpayer-funded-armoured-bmw-x5-new-jet-demand/articleshow/126127095.cms
+2025-12-22 22:27:11,075 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:27:11,679 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:27:11,827 - INFO - [Times of India] Success with 'selenium_browser'. Found content (491 words).
+2025-12-22 22:27:11,904 - INFO - Duplicate article skipped: ‘Embarrassment’: FBI director Kash Patel under fire for using taxpayer-funded armoured BMW X5, new jet demand - The Times of India from Times of India
+2025-12-22 22:27:12,866 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/marjorie-taylor-greene-says-venezuelas-maduro-critical-of-israel-opposition-maria-corina-machado-backs-strong-ties-with-jerusalem/articleshow/126125928.cms
+2025-12-22 22:27:12,866 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 22:27:13,509 - INFO - [Times of India] Page content loaded.
+2025-12-22 22:27:13,628 - INFO - [Times of India] Success with 'selenium_browser'. Found content (282 words).
+2025-12-22 22:27:13,724 - INFO - Duplicate article skipped: Marjorie Taylor Greene says Venezuela’s Maduro critical of Israel, opposition Maria Corina Machado backs strong ties with Jerusalem - The Times of India from Times of India
+2025-12-22 22:27:14,646 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-22 22:27:14,813 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-22 22:27:14,813 - INFO - Shutting down thread pool (wait=False)...
+2025-12-22 22:27:14,813 - INFO - Scraped: 3 Times of India, 3 BBC, 4 The Hindu, 0 The Guardian articles. (Total saved: 10)
+2025-12-22 22:27:14,813 - INFO - --- Scraping job finished ---
+2025-12-22 22:27:14,821 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-22 22:27:14,821 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
