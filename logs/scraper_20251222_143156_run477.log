@@ -1,0 +1,171 @@
+2025-12-22 14:26:56,892 - INFO - Initializing database connection at: news_articles.db
+2025-12-22 14:26:56,892 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-22 14:26:56,892 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-22 14:26:56,892 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-22 14:26:56,892 - INFO - Proxy is DISABLED.
+2025-12-22 14:26:56,893 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-22 14:26:56,893 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-22 14:26:56,893 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-22 14:26:56,894 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-22 14:26:56,897 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-22 14:26:56,897 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-22 14:26:56,898 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-22 14:26:57,014 - INFO - Found 30 articles in BBC RSS feed. Processing up to 10.
+2025-12-22 14:26:57,014 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce86l95gx5po?at_medium=RSS&at_campaign=rss
+2025-12-22 14:26:57,014 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:57,035 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-22 14:26:57,035 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/freed-nigerian-schoolchildren-set-to-be-reunited-with-families
+2025-12-22 14:26:57,035 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:57,064 - INFO - [The Guardian] Success with 'requests_browser'. Found content (366 words).
+2025-12-22 14:26:57,102 - INFO - Duplicate article skipped: Freed Nigerian schoolchildren to be reunited with families | Nigeria | The Guardian from The Guardian
+2025-12-22 14:26:57,158 - INFO - [BBC] Success with 'requests_browser'. Found content (919 words).
+2025-12-22 14:26:57,195 - INFO - Duplicate article skipped: Bondi gunmen 'meticulously' planned attack for months, police allege from BBC
+2025-12-22 14:26:58,080 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/more-kidnapped-schoolchildren-freed-in-nigeria
+2025-12-22 14:26:58,080 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:58,108 - INFO - [The Guardian] Success with 'requests_browser'. Found content (382 words).
+2025-12-22 14:26:58,141 - INFO - Duplicate article skipped: Another 130 kidnapped schoolchildren released in Nigeria | Nigeria | The Guardian from The Guardian
+2025-12-22 14:26:58,680 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgmd132ge4o?at_medium=RSS&at_campaign=rss
+2025-12-22 14:26:58,680 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:58,707 - INFO - [BBC] Success with 'requests_browser'. Found content (411 words).
+2025-12-22 14:26:58,751 - INFO - Saved article: Trump names envoy to Greenland, sparking fresh row with Denmark from BBC
+2025-12-22 14:26:59,207 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/dec/21/manchester-museum-uncover-hidden-histories-africa-hub
+2025-12-22 14:26:59,207 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:59,232 - INFO - [The Guardian] Success with 'requests_browser'. Found content (543 words).
+2025-12-22 14:26:59,268 - INFO - Duplicate article skipped: Manchester Museum seeks help to uncover hidden histories of African collection | Manchester | The Guardian from The Guardian
+2025-12-22 14:26:59,279 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8jwn9wznx1o?at_medium=RSS&at_campaign=rss
+2025-12-22 14:26:59,279 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:59,304 - INFO - [BBC] Success with 'requests_browser'. Found content (313 words).
+2025-12-22 14:26:59,333 - INFO - Duplicate article skipped: Russian general killed by car bomb in Moscow, officials say from BBC
+2025-12-22 14:26:59,858 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/21/sweden-and-germany-slash-aid-budgets-to-focus-on-ukraine-and-defence-spending
+2025-12-22 14:26:59,858 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:26:59,884 - INFO - [The Guardian] Success with 'requests_browser'. Found content (721 words).
+2025-12-22 14:26:59,918 - INFO - Duplicate article skipped: Sweden and Germany slash aid budgets to focus on Ukraine and defence spending | Global development | The Guardian from The Guardian
+2025-12-22 14:26:59,999 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdd5j9jdvy9o?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:00,000 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:00,028 - INFO - [BBC] Success with 'requests_browser'. Found content (661 words).
+2025-12-22 14:27:00,065 - INFO - Duplicate article skipped: US lawmakers threaten Pam Bondi with contempt action over unreleased Epstein material from BBC
+2025-12-22 14:27:00,582 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5ydej888n9o?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:00,582 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:00,611 - INFO - [BBC] Success with 'requests_browser'. Found content (653 words).
+2025-12-22 14:27:00,645 - INFO - Duplicate article skipped: Thailand, Cambodia agree to talks in bid to end deadly conflict - minister from BBC
+2025-12-22 14:27:01,419 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/gunmen-johannesburg-township-in-south-africas-second-mass-shooting-within-weeks
+2025-12-22 14:27:01,419 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:01,441 - INFO - [The Guardian] Success with 'requests_browser'. Found content (473 words).
+2025-12-22 14:27:01,502 - INFO - Duplicate article skipped: Gunmen kill nine in Johannesburg township in South Africa’s second mass shooting this month | South Africa | The Guardian from The Guardian
+2025-12-22 14:27:01,882 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd74ldr2zryo?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:01,882 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:01,907 - INFO - [BBC] Success with 'requests_browser'. Found content (524 words).
+2025-12-22 14:27:01,942 - INFO - Duplicate article skipped: Gold price climbs above $4,400 to hit record high from BBC
+2025-12-22 14:27:02,265 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/22/cbs-news-delays-60-minutes-segment-featuring-investigation-into-cecot-megaprison
+2025-12-22 14:27:02,265 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:02,378 - INFO - [The Guardian] Success with 'requests_browser'. Found content (802 words).
+2025-12-22 14:27:02,414 - INFO - Duplicate article skipped: CBS News delays 60 Minutes segment on El Salvador’s Cecot megaprison | CBS | The Guardian from The Guardian
+2025-12-22 14:27:03,203 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/man-jailed-1335-years-el-salvador-sentences-ms-13-gang-members
+2025-12-22 14:27:03,203 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:03,227 - INFO - [The Guardian] Success with 'requests_browser'. Found content (273 words).
+2025-12-22 14:27:03,263 - INFO - Duplicate article skipped: Man jailed for 1,335 years as El Salvador sentences almost 250 MS-13 gang members | El Salvador | The Guardian from The Guardian
+2025-12-22 14:27:03,429 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cjrjpdz33vxo?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:03,429 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:03,457 - INFO - [BBC] Success with 'requests_browser'. Found content (1328 words).
+2025-12-22 14:27:03,488 - INFO - Duplicate article skipped: In rebel-held Myanmar, civilians flee junta airstrikes and a forced election from BBC
+2025-12-22 14:27:04,412 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn5lnzlvqg2o?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:04,412 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:04,438 - INFO - [BBC] Success with 'requests_browser'. Found content (529 words).
+2025-12-22 14:27:04,474 - INFO - Duplicate article skipped: US and Ukraine call Miami talks productive despite no breakthrough from BBC
+2025-12-22 14:27:04,702 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/21/coast-guard-pursuing-oil-tanker-venezuela-coast
+2025-12-22 14:27:04,702 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:04,732 - INFO - [The Guardian] Success with 'requests_browser'. Found content (651 words).
+2025-12-22 14:27:04,769 - INFO - Duplicate article skipped: US Coast Guard pursuing another oil tanker off coast of Venezuela | Trump administration | The Guardian from The Guardian
+2025-12-22 14:27:05,286 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c99722j4lkgo?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:05,286 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:05,317 - INFO - [BBC] Success with 'requests_browser'. Found content (681 words).
+2025-12-22 14:27:05,355 - INFO - Duplicate article skipped: US reportedly pursuing third oil tanker linked to Venezuela from BBC
+2025-12-22 14:27:05,657 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/20/us-second-merchant-vessel-venezuela
+2025-12-22 14:27:05,657 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:05,683 - INFO - [The Guardian] Success with 'requests_browser'. Found content (911 words).
+2025-12-22 14:27:05,718 - INFO - Duplicate article skipped: US intercepts second merchant vessel off coast of Venezuela in international waters | US military | The Guardian from The Guardian
+2025-12-22 14:27:06,084 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3d03943zg8o?at_medium=RSS&at_campaign=rss
+2025-12-22 14:27:06,084 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:06,113 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-22 14:27:06,149 - INFO - Duplicate article skipped: Nigeria Papiri kidnapping: All pupils kidnapped from Catholic school now free - officials from BBC
+2025-12-22 14:27:06,272 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/19/trump-venezuela-war
+2025-12-22 14:27:06,272 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-22 14:27:06,295 - INFO - [The Guardian] Success with 'requests_browser'. Found content (817 words).
+2025-12-22 14:27:06,331 - INFO - Duplicate article skipped: Trump and top aides refuse to rule out war with Venezuela | US foreign policy | The Guardian from The Guardian
+2025-12-22 14:27:08,026 - INFO - Selenium driver initialized successfully.
+2025-12-22 14:27:08,026 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-22 14:27:08,028 - INFO - Selenium driver initialized successfully.
+2025-12-22 14:27:08,028 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-22 14:27:08,345 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-22 14:27:08,345 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/why-is-joey-swoll-facing-a-transphobia-backlash-after-his-gym-locker-room-video-exploring-fitness-influencers-explosive-remarks/articleshow/126122554.cms
+2025-12-22 14:27:08,346 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:10,569 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-22 14:27:10,570 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/private-hospitals-flag-concerns-over-kpme-amendment-bill-2025/article70426052.ece
+2025-12-22 14:27:10,570 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:17,947 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:18,144 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (540 words).
+2025-12-22 14:27:18,294 - INFO - Saved article: Private hospitals flag concerns over KPME (Amendment) Bill, 2025 - The Hindu from The Hindu
+2025-12-22 14:27:19,285 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/strive-to-protect-indias-glorious-educational-heritage-says-joshi/article70426495.ece
+2025-12-22 14:27:19,285 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:22,017 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:22,239 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (326 words).
+2025-12-22 14:27:22,448 - INFO - Saved article: Strive to protect India’s glorious educational heritage, says Joshi - The Hindu from The Hindu
+2025-12-22 14:27:23,848 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/suvenduadhikari-leads-protests-outside-bangladesh-deputy-high-commission-in-kolkata-against-attack-on-hindus/article70426013.ece
+2025-12-22 14:27:23,848 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:26,681 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:26,808 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (354 words).
+2025-12-22 14:27:26,992 - INFO - Saved article: Suvendu Adhikari leads protests outside Bangladesh Deputy High Commission in Kolkata against attack on Hindus - The Hindu from The Hindu
+2025-12-22 14:27:27,797 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/gen-z-grooves-launched-to-train-young-percussionists/article70426323.ece
+2025-12-22 14:27:27,798 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:28,806 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:29,184 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (227 words).
+2025-12-22 14:27:29,283 - INFO - Saved article: ‘Gen Z Grooves’ launched to train young percussionists - The Hindu from The Hindu
+2025-12-22 14:27:30,341 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/son-in-law-his-brother-rob-mother-in-law-of-60-lakh-in-shidlaghatta-three-arrested/article70426094.ece
+2025-12-22 14:27:30,341 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:32,352 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:32,432 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (349 words).
+2025-12-22 14:27:32,508 - INFO - Saved article: Son-in-law, his brother rob mother-in-law of ₹60 lakh in Shidlaghatta; three arrested - The Hindu from The Hindu
+2025-12-22 14:27:33,663 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/200-students-take-part-in-national-agritech-hackathon-in-guntur/article70426409.ece
+2025-12-22 14:27:33,663 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:34,469 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:34,635 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (102 words).
+2025-12-22 14:27:34,712 - INFO - Saved article: 200 students take part in National Agritech Hackathon in Guntur - The Hindu from The Hindu
+2025-12-22 14:27:35,932 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/fir-registered-against-supplier-of-low-quality-tur-dal/article70426313.ece
+2025-12-22 14:27:35,932 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:36,687 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:36,741 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (137 words).
+2025-12-22 14:27:36,813 - INFO - Saved article: FIR registered against supplier of low-quality tur dal - The Hindu from The Hindu
+2025-12-22 14:27:38,307 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/pink-line-prototype-metro-train-moved-to-kothanur-depot/article70426165.ece
+2025-12-22 14:27:38,307 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:39,380 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:39,568 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (298 words).
+2025-12-22 14:27:39,657 - INFO - Saved article: Pink Line prototype metro train moved to Kothanur depot - The Hindu from The Hindu
+2025-12-22 14:27:40,848 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/health-education-and-jobs-remain-core-priorities-of-telangana-government-mallu-bhatti-vikramarka/article70426265.ece
+2025-12-22 14:27:40,848 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:41,774 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:41,876 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (192 words).
+2025-12-22 14:27:41,965 - INFO - Saved article: Health, education and jobs remain core priorities of Telangana government: Mallu Bhatti Vikramarka - The Hindu from The Hindu
+2025-12-22 14:27:42,688 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/chhattisgarh/chaitanya-baghel-received-200-250-crore-from-liquor-scam-acb-chargesheet/article70425947.ece
+2025-12-22 14:27:42,688 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:27:44,782 - INFO - [The Hindu] Page content loaded.
+2025-12-22 14:27:44,855 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (288 words).
+2025-12-22 14:27:44,933 - INFO - Saved article: Chaitanya Baghel received ₹200-250 crore from liquor scam: ACB chargesheet - The Hindu from The Hindu
+2025-12-22 14:27:46,347 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-22 14:27:46,525 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-22 14:29:08,362 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/why-is-joey-swoll-facing-a-transphobia-backlash-after-his-gym-locker-room-video-exploring-fitness-influencers-explosive-remarks/articleshow/126122554.cms: HTTPConnectionPool(host='localhost', port=56949): Read timed out. (read timeout=120)
+2025-12-22 14:29:08,362 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/why-is-joey-swoll-facing-a-transphobia-backlash-after-his-gym-locker-room-video-exploring-fitness-influencers-explosive-remarks/articleshow/126122554.cms. Falling back to RSS description.
+2025-12-22 14:29:08,364 - INFO - Saved article: Why is Joey Swoll facing a transphobia backlash after his gym locker room video? Exploring fitness influencer’s explosive remarks from Times of India
+2025-12-22 14:29:09,791 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/why-is-lowtiergod-suspended-from-twitch-again-sensational-streamers-seventh-suspension-sparks-fresh-controversy/articleshow/126123202.cms
+2025-12-22 14:29:09,791 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:31:09,834 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/why-is-lowtiergod-suspended-from-twitch-again-sensational-streamers-seventh-suspension-sparks-fresh-controversy/articleshow/126123202.cms: HTTPConnectionPool(host='localhost', port=56949): Read timed out. (read timeout=120)
+2025-12-22 14:31:09,834 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/why-is-lowtiergod-suspended-from-twitch-again-sensational-streamers-seventh-suspension-sparks-fresh-controversy/articleshow/126123202.cms. Falling back to RSS description.
+2025-12-22 14:31:09,836 - INFO - Saved article: Why is LowTierGod suspended from Twitch again? Sensational streamer’s seventh suspension sparks fresh controversy from Times of India
+2025-12-22 14:31:11,209 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/not-a-good-role-model-charlie-kirks-nicki-minaj-comment-goes-viral-during-tpusa-event/articleshow/126122185.cms
+2025-12-22 14:31:11,209 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-22 14:31:56,898 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-22 14:31:56,898 - ERROR - A thread has timed out and will be abandoned.
+2025-12-22 14:31:56,899 - INFO - Shutting down thread pool (wait=False)...
+2025-12-22 14:31:56,899 - INFO - Scraped: 1 BBC, 0 The Guardian, 10 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 11)
+2025-12-22 14:31:56,899 - INFO - --- Scraping job finished ---
+2025-12-22 14:31:56,899 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-22 14:31:56,899 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
