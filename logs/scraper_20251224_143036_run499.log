@@ -1,0 +1,316 @@
+2025-12-24 14:25:36,153 - INFO - Initializing database connection at: news_articles.db
+2025-12-24 14:25:36,153 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-24 14:25:36,153 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-24 14:25:36,153 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-24 14:25:36,154 - INFO - Proxy is DISABLED.
+2025-12-24 14:25:36,154 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-24 14:25:36,154 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-24 14:25:36,154 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-24 14:25:36,155 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-24 14:25:36,155 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-24 14:25:36,155 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-24 14:25:36,155 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-24 14:25:36,484 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-24 14:25:36,484 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/libyas-army-chief-dies-in-plane-crash-in-turkey
+2025-12-24 14:25:36,484 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:36,510 - INFO - [The Guardian] Success with 'requests_browser'. Found content (414 words).
+2025-12-24 14:25:36,552 - INFO - Duplicate article skipped: Libya’s army chief dies in plane crash in Turkey | Libya | The Guardian from The Guardian
+2025-12-24 14:25:36,866 - INFO - Found 25 articles in BBC RSS feed. Processing up to 10.
+2025-12-24 14:25:36,866 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9wg2pwl1o?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:36,866 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:37,531 - INFO - [BBC] Success with 'requests_browser'. Found content (936 words).
+2025-12-24 14:25:37,577 - INFO - Duplicate article skipped: Zelensky moves towards demilitarised zones in latest peace plan for Ukraine from BBC
+2025-12-24 14:25:37,635 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/freed-nigerian-schoolchildren-set-to-be-reunited-with-families
+2025-12-24 14:25:37,635 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:37,655 - INFO - [The Guardian] Success with 'requests_browser'. Found content (365 words).
+2025-12-24 14:25:37,690 - INFO - Duplicate article skipped: Freed Nigerian schoolchildren to be reunited with families | Nigeria | The Guardian from The Guardian
+2025-12-24 14:25:38,582 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd749gqgg11o?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:38,582 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:38,610 - INFO - [BBC] Success with 'requests_browser'. Found content (506 words).
+2025-12-24 14:25:38,648 - INFO - Duplicate article skipped: Venezuela accuses US of 'extortion' over seizure of oil tankers from BBC
+2025-12-24 14:25:38,717 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/more-kidnapped-schoolchildren-freed-in-nigeria
+2025-12-24 14:25:38,717 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:38,738 - INFO - [The Guardian] Success with 'requests_browser'. Found content (382 words).
+2025-12-24 14:25:38,775 - INFO - Duplicate article skipped: Another 130 kidnapped schoolchildren released in Nigeria | Nigeria | The Guardian from The Guardian
+2025-12-24 14:25:39,350 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/dec/21/manchester-museum-uncover-hidden-histories-africa-hub
+2025-12-24 14:25:39,350 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:39,372 - INFO - [The Guardian] Success with 'requests_browser'. Found content (543 words).
+2025-12-24 14:25:39,411 - INFO - Duplicate article skipped: Manchester Museum seeks help to uncover hidden histories of African collection | Manchester | The Guardian from The Guardian
+2025-12-24 14:25:40,075 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm28g5exx09o?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:40,075 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:40,106 - INFO - [BBC] Success with 'requests_browser'. Found content (798 words).
+2025-12-24 14:25:40,143 - INFO - Duplicate article skipped: Email by 'A' from 'Balmoral' asked Ghislaine Maxwell for 'inappropriate friends', Epstein files show from BBC
+2025-12-24 14:25:40,477 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/21/sweden-and-germany-slash-aid-budgets-to-focus-on-ukraine-and-defence-spending
+2025-12-24 14:25:40,477 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:40,498 - INFO - [The Guardian] Success with 'requests_browser'. Found content (721 words).
+2025-12-24 14:25:40,538 - INFO - Duplicate article skipped: Sweden and Germany slash aid budgets to focus on Ukraine and defence spending | Global development | The Guardian from The Guardian
+2025-12-24 14:25:40,825 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yj4yvx80do?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:40,825 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:40,868 - INFO - [BBC] Success with 'requests_browser'. Found content (1755 words).
+2025-12-24 14:25:40,911 - INFO - Duplicate article skipped: Epstein files takeaways: Possible co-conspirators, fake video and Trump trips from BBC
+2025-12-24 14:25:41,098 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/23/60-minutes-cecot-appears-online
+2025-12-24 14:25:41,098 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:41,124 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1062 words).
+2025-12-24 14:25:41,184 - INFO - Duplicate article skipped: 60 Minutes episode on brutal El Salvador prison, pulled from air by CBS, appears online | CBS | The Guardian from The Guardian
+2025-12-24 14:25:41,693 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgke51rzpvro?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:41,693 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:41,719 - INFO - [BBC] Success with 'requests_browser'. Found content (399 words).
+2025-12-24 14:25:41,754 - INFO - Duplicate article skipped: Australia to deport British man charged with displaying Nazi symbols from BBC
+2025-12-24 14:25:41,981 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/brazil-jair-bolsonaro-eduardo-havaianas-television-ad-fernanda-torres
+2025-12-24 14:25:41,981 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:42,007 - INFO - [The Guardian] Success with 'requests_browser'. Found content (381 words).
+2025-12-24 14:25:42,051 - INFO - Duplicate article skipped: Bolsonaro supporters ‘cancel’ Havaianas flip-flop brand over television ad | Brazil | The Guardian from The Guardian
+2025-12-24 14:25:42,515 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp39kngz008o?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:42,515 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:42,543 - INFO - [BBC] Success with 'requests_browser'. Found content (679 words).
+2025-12-24 14:25:42,581 - INFO - Duplicate article skipped: UK campaigners among five denied US visas from BBC
+2025-12-24 14:25:43,143 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce3wry1529wo?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:43,143 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:43,171 - INFO - [BBC] Success with 'requests_browser'. Found content (419 words).
+2025-12-24 14:25:43,206 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/canada-bill-refugees
+2025-12-24 14:25:43,206 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:43,207 - INFO - Duplicate article skipped: Two dead after Pennsylvania nursing home explosions from BBC
+2025-12-24 14:25:43,229 - INFO - [The Guardian] Success with 'requests_browser'. Found content (696 words).
+2025-12-24 14:25:43,265 - INFO - Duplicate article skipped: Canada bill targeting refugees feared to signal new era of US-style border policy | Canada | The Guardian from The Guardian
+2025-12-24 14:25:43,529 - INFO - Selenium driver initialized successfully.
+2025-12-24 14:25:43,529 - INFO - Selenium driver initialized successfully.
+2025-12-24 14:25:43,529 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-24 14:25:43,529 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-24 14:25:43,732 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-24 14:25:43,732 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/nirmala-sitharaman-to-visit-her-adopted-village-in-west-godavari-on-december-28/article70432570.ece
+2025-12-24 14:25:43,732 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:25:43,968 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-24 14:25:43,969 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/radical-activists-and-weaponized-ngos-us-denies-visas-to-eu-ex-commissioner-four-others-over-tech-rules-who-are-they/articleshow/126160513.cms
+2025-12-24 14:25:43,969 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:25:44,225 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8dy3mvye62o?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:44,225 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:44,262 - INFO - [BBC] Success with 'requests_browser'. Found content (336 words).
+2025-12-24 14:25:44,322 - INFO - Duplicate article skipped: Brazil's Supreme Court allows Bolsonaro to leave prison for surgery from BBC
+2025-12-24 14:25:44,620 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/23/us-trump-administration-signs-security-deals-across-latin-america
+2025-12-24 14:25:44,620 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:44,681 - INFO - [The Guardian] Success with 'requests_browser'. Found content (809 words).
+2025-12-24 14:25:44,779 - INFO - Duplicate article skipped: ‘Gunboat diplomacy on steroids’: US signs security deals across Latin America | US military | The Guardian from The Guardian
+2025-12-24 14:25:45,576 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cyvgzyepdqno?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:45,577 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:45,582 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/russia-china-support-venezuela-trump-pressure-maduro
+2025-12-24 14:25:45,582 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:45,677 - INFO - [BBC] Success with 'requests_browser'. Found content (360 words).
+2025-12-24 14:25:45,710 - INFO - [The Guardian] Success with 'requests_browser'. Found content (600 words).
+2025-12-24 14:25:45,883 - INFO - Duplicate article skipped: Libya's army chief killed in air crash in Turkey from BBC
+2025-12-24 14:25:45,891 - INFO - Duplicate article skipped: Russia and China pledge support for Venezuela as Trump ratchets up pressure on Maduro | Venezuela | The Guardian from The Guardian
+2025-12-24 14:25:47,117 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxpz05yj5po?at_medium=RSS&at_campaign=rss
+2025-12-24 14:25:47,117 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 14:25:47,164 - INFO - [BBC] Success with 'requests_browser'. Found content (539 words).
+2025-12-24 14:25:47,237 - INFO - Duplicate article skipped: Border villagers abducted and taken to Russia, says Ukraine from BBC
+2025-12-24 14:26:43,752 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/andhra-pradesh/nirmala-sitharaman-to-visit-her-adopted-village-in-west-godavari-on-december-28/article70432570.ece: Message: timeout: Timed out receiving message from renderer: 59.878
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55e2a27f819a <unknown>
+#1 0x55e2a2275c4b <unknown>
+#2 0x55e2a225dcf3 <unknown>
+#3 0x55e2a225d9d6 <unknown>
+#4 0x55e2a225b897 <unknown>
+#5 0x55e2a225c1af <unknown>
+#6 0x55e2a226a970 <unknown>
+#7 0x55e2a2284017 <unknown>
+#8 0x55e2a228a6cb <unknown>
+#9 0x55e2a225c8d8 <unknown>
+#10 0x55e2a2283dc3 <unknown>
+#11 0x55e2a2312f60 <unknown>
+#12 0x55e2a22b9c42 <unknown>
+#13 0x55e2a22ba8f1 <unknown>
+#14 0x55e2a27c0f39 <unknown>
+#15 0x55e2a27c3e7d <unknown>
+#16 0x55e2a27a9c81 <unknown>
+#17 0x55e2a27c4a5b <unknown>
+#18 0x55e2a2790a50 <unknown>
+#19 0x55e2a27e5aa8 <unknown>
+#20 0x55e2a27e5c79 <unknown>
+#21 0x55e2a27f74f3 <unknown>
+#22 0x7fc97ce9caa4 <unknown>
+#23 0x7fc97cf29c6c <unknown>
+
+2025-12-24 14:26:43,752 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/andhra-pradesh/nirmala-sitharaman-to-visit-her-adopted-village-in-west-godavari-on-december-28/article70432570.ece. Falling back to RSS description.
+2025-12-24 14:26:43,754 - INFO - Saved article: Nirmala Sitharaman to visit her adopted village in West Godavari on December 28 from The Hindu
+2025-12-24 14:26:43,983 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/radical-activists-and-weaponized-ngos-us-denies-visas-to-eu-ex-commissioner-four-others-over-tech-rules-who-are-they/articleshow/126160513.cms: Message: timeout: Timed out receiving message from renderer: 59.941
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55c46b19119a <unknown>
+#1 0x55c46ac0ec4b <unknown>
+#2 0x55c46abf6cf3 <unknown>
+#3 0x55c46abf69d6 <unknown>
+#4 0x55c46abf4897 <unknown>
+#5 0x55c46abf51af <unknown>
+#6 0x55c46ac03970 <unknown>
+#7 0x55c46ac1d017 <unknown>
+#8 0x55c46ac236cb <unknown>
+#9 0x55c46abf58d8 <unknown>
+#10 0x55c46ac1cdc3 <unknown>
+#11 0x55c46acabf60 <unknown>
+#12 0x55c46ac52c42 <unknown>
+#13 0x55c46ac538f1 <unknown>
+#14 0x55c46b159f39 <unknown>
+#15 0x55c46b15ce7d <unknown>
+#16 0x55c46b142c81 <unknown>
+#17 0x55c46b15da5b <unknown>
+#18 0x55c46b129a50 <unknown>
+#19 0x55c46b17eaa8 <unknown>
+#20 0x55c46b17ec79 <unknown>
+#21 0x55c46b1904f3 <unknown>
+#22 0x7f6a7dc9caa4 <unknown>
+#23 0x7f6a7dd29c6c <unknown>
+
+2025-12-24 14:26:43,983 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/radical-activists-and-weaponized-ngos-us-denies-visas-to-eu-ex-commissioner-four-others-over-tech-rules-who-are-they/articleshow/126160513.cms. Falling back to RSS description.
+2025-12-24 14:26:43,985 - INFO - Saved article: 'Radical activists and weaponized NGOs': US denies visas to EU ex-commissioner, four others over tech rules — who are they from Times of India
+2025-12-24 14:26:44,533 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/music-programme-in-memory-of-shivamogga-subbanna-to-be-held-on-december-28/article70433814.ece
+2025-12-24 14:26:44,533 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:26:45,120 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/go-back-to-india-nick-fuentes-unleashes-anti-india-racist-slurs-against-vivek-ramaswamy-following-amfest-remarks/articleshow/126160853.cms
+2025-12-24 14:26:45,121 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:26:45,947 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:26:46,093 - INFO - [Times of India] Success with 'selenium_browser'. Found content (464 words).
+2025-12-24 14:26:46,160 - INFO - Saved article: ‘Go back to India’: Nick Fuentes unleashes anti-India, racist slurs against Vivek Ramaswamy following AmFest remarks - The Times of India from Times of India
+2025-12-24 14:26:46,836 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/if-you-spend-your-career-who-is-imran-ahmed-why-is-he-not-allowed-to-enter-the-us/articleshow/126161065.cms
+2025-12-24 14:26:46,837 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:26:47,755 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:26:47,897 - INFO - [Times of India] Success with 'selenium_browser'. Found content (332 words).
+2025-12-24 14:26:47,995 - INFO - Saved article: 'If you spend your career....': Who is Imran Ahmed? Why is he not allowed to enter the US? - The Times of India from Times of India
+2025-12-24 14:26:49,048 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/does-cracking-your-knuckles-make-them-bigger-scientists-finally-settle-long-standing-myth/articleshow/126159560.cms
+2025-12-24 14:26:49,048 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:26:49,597 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:26:49,711 - INFO - [Times of India] Success with 'selenium_browser'. Found content (673 words).
+2025-12-24 14:26:49,764 - INFO - Saved article: Does cracking your knuckles make them bigger? Scientists finally settle long-standing myth | - The Times of India from Times of India
+2025-12-24 14:26:50,287 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/bryce-hall-threatens-kick-streamer-braden-clavicular-over-alleged-disrespect-toward-his-girlfriend/articleshow/126159715.cms
+2025-12-24 14:26:50,288 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:27:01,195 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-12-24 14:27:01,331 - INFO - [Times of India] Success with 'selenium_browser'. Found content (398 words).
+2025-12-24 14:27:01,405 - INFO - Duplicate article skipped: Bryce Hall threatens Kick streamer Braden “Clavicular” over alleged disrespect toward his girlfriend - The Times of India from Times of India
+2025-12-24 14:27:02,191 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/traditional-indian-dinner-nick-fuentes-crosses-line-insults-indians-as-he-reacts-to-jd-vances-rebuff-over-usha-jibe/articleshow/126160080.cms
+2025-12-24 14:27:02,191 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:27:02,966 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:27:03,078 - INFO - [Times of India] Success with 'selenium_browser'. Found content (337 words).
+2025-12-24 14:27:03,130 - INFO - Duplicate article skipped: 'Traditional Indian dinner': Nick Fuentes crosses line, insults Indians as he reacts to JD Vance's rebuff over Usha jibe - The Times of India from Times of India
+2025-12-24 14:27:04,300 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/why-mosquitoes-bite-you-more-the-surprising-science-behind-being-a-mosquito-magnet/articleshow/126157755.cms
+2025-12-24 14:27:04,300 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:27:05,504 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:27:05,615 - INFO - [Times of India] Success with 'selenium_browser'. Found content (762 words).
+2025-12-24 14:27:05,678 - INFO - Saved article: Why mosquitoes bite you more: The surprising science behind being a 'mosquito magnet' | - The Times of India from Times of India
+2025-12-24 14:27:07,071 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/pakistan-imran-khan-bishra-bibi-get-interim-bail-extension-in-may-9-cases-court-adjourns-multiple-hearings-till-jan-27/articleshow/126160004.cms
+2025-12-24 14:27:07,071 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:27:07,772 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:27:07,909 - INFO - [Times of India] Success with 'selenium_browser'. Found content (260 words).
+2025-12-24 14:27:07,966 - INFO - Saved article: Pakistan: Imran Khan, Bishra Bibi get interim bail extension in May 9 cases; court adjourns multiple hearings till Jan 27 - The Times of India from Times of India
+2025-12-24 14:27:09,186 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/etimes/trending/mom-sent-to-life-in-prison-after-seven-year-old-told-court-she-drowned-sister-case-reopens/articleshow/126149579.cms
+2025-12-24 14:27:09,186 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:27:19,945 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-12-24 14:27:20,091 - INFO - [Times of India] Success with 'selenium_browser'. Found content (749 words).
+2025-12-24 14:27:20,185 - INFO - Saved article: Mom sent to life in prison after seven-year-old told court she drowned sister; case reopens | - The Times of India from Times of India
+2025-12-24 14:27:20,879 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/visa-free-travel-between-oman-and-turkiye-everything-you-need-to-know/articleshow/126159106.cms
+2025-12-24 14:27:20,879 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:27:21,764 - INFO - [Times of India] Page content loaded.
+2025-12-24 14:27:21,898 - INFO - [Times of India] Success with 'selenium_browser'. Found content (624 words).
+2025-12-24 14:27:21,953 - INFO - Saved article: Visa-free travel between Oman and Turkiye: Everything you need to know | World News - The Times of India from Times of India
+2025-12-24 14:27:23,106 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-24 14:27:23,446 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-24 14:27:44,546 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/karnataka/music-programme-in-memory-of-shivamogga-subbanna-to-be-held-on-december-28/article70433814.ece: Message: timeout: Timed out receiving message from renderer: 59.952
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55e2a27f819a <unknown>
+#1 0x55e2a2275c4b <unknown>
+#2 0x55e2a225dcf3 <unknown>
+#3 0x55e2a225d9d6 <unknown>
+#4 0x55e2a225b897 <unknown>
+#5 0x55e2a225c1af <unknown>
+#6 0x55e2a226a970 <unknown>
+#7 0x55e2a2284017 <unknown>
+#8 0x55e2a228a6cb <unknown>
+#9 0x55e2a225c8d8 <unknown>
+#10 0x55e2a2283dc3 <unknown>
+#11 0x55e2a2312f60 <unknown>
+#12 0x55e2a22b9c42 <unknown>
+#13 0x55e2a22ba8f1 <unknown>
+#14 0x55e2a27c0f39 <unknown>
+#15 0x55e2a27c3e7d <unknown>
+#16 0x55e2a27a9c81 <unknown>
+#17 0x55e2a27c4a5b <unknown>
+#18 0x55e2a2790a50 <unknown>
+#19 0x55e2a27e5aa8 <unknown>
+#20 0x55e2a27e5c79 <unknown>
+#21 0x55e2a27f74f3 <unknown>
+#22 0x7fc97ce9caa4 <unknown>
+#23 0x7fc97cf29c6c <unknown>
+
+2025-12-24 14:27:44,546 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/karnataka/music-programme-in-memory-of-shivamogga-subbanna-to-be-held-on-december-28/article70433814.ece. Falling back to RSS description.
+2025-12-24 14:27:44,548 - INFO - Saved article: Music programme in memory of Shivamogga Subbanna to be held on December 28 from The Hindu
+2025-12-24 14:27:45,363 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/soldier-convicted-under-pocso-act/article70433179.ece
+2025-12-24 14:27:45,363 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:28:45,376 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/karnataka/soldier-convicted-under-pocso-act/article70433179.ece: Message: timeout: Timed out receiving message from renderer: 59.955
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55e2a27f819a <unknown>
+#1 0x55e2a2275c4b <unknown>
+#2 0x55e2a225dcf3 <unknown>
+#3 0x55e2a225d9d6 <unknown>
+#4 0x55e2a225b897 <unknown>
+#5 0x55e2a225c1af <unknown>
+#6 0x55e2a226a970 <unknown>
+#7 0x55e2a2284017 <unknown>
+#8 0x55e2a228a6cb <unknown>
+#9 0x55e2a225c8d8 <unknown>
+#10 0x55e2a2283dc3 <unknown>
+#11 0x55e2a2312f60 <unknown>
+#12 0x55e2a22b9c42 <unknown>
+#13 0x55e2a22ba8f1 <unknown>
+#14 0x55e2a27c0f39 <unknown>
+#15 0x55e2a27c3e7d <unknown>
+#16 0x55e2a27a9c81 <unknown>
+#17 0x55e2a27c4a5b <unknown>
+#18 0x55e2a2790a50 <unknown>
+#19 0x55e2a27e5aa8 <unknown>
+#20 0x55e2a27e5c79 <unknown>
+#21 0x55e2a27f74f3 <unknown>
+#22 0x7fc97ce9caa4 <unknown>
+#23 0x7fc97cf29c6c <unknown>
+
+2025-12-24 14:28:45,377 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/karnataka/soldier-convicted-under-pocso-act/article70433179.ece. Falling back to RSS description.
+2025-12-24 14:28:45,378 - INFO - Saved article: Soldier convicted under POCSO Act from The Hindu
+2025-12-24 14:28:46,059 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/actor-vinayakan-discharged-from-hospital/article70433683.ece
+2025-12-24 14:28:46,059 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:29:46,073 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/kerala/actor-vinayakan-discharged-from-hospital/article70433683.ece: Message: timeout: Timed out receiving message from renderer: 59.949
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55e2a27f819a <unknown>
+#1 0x55e2a2275c4b <unknown>
+#2 0x55e2a225dcf3 <unknown>
+#3 0x55e2a225d9d6 <unknown>
+#4 0x55e2a225b897 <unknown>
+#5 0x55e2a225c1af <unknown>
+#6 0x55e2a226a970 <unknown>
+#7 0x55e2a2284017 <unknown>
+#8 0x55e2a228a6cb <unknown>
+#9 0x55e2a225c8d8 <unknown>
+#10 0x55e2a2283dc3 <unknown>
+#11 0x55e2a2312f60 <unknown>
+#12 0x55e2a22b9c42 <unknown>
+#13 0x55e2a22ba8f1 <unknown>
+#14 0x55e2a27c0f39 <unknown>
+#15 0x55e2a27c3e7d <unknown>
+#16 0x55e2a27a9c81 <unknown>
+#17 0x55e2a27c4a5b <unknown>
+#18 0x55e2a2790a50 <unknown>
+#19 0x55e2a27e5aa8 <unknown>
+#20 0x55e2a27e5c79 <unknown>
+#21 0x55e2a27f74f3 <unknown>
+#22 0x7fc97ce9caa4 <unknown>
+#23 0x7fc97cf29c6c <unknown>
+
+2025-12-24 14:29:46,073 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/kerala/actor-vinayakan-discharged-from-hospital/article70433683.ece. Falling back to RSS description.
+2025-12-24 14:29:46,075 - INFO - Saved article: Actor Vinayakan discharged from hospital from The Hindu
+2025-12-24 14:29:47,138 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/station-mahotsav-railway-legacy-revisited-in-malnad/article70433698.ece
+2025-12-24 14:29:47,138 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 14:30:36,156 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-24 14:30:36,156 - ERROR - A thread has timed out and will be abandoned.
+2025-12-24 14:30:36,156 - INFO - Shutting down thread pool (wait=False)...
+2025-12-24 14:30:36,156 - INFO - Scraped: 0 BBC, 0 The Guardian, 8 Times of India, 1 Timed_Out_Jobs articles. (Total saved: 8)
+2025-12-24 14:30:36,156 - INFO - --- Scraping job finished ---
+2025-12-24 14:30:36,156 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-24 14:30:36,156 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
