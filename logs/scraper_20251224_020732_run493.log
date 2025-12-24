@@ -1,0 +1,171 @@
+2025-12-24 02:02:32,204 - INFO - Initializing database connection at: news_articles.db
+2025-12-24 02:02:32,205 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-24 02:02:32,205 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-24 02:02:32,205 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-24 02:02:32,205 - INFO - Proxy is DISABLED.
+2025-12-24 02:02:32,205 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-24 02:02:32,206 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-24 02:02:32,206 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-24 02:02:32,206 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-24 02:02:32,206 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-24 02:02:32,206 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-24 02:02:32,207 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-24 02:02:32,272 - INFO - Found 23 articles in BBC RSS feed. Processing up to 10.
+2025-12-24 02:02:32,272 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm28g5exx09o?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:32,272 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:32,358 - INFO - [BBC] Success with 'requests_browser'. Found content (798 words).
+2025-12-24 02:02:32,407 - INFO - Saved article: Email by 'A' from 'Balmoral' asked Ghislaine Maxwell for 'inappropriate friends', Epstein files show from BBC
+2025-12-24 02:02:32,443 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-24 02:02:32,443 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/libyas-army-chief-dies-in-plane-crash-in-turkey
+2025-12-24 02:02:32,443 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:32,469 - INFO - [The Guardian] Success with 'requests_browser'. Found content (414 words).
+2025-12-24 02:02:32,504 - INFO - Duplicate article skipped: Libya’s army chief dies in plane crash in Turkey | Libya | The Guardian from The Guardian
+2025-12-24 02:02:32,962 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yj4yvx80do?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:32,963 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:33,000 - INFO - [BBC] Success with 'requests_browser'. Found content (1758 words).
+2025-12-24 02:02:33,040 - INFO - Saved article: Epstein files takeaways: possible co-conspirators, fake video and Trump trips from BBC
+2025-12-24 02:02:33,191 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/freed-nigerian-schoolchildren-set-to-be-reunited-with-families
+2025-12-24 02:02:33,191 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:33,341 - INFO - [The Guardian] Success with 'requests_browser'. Found content (365 words).
+2025-12-24 02:02:33,374 - INFO - Duplicate article skipped: Freed Nigerian schoolchildren to be reunited with families | Nigeria | The Guardian from The Guardian
+2025-12-24 02:02:33,903 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr4d99p63y4o?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:33,903 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:33,934 - INFO - [BBC] Success with 'requests_browser'. Found content (799 words).
+2025-12-24 02:02:33,971 - INFO - Duplicate article skipped: Ukraine loses embattled eastern town as Russian advance continues from BBC
+2025-12-24 02:02:34,500 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/more-kidnapped-schoolchildren-freed-in-nigeria
+2025-12-24 02:02:34,500 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:34,682 - INFO - [The Guardian] Success with 'requests_browser'. Found content (382 words).
+2025-12-24 02:02:34,719 - INFO - Duplicate article skipped: Another 130 kidnapped schoolchildren released in Nigeria | Nigeria | The Guardian from The Guardian
+2025-12-24 02:02:35,061 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgke51rzpvro?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:35,061 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:35,224 - INFO - [BBC] Success with 'requests_browser'. Found content (389 words).
+2025-12-24 02:02:35,260 - INFO - Saved article: Australia to deport British man charged with displaying Nazi symbols from BBC
+2025-12-24 02:02:35,927 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2025/dec/21/manchester-museum-uncover-hidden-histories-africa-hub
+2025-12-24 02:02:35,927 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:36,087 - INFO - [The Guardian] Success with 'requests_browser'. Found content (543 words).
+2025-12-24 02:02:36,122 - INFO - Duplicate article skipped: Manchester Museum seeks help to uncover hidden histories of African collection | Manchester | The Guardian from The Guardian
+2025-12-24 02:02:36,452 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cyvgzyepdqno?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:36,452 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:36,476 - INFO - [BBC] Success with 'requests_browser'. Found content (278 words).
+2025-12-24 02:02:36,513 - INFO - Duplicate article skipped: Libya's army chief killed in air crash in Turkey from BBC
+2025-12-24 02:02:36,995 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/dec/21/sweden-and-germany-slash-aid-budgets-to-focus-on-ukraine-and-defence-spending
+2025-12-24 02:02:36,995 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:37,152 - INFO - [The Guardian] Success with 'requests_browser'. Found content (721 words).
+2025-12-24 02:02:37,197 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp39kngz008o?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:37,202 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:37,212 - INFO - Duplicate article skipped: Sweden and Germany slash aid budgets to focus on Ukraine and defence spending | Global development | The Guardian from The Guardian
+2025-12-24 02:02:37,233 - INFO - [BBC] Success with 'requests_browser'. Found content (523 words).
+2025-12-24 02:02:37,271 - INFO - Saved article: US denies visas to ex-EU commissioner and others over social media rules from BBC
+2025-12-24 02:02:38,330 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/23/60-minutes-cecot-appears-online
+2025-12-24 02:02:38,331 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:38,359 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1062 words).
+2025-12-24 02:02:38,392 - INFO - Duplicate article skipped: 60 Minutes episode on brutal El Salvador prison, pulled from air by CBS, appears online | CBS | The Guardian from The Guardian
+2025-12-24 02:02:38,479 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce3wry1529wo?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:38,479 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:38,502 - INFO - [BBC] Success with 'requests_browser'. Found content (307 words).
+2025-12-24 02:02:38,536 - INFO - Saved article: Two dead in explosion at Pennsylvania nursing home from BBC
+2025-12-24 02:02:39,405 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/brazil-jair-bolsonaro-eduardo-havaianas-television-ad-fernanda-torres
+2025-12-24 02:02:39,405 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:39,433 - INFO - [The Guardian] Success with 'requests_browser'. Found content (381 words).
+2025-12-24 02:02:39,483 - INFO - Duplicate article skipped: Bolsonaro supporters ‘cancel’ Havaianas flip-flop brand over television ad | Brazil | The Guardian from The Guardian
+2025-12-24 02:02:40,021 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8dy3mvye62o?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:40,021 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:40,046 - INFO - [BBC] Success with 'requests_browser'. Found content (336 words).
+2025-12-24 02:02:40,087 - INFO - Saved article: Brazil's Supreme Court allows Bolsonaro to leave prison for surgery from BBC
+2025-12-24 02:02:40,339 - INFO - Selenium driver initialized successfully.
+2025-12-24 02:02:40,339 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-24 02:02:40,340 - INFO - Selenium driver initialized successfully.
+2025-12-24 02:02:40,340 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-24 02:02:40,404 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/canada-bill-refugees
+2025-12-24 02:02:40,404 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:40,425 - INFO - [The Guardian] Success with 'requests_browser'. Found content (696 words).
+2025-12-24 02:02:40,458 - INFO - Duplicate article skipped: Canada bill targeting refugees feared to signal new era of US-style border policy | Canada | The Guardian from The Guardian
+2025-12-24 02:02:40,589 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-24 02:02:40,589 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/from-civil-rights-to-clickbait-dave-chappelles-take-on-charlie-kirk-comparison-with-martin-luther-king-jr/articleshow/126150455.cms
+2025-12-24 02:02:40,589 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:02:40,831 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwyxz5jken3o?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:40,831 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:40,857 - INFO - [BBC] Success with 'requests_browser'. Found content (637 words).
+2025-12-24 02:02:40,894 - INFO - Duplicate article skipped: UN experts urge Iran to stop execution of woman activist from BBC
+2025-12-24 02:02:41,207 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-24 02:02:41,207 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/bengal-governor-orders-inquiry-into-firing-of-starter-gun-at-marathon-run-in-kolkata/article70432307.ece
+2025-12-24 02:02:41,207 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:02:41,421 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62n9ynzrdpo?at_medium=RSS&at_campaign=rss
+2025-12-24 02:02:41,421 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:41,447 - INFO - [BBC] Success with 'requests_browser'. Found content (536 words).
+2025-12-24 02:02:41,482 - INFO - Duplicate article skipped: US economy grows at fastest pace in two years from BBC
+2025-12-24 02:02:41,920 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/23/us-trump-administration-signs-security-deals-across-latin-america
+2025-12-24 02:02:41,920 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:41,954 - INFO - [The Guardian] Success with 'requests_browser'. Found content (809 words).
+2025-12-24 02:02:42,016 - INFO - Duplicate article skipped: ‘Gunboat diplomacy on steroids’: US signs security deals across Latin America | US military | The Guardian from The Guardian
+2025-12-24 02:02:43,154 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/russia-china-support-venezuela-trump-pressure-maduro
+2025-12-24 02:02:43,154 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-24 02:02:43,237 - INFO - [The Guardian] Success with 'requests_browser'. Found content (600 words).
+2025-12-24 02:02:43,337 - INFO - Duplicate article skipped: Russia and China pledge support for Venezuela as Trump ratchets up pressure on Maduro | Venezuela | The Guardian from The Guardian
+2025-12-24 02:02:46,367 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:02:46,664 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (435 words).
+2025-12-24 02:02:46,884 - INFO - Saved article: Bengal Governor orders inquiry into firing of starter gun at marathon run in Kolkata - The Hindu from The Hindu
+2025-12-24 02:02:48,179 - INFO - [The Hindu] Article: https://www.thehindu.com/data/india-tops-global-doping-list-for-the-third-consecutive-year/article70429413.ece
+2025-12-24 02:02:48,179 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:02:50,947 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:02:51,771 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (595 words).
+2025-12-24 02:02:52,142 - INFO - Saved article: India tops global doping list for the third consecutive year - The Hindu from The Hindu
+2025-12-24 02:02:53,175 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/biggest-fugitives-lalit-modi-vijay-mallya-captured-on-london-party-video/article70432297.ece
+2025-12-24 02:02:53,175 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:02:59,112 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:02:59,261 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (411 words).
+2025-12-24 02:02:59,500 - INFO - Saved article: ‘Biggest fugitives’ Lalit Modi, Vijay Mallya captured on London party video - The Hindu from The Hindu
+2025-12-24 02:03:00,746 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/the-story-of-a-struggle-to-have-a-memorial-after-ambedkar-in-chennai/article70431391.ece
+2025-12-24 02:03:00,746 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:01,556 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:01,726 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1027 words).
+2025-12-24 02:03:01,828 - INFO - Saved article: The story of a struggle to have a memorial after Ambedkar in Chennai - The Hindu from The Hindu
+2025-12-24 02:03:02,824 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/anniversaries-great-and-small-in-the-season-of-margazhi/article70429407.ece
+2025-12-24 02:03:02,824 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:04,001 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:04,092 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (802 words).
+2025-12-24 02:03:04,181 - INFO - Saved article: Anniversaries, great and small, in the season of Margazhi - The Hindu from The Hindu
+2025-12-24 02:03:04,858 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/how-tn-seshan-airport-arrival-led-to-standoff-with-jayalalithaa-and-attack-on-a-star-hotel-in-1994/article70431215.ece
+2025-12-24 02:03:04,859 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:05,755 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:05,863 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1060 words).
+2025-12-24 02:03:05,977 - INFO - Saved article: How T.N. Seshan’s airport arrival led to standoff with Jayalalithaa and attack on a star hotel in 1994 - The Hindu from The Hindu
+2025-12-24 02:03:07,125 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/vp-radhakrishnan-welcomes-ai-in-school-curricula-says-india-should-take-lead/article70430302.ece
+2025-12-24 02:03:07,125 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:08,498 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:08,547 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (264 words).
+2025-12-24 02:03:08,630 - INFO - Saved article: VP Radhakrishnan welcomes AI in school curricula, says India should take lead - The Hindu from The Hindu
+2025-12-24 02:03:09,533 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/vizag-will-become-data-centre-hub-and-amaravati-quantum-hub-says-naidu/article70429763.ece
+2025-12-24 02:03:09,533 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:10,847 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:10,939 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (457 words).
+2025-12-24 02:03:11,045 - INFO - Saved article: Vizag will become data centre hub and Amaravati quantum hub says Naidu - The Hindu from The Hindu
+2025-12-24 02:03:12,069 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/bombay-hc-directs-maharashtra-govt-to-pay-50-lakh-benefit-to-covid-duty-staffs-family/article70430654.ece
+2025-12-24 02:03:12,069 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:12,893 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:13,074 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (539 words).
+2025-12-24 02:03:13,194 - INFO - Saved article: Bombay HC directs Maharashtra govt to pay ₹50 lakh benefit to COVID duty staff’s family - The Hindu from The Hindu
+2025-12-24 02:03:13,746 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/record-rise-in-admissions-to-private-schools-under-rte-in-up-says-govt/article70430699.ece
+2025-12-24 02:03:13,746 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:03:14,711 - INFO - [The Hindu] Page content loaded.
+2025-12-24 02:03:14,802 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (281 words).
+2025-12-24 02:03:14,929 - INFO - Duplicate article skipped: Record rise in admissions to private schools under RTE in U.P., says govt. - The Hindu from The Hindu
+2025-12-24 02:03:15,923 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-24 02:03:16,066 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-24 02:04:40,685 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/from-civil-rights-to-clickbait-dave-chappelles-take-on-charlie-kirk-comparison-with-martin-luther-king-jr/articleshow/126150455.cms: HTTPConnectionPool(host='localhost', port=53933): Read timed out. (read timeout=120)
+2025-12-24 02:04:40,685 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/from-civil-rights-to-clickbait-dave-chappelles-take-on-charlie-kirk-comparison-with-martin-luther-king-jr/articleshow/126150455.cms. Falling back to RSS description.
+2025-12-24 02:04:40,690 - INFO - Saved article: From civil rights to clickbait: Dave Chappelle’s take on Charlie Kirk comparison with Martin Luther King Jr from Times of India
+2025-12-24 02:04:41,576 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/pennsylvania-nursing-home-blast-facility-rated-one-star-and-much-below-average-in-health-inspections/articleshow/126150387.cms
+2025-12-24 02:04:41,577 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:06:41,661 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/pennsylvania-nursing-home-blast-facility-rated-one-star-and-much-below-average-in-health-inspections/articleshow/126150387.cms: HTTPConnectionPool(host='localhost', port=53933): Read timed out. (read timeout=120)
+2025-12-24 02:06:41,661 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/pennsylvania-nursing-home-blast-facility-rated-one-star-and-much-below-average-in-health-inspections/articleshow/126150387.cms. Falling back to RSS description.
+2025-12-24 02:06:41,663 - INFO - Saved article: Pennsylvania nursing home blast: Facility rated ‘much below average’ in health inspections from Times of India
+2025-12-24 02:06:43,135 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/watch-massive-explosion-at-pennsylvania-nursing-home-leaves-residents-trapped-rescue-efforts-underway/articleshow/126148371.cms
+2025-12-24 02:06:43,135 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-24 02:07:32,207 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-24 02:07:32,207 - ERROR - A thread has timed out and will be abandoned.
+2025-12-24 02:07:32,207 - INFO - Shutting down thread pool (wait=False)...
+2025-12-24 02:07:32,207 - INFO - Scraped: 0 The Guardian, 6 BBC, 9 The Hindu, 1 Timed_Out_Jobs articles. (Total saved: 15)
+2025-12-24 02:07:32,207 - INFO - --- Scraping job finished ---
+2025-12-24 02:07:32,207 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-24 02:07:32,207 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
