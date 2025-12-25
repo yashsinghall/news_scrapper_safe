@@ -1,0 +1,132 @@
+2025-12-25 12:53:15,420 - INFO - Initializing database connection at: news_articles.db
+2025-12-25 12:53:15,421 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-25 12:53:15,421 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-25 12:53:15,421 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-25 12:53:15,421 - INFO - Proxy is DISABLED.
+2025-12-25 12:53:15,421 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-25 12:53:15,421 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-25 12:53:15,421 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-25 12:53:15,422 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-25 12:53:15,422 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-25 12:53:15,422 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-25 12:53:15,423 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-25 12:53:15,612 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-25 12:53:15,612 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/25/displaced-islamic-state-insurgency-mozambique
+2025-12-25 12:53:15,612 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:15,781 - INFO - [The Guardian] Success with 'requests_browser'. Found content (767 words).
+2025-12-25 12:53:15,820 - INFO - Duplicate article skipped: Hundreds of thousands newly displaced as Islamic State insurgency expands in Mozambique | Mozambique | The Guardian from The Guardian
+2025-12-25 12:53:16,133 - INFO - Found 23 articles in BBC RSS feed. Processing up to 10.
+2025-12-25 12:53:16,133 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm21728nwxlo?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:16,133 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:16,739 - INFO - [BBC] Success with 'requests_browser'. Found content (414 words).
+2025-12-25 12:53:16,783 - INFO - Saved article: Pope Leo urges 'courage' to end Ukraine war in first Christmas address from BBC
+2025-12-25 12:53:17,247 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/24/algeria-passes-law-declaring-french-colonisation-crime
+2025-12-25 12:53:17,247 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:17,303 - INFO - [The Guardian] Success with 'requests_browser'. Found content (334 words).
+2025-12-25 12:53:17,360 - INFO - Duplicate article skipped: Algeria passes law declaring French colonisation a crime | Algeria | The Guardian from The Guardian
+2025-12-25 12:53:17,950 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9wg2pwl1o?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:17,951 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:18,000 - INFO - [BBC] Success with 'requests_browser'. Found content (936 words).
+2025-12-25 12:53:18,035 - INFO - Duplicate article skipped: Zelensky moves towards demilitarised zones in latest peace plan for Ukraine from BBC
+2025-12-25 12:53:18,666 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn98w93l8plo?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:18,666 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:18,682 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/libyas-army-chief-dies-in-plane-crash-in-turkey
+2025-12-25 12:53:18,682 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:18,714 - INFO - [BBC] Success with 'requests_browser'. Found content (256 words).
+2025-12-25 12:53:18,755 - INFO - Saved article: Turkey arrests 115 IS suspects 'planning New Year's attacks' from BBC
+2025-12-25 12:53:18,759 - INFO - [The Guardian] Success with 'requests_browser'. Found content (414 words).
+2025-12-25 12:53:18,796 - INFO - Duplicate article skipped: Libya’s army chief dies in plane crash in Turkey | Libya | The Guardian from The Guardian
+2025-12-25 12:53:19,436 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/22/freed-nigerian-schoolchildren-set-to-be-reunited-with-families
+2025-12-25 12:53:19,436 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:19,492 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crk733k1k1eo?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:19,492 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:19,533 - INFO - [BBC] Success with 'requests_browser'. Found content (223 words).
+2025-12-25 12:53:19,567 - INFO - Duplicate article skipped: Front-runner to be Bangladesh PM returns after 17 years in exile from BBC
+2025-12-25 12:53:19,585 - INFO - [The Guardian] Success with 'requests_browser'. Found content (365 words).
+2025-12-25 12:53:19,618 - INFO - Duplicate article skipped: Freed Nigerian schoolchildren to be reunited with families | Nigeria | The Guardian from The Guardian
+2025-12-25 12:53:20,488 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/21/more-kidnapped-schoolchildren-freed-in-nigeria
+2025-12-25 12:53:20,488 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:20,529 - INFO - [The Guardian] Success with 'requests_browser'. Found content (382 words).
+2025-12-25 12:53:20,567 - INFO - Duplicate article skipped: Another 130 kidnapped schoolchildren released in Nigeria | Nigeria | The Guardian from The Guardian
+2025-12-25 12:53:20,985 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czdgz84dn35o?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:20,985 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:21,030 - INFO - [BBC] Success with 'requests_browser'. Found content (846 words).
+2025-12-25 12:53:21,087 - INFO - Duplicate article skipped: US discovers a million more possible Jeffrey Epstein files from BBC
+2025-12-25 12:53:21,575 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/25/cape-froward-new-national-park-patagonia-chile
+2025-12-25 12:53:21,575 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:21,728 - INFO - [The Guardian] Success with 'requests_browser'. Found content (939 words).
+2025-12-25 12:53:21,766 - INFO - Saved article: ‘It’s the wildest place I have walked’: new national park will join up Chile’s 2,800km wildlife corridor | Chile | The Guardian from The Guardian
+2025-12-25 12:53:21,963 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c14vdpyj1vjo?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:21,963 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:22,009 - INFO - [BBC] Success with 'requests_browser'. Found content (439 words).
+2025-12-25 12:53:22,046 - INFO - Duplicate article skipped: Algeria's parliament approves law declaring France's colonisation a crime from BBC
+2025-12-25 12:53:22,487 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/24/honduras-nasry-tito-asfura-declared-president-donald-trump-backed
+2025-12-25 12:53:22,487 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:22,531 - INFO - [The Guardian] Success with 'requests_browser'. Found content (577 words).
+2025-12-25 12:53:22,575 - INFO - Duplicate article skipped: Trump-backed candidate Asfura declared new president of Honduras | Honduras | The Guardian from The Guardian
+2025-12-25 12:53:22,837 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yqe4j15lzo?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:22,837 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:22,881 - INFO - [BBC] Success with 'requests_browser'. Found content (544 words).
+2025-12-25 12:53:22,917 - INFO - Duplicate article skipped: Sean 'Diddy' Combs files appeal asking for his immediate release from BBC
+2025-12-25 12:53:23,202 - INFO - [The Guardian] Article: https://www.theguardian.com/media/2025/dec/23/60-minutes-cecot-appears-online
+2025-12-25 12:53:23,202 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:23,244 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1062 words).
+2025-12-25 12:53:23,282 - INFO - Duplicate article skipped: 60 Minutes episode on brutal El Salvador prison, pulled from air by CBS, appears online | CBS | The Guardian from The Guardian
+2025-12-25 12:53:23,496 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cyvgz1jn368o?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:23,496 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:23,543 - INFO - [BBC] Success with 'requests_browser'. Found content (482 words).
+2025-12-25 12:53:23,583 - INFO - Duplicate article skipped: Trump-backed candidate Nasry Asfura wins Honduras presidential election from BBC
+2025-12-25 12:53:24,161 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/brazil-jair-bolsonaro-eduardo-havaianas-television-ad-fernanda-torres
+2025-12-25 12:53:24,161 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:24,241 - INFO - Selenium driver initialized successfully.
+2025-12-25 12:53:24,241 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-25 12:53:24,243 - INFO - Selenium driver initialized successfully.
+2025-12-25 12:53:24,243 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-25 12:53:24,308 - INFO - [The Guardian] Success with 'requests_browser'. Found content (381 words).
+2025-12-25 12:53:24,351 - INFO - Duplicate article skipped: Bolsonaro supporters ‘cancel’ Havaianas flip-flop brand over television ad | Brazil | The Guardian from The Guardian
+2025-12-25 12:53:24,471 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-25 12:53:24,471 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/madhya-pradesh/use-of-chemical-fertilisers-root-cause-of-many-diseases-says-amit-shah/article70436924.ece
+2025-12-25 12:53:24,471 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-25 12:53:24,579 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-25 12:53:24,579 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/south-asia/i-have-a-plan-bnps-tarique-rahman-invokes-martin-luther-king-jr-as-he-lands-in-bangladesh-after-17-yearsimplications-for-india/articleshow/126173869.cms
+2025-12-25 12:53:24,580 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-25 12:53:24,958 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c75v0kwy017o?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:24,958 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:25,004 - INFO - [BBC] Success with 'requests_browser'. Found content (312 words).
+2025-12-25 12:53:25,044 - INFO - Duplicate article skipped: Eleven arrested over mass shooting in South Africa tavern from BBC
+2025-12-25 12:53:25,807 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/23/canada-bill-refugees
+2025-12-25 12:53:25,807 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:26,227 - INFO - [The Guardian] Success with 'requests_browser'. Found content (696 words).
+2025-12-25 12:53:26,297 - INFO - Duplicate article skipped: Canada bill targeting refugees feared to signal new era of US-style border policy | Canada | The Guardian from The Guardian
+2025-12-25 12:53:26,386 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp39kngz008o?at_medium=RSS&at_campaign=rss
+2025-12-25 12:53:26,386 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-25 12:53:26,479 - INFO - [BBC] Success with 'requests_browser'. Found content (704 words).
+2025-12-25 12:53:26,537 - INFO - Duplicate article skipped: UK social media campaigners among five denied US visas from BBC
+2025-12-25 12:55:24,572 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/madhya-pradesh/use-of-chemical-fertilisers-root-cause-of-many-diseases-says-amit-shah/article70436924.ece: HTTPConnectionPool(host='localhost', port=49127): Read timed out. (read timeout=120)
+2025-12-25 12:55:24,572 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/madhya-pradesh/use-of-chemical-fertilisers-root-cause-of-many-diseases-says-amit-shah/article70436924.ece. Falling back to RSS description.
+2025-12-25 12:55:24,574 - INFO - Saved article: Use of chemical fertilisers root cause of many diseases, says Amit Shah from The Hindu
+2025-12-25 12:55:24,680 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/south-asia/i-have-a-plan-bnps-tarique-rahman-invokes-martin-luther-king-jr-as-he-lands-in-bangladesh-after-17-yearsimplications-for-india/articleshow/126173869.cms: HTTPConnectionPool(host='localhost', port=55637): Read timed out. (read timeout=120)
+2025-12-25 12:55:24,680 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/south-asia/i-have-a-plan-bnps-tarique-rahman-invokes-martin-luther-king-jr-as-he-lands-in-bangladesh-after-17-yearsimplications-for-india/articleshow/126173869.cms. Falling back to RSS description.
+2025-12-25 12:55:24,681 - INFO - Saved article: 'I have a plan': BNP's Tarique Rahman invokes Martin Luther King Jr as he lands in Bangladesh after 17 years—implications for India from Times of India
+2025-12-25 12:55:25,251 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/youth-held-for-smuggling-ganja-in-vaniyambadi/article70436839.ece
+2025-12-25 12:55:25,252 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-25 12:55:25,258 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/from-elon-musk-to-pavel-durov-the-billionaires-trying-to-repopulate-earth/articleshow/126173589.cms
+2025-12-25 12:55:25,258 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-25 12:57:25,353 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/youth-held-for-smuggling-ganja-in-vaniyambadi/article70436839.ece: HTTPConnectionPool(host='localhost', port=49127): Read timed out. (read timeout=120)
+2025-12-25 12:57:25,353 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/youth-held-for-smuggling-ganja-in-vaniyambadi/article70436839.ece. Falling back to RSS description.
+2025-12-25 12:57:25,356 - INFO - Saved article: Youth held for smuggling ganja in Vaniyambadi from The Hindu
+2025-12-25 12:57:25,358 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/from-elon-musk-to-pavel-durov-the-billionaires-trying-to-repopulate-earth/articleshow/126173589.cms: HTTPConnectionPool(host='localhost', port=55637): Read timed out. (read timeout=120)
+2025-12-25 12:57:25,358 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/from-elon-musk-to-pavel-durov-the-billionaires-trying-to-repopulate-earth/articleshow/126173589.cms. Falling back to RSS description.
+2025-12-25 12:57:25,360 - INFO - Saved article: From Elon Musk to Pavel Durov: The billionaires trying to repopulate earth from Times of India
+2025-12-25 12:57:25,983 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/three-car-passengers-killed-in-accident-in-tiruvannamalai/article70436853.ece
+2025-12-25 12:57:25,983 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-25 12:57:26,321 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-tops-global-charts-in-2025-leading-in-economy-innovation-healthcare-and-human-development/articleshow/126173256.cms
+2025-12-25 12:57:26,321 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-25 12:58:15,423 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2025-12-25 12:58:15,423 - ERROR - A thread has timed out and will be abandoned.
+2025-12-25 12:58:15,423 - ERROR - A thread has timed out and will be abandoned.
+2025-12-25 12:58:15,423 - INFO - Shutting down thread pool (wait=False)...
+2025-12-25 12:58:15,423 - INFO - Scraped: 1 The Guardian, 2 BBC, 2 Timed_Out_Jobs articles. (Total saved: 3)
+2025-12-25 12:58:15,423 - INFO - --- Scraping job finished ---
+2025-12-25 12:58:15,423 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-25 12:58:15,424 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
