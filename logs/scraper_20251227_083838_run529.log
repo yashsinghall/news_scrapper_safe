@@ -1,0 +1,171 @@
+2025-12-27 08:33:38,394 - INFO - Initializing database connection at: news_articles.db
+2025-12-27 08:33:38,394 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-27 08:33:38,394 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-27 08:33:38,394 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-27 08:33:38,394 - INFO - Proxy is DISABLED.
+2025-12-27 08:33:38,395 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-27 08:33:38,395 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-27 08:33:38,395 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-27 08:33:38,396 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-27 08:33:38,399 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-27 08:33:38,399 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-27 08:33:38,400 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-27 08:33:38,507 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-27 08:33:38,507 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/27/guinea-junta-leader-mamady-doumbouya-frontrunner-president-election
+2025-12-27 08:33:38,507 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:38,638 - INFO - Found 30 articles in BBC RSS feed. Processing up to 10.
+2025-12-27 08:33:38,638 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0q5je8048xo?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:38,638 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:38,692 - INFO - [The Guardian] Success with 'requests_browser'. Found content (681 words).
+2025-12-27 08:33:38,732 - INFO - Saved article: Opposition anger as Guinea’s junta leader is frontrunner to be elected president | Guinea | The Guardian from The Guardian
+2025-12-27 08:33:38,789 - INFO - [BBC] Success with 'requests_browser'. Found content (472 words).
+2025-12-27 08:33:38,824 - INFO - Duplicate article skipped: Thailand and Cambodia agree ceasefire after weeks of deadly clashes from BBC
+2025-12-27 08:33:39,455 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/israel-first-country-to-recognise-somaliland-sovereign-state
+2025-12-27 08:33:39,455 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:39,476 - INFO - [The Guardian] Success with 'requests_browser'. Found content (760 words).
+2025-12-27 08:33:39,510 - INFO - Duplicate article skipped: Israel becomes first country to recognise Somaliland as sovereign state | Somaliland | The Guardian from The Guardian
+2025-12-27 08:33:40,144 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp8zg25p26zo?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:40,144 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:40,179 - INFO - [BBC] Success with 'requests_browser'. Found content (950 words).
+2025-12-27 08:33:40,216 - INFO - Duplicate article skipped: Zelensky plans to meet Trump on Sunday for talks on peace deal from BBC
+2025-12-27 08:33:40,443 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/british-egyptian-activist-alaa-abd-el-fattah-arrives-in-uk-after-travel-ban-lifted
+2025-12-27 08:33:40,443 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:40,753 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwyxller1j5o?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:40,753 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:40,785 - INFO - [BBC] Success with 'requests_browser'. Found content (1476 words).
+2025-12-27 08:33:40,823 - INFO - Duplicate article skipped: Myanmar election: Fear and intimidation ahead of vote held by military rulers from BBC
+2025-12-27 08:33:40,926 - INFO - [The Guardian] Success with 'requests_browser'. Found content (667 words).
+2025-12-27 08:33:40,969 - INFO - Duplicate article skipped: British-Egyptian activist Alaa Abd el-Fattah arrives in UK after travel ban lifted | Egypt | The Guardian from The Guardian
+2025-12-27 08:33:41,507 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj69j8l918do?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:41,507 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:41,537 - INFO - [BBC] Success with 'requests_browser'. Found content (717 words).
+2025-12-27 08:33:41,573 - INFO - Duplicate article skipped: US launches strikes against Islamic State in Nigeria from BBC
+2025-12-27 08:33:42,275 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/26/trump-supporters-nigeria-airstrikes
+2025-12-27 08:33:42,275 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:42,305 - INFO - [The Guardian] Success with 'requests_browser'. Found content (853 words).
+2025-12-27 08:33:42,352 - INFO - Duplicate article skipped: Trump supporters hail US strikes in Nigeria as ‘amazing Christmas present’ | Republicans | The Guardian from The Guardian
+2025-12-27 08:33:42,834 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0je0l55zq3o?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:42,834 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:42,861 - INFO - [BBC] Success with 'requests_browser'. Found content (313 words).
+2025-12-27 08:33:42,895 - INFO - Duplicate article skipped: Thousands of US flights disrupted as winter storm looms from BBC
+2025-12-27 08:33:43,034 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2025/dec/26/us-nigeria-strikes-militants-donald-trump-zelenskyy-ukraine-epstein-us-politics-latest-news-updates
+2025-12-27 08:33:43,034 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:43,525 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx25387dj8no?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:43,525 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:43,576 - INFO - [BBC] Success with 'requests_browser'. Found content (386 words).
+2025-12-27 08:33:43,609 - INFO - Duplicate article skipped: Homs: Deadly explosion during Friday prayers inside Syrian mosque from BBC
+2025-12-27 08:33:43,811 - INFO - [The Guardian] Success with 'requests_browser'. Found content (3124 words).
+2025-12-27 08:33:43,889 - INFO - Duplicate article skipped: Nigeria provided US with intelligence for strikes on Islamist militants, says foreign minister – as it happened | US politics | The Guardian from The Guardian
+2025-12-27 08:33:44,500 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/venezuela-political-prisoner-release
+2025-12-27 08:33:44,500 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:44,521 - INFO - [The Guardian] Success with 'requests_browser'. Found content (540 words).
+2025-12-27 08:33:44,556 - INFO - Duplicate article skipped: Venezuela says it released 99 people detained for 2024 election protests | Venezuela | The Guardian from The Guardian
+2025-12-27 08:33:45,028 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9znp22pyo?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:45,028 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:45,054 - INFO - [BBC] Success with 'requests_browser'. Found content (396 words).
+2025-12-27 08:33:45,092 - INFO - Duplicate article skipped: Two killed in suspected Palestinian ramming and knife attack in Israel from BBC
+2025-12-27 08:33:45,988 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/weather-tracker-deep-freeze-canada-us-records-warmest-christmas
+2025-12-27 08:33:45,989 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:46,105 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g417md05go?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:46,105 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:46,132 - INFO - [BBC] Success with 'requests_browser'. Found content (485 words).
+2025-12-27 08:33:46,169 - INFO - Duplicate article skipped: Israel recognises Somaliland as independent state, Netanyahu says from BBC
+2025-12-27 08:33:46,637 - INFO - [The Guardian] Success with 'requests_browser'. Found content (361 words).
+2025-12-27 08:33:46,673 - INFO - Duplicate article skipped: Weather tracker: Deep freeze grips Canada as US records warmest Christmas | Canada | The Guardian from The Guardian
+2025-12-27 08:33:47,228 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crk7y27vp1eo?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:47,229 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:47,262 - INFO - [BBC] Success with 'requests_browser'. Found content (672 words).
+2025-12-27 08:33:47,308 - INFO - Duplicate article skipped: 1MDB: Ex-Malaysia PM Najib Razak given 15-year jail term over state funds scandal from BBC
+2025-12-27 08:33:47,808 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/dec/25/they-are-scared-of-us-now-how-one-tropical-forest-turned-the-tide-on-loggers
+2025-12-27 08:33:47,808 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:48,013 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1079 words).
+2025-12-27 08:33:48,049 - INFO - Duplicate article skipped: ‘They’re scared of us now’: how co-investment in a tropical forest saw off loggers | Panama | The Guardian from The Guardian
+2025-12-27 08:33:48,577 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1lr3p7n87yo?at_medium=RSS&at_campaign=rss
+2025-12-27 08:33:48,577 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:48,602 - INFO - [BBC] Success with 'requests_browser'. Found content (405 words).
+2025-12-27 08:33:48,637 - INFO - Duplicate article skipped: California downpours ease but flood and mudslide risks linger from BBC
+2025-12-27 08:33:49,129 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/25/cape-froward-new-national-park-patagonia-chile
+2025-12-27 08:33:49,129 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:49,337 - INFO - [The Guardian] Success with 'requests_browser'. Found content (939 words).
+2025-12-27 08:33:49,385 - INFO - Duplicate article skipped: ‘It’s the wildest place I have walked’: new national park will join up Chile’s 2,800km wildlife corridor | Chile | The Guardian from The Guardian
+2025-12-27 08:33:50,173 - INFO - Selenium driver initialized successfully.
+2025-12-27 08:33:50,174 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-27 08:33:50,174 - INFO - Selenium driver initialized successfully.
+2025-12-27 08:33:50,174 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-27 08:33:50,234 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-27 08:33:50,235 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/kuwait-announces-january-1-as-public-holiday-for-new-year-2026/articleshow/126200734.cms
+2025-12-27 08:33:50,235 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:33:50,328 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-27 08:33:50,329 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/freezing-munnar-becomes-magnet-for-christmas-new-year-tourists/article70442865.ece
+2025-12-27 08:33:50,329 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:33:50,873 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/24/honduras-nasry-tito-asfura-declared-president-donald-trump-backed
+2025-12-27 08:33:50,873 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-27 08:33:51,040 - INFO - [The Guardian] Success with 'requests_browser'. Found content (577 words).
+2025-12-27 08:33:51,098 - INFO - Duplicate article skipped: Trump-backed candidate Asfura declared new president of Honduras | Honduras | The Guardian from The Guardian
+2025-12-27 08:33:53,458 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:33:54,861 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (354 words).
+2025-12-27 08:33:55,114 - INFO - Saved article: Freezing Munnar becomes magnet for Christmas-New Year tourists - The Hindu from The Hindu
+2025-12-27 08:33:55,664 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/pradhan-mantri-rashtriya-bal-puraskar-awards-2025-full-list/article70442647.ece
+2025-12-27 08:33:55,664 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:33:58,870 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:33:59,141 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (781 words).
+2025-12-27 08:33:59,325 - INFO - Saved article: Complete list of Pradhan Mantri Rashtriya Bal Puraskar 2025 - The Hindu from The Hindu
+2025-12-27 08:34:00,593 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/overall-crime-in-hyderabad-drops-15-in-2025-offences-against-women-children-rise/article70442779.ece
+2025-12-27 08:34:00,593 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:08,416 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:08,537 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (488 words).
+2025-12-27 08:34:08,662 - INFO - Saved article: Overall crime in Hyderabad drops 15% in 2025; offences against women, children rise - The Hindu from The Hindu
+2025-12-27 08:34:09,486 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bihar/tej-pratap-alleges-death-threats-from-expelled-party-leader-writes-to-samrat-for-enhanced-security/article70442846.ece
+2025-12-27 08:34:09,486 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:15,004 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:15,097 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (336 words).
+2025-12-27 08:34:15,174 - INFO - Saved article: Tej Pratap alleges death threats from expelled party leader, writes to Samrat for enhanced security - The Hindu from The Hindu
+2025-12-27 08:34:16,306 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/keralas-opposition-leader-v-d-satheesan-calls-cm-pinarayi-vijayan-an-autocrat/article70442808.ece
+2025-12-27 08:34:16,306 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:16,919 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:17,007 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (337 words).
+2025-12-27 08:34:17,106 - INFO - Saved article: Kerala’s Opposition Leader V. D Satheesan calls CM Pinarayi Vijayan an autocrat - The Hindu from The Hindu
+2025-12-27 08:34:17,876 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/actor-sivaji-appears-before-telangana-womens-panel-over-remarks/article70442812.ece
+2025-12-27 08:34:17,876 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:18,701 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:18,750 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (320 words).
+2025-12-27 08:34:18,843 - INFO - Saved article: Actor Sivaji appears before Telangana women’s panel over remarks - The Hindu from The Hindu
+2025-12-27 08:34:19,535 - INFO - [The Hindu] Article: https://www.thehindu.com/sci-tech/health/australian-issues-advisory-on-counterfeit-anti-rabies-vaccine-in-india-company-refutes-charges/article70442749.ece
+2025-12-27 08:34:19,536 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:20,549 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:20,597 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (493 words).
+2025-12-27 08:34:20,651 - INFO - Saved article: Australia issues advisory on counterfeit anti-rabies vaccine in India; pharma refutes charges - The Hindu from The Hindu
+2025-12-27 08:34:21,292 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/himachal-pradesh/brawl-at-igmc-shimla-doctors-go-on-indefinite-strike-medical-services-hit-in-himachal/article70442768.ece
+2025-12-27 08:34:21,293 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:22,292 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:22,372 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (553 words).
+2025-12-27 08:34:22,467 - INFO - Saved article: Brawl at IGMC Shimla: Doctors go on indefinite strike; medical services hit in Himachal - The Hindu from The Hindu
+2025-12-27 08:34:23,933 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/top-indian-national-congress-leaders-working-committee-meeting-new-delhi-mgnrega/article70442726.ece
+2025-12-27 08:34:23,933 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:24,978 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:25,070 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (359 words).
+2025-12-27 08:34:25,157 - INFO - Saved article: Top Congress leaders attend working committee meet, discuss further action against VB-G RAM G law - The Hindu from The Hindu
+2025-12-27 08:34:26,251 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/aap-announces-debut-in-bhiwandi-navi-mumbai-civic-polls/article70442700.ece
+2025-12-27 08:34:26,251 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:34:27,724 - INFO - [The Hindu] Page content loaded.
+2025-12-27 08:34:27,830 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (268 words).
+2025-12-27 08:34:27,924 - INFO - Saved article: AAP announces debut in Bhiwandi, Navi Mumbai civic polls - The Hindu from The Hindu
+2025-12-27 08:34:29,390 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-27 08:34:29,591 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-27 08:35:50,326 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/kuwait-announces-january-1-as-public-holiday-for-new-year-2026/articleshow/126200734.cms: HTTPConnectionPool(host='localhost', port=37797): Read timed out. (read timeout=120)
+2025-12-27 08:35:50,326 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/kuwait-announces-january-1-as-public-holiday-for-new-year-2026/articleshow/126200734.cms. Falling back to RSS description.
+2025-12-27 08:35:50,329 - INFO - Saved article: Kuwait announces January 1 as public holiday for New Year 2026 from Times of India
+2025-12-27 08:35:51,674 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/excited-to-be-girl-mom-trumps-press-secretary-karoline-leavitt-announces-second-pregnancy-calls-it-greatest-christmas-gift/articleshow/126200388.cms
+2025-12-27 08:35:51,674 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:37:51,762 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/excited-to-be-girl-mom-trumps-press-secretary-karoline-leavitt-announces-second-pregnancy-calls-it-greatest-christmas-gift/articleshow/126200388.cms: HTTPConnectionPool(host='localhost', port=37797): Read timed out. (read timeout=120)
+2025-12-27 08:37:51,762 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/excited-to-be-girl-mom-trumps-press-secretary-karoline-leavitt-announces-second-pregnancy-calls-it-greatest-christmas-gift/articleshow/126200388.cms. Falling back to RSS description.
+2025-12-27 08:37:51,762 - INFO - Duplicate article skipped: 'Excited to be girl mom': Trump's press secretary Karoline Leavitt announces second pregnancy; calls it 'greatest Christmas gift' from Times of India
+2025-12-27 08:37:52,822 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/oman-muscat-municipality-launches-masar-food-truck-hub-in-al-mawaleh-to-support-small-businesses/articleshow/126199762.cms
+2025-12-27 08:37:52,823 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-27 08:38:38,400 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-12-27 08:38:38,400 - ERROR - A thread has timed out and will be abandoned.
+2025-12-27 08:38:38,400 - INFO - Shutting down thread pool (wait=False)...
+2025-12-27 08:38:38,400 - INFO - Scraped: 0 BBC, 10 The Hindu, 1 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 11)
+2025-12-27 08:38:38,400 - INFO - --- Scraping job finished ---
+2025-12-27 08:38:38,400 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-27 08:38:38,400 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
